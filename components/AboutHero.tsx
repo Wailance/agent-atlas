@@ -3,9 +3,11 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
 import { useLocale } from "@/lib/i18n";
+import { withBasePath } from "@/lib/base-path";
 
 const TELEGRAM_URL = "https://t.me/Eugeny_Nickolaevich";
 const TELEGRAM_HANDLE = "@Eugeny_Nickolaevich";
+const EMAIL = "eugeny.nickolaevich.v@yandex.ru";
 
 const SERVICES = [
   { ru: "Проекты", en: "Projects" },
@@ -98,7 +100,7 @@ export function AboutHero({
           <div className="rounded-xl border border-zinc-700/50 bg-zinc-950/80 p-4 sm:p-5">
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-[auto_1fr_auto] sm:grid-rows-[auto_auto] sm:items-start sm:gap-x-5 sm:gap-y-3">
               <Image
-                src="/evgeniy-voronchikhin.png"
+                src={withBasePath("/evgeniy-voronchikhin.png")}
                 alt={t("Ворончихин Евгений", "Voronchikhin Evgeny")}
                 width={144}
                 height={144}
@@ -110,17 +112,25 @@ export function AboutHero({
                 {t("Ворончихин Евгений", "Voronchikhin Evgeny")}
               </p>
 
-              <a
-                href={TELEGRAM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-full shrink-0 items-center justify-center gap-2 rounded-lg bg-zinc-100 px-5 py-2.5 text-sm font-medium text-zinc-900 hover:bg-white transition-colors sm:col-start-3 sm:row-start-1 sm:w-auto sm:justify-self-end"
-              >
-                {t("Написать", "Message")}
-                <span className="font-mono text-xs font-normal text-zinc-600">
-                  {TELEGRAM_HANDLE}
-                </span>
-              </a>
+              <div className="flex w-full flex-col gap-2 sm:col-start-3 sm:row-start-1 sm:w-auto sm:items-end">
+                <a
+                  href={TELEGRAM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex w-full shrink-0 items-center justify-center gap-2 rounded-lg bg-zinc-100 px-5 py-2.5 text-sm font-medium text-zinc-900 hover:bg-white transition-colors sm:w-auto"
+                >
+                  {t("Написать", "Message")}
+                  <span className="font-mono text-xs font-normal text-zinc-600">
+                    {TELEGRAM_HANDLE}
+                  </span>
+                </a>
+                <a
+                  href={`mailto:${EMAIL}`}
+                  className="text-xs text-zinc-500 transition-colors hover:text-zinc-300"
+                >
+                  {EMAIL}
+                </a>
+              </div>
 
               <div className="sm:col-span-2 sm:col-start-2 sm:row-start-2">
                 <p className="mb-2 text-center text-xs font-medium uppercase tracking-wide text-zinc-500 sm:text-left">
