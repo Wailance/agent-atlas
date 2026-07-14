@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:pages": "GITHUB_PAGES=true next build",
+    "deploy:pages": "npm run build:pages && npx gh-pages -d out -t",
     "start": "next start",
     "lint": "eslint",
     "import:repos": "tsx scripts/import-repos.ts",
