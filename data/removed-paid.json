@@ -1,0 +1,527 @@
+[
+  {
+    "id": "warp",
+    "repo": "warpdotdev/warp",
+    "categories": [
+      "coding-agents"
+    ]
+  },
+  {
+    "id": "devbox",
+    "repo": "jetify-com/devbox",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "flow",
+    "repo": "A-EDev/Flow",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "appflowy",
+    "repo": "AppFlowy-IO/AppFlowy",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "bulk-crap-uninstaller",
+    "repo": "BCUninstaller/Bulk-Crap-Uninstaller",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "it-tools",
+    "repo": "CorentinTh/it-tools",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "ponytail",
+    "repo": "DietrichGebert/ponytail",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "cyberstrikeai",
+    "repo": "Ed1s0nZ/CyberStrikeAI",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "mailspring",
+    "repo": "Foundry376/Mailspring",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "nuklear",
+    "repo": "Immediate-Mode-UI/Nuklear",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "opensuperclone",
+    "repo": "ISpillMyDrink/OpenSuperClone",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "folderhost",
+    "repo": "MertJSX/folderhost",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "skillspector",
+    "repo": "NVIDIA/SkillSpector",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "polyterm",
+    "repo": "NYTEMODEONLY/polyterm",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "ghidra",
+    "repo": "NationalSecurityAgency/ghidra",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "openttd",
+    "repo": "OpenTTD/OpenTTD",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "win11debloat",
+    "repo": "Raphire/Win11Debloat",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "netviz",
+    "repo": "ShadowArcanist/netviz",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "deepcamera",
+    "repo": "SharpAI/DeepCamera",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "dnsserver",
+    "repo": "TechnitiumSoftware/DnsServer",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "termora",
+    "repo": "TermoraDev/termora",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "turbovnc",
+    "repo": "TurboVNC/turbovnc",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "insanely-fast-whisper",
+    "repo": "Vaibhavs10/insanely-fast-whisper",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "ghgrab",
+    "repo": "abhixdd/ghgrab",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "container",
+    "repo": "apple/container",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "btop",
+    "repo": "aristocratos/btop",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "awesome-selfhosted",
+    "repo": "awesome-selfhosted/awesome-selfhosted",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "regexlearn-com",
+    "repo": "aykutkardas/regexlearn.com",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "blackcandy",
+    "repo": "blackcandy-org/blackcandy",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "decentpaste",
+    "repo": "decentpaste/decentpaste",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "drawdb",
+    "repo": "drawdb-io/drawdb",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "elio",
+    "repo": "elio-fm/elio",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "seelen-ui",
+    "repo": "eythaann/Seelen-UI",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "glance",
+    "repo": "glanceapp/glance",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "deep-live-cam",
+    "repo": "hacksider/Deep-Live-Cam",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "stop-slop",
+    "repo": "hardikpandya/stop-slop",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "crystaldiskinfo",
+    "repo": "hiyohiyo/CrystalDiskInfo",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "hyprland",
+    "repo": "hyprwm/Hyprland",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "bandwhich",
+    "repo": "imsnif/bandwhich",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "xplorer",
+    "repo": "kimlimjustin/xplorer",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "pyxel",
+    "repo": "kitao/pyxel",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "prism-desktop",
+    "repo": "lasselian/prism-desktop",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "neko",
+    "repo": "m1k1o/neko",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "mattermost",
+    "repo": "mattermost/mattermost",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "netwatch",
+    "repo": "matthart1983/netwatch",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "niri",
+    "repo": "niri-wm/niri",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "nuclear",
+    "repo": "nukeop/nuclear",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "learngitbranching",
+    "repo": "pcottle/learnGitBranching",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "odysseus",
+    "repo": "pewdiepie-archdaemon/odysseus",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "drift",
+    "repo": "phlx0/drift",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "pwsafe",
+    "repo": "pwsafe/pwsafe",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "starship",
+    "repo": "starship/starship",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "supertonic",
+    "repo": "supertone-inc/supertonic",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "tesseract",
+    "repo": "tesseract-ocr/tesseract",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "lnav",
+    "repo": "tstack/lnav",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "free-games-claimer",
+    "repo": "vogler/free-games-claimer",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "openviking",
+    "repo": "volcengine/OpenViking",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "wazuh",
+    "repo": "wazuh/wazuh",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "webmin",
+    "repo": "webmin/webmin",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "winscp",
+    "repo": "winscp/winscp",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "metaradar",
+    "repo": "BLE-Research-Group/MetaRadar",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "android-sms-gateway",
+    "repo": "capcom6/android-sms-gateway",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "codegraph",
+    "repo": "colbymchenry/codegraph",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "datatui",
+    "repo": "forensicmatt/datatui",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "worldmonitor",
+    "repo": "koala73/worldmonitor",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "herdr",
+    "repo": "ogulcancelik/herdr",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "sure",
+    "repo": "we-promise/sure",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "pake",
+    "repo": "tw93/Pake",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "stirling-pdf",
+    "repo": "Stirling-Tools/Stirling-PDF",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "archivebox",
+    "repo": "ArchiveBox/ArchiveBox",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "logseq",
+    "repo": "logseq/logseq",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "pi-hole",
+    "repo": "pi-hole/pi-hole",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "drawio-desktop",
+    "repo": "jgraph/drawio-desktop",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "v2rayng",
+    "repo": "2dust/v2rayNG",
+    "categories": [
+      "general-oss"
+    ]
+  },
+  {
+    "id": "500-ai-machine-learning-deep-learning-computer-vision-nlp-projects-with-code",
+    "repo": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+    "categories": [
+      "general-oss"
+    ]
+  }
+]

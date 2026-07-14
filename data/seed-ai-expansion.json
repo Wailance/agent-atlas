@@ -1,0 +1,62 @@
+[
+  { "repo": "browser-use/browser-use", "categories": ["web-scraping", "coding-agents"], "note": "AI-агент управляет браузером: клики, формы, extraction через LLM" },
+  { "repo": "Skyvern-AI/skyvern", "categories": ["web-scraping", "agent-harness"], "note": "LLM + computer vision для автоматизации веб-форм и workflows" },
+  { "repo": "adbar/trafilatura", "categories": ["web-scraping"], "note": "Извлечение чистого текста и metadata из HTML — база для RAG-пайплайнов" },
+  { "repo": "apify/crawlee", "categories": ["web-scraping"], "note": "Web scraping и crawling framework для Node.js/Python с anti-bot" },
+  { "repo": "unstructured-io/unstructured", "categories": ["web-scraping", "rag-context"], "note": "Парсинг PDF, DOCX, HTML, email в структурированные блоки для LLM" },
+  { "repo": "docling-project/docling", "categories": ["web-scraping", "rag-context"], "note": "IBM Docling: parsing документов, таблиц, OCR для RAG" },
+  { "repo": "microsoft/markitdown", "categories": ["web-scraping", "rag-context"], "note": "Конвертация Office/PDF/HTML/audio в Markdown для LLM" },
+  { "repo": "jina-ai/reader", "categories": ["web-scraping"], "note": "URL → clean markdown через r.jina.ai API / open source reader" },
+  { "repo": "llmware-ai/llmware", "categories": ["rag-context", "web-scraping"], "note": "Document parsing, embeddings, RAG, function-calling — all-in-one" },
+  { "repo": "VikParuchuri/marker", "categories": ["web-scraping", "rag-context"], "note": "PDF → markdown с высокой точностью, OCR, таблицы" },
+  { "repo": "opendatalab/MinerU", "categories": ["web-scraping", "rag-context"], "note": "Парсинг PDF/научных документов в structured markdown" },
+  { "repo": "unclecode/crawl4ai", "categories": ["web-scraping"], "note": "already exists - skip" },
+
+  { "repo": "run-llama/llama_index", "categories": ["rag-context", "agent-harness"], "note": "Data framework для LLM apps: ingestion, indexing, agents, RAG" },
+  { "repo": "deepset-ai/haystack", "categories": ["rag-context", "agent-harness"], "note": "Production RAG pipelines, agents, document search" },
+  { "repo": "pathwaycom/pathway", "categories": ["rag-context"], "note": "Real-time RAG и streaming data для LLM apps" },
+  { "repo": "chatchat-space/Langchain-Chatchat", "categories": ["rag-context", "self-hosted"], "note": "Локальный RAG + agents, knowledge base на LangChain" },
+  { "repo": "chroma-core/chroma", "categories": ["rag-context"], "note": "Open-source embedding database для RAG" },
+  { "repo": "qdrant/qdrant", "categories": ["rag-context"], "note": "Vector search engine для RAG и recommendations" },
+  { "repo": "weaviate/weaviate", "categories": ["rag-context"], "note": "Vector database с hybrid search и generative modules" },
+  { "repo": "milvus-io/milvus", "categories": ["rag-context"], "note": "Cloud-native vector database для AI search" },
+  { "repo": "facebookresearch/faiss", "categories": ["rag-context"], "note": "Similarity search и clustering для embeddings" },
+
+  { "repo": "SWE-agent/SWE-agent", "categories": ["coding-agents"], "note": "Agent решает GitHub issues в реальных репозиториях" },
+  { "repo": "gpt-engineer-org/gpt-engineer", "categories": ["coding-agents", "app-builders"], "note": "AI генерирует и iterирует кодовую базу по prompt" },
+  { "repo": "pydantic/pydantic-ai", "categories": ["agent-harness"], "note": "Type-safe agent framework от создателей Pydantic" },
+  { "repo": "langchain-ai/langchain", "categories": ["agent-harness", "rag-context"], "note": "LLM application framework: chains, agents, tools" },
+  { "repo": "e2b-dev/E2B", "categories": ["agent-harness"], "note": "Sandbox infrastructure для AI agents (code execution)" },
+  { "repo": "All-Hands-AI/OpenHands", "categories": ["coding-agents"], "note": "duplicate check" },
+
+  { "repo": "livekit/agents", "categories": ["voice-multimodal"], "note": "Framework для realtime voice AI agents" },
+  { "repo": "coqui-ai/TTS", "categories": ["voice-multimodal"], "note": "Deep learning text-to-speech toolkit" },
+  { "repo": "rhasspy/piper", "categories": ["voice-multimodal"], "note": "Fast local neural TTS" },
+  { "repo": "SYSTRAN/faster-whisper", "categories": ["voice-multimodal"], "note": "Fast Whisper transcription на CTranslate2" },
+  { "repo": "openai/whisper", "categories": ["voice-multimodal"], "note": "Speech recognition model от OpenAI" },
+
+  { "repo": "Portkey-AI/gateway", "categories": ["llm-gateways"], "note": "AI gateway: routing, fallbacks, caching, observability" },
+  { "repo": "songquanpeng/one-api", "categories": ["llm-gateways"], "note": "Unified API для множества LLM-провайдеров" },
+  { "repo": "BerriAI/litellm", "categories": ["llm-gateways"], "note": "duplicate" },
+
+  { "repo": "modelcontextprotocol/python-sdk", "categories": ["mcp-skills"], "note": "Official Python SDK для MCP" },
+  { "repo": "modelcontextprotocol/servers", "categories": ["mcp-skills"], "note": "Reference MCP server implementations" },
+  { "repo": "punkpeye/fastmcp", "categories": ["mcp-skills"], "note": "Fast Python framework для building MCP servers" },
+  { "repo": "tadata-org/telegram-mcp", "categories": ["mcp-skills", "telegram-bridges"], "note": "MCP server для Telegram integration" },
+
+  { "repo": "AgentOps-AI/agentops", "categories": ["observability"], "note": "Observability и session replay для AI agents" },
+  { "repo": "arize-ai/phoenix", "categories": ["observability"], "note": "LLM tracing, eval, dataset collection" },
+  { "repo": "confident-ai/deepeval", "categories": ["observability"], "note": "Unit testing framework для LLM outputs" },
+  { "repo": "explodinggradients/ragas", "categories": ["observability", "rag-context"], "note": "Evaluation framework для RAG pipelines" },
+
+  { "repo": "Mintplex-Labs/anything-llm", "categories": ["self-hosted"], "note": "All-in-one desktop/docker AI app с RAG" },
+  { "repo": "mudler/LocalAI", "categories": ["self-hosted"], "note": "Self-hosted OpenAI-compatible API, local models" },
+  { "repo": "ollama/ollama", "categories": ["self-hosted"], "note": "Run LLMs locally" },
+  { "repo": "janhq/jan", "categories": ["self-hosted"], "note": "Open-source ChatGPT alternative, local models" },
+
+  { "repo": "Significant-Gravitas/AutoGPT", "categories": ["agent-harness"], "note": "Classic autonomous agent framework" },
+  { "repo": "TransformerOptimus/SuperAGI", "categories": ["agent-harness"], "note": "Dev-first open-source autonomous AI agents" },
+  { "repo": "assafelovic/gpt-researcher", "categories": ["agent-harness", "web-scraping"], "note": "Autonomous research agent с web scraping" },
+  { "repo": "langchain-ai/open_deep_research", "categories": ["agent-harness", "web-scraping"], "note": "Deep research agent от LangChain" },
+  { "repo": "datalab-to/surya", "categories": ["web-scraping"], "note": "OCR, layout analysis, table recognition для документов" }
+]

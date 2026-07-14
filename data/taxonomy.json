@@ -1,0 +1,245 @@
+[
+  {
+    "id": "coding-agents",
+    "name": { "ru": "ИИ для кода", "en": "Coding Agents" },
+    "description": {
+      "ru": "Помогает писать, исправлять и объяснять код в редакторе или терминале",
+      "en": "Agents for writing and editing code in IDE and terminal"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "agent-harness",
+    "name": { "ru": "Оркестрация агентов", "en": "Agent Harness" },
+    "description": {
+      "ru": "Запускает несколько ИИ-агентов и связывает их в цепочки задач",
+      "en": "Orchestration, multi-agent workflows, long-horizon tasks"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "app-builders",
+    "name": { "ru": "Конструкторы приложений", "en": "App Builders" },
+    "description": {
+      "ru": "Собирает ИИ-приложения и сервисы без глубокого программирования",
+      "en": "AI app builders and no-code/low-code platforms"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "rag-context",
+    "name": { "ru": "Поиск по документам", "en": "RAG / Context" },
+    "description": {
+      "ru": "Подключает ваши файлы и базы к чату с ИИ, чтобы ответы были точнее",
+      "en": "Retrieval-Augmented Generation, memory and context for LLMs"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "web-scraping",
+    "name": { "ru": "Парсинг и сбор данных", "en": "Web Scraping" },
+    "description": {
+      "ru": "Собирает данные с сайтов, PDF и документов — вручную или с помощью ИИ",
+      "en": "Web data collection, crawlers, AI scraping, document parsing"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "voice-multimodal",
+    "name": { "ru": "Голос и мультимодальность", "en": "Voice / Multimodal" },
+    "description": {
+      "ru": "Голосовые боты, синтез речи и работа с аудио/видео",
+      "en": "Voice agents, TTS, multimodal conversational AI"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "llm-gateways",
+    "name": { "ru": "Шлюзы к моделям", "en": "LLM Gateways" },
+    "description": {
+      "ru": "Один вход для разных ИИ-моделей: маршрутизация, лимиты, ключи",
+      "en": "Routing, proxies and unified API for LLM providers"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "mcp-skills",
+    "name": { "ru": "MCP и навыки", "en": "MCP / Skills" },
+    "description": {
+      "ru": "Подключает внешние сервисы и инструменты к ИИ-агентам",
+      "en": "Model Context Protocol, agent skills, integration protocols"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "telegram-bridges",
+    "name": { "ru": "Telegram и боты", "en": "Telegram Bridges" },
+    "description": {
+      "ru": "Управление задачами и ИИ прямо из Telegram",
+      "en": "Control coding agents and AI via Telegram"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "observability",
+    "name": { "ru": "Мониторинг ИИ", "en": "Observability / Eval" },
+    "description": {
+      "ru": "Следит за качеством ответов, ошибками и расходами ИИ-приложений",
+      "en": "Tracing, evaluation, monitoring of AI applications"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "self-hosted",
+    "name": { "ru": "Свой сервер", "en": "Self-Hosted Platforms" },
+    "description": {
+      "ru": "Чат и инструменты с ИИ, которые можно развернуть у себя",
+      "en": "Local and self-hosted UIs for working with LLMs"
+    },
+    "group": "ai"
+  },
+  {
+    "id": "analytics-bi",
+    "name": { "ru": "Аналитика и отчёты", "en": "Analytics & BI" },
+    "description": {
+      "ru": "Графики, дашборды и отчёты по данным бизнеса и сайта",
+      "en": "Dashboards, BI, product analytics, web analytics"
+    },
+    "group": "business"
+  },
+  {
+    "id": "automation-workflows",
+    "name": { "ru": "Автоматизация", "en": "Automation & Workflows" },
+    "description": {
+      "ru": "Связывает сервисы и автоматизирует рутину — как Zapier, но у себя",
+      "en": "Workflow automation, integrations, RPA, process orchestration"
+    },
+    "group": "business"
+  },
+  {
+    "id": "spreadsheets-data",
+    "name": { "ru": "Таблицы и базы", "en": "Spreadsheets & Data" },
+    "description": {
+      "ru": "Таблицы и простые базы данных для команды — аналог Airtable",
+      "en": "Airtable alternatives, spreadsheets, data grids, no-code databases"
+    },
+    "group": "business"
+  },
+  {
+    "id": "websites-cms",
+    "name": { "ru": "Сайты и CMS", "en": "Websites & CMS" },
+    "description": {
+      "ru": "Блоги, лендинги и управление контентом сайта",
+      "en": "CMS, headless CMS, blogs, site builders, landing pages"
+    },
+    "group": "business"
+  },
+  {
+    "id": "crm-sales",
+    "name": { "ru": "CRM и продажи", "en": "CRM & Sales" },
+    "description": {
+      "ru": "Клиенты, сделки, воронка продаж и история общения",
+      "en": "CRM, pipeline, leads, customer management"
+    },
+    "group": "business"
+  },
+  {
+    "id": "marketing-email",
+    "name": { "ru": "Маркетинг и рассылки", "en": "Marketing & Email" },
+    "description": {
+      "ru": "Email-рассылки, формы, опросы и продвижение",
+      "en": "Email campaigns, marketing automation, SEO, social scheduling"
+    },
+    "group": "business"
+  },
+  {
+    "id": "project-management",
+    "name": { "ru": "Задачи и проекты", "en": "Project Management" },
+    "description": {
+      "ru": "Канбан, списки задач, дорожные карты для команды",
+      "en": "Tasks, kanban, agile, roadmaps, team planning"
+    },
+    "group": "business"
+  },
+  {
+    "id": "finance-accounting",
+    "name": { "ru": "Финансы и учёт", "en": "Finance & Accounting" },
+    "description": {
+      "ru": "Счета, расходы, бюджет и простая бухгалтерия",
+      "en": "Invoicing, accounting, expenses, ERP-lite"
+    },
+    "group": "business"
+  },
+  {
+    "id": "ecommerce",
+    "name": { "ru": "Интернет-магазины", "en": "E-commerce" },
+    "description": {
+      "ru": "Каталог, корзина, оплата и управление заказами",
+      "en": "Online stores, checkout, catalogs, marketplace"
+    },
+    "group": "business"
+  },
+  {
+    "id": "document-collaboration",
+    "name": { "ru": "Документы и wiki", "en": "Documents & Wiki" },
+    "description": {
+      "ru": "База знаний, заметки и совместная работа с документами",
+      "en": "Wiki, knowledge base, document management, Notion alternatives"
+    },
+    "group": "business"
+  },
+  {
+    "id": "low-code-internal",
+    "name": { "ru": "Внутренние сервисы", "en": "Business Low-Code" },
+    "description": {
+      "ru": "Админки, панели и внутренние приложения для команды без долгой разработки",
+      "en": "Internal tools, admin panels, dashboard builders for teams"
+    },
+    "group": "business"
+  },
+  {
+    "id": "erp-operations",
+    "name": { "ru": "ERP и операции", "en": "ERP & Operations" },
+    "description": {
+      "ru": "Склад, HR, производство и операционные процессы компании",
+      "en": "ERP, HR, inventory, manufacturing, business operations"
+    },
+    "group": "business"
+  },
+  {
+    "id": "api-tools",
+    "name": { "ru": "API и интеграции", "en": "API & Integrations" },
+    "description": {
+      "ru": "Клиенты API, шлюзы, webhooks и обмен данными между системами",
+      "en": "API clients, gateways, webhooks, ETL, data pipelines"
+    },
+    "group": "infrastructure"
+  },
+  {
+    "id": "database-admin",
+    "name": { "ru": "Базы данных", "en": "Databases & Admin" },
+    "description": {
+      "ru": "Хранение данных, SQL-клиенты и админки баз",
+      "en": "SQL clients, database admin, vector DB, time-series"
+    },
+    "group": "infrastructure"
+  },
+  {
+    "id": "communication",
+    "name": { "ru": "Коммуникации", "en": "Team Communication" },
+    "description": {
+      "ru": "Чат, видеозвонки и форумы для команды — альтернатива Slack",
+      "en": "Team chat, video, forums — Slack/Discord alternatives"
+    },
+    "group": "infrastructure"
+  },
+  {
+    "id": "general-oss",
+    "name": { "ru": "Разное", "en": "General OSS" },
+    "description": {
+      "ru": "Другие полезные open-source проекты",
+      "en": "General open-source software"
+    },
+    "group": "infrastructure"
+  }
+]
