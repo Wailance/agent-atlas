@@ -1,2 +1,2 @@
-:HL["/agent-atlas/_next/static/chunks/2t-92u0pvmle_.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"AgK_CySM3xVILyhcNOzB-"}
+:HL["/agent-atlas/_next/static/chunks/2bww-h37ev1hg.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Fnwm_Y2eP_20vjOeJr-Wn"}
