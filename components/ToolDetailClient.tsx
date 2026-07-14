@@ -163,6 +163,27 @@ export function ToolDetailClient({ tool, similar }: ToolDetailClientProps) {
           categories={tool.categories}
           getLabel={(id) => getCategoryName(id, locale)}
         />
+
+        <div className="mt-5 flex flex-wrap gap-2">
+          <a
+            href={`https://github.com/${tool.repo}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg bg-zinc-800 px-4 py-2.5 text-sm text-zinc-200 hover:bg-zinc-700 transition-colors"
+          >
+            GitHub →
+          </a>
+          {tool.url && !tool.url.includes("github.com") && (
+            <a
+              href={tool.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-lg bg-teal-700 px-4 py-2.5 text-sm text-white hover:bg-teal-600 transition-colors"
+            >
+              {t("Сайт проекта", "Project site")} →
+            </a>
+          )}
+        </div>
       </div>
 
       <div className="grid gap-8 lg:grid-cols-[1fr_280px]">
@@ -201,27 +222,6 @@ export function ToolDetailClient({ tool, similar }: ToolDetailClientProps) {
                 </div>
               ))}
             </dl>
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <a
-              href={`https://github.com/${tool.repo}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-lg bg-zinc-800 px-4 py-2.5 text-center text-sm text-zinc-200 hover:bg-zinc-700 transition-colors"
-            >
-              GitHub →
-            </a>
-            {tool.url && !tool.url.includes("github.com") && (
-              <a
-                href={tool.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-lg bg-teal-700 px-4 py-2.5 text-center text-sm text-white hover:bg-teal-600 transition-colors"
-              >
-                {t("Сайт проекта", "Project site")} →
-              </a>
-            )}
           </div>
         </aside>
       </div>

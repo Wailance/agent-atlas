@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:pages": "GITHUB_PAGES=true next build",
     "start": "next start",
     "lint": "eslint",
     "import:repos": "tsx scripts/import-repos.ts",
@@ -15,6 +16,7 @@
     "reclassify": "tsx scripts/reclassify-tools.ts",
     "sync:pricing": "tsx scripts/sync-pricing.ts",
     "localize:ru": "tsx scripts/localize-ru.ts",
+    "regenerate:descriptions": "tsx scripts/regenerate-descriptions.ts",
     "validate": "tsx scripts/validate-tools.ts"
   },
   "dependencies": {

@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Fuse from "fuse.js";
 import { useLocale } from "@/lib/i18n";
+import { parseCatalogSearchParams } from "@/lib/catalog-url";
 import {
   countByPricing,
   filterTools,
@@ -45,6 +46,15 @@ export function CatalogClient({
     ...initialFilters,
   }));
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  useEffect(() => {
+    const params = parseCatalogSearchParams(
+      Object.fromEntries(new URLSearchParams(window.location.search)),
+    );
+    if (Object.keys(params).length > 0) {
+      setFilters((prev) => ({ ...prev, ...params }));
+    }
+  }, []);
 
   const pricingCounts = useMemo(() => countByPricing(allTools), [allTools]);
   const groupCounts = useMemo(() => countToolsByGroup(allTools), [allTools]);
@@ -167,25 +177,22 @@ export function CatalogClient({
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <AboutHero />
+      <AboutHero
+        totalTools={allTools.length}
+        freeCount={pricingCounts.free}
+        paidCount={pricingCounts.paid}
+      />
 
-      <div className="mb-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 p-6 sm:p-8 ring-1 ring-teal-500/10">
-        <p className="text-xs font-medium uppercase tracking-wider text-teal-400/90 mb-2">
-          {t("Каталог", "Catalog")}
-        </p>
-        <h1 className="text-2xl font-bold text-zinc-100 sm:text-3xl">
-          {t("Open-source инструменты", "Open-Source Tools")}
-        </h1>
-        <p className="mt-2 text-zinc-400 max-w-2xl leading-relaxed">
-          {t(
-            "AI-агенты, бизнес-софт и инфраструктура — бесплатные, freemium и платные проекты с GitHub.",
-            "AI agents, business software and infrastructure — free, freemium and paid GitHub projects.",
-          )}
-        </p>
-        <div className="mt-4 flex flex-wrap gap-3 text-sm">
-          <span className="rounded-full bg-zinc-800/80 px-3 py-1 text-zinc-300 border border-zinc-700/60">
+      <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-bold text-zinc-100 sm:text-3xl">
+            {t("Каталог", "Catalog")}
+          </h1>
+          <p className="mt-1 text-sm text-zinc-500">
             {filteredTools.length} {t("найдено", "found")}
-          </span>
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-2 text-sm">
           <span className="rounded-full bg-emerald-950/60 px-3 py-1 text-emerald-300/90 border border-emerald-900/50">
             {pricingCounts.free} {t("бесплатных", "free")}
           </span>
