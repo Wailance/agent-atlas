@@ -1,29 +1,170 @@
 [
-  {"repo":"AppFlowy-IO/AppFlowy","categories":["document-collaboration"]},
-  {"repo":"mattermost/mattermost","categories":["communication"]},
-  {"repo":"logseq/logseq","categories":["document-collaboration"]},
-  {"repo":"drawdb-io/drawdb","categories":["database-admin"]},
-  {"repo":"Foundry376/Mailspring","categories":["communication"]},
-  {"repo":"glanceapp/glance","categories":["low-code-internal"]},
-  {"repo":"colbymchenry/codegraph","categories":["coding-agents","mcp-skills"]},
-  {"repo":"volcengine/OpenViking","categories":["rag-context"]},
-  {"repo":"webmin/webmin","categories":["erp-operations"]},
-  {"repo":"runtipi/runtipi","categories":["self-hosted"]},
-  {"repo":"we-promise/sure","categories":["finance-accounting"]},
-  {"repo":"CorentinTh/it-tools","categories":["api-tools"]},
-  {"repo":"lissy93/web-check","categories":["web-scraping","analytics-bi"]},
-  {"repo":"ArchiveBox/ArchiveBox","categories":["document-collaboration"]},
-  {"repo":"Stirling-Tools/Stirling-PDF","categories":["document-collaboration"]},
-  {"repo":"tesseract-ocr/tesseract","categories":["web-scraping"]},
-  {"repo":"koala73/worldmonitor","categories":["analytics-bi"]},
-  {"repo":"tw93/Pake","categories":["app-builders"]},
-  {"repo":"pewdiepie-archdaemon/odysseus","categories":["self-hosted","agent-harness"]},
-  {"repo":"DietrichGebert/ponytail","categories":["coding-agents"]},
-  {"repo":"ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code","categories":["agent-harness"]},
-  {"repo":"wazuh/wazuh","categories":["erp-operations"]},
-  {"repo":"ogulcancelik/herdr","categories":["agent-harness","telegram-bridges"]},
-  {"repo":"TechnitiumSoftware/DnsServer","categories":["erp-operations"]},
-  {"repo":"capcom6/android-sms-gateway","categories":["communication","automation-workflows"]},
-  {"repo":"jetify-com/devbox","categories":["api-tools"]},
-  {"repo":"filebrowser/filebrowser","categories":["document-collaboration"]}
+  {
+    "repo": "AppFlowy-IO/AppFlowy",
+    "categories": [
+      "document-collaboration"
+    ]
+  },
+  {
+    "repo": "mattermost/mattermost",
+    "categories": [
+      "team-chat",
+      "project-management"
+    ]
+  },
+  {
+    "repo": "logseq/logseq",
+    "categories": [
+      "document-collaboration"
+    ]
+  },
+  {
+    "repo": "drawdb-io/drawdb",
+    "categories": [
+      "database-admin"
+    ]
+  },
+  {
+    "repo": "Foundry376/Mailspring",
+    "categories": [
+      "email-collaboration"
+    ]
+  },
+  {
+    "repo": "glanceapp/glance",
+    "categories": [
+      "low-code-internal"
+    ]
+  },
+  {
+    "repo": "colbymchenry/codegraph",
+    "categories": [
+      "coding-agents",
+      "mcp-skills"
+    ]
+  },
+  {
+    "repo": "volcengine/OpenViking",
+    "categories": [
+      "rag-context"
+    ]
+  },
+  {
+    "repo": "webmin/webmin",
+    "categories": [
+      "erp-operations"
+    ]
+  },
+  {
+    "repo": "runtipi/runtipi",
+    "categories": [
+      "self-hosted"
+    ]
+  },
+  {
+    "repo": "we-promise/sure",
+    "categories": [
+      "finance-accounting"
+    ]
+  },
+  {
+    "repo": "CorentinTh/it-tools",
+    "categories": [
+      "api-tools"
+    ]
+  },
+  {
+    "repo": "lissy93/web-check",
+    "categories": [
+      "web-scraping",
+      "analytics-bi"
+    ]
+  },
+  {
+    "repo": "ArchiveBox/ArchiveBox",
+    "categories": [
+      "document-collaboration"
+    ]
+  },
+  {
+    "repo": "Stirling-Tools/Stirling-PDF",
+    "categories": [
+      "document-collaboration"
+    ]
+  },
+  {
+    "repo": "tesseract-ocr/tesseract",
+    "categories": [
+      "web-scraping"
+    ]
+  },
+  {
+    "repo": "koala73/worldmonitor",
+    "categories": [
+      "analytics-bi"
+    ]
+  },
+  {
+    "repo": "tw93/Pake",
+    "categories": [
+      "app-builders"
+    ]
+  },
+  {
+    "repo": "pewdiepie-archdaemon/odysseus",
+    "categories": [
+      "self-hosted",
+      "agent-harness"
+    ]
+  },
+  {
+    "repo": "DietrichGebert/ponytail",
+    "categories": [
+      "coding-agents"
+    ]
+  },
+  {
+    "repo": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+    "categories": [
+      "agent-harness"
+    ]
+  },
+  {
+    "repo": "wazuh/wazuh",
+    "categories": [
+      "erp-operations"
+    ]
+  },
+  {
+    "repo": "ogulcancelik/herdr",
+    "categories": [
+      "agent-harness",
+      "telegram-bridges"
+    ]
+  },
+  {
+    "repo": "TechnitiumSoftware/DnsServer",
+    "categories": [
+      "erp-operations"
+    ]
+  },
+  {
+    "repo": "capcom6/android-sms-gateway",
+    "categories": [
+      "api-tools",
+      "integration-automation"
+    ]
+  },
+  {
+    "repo": "jetify-com/devbox",
+    "categories": [
+      "api-tools"
+    ]
+  },
+  {
+    "repo": "filebrowser/filebrowser",
+    "categories": [
+      "document-collaboration"
+    ]
+  }
 ]

@@ -1,232 +1,1536 @@
 [
-  {"repo":"metabase/metabase","categories":["analytics-bi"],"note":"Self-hosted BI и SQL-дашборды для бизнеса"},
-  {"repo":"apache/superset","categories":["analytics-bi"],"note":"Modern data exploration и visualization platform"},
-  {"repo":"PostHog/posthog","categories":["analytics-bi"],"note":"Product analytics, session replay, feature flags, A/B tests"},
-  {"repo":"plausible/analytics","categories":["analytics-bi","marketing-email"],"note":"Privacy-friendly web analytics без cookies"},
-  {"repo":"umami-software/umami","categories":["analytics-bi"],"note":"Simple, privacy-focused website analytics"},
-  {"repo":"grafana/grafana","categories":["analytics-bi"],"note":"Observability dashboards для метрик и логов"},
-  {"repo":"getredash/redash","categories":["analytics-bi"],"note":"Connect to data sources, query, visualize, share"},
-  {"repo":"lightdash/lightdash","categories":["analytics-bi"],"note":"BI для dbt — metrics as code"},
-  {"repo":"evidence-dev/evidence","categories":["analytics-bi"],"note":"BI reports as code — SQL + Markdown"},
-  {"repo":"holistics-io/dbt-docs","categories":["analytics-bi"],"note":"skip"},
-  {"repo":"cube-js/cube","categories":["analytics-bi","api-tools"],"note":"Semantic layer и headless BI для data apps"},
-  {"repo":"preset-io/superset","categories":["analytics-bi"],"note":"skip duplicate"},
-  {"repo":"mindsdb/mindsdb","categories":["analytics-bi","database-admin"],"note":"AI layer для databases — SQL + ML predictions"},
-  {"repo":"questdb/questdb","categories":["database-admin","analytics-bi"],"note":"High-performance time-series SQL database"},
-  {"repo":"ClickHouse/ClickHouse","categories":["database-admin","analytics-bi"],"note":"Columnar OLAP для analytics at scale"},
-  {"repo":"apache/airflow","categories":["automation-workflows","api-tools"],"note":"Workflow orchestration для data pipelines"},
-  {"repo":"prefecthq/prefect","categories":["automation-workflows"],"note":"Modern workflow orchestration для Python"},
-  {"repo":"dagster-io/dagster","categories":["automation-workflows"],"note":"Data orchestrator для ML и analytics pipelines"},
-  {"repo":"msgbyte/tianji","categories":["analytics-bi"],"note":"All-in-one website analytics + uptime monitoring"},
-
-  {"repo":"n8n-io/n8n","categories":["automation-workflows"],"note":"Fair-code workflow automation, 400+ integrations, AI nodes"},
-  {"repo":"activepieces/activepieces","categories":["automation-workflows"],"note":"Open-source Zapier alternative с AI builder"},
-  {"repo":"windmill-labs/windmill","categories":["automation-workflows","low-code-internal"],"note":"Developer platform для scripts, flows, internal apps"},
-  {"repo":"huginn/huginn","categories":["automation-workflows"],"note":"Build agents that automate online tasks"},
-  {"repo":"temporalio/temporal","categories":["automation-workflows"],"note":"Durable execution для mission-critical workflows"},
-  {"repo":"argoproj/argo-workflows","categories":["automation-workflows"],"note":"Kubernetes-native workflow engine"},
-  {"repo":"apache/dolphinscheduler","categories":["automation-workflows"],"note":"Distributed visual DAG workflow scheduler"},
-  {"repo":"node-red/node-red","categories":["automation-workflows","low-code-internal"],"note":"Flow-based low-code programming для IoT и automation"},
-  {"repo":"automerge/automerge","categories":["automation-workflows"],"note":"skip"},
-  {"repo":"nanobrowser/nanobrowser","categories":["automation-workflows","web-scraping"],"note":"AI web automation Chrome extension"},
-  {"repo":"bytebot-ai/bytebot","categories":["automation-workflows","coding-agents"],"note":"Desktop agent для computer use automation"},
-  {"repo":"All-Hands-AI/OpenHands","categories":["automation-workflows"],"note":"skip"},
-
-  {"repo":"nocodb/nocodb","categories":["spreadsheets-data"],"note":"Airtable alternative — spreadsheet UI на любой SQL базе"},
-  {"repo":"baserow/baserow","categories":["spreadsheets-data"],"note":"Open-source no-code database и Airtable alternative"},
-  {"repo":"apitable/apitable","categories":["spreadsheets-data","low-code-internal"],"note":"API-first collaborative spreadsheet / database"},
-  {"repo":"gristlabs/grist","categories":["spreadsheets-data"],"note":"Spreadsheet с relational data model и formulas"},
-  {"repo":"mathesar-foundation/mathesar","categories":["spreadsheets-data","database-admin"],"note":"Spreadsheet UI для PostgreSQL"},
-  {"repo":"teableio/teable","categories":["spreadsheets-data"],"note":"Airtable/AppSheet alternative на Postgres"},
-  {"repo":"bruno/bruno","categories":["api-tools"],"note":"skip if duplicate"},
-  {"repo":"ruilisi/fortune-sheet","categories":["spreadsheets-data"],"note":"Google Sheets-like spreadsheet component"},
-  {"repo":"ONLYOFFICE/DocumentServer","categories":["spreadsheets-data","document-collaboration"],"note":"Office suite: docs, sheets, slides — self-hosted"},
-  {"repo":"rowyio/rowy","categories":["spreadsheets-data","low-code-internal"],"note":"Low-code backend на Firebase/Google Sheets mindset"},
-
-  {"repo":"strapi/strapi","categories":["websites-cms","api-tools"],"note":"Headless CMS — API-first content management"},
-  {"repo":"directus/directus","categories":["websites-cms","database-admin"],"note":"Headless CMS и data platform поверх SQL"},
-  {"repo":"TryGhost/Ghost","categories":["websites-cms","marketing-email"],"note":"Professional publishing platform для blogs и newsletters"},
-  {"repo":"payloadcms/payload","categories":["websites-cms"],"note":"Next.js native headless CMS"},
-  {"repo":"webiny/webiny","categories":["websites-cms","low-code-internal"],"note":"Serverless CMS + page builder"},
-  {"repo":"decaporg/decap-cms","categories":["websites-cms"],"note":"Git-based CMS для static sites"},
-  {"repo":"getgrav/grav","categories":["websites-cms"],"note":"Flat-file CMS без database"},
-  {"repo":"wagtail/wagtail","categories":["websites-cms"],"note":"Django CMS для content editors"},
-  {"repo":"WordPress/WordPress","categories":["websites-cms"],"note":"World's most popular CMS"},
-  {"repo":"typst/typst","categories":["websites-cms","document-collaboration"],"note":"Modern markup-based typesetting system"},
-  {"repo":"vercel/next.js","categories":["websites-cms"],"note":"skip - too generic"},
-  {"repo":"hugoio/hugo","categories":["websites-cms"],"note":"Static site generator — ultra fast"},
-  {"repo":"gohugoio/hugo","categories":["websites-cms"],"note":"skip duplicate"},
-  {"repo":"astro-build/astro","categories":["websites-cms"],"note":"Content-focused web framework"},
-  {"repo":"11ty/eleventy","categories":["websites-cms"],"note":"Simple static site generator"},
-
-  {"repo":"twentyhq/twenty","categories":["crm-sales"],"note":"Modern open-source CRM — альтернатива Salesforce"},
-  {"repo":"EspoCRM/espocrm","categories":["crm-sales"],"note":"Open-source CRM для sales teams"},
-  {"repo":"suitecrm/suitecrm","categories":["crm-sales"],"note":"Enterprise open-source CRM fork of SugarCRM"},
-  {"repo":"idurar/idurar-erp-crm","categories":["crm-sales","finance-accounting"],"note":"ERP + CRM на MERN stack"},
-  {"repo":"aureuserp/aureuserp","categories":["crm-sales","erp-operations"],"note":"Open-source ERP/CRM platform"},
-  {"repo":"frappe/crm","categories":["crm-sales"],"note":"Frappe CRM — lightweight sales CRM"},
-  {"repo":"monicaHQ/monica","categories":["crm-sales"],"note":"Personal CRM для relationships management"},
-  {"repo":"salesag/scoredock","categories":["crm-sales"],"note":"skip if not exists"},
-
-  {"repo":"listmonk/listmonk","categories":["marketing-email"],"note":"Self-hosted newsletter и mailing list manager"},
-  {"repo":"mautic/mautic","categories":["marketing-email","crm-sales"],"note":"Marketing automation — campaigns, segments, scoring"},
-  {"repo":"postalserver/postal","categories":["marketing-email"],"note":"Mail delivery platform для transactional email"},
-  {"repo":"Mailtrain-org/mailtrain","categories":["marketing-email"],"note":"Self-hosted newsletter app"},
-  {"repo":"usefathom/fathom","categories":["marketing-email","analytics-bi"],"note":"skip commercial"},
-  {"repo":"growthbook/growthbook","categories":["marketing-email","analytics-bi"],"note":"Open-source feature flags и A/B testing"},
-  {"repo":"unlayer/react-email-editor","categories":["marketing-email"],"note":"skip lib"},
-  {"repo":"calcom/cal.com","categories":["marketing-email","crm-sales"],"note":"Open scheduling infrastructure — Calendly alternative"},
-  {"repo":"formbricks/formbricks","categories":["marketing-email","analytics-bi"],"note":"Experience management и surveys — Typeform alternative"},
-
-  {"repo":"makeplane/plane","categories":["project-management"],"note":"Open-source Jira/Linear alternative — issues, cycles, modules"},
-  {"repo":"openproject/openproject","categories":["project-management"],"note":"Enterprise project management — Gantt, agile, time tracking"},
-  {"repo":"AppFlowy-IO/AppFlowy","categories":["project-management","document-collaboration"],"note":"Notion alternative — уже в каталоге"},
-  {"repo":"vikunja/vikunja","categories":["project-management"],"note":"To-do app для personal и team task management"},
-  {"repo":"mattermost/mattermost","categories":["communication","project-management"],"note":"Team messaging — Slack alternative"},
-  {"repo":"rocketchat/Rocket.Chat","categories":["communication"],"note":"Team communication hub — chat, video, omnichannel"},
-  {"repo":"vector-im/element-web","categories":["communication"],"note":"Matrix client для secure team chat"},
-  {"repo":"Zulko/zulip","categories":["communication"],"note":"Threaded team chat — organized conversations"},
-  {"repo":"focalboard/focalboard","categories":["project-management"],"note":"Open-source Trello/Notion boards от Mattermost"},
-  {"repo":"kanboard/kanboard","categories":["project-management"],"note":"Minimalist kanban board"},
-  {"repo":"wekan/wekan","categories":["project-management"],"note":"Kanban board — Trello alternative"},
-  {"repo":"leantime/leantime","categories":["project-management"],"note":"Project management для non-project-managers"},
-  {"repo":"plankanban/planka","categories":["project-management"],"note":"Realtime kanban — Trello alternative"},
-  {"repo":"taigaio/taiga","categories":["project-management"],"note":"Agile project management — Scrum/Kanban"},
-
-  {"repo":"InvoicePlane/InvoicePlane","categories":["finance-accounting"],"note":"Invoicing, quotes, payment tracking"},
-  {"repo":"invoiceninja/invoiceninja","categories":["finance-accounting"],"note":"Invoices, payments, expenses — для freelancers и SMB"},
-  {"repo":"firefly-iii/firefly-iii","categories":["finance-accounting"],"note":"Personal finance manager — budgeting и tracking"},
-  {"repo":"akaunting/akaunting","categories":["finance-accounting"],"note":"Online accounting software для small business"},
-  {"repo":"bigcapitalhq/bigcapital","categories":["finance-accounting"],"note":"Accounting, inventory, invoicing — ERP accounting"},
-  {"repo":"Dolibarr/dolibarr","categories":["finance-accounting","erp-operations"],"note":"ERP/CRM для SMB — invoices, orders, stock"},
-  {"repo":"ghostfolio/ghostfolio","categories":["finance-accounting","analytics-bi"],"note":"Wealth management и portfolio tracking"},
-  {"repo":"maybe-finance/maybe","categories":["finance-accounting"],"note":"Personal finance app — open-source Monarch alternative"},
-
-  {"repo":"medusajs/medusa","categories":["ecommerce"],"note":"Digital commerce platform — Shopify alternative для devs"},
-  {"repo":"saleor/saleor","categories":["ecommerce"],"note":"GraphQL-first headless commerce"},
-  {"repo":"bagisto/bagisto","categories":["ecommerce"],"note":"Laravel e-commerce platform"},
-  {"repo":"Sylius/Sylius","categories":["ecommerce"],"note":"Symfony e-commerce framework"},
-  {"repo":"PrestaShop/PrestaShop","categories":["ecommerce"],"note":"Popular open-source e-commerce"},
-  {"repo":"woocommerce/woocommerce","categories":["ecommerce"],"note":"WordPress e-commerce plugin"},
-  {"repo":"spree/spree","categories":["ecommerce"],"note":"Ruby on Rails e-commerce platform"},
-  {"repo":"vercel/commerce","categories":["ecommerce","websites-cms"],"note":"Next.js commerce starter templates"},
-  {"repo":"unfoldadmin/django-unfold","categories":["ecommerce"],"note":"skip admin theme"},
-
-  {"repo":"outline/outline","categories":["document-collaboration"],"note":"Team wiki и knowledge base — Notion для teams"},
-  {"repo":"BookStackApp/BookStack","categories":["document-collaboration"],"note":"Simple wiki — books, chapters, pages"},
-  {"repo":"paperless-ngx/paperless-ngx","categories":["document-collaboration","web-scraping"],"note":"Document management — scan, OCR, index, search"},
-  {"repo":"logseq/logseq","categories":["document-collaboration"],"note":"Privacy-first knowledge base — уже в каталоге"},
-  {"repo":"TriliumNext/Trilium","categories":["document-collaboration"],"note":"Hierarchical note taking — personal knowledge base"},
-  {"repo":"siyuan-note/siyuan","categories":["document-collaboration"],"note":"Privacy-first personal knowledge management"},
-  {"repo":"docmost/docmost","categories":["document-collaboration"],"note":"Collaborative wiki и documentation — Notion-like"},
-  {"repo":"memos/memos","categories":["document-collaboration"],"note":"Lightweight notes и knowledge sharing"},
-  {"repo":"laurent22/joplin","categories":["document-collaboration"],"note":"Note taking app с sync и encryption"},
-  {"repo":"standardnotes/app","categories":["document-collaboration"],"note":"Encrypted notes app"},
-
-  {"repo":"appsmithorg/appsmith","categories":["low-code-internal"],"note":"Build internal tools, admin panels, dashboards"},
-  {"repo":"ToolJet/ToolJet","categories":["low-code-internal"],"note":"Low-code platform для internal business apps"},
-  {"repo":"budibase/budibase","categories":["low-code-internal"],"note":"Low-code platform — internal tools и portals"},
-  {"repo":"refinedev/refine","categories":["low-code-internal","websites-cms"],"note":"React framework для admin panels и internal apps"},
-  {"repo":"retoolio/retool","categories":["low-code-internal"],"note":"skip - not fully OSS"},
-  {"repo":"illacloud/illa-builder","categories":["low-code-internal"],"note":"Low-code platform для business apps"},
-  {"repo":"formkit/drag-and-drop","categories":["low-code-internal"],"note":"skip lib"},
-
-  {"repo":"frappe/erpnext","categories":["erp-operations","finance-accounting"],"note":"Full ERP — accounting, inventory, HR, manufacturing"},
-  {"repo":"frappe/hrms","categories":["erp-operations"],"note":"Frappe HR — payroll, attendance, leave management"},
-  {"repo":"odoo/odoo","categories":["erp-operations","crm-sales","ecommerce"],"note":"All-in-one business suite — CRM, ERP, eCommerce"},
-  {"repo":"apache/ofbiz","categories":["erp-operations"],"note":"Enterprise ERP framework от Apache"},
-  {"repo":"metasfresh/metasfresh","categories":["erp-operations"],"note":"ERP для wholesale и distribution"},
-
-  {"repo":"hoppscotch/hoppscotch","categories":["api-tools"],"note":"Open-source API development ecosystem — Postman alternative"},
-  {"repo":"Kong/kong","categories":["api-tools"],"note":"API gateway и service mesh"},
-  {"repo":"TykTechnologies/tyk","categories":["api-tools"],"note":"Open-source API gateway"},
-  {"repo":"swagger-api/swagger-ui","categories":["api-tools"],"note":"Visualize OpenAPI specifications"},
-  {"repo":"getkin/kafta","categories":["api-tools"],"note":"skip typo"},
-  {"repo":"apache/apisix","categories":["api-tools"],"note":"Cloud-native API gateway"},
-  {"repo":"databrickslabs/DBX","categories":["api-tools"],"note":"skip"},
-  {"repo":"airbytehq/airbyte","categories":["api-tools","automation-workflows"],"note":"ELT data integration — 300+ connectors"},
-  {"repo":"Meltano/meltano","categories":["api-tools","automation-workflows"],"note":"DataOps hub — ELT + analytics workflows"},
-  {"repo":"dlt-hub/dlt","categories":["api-tools"],"note":"Python library для data loading pipelines"},
-  {"repo":"EstrellaXD/Air-Unified","categories":["api-tools"],"note":"skip"},
-  {"repo":"PipedreamHQ/pipedream","categories":["api-tools","automation-workflows"],"note":"Connect APIs — integration platform"},
-  {"repo":"huginn/huginn","categories":["api-tools"],"note":"skip dup"},
-
-  {"repo":"dbeaver/dbeaver","categories":["database-admin"],"note":"Universal database tool — SQL client"},
-  {"repo":"dbeaver/cloudbeaver","categories":["database-admin"],"note":"Web-based database manager"},
-  {"repo":"chat2db/chat2db","categories":["database-admin"],"note":"AI SQL client и database management"},
-  {"repo":"bytebase/bytebase","categories":["database-admin"],"note":"Database CI/CD и schema change management"},
-  {"repo":"schemahero/schemahero","categories":["database-admin"],"note":"Database schema migrations as code"},
-  {"repo":"supabase/supabase","categories":["database-admin","api-tools","websites-cms"],"note":"Postgres development platform — auth, storage, realtime"},
-  {"repo":"hasura/graphql-engine","categories":["database-admin","api-tools"],"note":"Instant GraphQL API на PostgreSQL"},
-  {"repo":"postgres/postgres","categories":["database-admin"],"note":"skip core db"},
-  {"repo":"redis/redis","categories":["database-admin"],"note":"skip core db"},
-  {"repo":"influxdata/influxdb","categories":["database-admin","analytics-bi"],"note":"Time series platform"},
-  {"repo":"minio/minio","categories":["database-admin","api-tools"],"note":"S3-compatible object storage — self-hosted"},
-  {"repo":"usememos/memos","categories":["document-collaboration"],"note":"skip dup check memos"},
-
-  {"repo":"jitsi/jitsi-meet","categories":["communication"],"note":"Video conferencing — Zoom alternative"},
-  {"repo":"bigbluebutton/bbb-install","categories":["communication"],"note":"skip installer"},
-  {"repo":"livekit/livekit","categories":["communication","voice-multimodal"],"note":"Realtime audio/video infrastructure"},
-  {"repo":"matrix-org/synapse","categories":["communication"],"note":"Matrix homeserver для decentralized chat"},
-  {"repo":"discourse/discourse","categories":["communication","websites-cms"],"note":"Community forum platform"},
-  {"repo":"flarum/flarum","categories":["communication"],"note":"Simple forum software"},
-  {"repo":"RevoltChat/Revolt","categories":["communication"],"note":"Discord alternative — user-first chat platform"},
-
-  {"repo":"usefathom/ghost","categories":["analytics-bi"],"note":"skip"},
-  {"repo":"gethomepage/homepage","categories":["low-code-internal","self-hosted"],"note":"Customizable homepage dashboard — self-hosted start page"},
-  {"repo":"dashyhq/dashy","categories":["low-code-internal"],"note":"Self-hosted dashboard для homelab и business links"},
-  {"repo":"homarr-labs/homarr","categories":["low-code-internal"],"note":"Customizable browser homepage dashboard"},
-  {"repo":"HabitRPG/habitica","categories":["project-management"],"note":"Gamified task management"},
-  {"repo":"usebruno/bruno","categories":["api-tools"],"note":"Offline-first API client — Postman alternative"},
-  {"repo":"chartbrew/chartbrew","categories":["analytics-bi","low-code-internal"],"note":"Open-source dashboard builder для metrics"},
-  {"repo":"chartdb/chartdb","categories":["database-admin"],"note":"Database diagrams by pasting DDL"},
-  {"repo":"chartist-js/chartist","categories":["analytics-bi"],"note":"skip chart lib"},
-  {"repo":"recharts/recharts","categories":["analytics-bi"],"note":"skip lib"},
-  {"repo":"getredash/redash","categories":["analytics-bi"],"note":"skip if dup"},
-  {"repo":"lightdash/lightdash","categories":["analytics-bi"],"note":"skip if dup"},
-  {"repo":"Apache/superset","categories":["analytics-bi"],"note":"skip case"},
-  {"repo":"HabitRPG/habitica","categories":["project-management"],"note":"skip dup"},
-
-  {"repo":"Significant-Gravitas/AutoGPT","categories":["agent-harness","automation-workflows"],"note":"skip exists"},
-  {"repo":"langfuse/langfuse","categories":["observability","analytics-bi"],"note":"skip exists"},
-  {"repo":"posthog/posthog","categories":["analytics-bi"],"note":"skip dup case"},
-
-  {"repo":"useplunk/plunk","categories":["marketing-email"],"note":"Self-hosted email automation для SaaS"},
-  {"repo":"novuhq/novu","categories":["marketing-email","api-tools"],"note":"Open-source notification infrastructure"},
-  {"repo":"chatwoot/chatwoot","categories":["crm-sales","communication"],"note":"Customer engagement — live chat, omnichannel inbox"},
-  {"repo":"frappe/helpdesk","categories":["crm-sales"],"note":"Open-source customer service desk"},
-  {"repo":"papercups-io/papercups","categories":["crm-sales","communication"],"note":"skip archived"},
-  {"repo":"freescout-helpdesk/freescout","categories":["crm-sales"],"note":"Free help desk — Zendesk alternative"},
-  {"repo":"uvdesk/community-skeleton","categories":["crm-sales"],"note":"Open-source helpdesk на Symfony"},
-
-  {"repo":"metabase/metabase","categories":["analytics-bi"],"note":"skip dup"},
-  {"repo":"shadcn-ui/ui","categories":["websites-cms"],"note":"skip component lib"},
-  {"repo":"tremorlabs/tremor","categories":["analytics-bi","low-code-internal"],"note":"React dashboard components для analytics UI"},
-  {"repo":"mlflow/mlflow","categories":["analytics-bi","observability"],"note":"ML lifecycle — experiments, models, registry"},
-  {"repo":"evidentlyai/evidently","categories":["analytics-bi","observability"],"note":"ML monitoring и data drift detection"},
-  {"repo":"great-expectations/great_expectations","categories":["analytics-bi"],"note":"Data quality testing для pipelines"},
-  {"repo":"duckdb/duckdb","categories":["database-admin","analytics-bi"],"note":"In-process analytical SQL database"},
-  {"repo":"preset-io/elasticsearch-datasource","categories":["database-admin"],"note":"skip"},
-  {"repo":"steampipe-io/steampipe","categories":["api-tools","analytics-bi"],"note":"Query cloud APIs with SQL — AWS, GCP, Azure"},
-  {"repo":"cloudquery/cloudquery","categories":["api-tools","analytics-bi"],"note":"Sync cloud assets to database для analysis"},
-  {"repo":"turbot/steampipe-mod-aws-compliance","categories":["api-tools"],"note":"skip mod"},
-  {"repo":"OpenRefine/OpenRefine","categories":["spreadsheets-data","web-scraping"],"note":"Power tool для работы с messy data — clean, transform"},
-  {"repo":"pandas-dev/pandas","categories":["spreadsheets-data"],"note":"skip lib"},
-  {"repo":"apache/superset","categories":["analytics-bi"],"note":"skip"},
-  {"repo":"redash/viz-lib","categories":["analytics-bi"],"note":"skip"},
-
-  {"repo":"usebruno/bruno","categories":["api-tools"],"note":"skip dup"},
-  {"repo":"actualbudget/actual","categories":["finance-accounting"],"note":"Local-first personal budgeting app"},
-  {"repo":"maybe-finance/maybe","categories":["finance-accounting"],"note":"skip dup"},
-  {"repo":"wallabag/wallabag","categories":["document-collaboration"],"note":"Save web articles для reading later"},
-  {"repo":"linkwarden/linkwarden","categories":["document-collaboration"],"note":"Bookmark manager для teams"},
-  {"repo":"karakeep-app/karakeep","categories":["document-collaboration"],"note":"Bookmark everything — AI tagging"},
-  {"repo":"ReVanced/revanced-manager","categories":["general-oss"],"note":"skip"},
-  {"repo":"immich-app/immich","categories":["self-hosted"],"note":"Self-hosted photo backup — Google Photos alternative"},
-  {"repo":"nextcloud/server","categories":["document-collaboration","self-hosted"],"note":"Self-hosted productivity — files, calendar, contacts"},
-  {"repo":"owncloud/core","categories":["document-collaboration"],"note":"File sync and share platform"},
-  {"repo":"seafile/seafile","categories":["document-collaboration"],"note":"Enterprise file sync and share"},
-  {"repo":"filebrowser/filebrowser","categories":["self-hosted"],"note":"Web file manager"},
-  {"repo":"usememos/memos","categories":["document-collaboration"],"note":"Lightweight memo hub"},
-  {"repo":"AppFlowy-IO/AppFlowy","categories":["document-collaboration","project-management"],"note":"skip dup"}
+  {
+    "repo": "metabase/metabase",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "Self-hosted BI и SQL-дашборды для бизнеса"
+  },
+  {
+    "repo": "apache/superset",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "Modern data exploration и visualization platform"
+  },
+  {
+    "repo": "PostHog/posthog",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "Product analytics, session replay, feature flags, A/B tests"
+  },
+  {
+    "repo": "plausible/analytics",
+    "categories": [
+      "analytics-bi",
+      "marketing-email"
+    ],
+    "note": "Privacy-friendly web analytics без cookies"
+  },
+  {
+    "repo": "umami-software/umami",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "Simple, privacy-focused website analytics"
+  },
+  {
+    "repo": "grafana/grafana",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "Observability dashboards для метрик и логов"
+  },
+  {
+    "repo": "getredash/redash",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "Connect to data sources, query, visualize, share"
+  },
+  {
+    "repo": "lightdash/lightdash",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "BI для dbt — metrics as code"
+  },
+  {
+    "repo": "evidence-dev/evidence",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "BI reports as code — SQL + Markdown"
+  },
+  {
+    "repo": "holistics-io/dbt-docs",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "cube-js/cube",
+    "categories": [
+      "analytics-bi",
+      "api-tools"
+    ],
+    "note": "Semantic layer и headless BI для data apps"
+  },
+  {
+    "repo": "preset-io/superset",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "mindsdb/mindsdb",
+    "categories": [
+      "analytics-bi",
+      "database-admin"
+    ],
+    "note": "AI layer для databases — SQL + ML predictions"
+  },
+  {
+    "repo": "questdb/questdb",
+    "categories": [
+      "database-admin",
+      "analytics-bi"
+    ],
+    "note": "High-performance time-series SQL database"
+  },
+  {
+    "repo": "ClickHouse/ClickHouse",
+    "categories": [
+      "database-admin",
+      "analytics-bi"
+    ],
+    "note": "Columnar OLAP для analytics at scale"
+  },
+  {
+    "repo": "apache/airflow",
+    "categories": [
+      "data-orchestration",
+      "api-tools"
+    ],
+    "note": "Workflow orchestration для data pipelines"
+  },
+  {
+    "repo": "prefecthq/prefect",
+    "categories": [
+      "data-orchestration"
+    ],
+    "note": "Modern workflow orchestration для Python"
+  },
+  {
+    "repo": "dagster-io/dagster",
+    "categories": [
+      "data-orchestration"
+    ],
+    "note": "Data orchestrator для ML и analytics pipelines"
+  },
+  {
+    "repo": "msgbyte/tianji",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "All-in-one website analytics + uptime monitoring"
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "categories": [
+      "integration-automation"
+    ],
+    "note": "Fair-code workflow automation, 400+ integrations, AI nodes"
+  },
+  {
+    "repo": "activepieces/activepieces",
+    "categories": [
+      "integration-automation",
+      "mcp-skills"
+    ],
+    "note": "Open-source Zapier alternative с AI builder"
+  },
+  {
+    "repo": "windmill-labs/windmill",
+    "categories": [
+      "integration-automation",
+      "low-code-internal"
+    ],
+    "note": "Developer platform для scripts, flows, internal apps"
+  },
+  {
+    "repo": "huginn/huginn",
+    "categories": [
+      "integration-automation"
+    ],
+    "note": "Build agents that automate online tasks"
+  },
+  {
+    "repo": "temporalio/temporal",
+    "categories": [
+      "workflow-engines"
+    ],
+    "note": "Durable execution для mission-critical workflows"
+  },
+  {
+    "repo": "argoproj/argo-workflows",
+    "categories": [
+      "data-orchestration"
+    ],
+    "note": "Kubernetes-native workflow engine"
+  },
+  {
+    "repo": "apache/dolphinscheduler",
+    "categories": [
+      "data-orchestration"
+    ],
+    "note": "Distributed visual DAG workflow scheduler"
+  },
+  {
+    "repo": "node-red/node-red",
+    "categories": [
+      "integration-automation",
+      "low-code-internal"
+    ],
+    "note": "Flow-based low-code programming для IoT и automation"
+  },
+  {
+    "repo": "automerge/automerge",
+    "categories": [
+      "general-oss"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "nanobrowser/nanobrowser",
+    "categories": [
+      "agent-harness",
+      "web-scraping"
+    ],
+    "note": "AI web automation Chrome extension"
+  },
+  {
+    "repo": "bytebot-ai/bytebot",
+    "categories": [
+      "coding-agents",
+      "agent-harness",
+      "self-hosted"
+    ],
+    "note": "Desktop agent для computer use automation"
+  },
+  {
+    "repo": "All-Hands-AI/OpenHands",
+    "categories": [
+      "coding-agents"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "nocodb/nocodb",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "Airtable alternative — spreadsheet UI на любой SQL базе"
+  },
+  {
+    "repo": "baserow/baserow",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "Open-source no-code database и Airtable alternative"
+  },
+  {
+    "repo": "apitable/apitable",
+    "categories": [
+      "spreadsheets-data",
+      "low-code-internal"
+    ],
+    "note": "API-first collaborative spreadsheet / database"
+  },
+  {
+    "repo": "gristlabs/grist",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "Spreadsheet с relational data model и formulas"
+  },
+  {
+    "repo": "mathesar-foundation/mathesar",
+    "categories": [
+      "spreadsheets-data",
+      "database-admin"
+    ],
+    "note": "Spreadsheet UI для PostgreSQL"
+  },
+  {
+    "repo": "teableio/teable",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "Airtable/AppSheet alternative на Postgres"
+  },
+  {
+    "repo": "bruno/bruno",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip if duplicate"
+  },
+  {
+    "repo": "ruilisi/fortune-sheet",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "Google Sheets-like spreadsheet component"
+  },
+  {
+    "repo": "ONLYOFFICE/DocumentServer",
+    "categories": [
+      "spreadsheets-data",
+      "document-collaboration"
+    ],
+    "note": "Office suite: docs, sheets, slides — self-hosted"
+  },
+  {
+    "repo": "rowyio/rowy",
+    "categories": [
+      "spreadsheets-data",
+      "low-code-internal"
+    ],
+    "note": "Low-code backend на Firebase/Google Sheets mindset"
+  },
+  {
+    "repo": "strapi/strapi",
+    "categories": [
+      "headless-cms",
+      "api-tools"
+    ],
+    "note": "Headless CMS — API-first content management"
+  },
+  {
+    "repo": "directus/directus",
+    "categories": [
+      "headless-cms",
+      "database-admin"
+    ],
+    "note": "Headless CMS и data platform поверх SQL"
+  },
+  {
+    "repo": "TryGhost/Ghost",
+    "categories": [
+      "publishing-cms",
+      "marketing-email"
+    ],
+    "note": "Professional publishing platform для blogs и newsletters"
+  },
+  {
+    "repo": "payloadcms/payload",
+    "categories": [
+      "headless-cms"
+    ],
+    "note": "Next.js native headless CMS"
+  },
+  {
+    "repo": "webiny/webiny",
+    "categories": [
+      "headless-cms",
+      "visual-site-builders"
+    ],
+    "note": "Serverless CMS + page builder"
+  },
+  {
+    "repo": "decaporg/decap-cms",
+    "categories": [
+      "headless-cms",
+      "static-site-generators"
+    ],
+    "note": "Git-based CMS для static sites"
+  },
+  {
+    "repo": "getgrav/grav",
+    "categories": [
+      "publishing-cms"
+    ],
+    "note": "Flat-file CMS без database"
+  },
+  {
+    "repo": "wagtail/wagtail",
+    "categories": [
+      "publishing-cms"
+    ],
+    "note": "Django CMS для content editors"
+  },
+  {
+    "repo": "WordPress/WordPress",
+    "categories": [
+      "publishing-cms"
+    ],
+    "note": "World's most popular CMS"
+  },
+  {
+    "repo": "typst/typst",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Modern markup-based typesetting system"
+  },
+  {
+    "repo": "vercel/next.js",
+    "categories": [
+      "general-oss"
+    ],
+    "note": "skip - too generic"
+  },
+  {
+    "repo": "hugoio/hugo",
+    "categories": [
+      "static-site-generators"
+    ],
+    "note": "Static site generator — ultra fast"
+  },
+  {
+    "repo": "gohugoio/hugo",
+    "categories": [
+      "static-site-generators"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "astro-build/astro",
+    "categories": [
+      "static-site-generators"
+    ],
+    "note": "Content-focused web framework"
+  },
+  {
+    "repo": "11ty/eleventy",
+    "categories": [
+      "static-site-generators"
+    ],
+    "note": "Simple static site generator"
+  },
+  {
+    "repo": "twentyhq/twenty",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Modern open-source CRM — альтернатива Salesforce"
+  },
+  {
+    "repo": "EspoCRM/espocrm",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Open-source CRM для sales teams"
+  },
+  {
+    "repo": "suitecrm/suitecrm",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Enterprise open-source CRM fork of SugarCRM"
+  },
+  {
+    "repo": "idurar/idurar-erp-crm",
+    "categories": [
+      "crm-sales",
+      "finance-accounting"
+    ],
+    "note": "ERP + CRM на MERN stack"
+  },
+  {
+    "repo": "aureuserp/aureuserp",
+    "categories": [
+      "crm-sales",
+      "erp-operations"
+    ],
+    "note": "Open-source ERP/CRM platform"
+  },
+  {
+    "repo": "frappe/crm",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Frappe CRM — lightweight sales CRM"
+  },
+  {
+    "repo": "monicaHQ/monica",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Personal CRM для relationships management"
+  },
+  {
+    "repo": "salesag/scoredock",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "skip if not exists"
+  },
+  {
+    "repo": "listmonk/listmonk",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Self-hosted newsletter и mailing list manager"
+  },
+  {
+    "repo": "mautic/mautic",
+    "categories": [
+      "marketing-email",
+      "crm-sales"
+    ],
+    "note": "Marketing automation — campaigns, segments, scoring"
+  },
+  {
+    "repo": "postalserver/postal",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Mail delivery platform для transactional email"
+  },
+  {
+    "repo": "Mailtrain-org/mailtrain",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Self-hosted newsletter app"
+  },
+  {
+    "repo": "usefathom/fathom",
+    "categories": [
+      "marketing-email",
+      "analytics-bi"
+    ],
+    "note": "skip commercial"
+  },
+  {
+    "repo": "growthbook/growthbook",
+    "categories": [
+      "marketing-email",
+      "analytics-bi"
+    ],
+    "note": "Open-source feature flags и A/B testing"
+  },
+  {
+    "repo": "unlayer/react-email-editor",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "skip lib"
+  },
+  {
+    "repo": "calcom/cal.com",
+    "categories": [
+      "marketing-email",
+      "crm-sales"
+    ],
+    "note": "Open scheduling infrastructure — Calendly alternative"
+  },
+  {
+    "repo": "formbricks/formbricks",
+    "categories": [
+      "marketing-email",
+      "analytics-bi"
+    ],
+    "note": "Experience management и surveys — Typeform alternative"
+  },
+  {
+    "repo": "makeplane/plane",
+    "categories": [
+      "project-management"
+    ],
+    "note": "Open-source Jira/Linear alternative — issues, cycles, modules"
+  },
+  {
+    "repo": "openproject/openproject",
+    "categories": [
+      "project-management"
+    ],
+    "note": "Enterprise project management — Gantt, agile, time tracking"
+  },
+  {
+    "repo": "AppFlowy-IO/AppFlowy",
+    "categories": [
+      "project-management",
+      "document-collaboration"
+    ],
+    "note": "Notion alternative — уже в каталоге"
+  },
+  {
+    "repo": "vikunja/vikunja",
+    "categories": [
+      "project-management"
+    ],
+    "note": "To-do app для personal и team task management"
+  },
+  {
+    "repo": "mattermost/mattermost",
+    "categories": [
+      "team-chat",
+      "project-management"
+    ],
+    "note": "Team messaging — Slack alternative"
+  },
+  {
+    "repo": "rocketchat/Rocket.Chat",
+    "categories": [
+      "team-chat"
+    ],
+    "note": "Team communication hub — chat, video, omnichannel"
+  },
+  {
+    "repo": "vector-im/element-web",
+    "categories": [
+      "team-chat"
+    ],
+    "note": "Matrix client для secure team chat"
+  },
+  {
+    "repo": "Zulko/zulip",
+    "categories": [
+      "team-chat"
+    ],
+    "note": "Threaded team chat — organized conversations"
+  },
+  {
+    "repo": "focalboard/focalboard",
+    "categories": [
+      "project-management"
+    ],
+    "note": "Open-source Trello/Notion boards от Mattermost"
+  },
+  {
+    "repo": "kanboard/kanboard",
+    "categories": [
+      "project-management"
+    ],
+    "note": "Minimalist kanban board"
+  },
+  {
+    "repo": "wekan/wekan",
+    "categories": [
+      "project-management"
+    ],
+    "note": "Kanban board — Trello alternative"
+  },
+  {
+    "repo": "leantime/leantime",
+    "categories": [
+      "project-management"
+    ],
+    "note": "Project management для non-project-managers"
+  },
+  {
+    "repo": "plankanban/planka",
+    "categories": [
+      "project-management"
+    ],
+    "note": "Realtime kanban — Trello alternative"
+  },
+  {
+    "repo": "taigaio/taiga",
+    "categories": [
+      "project-management"
+    ],
+    "note": "Agile project management — Scrum/Kanban"
+  },
+  {
+    "repo": "InvoicePlane/InvoicePlane",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Invoicing, quotes, payment tracking"
+  },
+  {
+    "repo": "invoiceninja/invoiceninja",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Invoices, payments, expenses — для freelancers и SMB"
+  },
+  {
+    "repo": "firefly-iii/firefly-iii",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Personal finance manager — budgeting и tracking"
+  },
+  {
+    "repo": "akaunting/akaunting",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Online accounting software для small business"
+  },
+  {
+    "repo": "bigcapitalhq/bigcapital",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Accounting, inventory, invoicing — ERP accounting"
+  },
+  {
+    "repo": "Dolibarr/dolibarr",
+    "categories": [
+      "finance-accounting",
+      "erp-operations"
+    ],
+    "note": "ERP/CRM для SMB — invoices, orders, stock"
+  },
+  {
+    "repo": "ghostfolio/ghostfolio",
+    "categories": [
+      "finance-accounting",
+      "analytics-bi"
+    ],
+    "note": "Wealth management и portfolio tracking"
+  },
+  {
+    "repo": "maybe-finance/maybe",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Personal finance app — open-source Monarch alternative"
+  },
+  {
+    "repo": "medusajs/medusa",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Digital commerce platform — Shopify alternative для devs"
+  },
+  {
+    "repo": "saleor/saleor",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "GraphQL-first headless commerce"
+  },
+  {
+    "repo": "bagisto/bagisto",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Laravel e-commerce platform"
+  },
+  {
+    "repo": "Sylius/Sylius",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Symfony e-commerce framework"
+  },
+  {
+    "repo": "PrestaShop/PrestaShop",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Popular open-source e-commerce"
+  },
+  {
+    "repo": "woocommerce/woocommerce",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "WordPress e-commerce plugin"
+  },
+  {
+    "repo": "spree/spree",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Ruby on Rails e-commerce platform"
+  },
+  {
+    "repo": "vercel/commerce",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Next.js commerce starter templates"
+  },
+  {
+    "repo": "unfoldadmin/django-unfold",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "skip admin theme"
+  },
+  {
+    "repo": "outline/outline",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Team wiki и knowledge base — Notion для teams"
+  },
+  {
+    "repo": "BookStackApp/BookStack",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Simple wiki — books, chapters, pages"
+  },
+  {
+    "repo": "paperless-ngx/paperless-ngx",
+    "categories": [
+      "document-collaboration",
+      "web-scraping"
+    ],
+    "note": "Document management — scan, OCR, index, search"
+  },
+  {
+    "repo": "logseq/logseq",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Privacy-first knowledge base — уже в каталоге"
+  },
+  {
+    "repo": "TriliumNext/Trilium",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Hierarchical note taking — personal knowledge base"
+  },
+  {
+    "repo": "siyuan-note/siyuan",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Privacy-first personal knowledge management"
+  },
+  {
+    "repo": "docmost/docmost",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Collaborative wiki и documentation — Notion-like"
+  },
+  {
+    "repo": "memos/memos",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Lightweight notes и knowledge sharing"
+  },
+  {
+    "repo": "laurent22/joplin",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Note taking app с sync и encryption"
+  },
+  {
+    "repo": "standardnotes/app",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Encrypted notes app"
+  },
+  {
+    "repo": "appsmithorg/appsmith",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "Build internal tools, admin panels, dashboards"
+  },
+  {
+    "repo": "ToolJet/ToolJet",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "Low-code platform для internal business apps"
+  },
+  {
+    "repo": "budibase/budibase",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "Low-code platform — internal tools и portals"
+  },
+  {
+    "repo": "refinedev/refine",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "React framework для admin panels и internal apps"
+  },
+  {
+    "repo": "retoolio/retool",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "skip - not fully OSS"
+  },
+  {
+    "repo": "illacloud/illa-builder",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "Low-code platform для business apps"
+  },
+  {
+    "repo": "formkit/drag-and-drop",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "skip lib"
+  },
+  {
+    "repo": "frappe/erpnext",
+    "categories": [
+      "erp-operations",
+      "finance-accounting"
+    ],
+    "note": "Full ERP — accounting, inventory, HR, manufacturing"
+  },
+  {
+    "repo": "frappe/hrms",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "Frappe HR — payroll, attendance, leave management"
+  },
+  {
+    "repo": "odoo/odoo",
+    "categories": [
+      "erp-operations",
+      "crm-sales",
+      "ecommerce"
+    ],
+    "note": "All-in-one business suite — CRM, ERP, eCommerce"
+  },
+  {
+    "repo": "apache/ofbiz",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "Enterprise ERP framework от Apache"
+  },
+  {
+    "repo": "metasfresh/metasfresh",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "ERP для wholesale и distribution"
+  },
+  {
+    "repo": "hoppscotch/hoppscotch",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "Open-source API development ecosystem — Postman alternative"
+  },
+  {
+    "repo": "Kong/kong",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "API gateway и service mesh"
+  },
+  {
+    "repo": "TykTechnologies/tyk",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "Open-source API gateway"
+  },
+  {
+    "repo": "swagger-api/swagger-ui",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "Visualize OpenAPI specifications"
+  },
+  {
+    "repo": "getkin/kafta",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip typo"
+  },
+  {
+    "repo": "apache/apisix",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "Cloud-native API gateway"
+  },
+  {
+    "repo": "databrickslabs/DBX",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "airbytehq/airbyte",
+    "categories": [
+      "api-tools",
+      "data-orchestration"
+    ],
+    "note": "ELT data integration — 300+ connectors"
+  },
+  {
+    "repo": "Meltano/meltano",
+    "categories": [
+      "api-tools",
+      "data-orchestration"
+    ],
+    "note": "DataOps hub — ELT + analytics workflows"
+  },
+  {
+    "repo": "dlt-hub/dlt",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "Python library для data loading pipelines"
+  },
+  {
+    "repo": "EstrellaXD/Air-Unified",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "PipedreamHQ/pipedream",
+    "categories": [
+      "api-tools",
+      "integration-automation"
+    ],
+    "note": "Connect APIs — integration platform"
+  },
+  {
+    "repo": "huginn/huginn",
+    "categories": [
+      "integration-automation"
+    ],
+    "note": "skip dup"
+  },
+  {
+    "repo": "dbeaver/dbeaver",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "Universal database tool — SQL client"
+  },
+  {
+    "repo": "dbeaver/cloudbeaver",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "Web-based database manager"
+  },
+  {
+    "repo": "chat2db/chat2db",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "AI SQL client и database management"
+  },
+  {
+    "repo": "bytebase/bytebase",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "Database CI/CD и schema change management"
+  },
+  {
+    "repo": "schemahero/schemahero",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "Database schema migrations as code"
+  },
+  {
+    "repo": "supabase/supabase",
+    "categories": [
+      "database-admin",
+      "api-tools"
+    ],
+    "note": "Postgres development platform — auth, storage, realtime"
+  },
+  {
+    "repo": "hasura/graphql-engine",
+    "categories": [
+      "database-admin",
+      "api-tools"
+    ],
+    "note": "Instant GraphQL API на PostgreSQL"
+  },
+  {
+    "repo": "postgres/postgres",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "skip core db"
+  },
+  {
+    "repo": "redis/redis",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "skip core db"
+  },
+  {
+    "repo": "influxdata/influxdb",
+    "categories": [
+      "database-admin",
+      "analytics-bi"
+    ],
+    "note": "Time series platform"
+  },
+  {
+    "repo": "minio/minio",
+    "categories": [
+      "database-admin",
+      "api-tools"
+    ],
+    "note": "S3-compatible object storage — self-hosted"
+  },
+  {
+    "repo": "usememos/memos",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "skip dup check memos"
+  },
+  {
+    "repo": "jitsi/jitsi-meet",
+    "categories": [
+      "video-conferencing"
+    ],
+    "note": "Video conferencing — Zoom alternative"
+  },
+  {
+    "repo": "bigbluebutton/bbb-install",
+    "categories": [
+      "video-conferencing"
+    ],
+    "note": "skip installer"
+  },
+  {
+    "repo": "livekit/livekit",
+    "categories": [
+      "video-conferencing",
+      "voice-multimodal"
+    ],
+    "note": "Realtime audio/video infrastructure"
+  },
+  {
+    "repo": "matrix-org/synapse",
+    "categories": [
+      "team-chat"
+    ],
+    "note": "Matrix homeserver для decentralized chat"
+  },
+  {
+    "repo": "discourse/discourse",
+    "categories": [
+      "forums-communities"
+    ],
+    "note": "Community forum platform"
+  },
+  {
+    "repo": "flarum/flarum",
+    "categories": [
+      "forums-communities"
+    ],
+    "note": "Simple forum software"
+  },
+  {
+    "repo": "RevoltChat/Revolt",
+    "categories": [
+      "team-chat"
+    ],
+    "note": "Discord alternative — user-first chat platform"
+  },
+  {
+    "repo": "usefathom/ghost",
+    "categories": [
+      "general-oss"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "gethomepage/homepage",
+    "categories": [
+      "low-code-internal",
+      "self-hosted"
+    ],
+    "note": "Customizable homepage dashboard — self-hosted start page"
+  },
+  {
+    "repo": "dashyhq/dashy",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "Self-hosted dashboard для homelab и business links"
+  },
+  {
+    "repo": "homarr-labs/homarr",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "Customizable browser homepage dashboard"
+  },
+  {
+    "repo": "HabitRPG/habitica",
+    "categories": [
+      "project-management"
+    ],
+    "note": "Gamified task management"
+  },
+  {
+    "repo": "usebruno/bruno",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "Offline-first API client — Postman alternative"
+  },
+  {
+    "repo": "chartbrew/chartbrew",
+    "categories": [
+      "analytics-bi",
+      "low-code-internal"
+    ],
+    "note": "Open-source dashboard builder для metrics"
+  },
+  {
+    "repo": "chartdb/chartdb",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "Database diagrams by pasting DDL"
+  },
+  {
+    "repo": "chartist-js/chartist",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip chart lib"
+  },
+  {
+    "repo": "recharts/recharts",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip lib"
+  },
+  {
+    "repo": "getredash/redash",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip if dup"
+  },
+  {
+    "repo": "lightdash/lightdash",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip if dup"
+  },
+  {
+    "repo": "Apache/superset",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip case"
+  },
+  {
+    "repo": "HabitRPG/habitica",
+    "categories": [
+      "project-management"
+    ],
+    "note": "skip dup"
+  },
+  {
+    "repo": "Significant-Gravitas/AutoGPT",
+    "categories": [
+      "agent-harness"
+    ],
+    "note": "skip exists"
+  },
+  {
+    "repo": "langfuse/langfuse",
+    "categories": [
+      "observability",
+      "analytics-bi"
+    ],
+    "note": "skip exists"
+  },
+  {
+    "repo": "posthog/posthog",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip dup case"
+  },
+  {
+    "repo": "useplunk/plunk",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Self-hosted email automation для SaaS"
+  },
+  {
+    "repo": "novuhq/novu",
+    "categories": [
+      "marketing-email",
+      "api-tools"
+    ],
+    "note": "Open-source notification infrastructure"
+  },
+  {
+    "repo": "chatwoot/chatwoot",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Customer engagement — live chat, omnichannel inbox"
+  },
+  {
+    "repo": "frappe/helpdesk",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Open-source customer service desk"
+  },
+  {
+    "repo": "papercups-io/papercups",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "skip archived"
+  },
+  {
+    "repo": "freescout-helpdesk/freescout",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Free help desk — Zendesk alternative"
+  },
+  {
+    "repo": "uvdesk/community-skeleton",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Open-source helpdesk на Symfony"
+  },
+  {
+    "repo": "metabase/metabase",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip dup"
+  },
+  {
+    "repo": "shadcn-ui/ui",
+    "categories": [
+      "general-oss"
+    ],
+    "note": "skip component lib"
+  },
+  {
+    "repo": "tremorlabs/tremor",
+    "categories": [
+      "analytics-bi",
+      "low-code-internal"
+    ],
+    "note": "React dashboard components для analytics UI"
+  },
+  {
+    "repo": "mlflow/mlflow",
+    "categories": [
+      "analytics-bi",
+      "observability"
+    ],
+    "note": "ML lifecycle — experiments, models, registry"
+  },
+  {
+    "repo": "evidentlyai/evidently",
+    "categories": [
+      "analytics-bi",
+      "observability"
+    ],
+    "note": "ML monitoring и data drift detection"
+  },
+  {
+    "repo": "great-expectations/great_expectations",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "Data quality testing для pipelines"
+  },
+  {
+    "repo": "duckdb/duckdb",
+    "categories": [
+      "database-admin",
+      "analytics-bi"
+    ],
+    "note": "In-process analytical SQL database"
+  },
+  {
+    "repo": "preset-io/elasticsearch-datasource",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "steampipe-io/steampipe",
+    "categories": [
+      "api-tools",
+      "analytics-bi"
+    ],
+    "note": "Query cloud APIs with SQL — AWS, GCP, Azure"
+  },
+  {
+    "repo": "cloudquery/cloudquery",
+    "categories": [
+      "api-tools",
+      "analytics-bi"
+    ],
+    "note": "Sync cloud assets to database для analysis"
+  },
+  {
+    "repo": "turbot/steampipe-mod-aws-compliance",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip mod"
+  },
+  {
+    "repo": "OpenRefine/OpenRefine",
+    "categories": [
+      "spreadsheets-data",
+      "web-scraping"
+    ],
+    "note": "Power tool для работы с messy data — clean, transform"
+  },
+  {
+    "repo": "pandas-dev/pandas",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "skip lib"
+  },
+  {
+    "repo": "apache/superset",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "redash/viz-lib",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "usebruno/bruno",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip dup"
+  },
+  {
+    "repo": "actualbudget/actual",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Local-first personal budgeting app"
+  },
+  {
+    "repo": "maybe-finance/maybe",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "skip dup"
+  },
+  {
+    "repo": "wallabag/wallabag",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Save web articles для reading later"
+  },
+  {
+    "repo": "linkwarden/linkwarden",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Bookmark manager для teams"
+  },
+  {
+    "repo": "karakeep-app/karakeep",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Bookmark everything — AI tagging"
+  },
+  {
+    "repo": "ReVanced/revanced-manager",
+    "categories": [
+      "general-oss"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "immich-app/immich",
+    "categories": [
+      "self-hosted"
+    ],
+    "note": "Self-hosted photo backup — Google Photos alternative"
+  },
+  {
+    "repo": "nextcloud/server",
+    "categories": [
+      "document-collaboration",
+      "self-hosted"
+    ],
+    "note": "Self-hosted productivity — files, calendar, contacts"
+  },
+  {
+    "repo": "owncloud/core",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "File sync and share platform"
+  },
+  {
+    "repo": "seafile/seafile",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Enterprise file sync and share"
+  },
+  {
+    "repo": "filebrowser/filebrowser",
+    "categories": [
+      "self-hosted"
+    ],
+    "note": "Web file manager"
+  },
+  {
+    "repo": "usememos/memos",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "Lightweight memo hub"
+  },
+  {
+    "repo": "AppFlowy-IO/AppFlowy",
+    "categories": [
+      "document-collaboration",
+      "project-management"
+    ],
+    "note": "skip dup"
+  }
 ]

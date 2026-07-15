@@ -33,11 +33,11 @@
     "repo": "n8n-io/n8n",
     "url": "https://n8n.io",
     "description": {
-      "ru": "n8n — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы. Ключевые темы: ИИ, Apis, Автоматизация, Терминал, Data Flow и Development. Подходит, если нужно: можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы и есть визуальный или low-code интерфейс. Проект: есть бесплатный tier и платные возможности, на GitHub 196k+ звёзд и основной стек — TypeScript.",
-      "en": "n8n: fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: AI, Apis, Automation, CLI, Data Flow, and Development. Useful when you need to self-host on your infrastructure and automate workflows. Project details: freemium model, 196k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "n8n — связывает сервисы, webhooks и задачи в автоматические сценарии. Можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы. Ключевые темы: ИИ, Apis, Автоматизация, Терминал, Data Flow и Development. Подходит, если нужно: можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы и есть визуальный или low-code интерфейс. Проект: есть бесплатный tier и платные возможности, на GitHub 196k+ звёзд и основной стек — TypeScript.",
+      "en": "n8n: fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. In this catalog (Infrastructure), listed as “Integration Automation”: Service integrations, event flows, webhooks, no-code automation. Key topics: AI, Apis, Automation, CLI, Data Flow, and Development. Useful when you need to self-host on your infrastructure and automate workflows. Project details: freemium model, 196k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "automation-workflows"
+      "integration-automation"
     ],
     "tags": [
       "ai",
@@ -312,8 +312,7 @@
     },
     "categories": [
       "database-admin",
-      "api-tools",
-      "websites-cms"
+      "api-tools"
     ],
     "tags": [
       "ai",
@@ -798,11 +797,11 @@
     "repo": "strapi/strapi",
     "url": "https://strapi.io",
     "description": {
-      "ru": "strapi — блоги, лендинги и управление контентом сайта. Ключевые темы: API, CMS, Cms Framework, Content Management, Content Management System и Customizable. Проект: есть бесплатный tier и платные возможности, на GitHub 73k+ звёзд и основной стек — TypeScript.",
-      "en": "strapi: 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: API, CMS, Cms Framework, Content Management, Content Management System, and Customizable. Project details: freemium model, 73k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "strapi — aPI-first CMS, контентные модели и headless-управление сайтом. Ключевые темы: API, CMS, Cms Framework, Content Management, Content Management System и Customizable. Проект: есть бесплатный tier и платные возможности, на GitHub 73k+ звёзд и основной стек — TypeScript.",
+      "en": "strapi: 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first. In this catalog (Business), listed as “Headless CMS”: API-first CMS, content models and headless content management. Key topics: API, CMS, Cms Framework, Content Management, Content Management System, and Customizable. Project details: freemium model, 73k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "websites-cms",
+      "headless-cms",
       "api-tools"
     ],
     "tags": [
@@ -1027,8 +1026,8 @@
     "repo": "pathwaycom/pathway",
     "url": "https://pathway.com",
     "description": {
-      "ru": "pathway — подключает ваши файлы и базы к чату с ИИ, чтобы ответы были точнее. Обрабатывает документы и контент для ИИ, подходит для голосовых сценариев. Ключевые темы: Batch Processing, Data Analytics, Data Pipelines, Data Processing, Dataflow и Etl. Подходит, если нужно: обрабатывает документы и контент для ИИ и подходит для голосовых сценариев. Проект: бесплатный open-source проект, на GitHub 63k+ звёзд и основной стек — Python.",
-      "en": "pathway: python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. In this catalog (AI & Agents), listed as “RAG / Context”: Retrieval-Augmented Generation, memory and context for LLMs. Key topics: Batch Processing, Data Analytics, Data Pipelines, Data Processing, Dataflow, and Etl. Useful when you need to work with documents and RAG and run voice AI scenarios. Project details: free open-source, 63k+ GitHub stars, and built mainly in Python."
+      "ru": "pathway — подключает ваши файлы и базы к чату с ИИ, чтобы ответы были точнее. Обрабатывает документы и контент для ИИ. Ключевые темы: Batch Processing, Data Analytics, Data Pipelines, Data Processing, Dataflow и Etl. Проект: бесплатный open-source проект, на GitHub 63k+ звёзд и основной стек — Python.",
+      "en": "pathway: python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. In this catalog (AI & Agents), listed as “RAG / Context”: Retrieval-Augmented Generation, memory and context for LLMs. Key topics: Batch Processing, Data Analytics, Data Pipelines, Data Processing, Dataflow, and Etl. Project details: free open-source, 63k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
       "rag-context"
@@ -1081,7 +1080,7 @@
     "repo": "koala73/worldmonitor",
     "url": "https://worldmonitor.app",
     "description": {
-      "ru": "worldmonitor — графики, дашборды и отчёты по данным бизнеса и сайта. Подходит для голосовых сценариев. Ключевые темы: Агент, ИИ, Дашборд, Geopolitics, MCP и Mcp Server. Проект: бесплатный open-source проект, на GitHub 62k+ звёзд и основной стек — TypeScript.",
+      "ru": "worldmonitor — графики, дашборды и отчёты по данным бизнеса и сайта. Ключевые темы: Агент, ИИ, Дашборд, Geopolitics, MCP и Mcp Server. Проект: бесплатный open-source проект, на GitHub 62k+ звёзд и основной стек — TypeScript.",
       "en": "worldmonitor: real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface. In this catalog (Business), listed as “Analytics & BI”: Dashboards, BI, product analytics, web analytics. Key topics: Agent, AI, Dashboard, Geopolitics, MCP, and Mcp Server. Project details: free open-source, 62k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
@@ -1351,7 +1350,7 @@
     "url": "https://starship.rs",
     "description": {
       "ru": "starship — другие полезные open-source проекты. Ключевые темы: Bash, Fish, Fish Prompt, Fish Theme, Oh My Zsh и Powershell. Проект: бесплатный open-source проект, на GitHub 59k+ звёзд и основной стек — Rust.",
-      "en": "starship: ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell! In this catalog (Infrastructure), listed as “General OSS”: General open-source software. Key topics: Bash, Fish, Fish Prompt, Fish Theme, Oh My Zsh, and Powershell. Project details: free open-source, 59k+ GitHub stars, and built mainly in Rust."
+      "en": "starship: ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! In this catalog (Infrastructure), listed as “General OSS”: General open-source software. Key topics: Bash, Fish, Fish Prompt, Fish Theme, Oh My Zsh, and Powershell. Project details: free open-source, 59k+ GitHub stars, and built mainly in Rust."
     },
     "categories": [
       "general-oss"
@@ -1469,11 +1468,10 @@
     "repo": "typst/typst",
     "url": "https://typst.app",
     "description": {
-      "ru": "typst — блоги, лендинги и управление контентом сайта. Ключевые темы: Compiler, Markup, Typesetting и Typst. Проект: бесплатный open-source проект, на GitHub 55k+ звёзд и основной стек — Rust.",
-      "en": "typst is a markup-based typesetting system that is powerful and easy to learn. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: Compiler, Markup, Typesetting, and Typst. Project details: free open-source, 55k+ GitHub stars, and built mainly in Rust."
+      "ru": "typst — база знаний, заметки и совместная работа с документами. Ключевые темы: Compiler, Markup, Typesetting и Typst. Проект: бесплатный open-source проект, на GitHub 55k+ звёзд и основной стек — Rust.",
+      "en": "typst is a markup-based typesetting system that is powerful and easy to learn. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Key topics: Compiler, Markup, Typesetting, and Typst. Project details: free open-source, 55k+ GitHub stars, and built mainly in Rust."
     },
     "categories": [
-      "websites-cms",
       "document-collaboration"
     ],
     "tags": [
@@ -1524,11 +1522,11 @@
     "repo": "TryGhost/Ghost",
     "url": "https://ghost.org",
     "description": {
-      "ru": "Ghost — блоги, лендинги и управление контентом сайта. Ключевые темы: Blogging, CMS, Ghost, Journalism, Nodejs и Publishing. Проект: бесплатный open-source проект, на GitHub 54k+ звёзд и основной стек — JavaScript.",
-      "en": "Ghost: independent technology for modern publishing, memberships, subscriptions and newsletters. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: Blogging, CMS, Ghost, Journalism, Nodejs, and Publishing. Project details: free open-source, 54k+ GitHub stars, and built mainly in JavaScript."
+      "ru": "Ghost — блоги, редакционные сайты, подписки и классические CMS. Ключевые темы: Blogging, CMS, Ghost, Journalism, Nodejs и Publishing. Проект: бесплатный open-source проект, на GitHub 54k+ звёзд и основной стек — JavaScript.",
+      "en": "Ghost: independent technology for modern publishing, memberships, subscriptions and newsletters. In this catalog (Business), listed as “Publishing CMS”: Blogs, publishing platforms, memberships and traditional CMS. Key topics: Blogging, CMS, Ghost, Journalism, Nodejs, and Publishing. Project details: free open-source, 54k+ GitHub stars, and built mainly in JavaScript."
     },
     "categories": [
-      "websites-cms",
+      "publishing-cms",
       "marketing-email"
     ],
     "tags": [
@@ -1795,11 +1793,11 @@
     "repo": "huginn/huginn",
     "url": "https://github.com/huginn/huginn",
     "description": {
-      "ru": "huginn — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Ключевые темы: Агент, Автоматизация, Feed, Feedgenerator, Huginn и Мониторинг. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: бесплатный open-source проект, на GitHub 50k+ звёзд и основной стек — Ruby.",
-      "en": "huginn: create agents that monitor and act on your behalf.  Your agents are standing by! In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Agent, Automation, Feed, Feedgenerator, Huginn, and Monitoring. Useful when you need to automate workflows and build AI agents. Project details: free open-source, 50k+ GitHub stars, and built mainly in Ruby."
+      "ru": "huginn — связывает сервисы, webhooks и задачи в автоматические сценарии. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Ключевые темы: Агент, Автоматизация, Feed, Feedgenerator, Huginn и Мониторинг. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: бесплатный open-source проект, на GitHub 50k+ звёзд и основной стек — Ruby.",
+      "en": "huginn: create agents that monitor and act on your behalf. Your agents are standing by! In this catalog (Infrastructure), listed as “Integration Automation”: Service integrations, event flows, webhooks, no-code automation. Key topics: Agent, Automation, Feed, Feedgenerator, Huginn, and Monitoring. Useful when you need to automate workflows and build AI agents. Project details: free open-source, 50k+ GitHub stars, and built mainly in Ruby."
     },
     "categories": [
-      "automation-workflows"
+      "integration-automation"
     ],
     "tags": [
       "agent",
@@ -1824,7 +1822,7 @@
     "repo": "ClickHouse/ClickHouse",
     "url": "https://clickhouse.com",
     "description": {
-      "ru": "ClickHouse — хранение данных, SQL-клиенты и админки баз. Подходит для голосовых сценариев. Ключевые темы: ИИ, Аналитика, Big Data, Clickhouse, Cloud Native и Cpp. Проект: есть бесплатный tier и платные возможности, на GitHub 49k+ звёзд и основной стек — C++.",
+      "ru": "ClickHouse — хранение данных, SQL-клиенты и админки баз. Ключевые темы: ИИ, Аналитика, Big Data, Clickhouse, Cloud Native и Cpp. Проект: есть бесплатный tier и платные возможности, на GitHub 49k+ звёзд и основной стек — C++.",
       "en": "ClickHouse: clickHouse® is a real-time analytics database management system. In this catalog (Infrastructure), listed as “Databases & Admin”: SQL clients, database admin, vector DB, time-series. Key topics: AI, Analytics, Big Data, Clickhouse, Cloud Native, and Cpp. Project details: freemium model, 49k+ GitHub stars, and built mainly in C++."
     },
     "categories": [
@@ -1932,12 +1930,11 @@
     "repo": "discourse/discourse",
     "url": "https://www.discourse.org",
     "description": {
-      "ru": "discourse — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Discourse, Ember, Forum, PostgreSQL, Rails и Ruby. Проект: бесплатный open-source проект, на GitHub 47k+ звёзд и основной стек — Ruby.",
-      "en": "discourse is a platform for community discussion. Free, open, simple. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Discourse, Ember, Forum, PostgreSQL, Rails, and Ruby. Project details: free open-source, 47k+ GitHub stars, and built mainly in Ruby."
+      "ru": "discourse — форумы, discussion-платформы и community software. Ключевые темы: Discourse, Ember, Forum, PostgreSQL, Rails и Ruby. Проект: бесплатный open-source проект, на GitHub 47k+ звёзд и основной стек — Ruby.",
+      "en": "discourse is a platform for community discussion. Free, open, simple. In this catalog (Infrastructure), listed as “Forums & Communities”: Forums, discussion platforms and community software. Key topics: Discourse, Ember, Forum, PostgreSQL, Rails, and Ruby. Project details: free open-source, 47k+ GitHub stars, and built mainly in Ruby."
     },
     "categories": [
-      "communication",
-      "websites-cms"
+      "forums-communities"
     ],
     "tags": [
       "discourse",
@@ -2023,11 +2020,11 @@
     "repo": "apache/airflow",
     "url": "https://airflow.apache.org/",
     "description": {
-      "ru": "airflow — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы. Ключевые темы: Airflow, Apache, Apache Airflow, Автоматизация, Dag и Data Engineering. Проект: бесплатный open-source проект, на GitHub 46k+ звёзд и основной стек — Python.",
-      "en": "airflow: apache Airflow - A platform to programmatically author, schedule, and monitor workflows. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Airflow, Apache, Apache Airflow, Automation, Dag, and Data Engineering. Project details: free open-source, 46k+ GitHub stars, and built mainly in Python."
+      "ru": "airflow — dAG, ETL, расписания и пайплайны данных для надёжного запуска задач. Автоматизирует процессы и связывает сервисы. Ключевые темы: Airflow, Apache, Apache Airflow, Автоматизация, Dag и Data Engineering. Проект: бесплатный open-source проект, на GitHub 46k+ звёзд и основной стек — Python.",
+      "en": "airflow: apache Airflow - A platform to programmatically author, schedule, and monitor workflows. In this catalog (Infrastructure), listed as “Data Orchestration”: DAGs, ETL, schedulers, data pipelines and orchestration. Key topics: Airflow, Apache, Apache Airflow, Automation, Dag, and Data Engineering. Project details: free open-source, 46k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
-      "automation-workflows",
+      "data-orchestration",
       "api-tools"
     ],
     "tags": [
@@ -2053,11 +2050,11 @@
     "repo": "rocketchat/Rocket.Chat",
     "url": "https://rocket.chat/",
     "description": {
-      "ru": "Rocket.Chat — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Chat, Совместная работа, Foss, Free, Meteor и Mit. Проект: бесплатный open-source проект, на GitHub 46k+ звёзд и основной стек — TypeScript.",
-      "en": "Rocket.Chat is the Secure CommsOS™ for mission-critical operations. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Chat, Collaboration, Foss, Free, Meteor, and Mit. Project details: free open-source, 46k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "Rocket.Chat — командные мессенджеры, Matrix-клиенты и платформы для рабочих чатов. Ключевые темы: Chat, Совместная работа, Foss, Free, Meteor и Mit. Проект: бесплатный open-source проект, на GitHub 46k+ звёзд и основной стек — TypeScript.",
+      "en": "Rocket.Chat is the Secure CommsOS™ for mission-critical operations. In this catalog (Infrastructure), listed as “Team Chat”: Team messengers, Matrix clients and collaboration chat platforms. Key topics: Chat, Collaboration, Foss, Free, Meteor, and Mit. Project details: free open-source, 46k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "communication"
+      "team-chat"
     ],
     "tags": [
       "chat",
@@ -2199,7 +2196,7 @@
     "url": "https://logseq.com",
     "description": {
       "ru": "logseq — база знаний, заметки и совместная работа с документами. Ключевые темы: Clojure, Clojurescript, Git, Graph, База знаний и Knowledge Graph. Проект: бесплатный open-source проект, на GitHub 44k+ звёзд и основной стек — Clojure.",
-      "en": "logseq is a privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Key topics: Clojure, Clojurescript, Git, Graph, Knowledge base, and Knowledge Graph. Project details: free open-source, 44k+ GitHub stars, and built mainly in Clojure."
+      "en": "logseq is a privacy-first, open-source platform for knowledge management and collaboration. Download link: http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Key topics: Clojure, Clojurescript, Git, Graph, Knowledge base, and Knowledge Graph. Project details: free open-source, 44k+ GitHub stars, and built mainly in Clojure."
     },
     "categories": [
       "document-collaboration"
@@ -2258,11 +2255,11 @@
     "repo": "payloadcms/payload",
     "url": "https://payloadcms.com",
     "description": {
-      "ru": "payload — блоги, лендинги и управление контентом сайта. Ориентирован на бизнес-задачи. Ключевые темы: CMS, Content Management, Content Management System, Express, GraphQL и Headless. Проект: есть бесплатный tier и платные возможности, на GitHub 44k+ звёзд и основной стек — TypeScript.",
-      "en": "payload: payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: CMS, Content Management, Content Management System, Express, GraphQL, and Headless. Project details: freemium model, 44k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "payload — aPI-first CMS, контентные модели и headless-управление сайтом. Ориентирован на бизнес-задачи. Ключевые темы: CMS, Content Management, Content Management System, Express, GraphQL и Headless. Проект: есть бесплатный tier и платные возможности, на GitHub 44k+ звёзд и основной стек — TypeScript.",
+      "en": "payload: payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications. In this catalog (Business), listed as “Headless CMS”: API-first CMS, content models and headless content management. Key topics: CMS, Content Management, Content Management System, Express, GraphQL, and Headless. Project details: freemium model, 44k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "websites-cms"
+      "headless-cms"
     ],
     "tags": [
       "cms",
@@ -2541,11 +2538,11 @@
     "repo": "mattermost/mattermost",
     "url": "https://mattermost.com",
     "description": {
-      "ru": "mattermost — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Совместная работа, Golang, Mattermost, Monorepo, React и React Native. Проект: бесплатный open-source проект, на GitHub 38k+ звёзд и основной стек — TypeScript.",
-      "en": "mattermost: mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Collaboration, Golang, Mattermost, Monorepo, React, and React Native. Project details: free open-source, 38k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "mattermost — командные мессенджеры, Matrix-клиенты и платформы для рабочих чатов. Ключевые темы: Совместная работа, Golang, Mattermost, Monorepo, React и React Native. Проект: бесплатный open-source проект, на GitHub 38k+ звёзд и основной стек — TypeScript.",
+      "en": "mattermost: mattermost is an open source platform for secure collaboration across the entire software development lifecycle.. In this catalog (Infrastructure), listed as “Team Chat”: Team messengers, Matrix clients and collaboration chat platforms. Key topics: Collaboration, Golang, Mattermost, Monorepo, React, and React Native. Project details: free open-source, 38k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "communication",
+      "team-chat",
       "project-management"
     ],
     "tags": [
@@ -2854,11 +2851,11 @@
     "repo": "directus/directus",
     "url": "https://directus.com",
     "description": {
-      "ru": "directus — блоги, лендинги и управление контентом сайта. Ключевые темы: API, App, CMS, Composable, Data Visualization и База данных. Проект: есть бесплатный tier и платные возможности, на GitHub 36k+ звёзд и основной стек — TypeScript.",
-      "en": "directus is the flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: API, App, CMS, Composable, Data Visualization, and Database. Project details: freemium model, 36k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "directus — aPI-first CMS, контентные модели и headless-управление сайтом. Ключевые темы: API, App, CMS, Composable, Data Visualization и База данных. Проект: есть бесплатный tier и платные возможности, на GitHub 36k+ звёзд и основной стек — TypeScript.",
+      "en": "directus is the flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more. In this catalog (Business), listed as “Headless CMS”: API-first CMS, content models and headless content management. Key topics: API, App, CMS, Composable, Data Visualization, and Database. Project details: freemium model, 36k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "websites-cms",
+      "headless-cms",
       "database-admin"
     ],
     "tags": [
@@ -3062,11 +3059,10 @@
     "url": "https://refine.dev",
     "description": {
       "ru": "refine — админки, панели и внутренние приложения для команды без долгой разработки. Ключевые темы: Admin, Admin Ui, Ant Design, Crud, Для разработчиков и Frontend Framework. Проект: есть бесплатный tier и платные возможности, на GitHub 35k+ звёзд и основной стек — TypeScript.",
-      "en": "refine is a React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility. In this catalog (Business), listed as “Business Low-Code”: Internal tools, admin panels, dashboard builders for teams. Key topics: Admin, Admin Ui, Ant Design, Crud, Developer tools, and Frontend Framework. Project details: freemium model, 35k+ GitHub stars, and built mainly in TypeScript."
+      "en": "refine is a React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility. In this catalog (Business), listed as “Business Low-Code”: Internal tools, admin panels, dashboard builders for teams. Key topics: Admin, Admin Ui, Ant Design, Crud, Developer tools, and Frontend Framework. Project details: freemium model, 35k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "low-code-internal",
-      "websites-cms"
+      "low-code-internal"
     ],
     "tags": [
       "admin",
@@ -3154,8 +3150,7 @@
       "en": "chatwoot: open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬. In this catalog (Business), listed as “CRM & Sales”: CRM, pipeline, leads, customer management. Key topics: Actioncable, Chat Widget, Conversation, Customer Support, Dashboard, and Design. Project details: freemium model, 34k+ GitHub stars, and built mainly in Ruby."
     },
     "categories": [
-      "crm-sales",
-      "communication"
+      "crm-sales"
     ],
     "tags": [
       "actioncable",
@@ -3308,7 +3303,7 @@
     "repo": "influxdata/influxdb",
     "url": "https://influxdata.com",
     "description": {
-      "ru": "influxdb — хранение данных, SQL-клиенты и админки баз. Подходит для голосовых сценариев. Ключевые темы: База данных, Influxdb, Metrics, Мониторинг, React и Time Series. Проект: бесплатный open-source проект, на GitHub 32k+ звёзд и основной стек — Rust.",
+      "ru": "influxdb — хранение данных, SQL-клиенты и админки баз. Ключевые темы: База данных, Influxdb, Metrics, Мониторинг, React и Time Series. Проект: бесплатный open-source проект, на GitHub 32k+ звёзд и основной стек — Rust.",
       "en": "influxdb: scalable datastore for metrics, events, and real-time analytics. In this catalog (Infrastructure), listed as “Databases & Admin”: SQL clients, database admin, vector DB, time-series. Key topics: Database, Influxdb, Metrics, Monitoring, React, and Time Series. Project details: free open-source, 32k+ GitHub stars, and built mainly in Rust."
     },
     "categories": [
@@ -3400,11 +3395,11 @@
     "repo": "jitsi/jitsi-meet",
     "url": "https://jitsi.org/meet",
     "description": {
-      "ru": "jitsi-meet — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Debian, Deep Video, Jitsi, Jitsi Meet, Scalable Video Conferences и Sfu. Проект: бесплатный open-source проект, на GitHub 30k+ звёзд и основной стек — TypeScript.",
-      "en": "jitsi-meet: jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Debian, Deep Video, Jitsi, Jitsi Meet, Scalable Video Conferences, and Sfu. Project details: free open-source, 30k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "jitsi-meet — видеозвонки, веб-конференции, WebRTC и realtime-коммуникации. Ключевые темы: Debian, Deep Video, Jitsi, Jitsi Meet, Scalable Video Conferences и Sfu. Проект: бесплатный open-source проект, на GitHub 30k+ звёзд и основной стек — TypeScript.",
+      "en": "jitsi-meet: jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. In this catalog (Infrastructure), listed as “Video Conferencing”: Video calls, web conferencing, WebRTC and realtime communication stacks. Key topics: Debian, Deep Video, Jitsi, Jitsi Meet, Scalable Video Conferences, and Sfu. Project details: free open-source, 30k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "communication"
+      "video-conferencing"
     ],
     "tags": [
       "debian",
@@ -4034,7 +4029,7 @@
     "repo": "SYSTRAN/faster-whisper",
     "url": "https://github.com/SYSTRAN/faster-whisper",
     "description": {
-      "ru": "faster-whisper — голосовые боты, синтез речи и работа с аудио/видео. Ключевые темы: Глубокое обучение, Inference, Openai, Quantization, Speech Recognition и Speech To Text. Проект: бесплатный open-source проект, на GitHub 24k+ звёзд и основной стек — Python.",
+      "ru": "faster-whisper — голосовые боты, синтез речи и работа с аудио/видео. Подходит для голосовых сценариев. Ключевые темы: Глубокое обучение, Inference, Openai, Quantization, Speech Recognition и Speech To Text. Проект: бесплатный open-source проект, на GitHub 24k+ звёзд и основной стек — Python.",
       "en": "faster-whisper: faster Whisper transcription with CTranslate2. In this catalog (AI & Agents), listed as “Voice / Multimodal”: Voice agents, TTS, multimodal conversational AI. Key topics: Deep learning, Inference, Openai, Quantization, Speech Recognition, and Speech To Text. Project details: free open-source, 24k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
@@ -4112,11 +4107,11 @@
     "repo": "node-red/node-red",
     "url": "http://nodered.org",
     "description": {
-      "ru": "node-red — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Есть визуальный или low-code интерфейс. Ключевые темы: Flow Based Programming, Мало кода, Node Red, Openjs Foundation и Visual Programming. Проект: бесплатный open-source проект, на GitHub 23k+ звёзд и основной стек — JavaScript.",
-      "en": "node-red: low-code programming for event-driven applications. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Flow Based Programming, Low-code, Node Red, Openjs Foundation, and Visual Programming. Project details: free open-source, 23k+ GitHub stars, and built mainly in JavaScript."
+      "ru": "node-red — связывает сервисы, webhooks и задачи в автоматические сценарии. Есть визуальный или low-code интерфейс. Ключевые темы: Flow Based Programming, Мало кода, Node Red, Openjs Foundation и Visual Programming. Проект: бесплатный open-source проект, на GitHub 23k+ звёзд и основной стек — JavaScript.",
+      "en": "node-red: low-code programming for event-driven applications. In this catalog (Infrastructure), listed as “Integration Automation”: Service integrations, event flows, webhooks, no-code automation. Key topics: Flow Based Programming, Low-code, Node Red, Openjs Foundation, and Visual Programming. Project details: free open-source, 23k+ GitHub stars, and built mainly in JavaScript."
     },
     "categories": [
-      "automation-workflows",
+      "integration-automation",
       "low-code-internal"
     ],
     "tags": [
@@ -4140,11 +4135,11 @@
     "repo": "prefecthq/prefect",
     "url": "https://prefect.io",
     "description": {
-      "ru": "prefect — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы. Ключевые темы: Автоматизация, Data, Data Engineering, Data Ops, Data Science и Infrastructure. Проект: бесплатный open-source проект, на GitHub 23k+ звёзд и основной стек — Python.",
-      "en": "prefect: prefect is a workflow orchestration framework for building resilient data pipelines in Python. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Automation, Data, Data Engineering, Data Ops, Data Science, and Infrastructure. Project details: free open-source, 23k+ GitHub stars, and built mainly in Python."
+      "ru": "prefect — dAG, ETL, расписания и пайплайны данных для надёжного запуска задач. Автоматизирует процессы и связывает сервисы. Ключевые темы: Автоматизация, Data, Data Engineering, Data Ops, Data Science и Infrastructure. Проект: бесплатный open-source проект, на GitHub 23k+ звёзд и основной стек — Python.",
+      "en": "prefect: prefect is a workflow orchestration framework for building resilient data pipelines in Python. In this catalog (Infrastructure), listed as “Data Orchestration”: DAGs, ETL, schedulers, data pipelines and orchestration. Key topics: Automation, Data, Data Engineering, Data Ops, Data Science, and Infrastructure. Project details: free open-source, 23k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
-      "automation-workflows"
+      "data-orchestration"
     ],
     "tags": [
       "automation",
@@ -4169,11 +4164,12 @@
     "repo": "activepieces/activepieces",
     "url": "https://www.activepieces.com",
     "description": {
-      "ru": "activepieces — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Ключевые темы: Ai Agent, Ai Agent Tools, ИИ-агенты, Ai Agents Framework, MCP и Mcp Server. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: есть бесплатный tier и платные возможности, на GitHub 23k+ звёзд и основной стек — TypeScript.",
-      "en": "activepieces: aI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Ai Agent, Ai Agent Tools, AI agents, Ai Agents Framework, MCP, and Mcp Server. Useful when you need to automate workflows and build AI agents. Project details: freemium model, 23k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "activepieces — связывает сервисы, webhooks и задачи в автоматические сценарии. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Ключевые темы: Ai Agent, Ai Agent Tools, ИИ-агенты, Ai Agents Framework, MCP и Mcp Server. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: есть бесплатный tier и платные возможности, на GitHub 23k+ звёзд и основной стек — TypeScript.",
+      "en": "activepieces: aI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents. In this catalog (Infrastructure), listed as “Integration Automation”: Service integrations, event flows, webhooks, no-code automation. Key topics: Ai Agent, Ai Agent Tools, AI agents, Ai Agents Framework, MCP, and Mcp Server. Useful when you need to automate workflows and build AI agents. Project details: freemium model, 23k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "automation-workflows"
+      "integration-automation",
+      "mcp-skills"
     ],
     "tags": [
       "ai-agent",
@@ -4351,11 +4347,11 @@
     "repo": "temporalio/temporal",
     "url": "https://docs.temporal.io",
     "description": {
-      "ru": "temporal — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Ключевые темы: Cronjob Scheduler, Distributed Cron, Distributed Systems, Durable Execution, Golang и Microservice Framework. Проект: есть бесплатный tier и платные возможности, на GitHub 22k+ звёзд и основной стек — Go.",
-      "en": "temporal: temporal service. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Cronjob Scheduler, Distributed Cron, Distributed Systems, Durable Execution, Golang, and Microservice Framework. Project details: freemium model, 22k+ GitHub stars, and built mainly in Go."
+      "ru": "temporal — bPM, durable execution и движки для бизнес- и системных процессов. Ключевые темы: Cronjob Scheduler, Distributed Cron, Distributed Systems, Durable Execution, Golang и Microservice Framework. Проект: есть бесплатный tier и платные возможности, на GitHub 22k+ звёзд и основной стек — Go.",
+      "en": "temporal: temporal service. In this catalog (Infrastructure), listed as “Workflow Engines”: BPM, durable execution and engines for business and system workflows. Key topics: Cronjob Scheduler, Distributed Cron, Distributed Systems, Durable Execution, Golang, and Microservice Framework. Project details: freemium model, 22k+ GitHub stars, and built mainly in Go."
     },
     "categories": [
-      "automation-workflows"
+      "workflow-engines"
     ],
     "tags": [
       "cronjob-scheduler",
@@ -4385,7 +4381,7 @@
     },
     "categories": [
       "api-tools",
-      "automation-workflows"
+      "data-orchestration"
     ],
     "tags": [
       "bigquery",
@@ -4469,11 +4465,11 @@
     "repo": "WordPress/WordPress",
     "url": "https://wordpress.org",
     "description": {
-      "ru": "WordPress — блоги, лендинги и управление контентом сайта. Проект: бесплатный open-source проект, на GitHub 21k+ звёзд и основной стек — PHP.",
-      "en": "WordPress: wordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Project details: free open-source, 21k+ GitHub stars, and built mainly in PHP."
+      "ru": "WordPress — блоги, редакционные сайты, подписки и классические CMS. Проект: бесплатный open-source проект, на GitHub 21k+ звёзд и основной стек — PHP.",
+      "en": "WordPress: wordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead. In this catalog (Business), listed as “Publishing CMS”: Blogs, publishing platforms, memberships and traditional CMS. Project details: free open-source, 21k+ GitHub stars, and built mainly in PHP."
     },
     "categories": [
-      "websites-cms"
+      "publishing-cms"
     ],
     "tags": [],
     "featured": false,
@@ -4663,11 +4659,11 @@
     "repo": "wagtail/wagtail",
     "url": "https://wagtail.org",
     "description": {
-      "ru": "wagtail — блоги, лендинги и управление контентом сайта. Ключевые темы: CMS, Django и Wagtail. Проект: бесплатный open-source проект, на GitHub 20k+ звёзд и основной стек — Python.",
-      "en": "wagtail is a Django content management system focused on flexibility and user experience. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: CMS, Django, and Wagtail. Project details: free open-source, 20k+ GitHub stars, and built mainly in Python."
+      "ru": "wagtail — блоги, редакционные сайты, подписки и классические CMS. Ключевые темы: CMS, Django и Wagtail. Проект: бесплатный open-source проект, на GitHub 20k+ звёзд и основной стек — Python.",
+      "en": "wagtail is a Django content management system focused on flexibility and user experience. In this catalog (Business), listed as “Publishing CMS”: Blogs, publishing platforms, memberships and traditional CMS. Key topics: CMS, Django, and Wagtail. Project details: free open-source, 20k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
-      "websites-cms"
+      "publishing-cms"
     ],
     "tags": [
       "cms",
@@ -4748,11 +4744,11 @@
     "repo": "11ty/eleventy",
     "url": "https://www.11ty.dev/",
     "description": {
-      "ru": "eleventy — блоги, лендинги и управление контентом сайта. Ключевые темы: Blog Engine, Documentation Tool, Eleventy, Static Site Generator и Templates. Проект: бесплатный open-source проект, на GitHub 20k+ звёзд и основной стек — JavaScript.",
-      "en": "eleventy is a simpler site generator. Transforms a directory of templates (of varying types) into HTML. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: Blog Engine, Documentation Tool, Eleventy, Static Site Generator, and Templates. Project details: free open-source, 20k+ GitHub stars, and built mainly in JavaScript."
+      "ru": "eleventy — генераторы статических сайтов, документации и контентных проектов. Ключевые темы: Blog Engine, Documentation Tool, Eleventy, Static Site Generator и Templates. Проект: бесплатный open-source проект, на GitHub 20k+ звёзд и основной стек — JavaScript.",
+      "en": "eleventy is a simpler site generator. Transforms a directory of templates (of varying types) into HTML. In this catalog (Business), listed as “Static Site Generators”: Static site generators for docs, blogs and content-heavy websites. Key topics: Blog Engine, Documentation Tool, Eleventy, Static Site Generator, and Templates. Project details: free open-source, 20k+ GitHub stars, and built mainly in JavaScript."
     },
     "categories": [
-      "websites-cms"
+      "static-site-generators"
     ],
     "tags": [
       "blog-engine",
@@ -4775,11 +4771,11 @@
     "repo": "livekit/livekit",
     "url": "https://docs.livekit.io",
     "description": {
-      "ru": "livekit — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Golang, Media Server, Sfu, Видео, Голос и Voice Ai. Проект: бесплатный open-source проект, на GitHub 20k+ звёзд и основной стек — Go.",
-      "en": "livekit: end-to-end realtime stack for connecting humans and AI. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Golang, Media Server, Sfu, Video, Voice, and Voice Ai. Project details: free open-source, 20k+ GitHub stars, and built mainly in Go."
+      "ru": "livekit — видеозвонки, веб-конференции, WebRTC и realtime-коммуникации. Подходит для голосовых сценариев. Ключевые темы: Golang, Media Server, Sfu, Видео, Голос и Voice Ai. Проект: бесплатный open-source проект, на GitHub 20k+ звёзд и основной стек — Go.",
+      "en": "livekit: end-to-end realtime stack for connecting humans and AI. In this catalog (Infrastructure), listed as “Video Conferencing”: Video calls, web conferencing, WebRTC and realtime communication stacks. Key topics: Golang, Media Server, Sfu, Video, Voice, and Voice Ai. Project details: free open-source, 20k+ GitHub stars, and built mainly in Go."
     },
     "categories": [
-      "communication",
+      "video-conferencing",
       "voice-multimodal"
     ],
     "tags": [
@@ -4833,11 +4829,12 @@
     "repo": "decaporg/decap-cms",
     "url": "https://decapcms.org",
     "description": {
-      "ru": "decap-cms — блоги, лендинги и управление контентом сайта. Ключевые темы: CMS, Content Management System, Decap Cms, Git Based Cms, Headless CMS и Jamstack. Проект: бесплатный open-source проект, на GitHub 19k+ звёзд и основной стек — JavaScript.",
-      "en": "decap-cms is a Git-based CMS for Static Site Generators. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: CMS, Content Management System, Decap Cms, Git Based Cms, Headless CMS, and Jamstack. Project details: free open-source, 19k+ GitHub stars, and built mainly in JavaScript."
+      "ru": "decap-cms — aPI-first CMS, контентные модели и headless-управление сайтом. Ключевые темы: CMS, Content Management System, Decap Cms, Git Based Cms, Headless CMS и Jamstack. Проект: бесплатный open-source проект, на GitHub 19k+ звёзд и основной стек — JavaScript.",
+      "en": "decap-cms is a Git-based CMS for Static Site Generators. In this catalog (Business), listed as “Headless CMS”: API-first CMS, content models and headless content management. Key topics: CMS, Content Management System, Decap Cms, Git Based Cms, Headless CMS, and Jamstack. Project details: free open-source, 19k+ GitHub stars, and built mainly in JavaScript."
     },
     "categories": [
-      "websites-cms"
+      "headless-cms",
+      "static-site-generators"
     ],
     "tags": [
       "cms",
@@ -4975,11 +4972,11 @@
     "repo": "Foundry376/Mailspring",
     "url": "https://getmailspring.com/",
     "description": {
-      "ru": "Mailspring — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Electron, Electron App, Email, Imap, Linux и Mail. Проект: бесплатный open-source проект, на GitHub 18k+ звёзд и основной стек — JavaScript.",
-      "en": "Mailspring: :love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Electron, Electron App, Email, Imap, Linux, and Mail. Project details: free open-source, 18k+ GitHub stars, and built mainly in JavaScript."
+      "ru": "Mailspring — почтовые клиенты, mail servers и командная email-инфраструктура. Ключевые темы: Electron, Electron App, Email, Imap, Linux и Mail. Проект: бесплатный open-source проект, на GitHub 18k+ звёзд и основной стек — JavaScript.",
+      "en": "Mailspring: :love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux. In this catalog (Infrastructure), listed as “Email & Groupware”: Mail clients, mail servers and team email infrastructure. Key topics: Electron, Electron App, Email, Imap, Linux, and Mail. Project details: free open-source, 18k+ GitHub stars, and built mainly in JavaScript."
     },
     "categories": [
-      "communication"
+      "email-collaboration"
     ],
     "tags": [
       "electron",
@@ -5125,11 +5122,11 @@
     "repo": "windmill-labs/windmill",
     "url": "https://windmill.dev",
     "description": {
-      "ru": "windmill — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы. Ключевые темы: Мало кода, Platform, PostgreSQL и Self Hostable. Проект: есть бесплатный tier и платные возможности, на GitHub 17k+ звёзд и основной стек — Rust.",
-      "en": "windmill: open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Low-code, Platform, PostgreSQL, and Self Hostable. Project details: freemium model, 17k+ GitHub stars, and built mainly in Rust."
+      "ru": "windmill — связывает сервисы, webhooks и задачи в автоматические сценарии. Автоматизирует процессы и связывает сервисы. Ключевые темы: Мало кода, Platform, PostgreSQL и Self Hostable. Проект: есть бесплатный tier и платные возможности, на GitHub 17k+ звёзд и основной стек — Rust.",
+      "en": "windmill: open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal. In this catalog (Infrastructure), listed as “Integration Automation”: Service integrations, event flows, webhooks, no-code automation. Key topics: Low-code, Platform, PostgreSQL, and Self Hostable. Project details: freemium model, 17k+ GitHub stars, and built mainly in Rust."
     },
     "categories": [
-      "automation-workflows",
+      "integration-automation",
       "low-code-internal"
     ],
     "tags": [
@@ -5210,11 +5207,11 @@
     "repo": "argoproj/argo-workflows",
     "url": "https://argo-workflows.readthedocs.io/",
     "description": {
-      "ru": "argo-workflows — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы. Ключевые темы: Airflow, Argo, Argo Workflows, Batch Processing, Cloud Native и Cncf. Проект: бесплатный open-source проект, на GitHub 17k+ звёзд и основной стек — Go.",
-      "en": "argo-workflows: workflow Engine for Kubernetes. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Airflow, Argo, Argo Workflows, Batch Processing, Cloud Native, and Cncf. Project details: free open-source, 17k+ GitHub stars, and built mainly in Go."
+      "ru": "argo-workflows — dAG, ETL, расписания и пайплайны данных для надёжного запуска задач. Автоматизирует процессы и связывает сервисы. Ключевые темы: Airflow, Argo, Argo Workflows, Batch Processing, Cloud Native и Cncf. Проект: бесплатный open-source проект, на GitHub 17k+ звёзд и основной стек — Go.",
+      "en": "argo-workflows: workflow Engine for Kubernetes. In this catalog (Infrastructure), listed as “Data Orchestration”: DAGs, ETL, schedulers, data pipelines and orchestration. Key topics: Airflow, Argo, Argo Workflows, Batch Processing, Cloud Native, and Cncf. Project details: free open-source, 17k+ GitHub stars, and built mainly in Go."
     },
     "categories": [
-      "automation-workflows"
+      "data-orchestration"
     ],
     "tags": [
       "airflow",
@@ -5294,11 +5291,11 @@
     "repo": "flarum/flarum",
     "url": "https://flarum.org",
     "description": {
-      "ru": "flarum — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Flarum, Forum, Laravel и Php. Проект: бесплатный open-source проект, на GitHub 16k+ звёзд и основной стек — PHP.",
-      "en": "flarum: simple forum software for building great communities. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Flarum, Forum, Laravel, and Php. Project details: free open-source, 16k+ GitHub stars, and built mainly in PHP."
+      "ru": "flarum — форумы, discussion-платформы и community software. Ключевые темы: Flarum, Forum, Laravel и Php. Проект: бесплатный open-source проект, на GitHub 16k+ звёзд и основной стек — PHP.",
+      "en": "flarum: simple forum software for building great communities. In this catalog (Infrastructure), listed as “Forums & Communities”: Forums, discussion platforms and community software. Key topics: Flarum, Forum, Laravel, and Php. Project details: free open-source, 16k+ GitHub stars, and built mainly in PHP."
     },
     "categories": [
-      "communication"
+      "forums-communities"
     ],
     "tags": [
       "flarum",
@@ -5382,11 +5379,11 @@
     "repo": "dagster-io/dagster",
     "url": "https://dagster.io",
     "description": {
-      "ru": "dagster — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Ключевые темы: Аналитика, Dagster, Data Engineering, Data Integration, Data Orchestrator и Data Pipelines. Проект: бесплатный open-source проект, на GitHub 16k+ звёзд и основной стек — Python.",
-      "en": "dagster is an orchestration platform for the development, production, and observation of data assets. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Analytics, Dagster, Data Engineering, Data Integration, Data Orchestrator, and Data Pipelines. Project details: free open-source, 16k+ GitHub stars, and built mainly in Python."
+      "ru": "dagster — dAG, ETL, расписания и пайплайны данных для надёжного запуска задач. Ключевые темы: Аналитика, Dagster, Data Engineering, Data Integration, Data Orchestrator и Data Pipelines. Проект: бесплатный open-source проект, на GitHub 16k+ звёзд и основной стек — Python.",
+      "en": "dagster is an orchestration platform for the development, production, and observation of data assets. In this catalog (Infrastructure), listed as “Data Orchestration”: DAGs, ETL, schedulers, data pipelines and orchestration. Key topics: Analytics, Dagster, Data Engineering, Data Integration, Data Orchestrator, and Data Pipelines. Project details: free open-source, 16k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
-      "automation-workflows"
+      "data-orchestration"
     ],
     "tags": [
       "analytics",
@@ -5411,11 +5408,11 @@
     "repo": "getgrav/grav",
     "url": "https://getgrav.org",
     "description": {
-      "ru": "grav — блоги, лендинги и управление контентом сайта. Обрабатывает документы и контент для ИИ. Ключевые темы: CMS, Content, Content Management, Doctrine, Flat File и Grav. Проект: бесплатный open-source проект, на GitHub 16k+ звёзд и основной стек — PHP.",
-      "en": "grav: modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: CMS, Content, Content Management, Doctrine, Flat File, and Grav. Project details: free open-source, 16k+ GitHub stars, and built mainly in PHP."
+      "ru": "grav — блоги, редакционные сайты, подписки и классические CMS. Обрабатывает документы и контент для ИИ. Ключевые темы: CMS, Content, Content Management, Doctrine, Flat File и Grav. Проект: бесплатный open-source проект, на GitHub 16k+ звёзд и основной стек — PHP.",
+      "en": "grav: modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS powered by PHP, Markdown, Twig, and Symfony. In this catalog (Business), listed as “Publishing CMS”: Blogs, publishing platforms, memberships and traditional CMS. Key topics: CMS, Content, Content Management, Doctrine, Flat File, and Grav. Project details: free open-source, 16k+ GitHub stars, and built mainly in PHP."
     },
     "categories": [
-      "websites-cms"
+      "publishing-cms"
     ],
     "tags": [
       "cms",
@@ -5500,7 +5497,7 @@
     "url": "https://www.unstructured.io/",
     "description": {
       "ru": "unstructured — собирает данные с сайтов, PDF и документов — вручную или с помощью ИИ. Автоматизирует процессы и связывает сервисы, обрабатывает документы и контент для ИИ. Ключевые темы: Data Pipelines, Глубокое обучение, Document Image Analysis, Document Image Processing, Document Parser и Document Parsing. Подходит, если нужно: автоматизирует процессы и связывает сервисы, обрабатывает документы и контент для ИИ и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект, на GitHub 15k+ звёзд и основной стек — HTML.",
-      "en": "unstructured: convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding. In this catalog (AI & Agents), listed as “Web Scraping”: Web data collection, crawlers, AI scraping, document parsing. Key topics: Data Pipelines, Deep learning, Document Image Analysis, Document Image Processing, Document Parser, and Document Parsing. Useful when you need to automate workflows and work with documents and RAG. Project details: free open-source, 15k+ GitHub stars, and built mainly in HTML."
+      "en": "unstructured: convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models. Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding. In this catalog (AI & Agents), listed as “Web Scraping”: Web data collection, crawlers, AI scraping, document parsing. Key topics: Data Pipelines, Deep learning, Document Image Analysis, Document Image Processing, Document Parser, and Document Parsing. Useful when you need to automate workflows and work with documents and RAG. Project details: free open-source, 15k+ GitHub stars, and built mainly in HTML."
     },
     "categories": [
       "web-scraping",
@@ -5584,11 +5581,11 @@
     "repo": "apache/dolphinscheduler",
     "url": "https://dolphinscheduler.apache.org/",
     "description": {
-      "ru": "dolphinscheduler — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы, есть визуальный или low-code интерфейс. Ключевые темы: Airflow, Azkaban, Cloud Native, Data Pipelines, Job Scheduler и Orchestration. Подходит, если нужно: автоматизирует процессы и связывает сервисы и есть визуальный или low-code интерфейс. Проект: бесплатный open-source проект, на GitHub 14k+ звёзд и основной стек — Java.",
-      "en": "dolphinscheduler: apache DolphinScheduler is the modern data orchestration platform. Agile to create high performance workflow with low-code. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Airflow, Azkaban, Cloud Native, Data Pipelines, Job Scheduler, and Orchestration. Project details: free open-source, 14k+ GitHub stars, and built mainly in Java."
+      "ru": "dolphinscheduler — dAG, ETL, расписания и пайплайны данных для надёжного запуска задач. Автоматизирует процессы и связывает сервисы, есть визуальный или low-code интерфейс. Ключевые темы: Airflow, Azkaban, Cloud Native, Data Pipelines, Job Scheduler и Orchestration. Подходит, если нужно: автоматизирует процессы и связывает сервисы и есть визуальный или low-code интерфейс. Проект: бесплатный open-source проект, на GitHub 14k+ звёзд и основной стек — Java.",
+      "en": "dolphinscheduler: apache DolphinScheduler is the modern data orchestration platform. Agile to create high performance workflow with low-code. In this catalog (Infrastructure), listed as “Data Orchestration”: DAGs, ETL, schedulers, data pipelines and orchestration. Key topics: Airflow, Azkaban, Cloud Native, Data Pipelines, Job Scheduler, and Orchestration. Project details: free open-source, 14k+ GitHub stars, and built mainly in Java."
     },
     "categories": [
-      "automation-workflows"
+      "data-orchestration"
     ],
     "tags": [
       "airflow",
@@ -5646,8 +5643,7 @@
       "en": "commerce: next.js Commerce. In this catalog (Business), listed as “E-commerce”: Online stores, checkout, catalogs, marketplace. Key topics: E-commerce, Nextjs, React, and Shopify. Project details: free open-source, 14k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "ecommerce",
-      "websites-cms"
+      "ecommerce"
     ],
     "tags": [
       "ecommerce",
@@ -5716,11 +5712,11 @@
     "repo": "nanobrowser/nanobrowser",
     "url": "https://nanobrowser.ai",
     "description": {
-      "ru": "nanobrowser — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Ключевые темы: Агент, ИИ, ИИ-агенты, Ai Tools, Автоматизация и Browser. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: бесплатный open-source проект, на GitHub 13k+ звёзд и основной стек — TypeScript.",
-      "en": "nanobrowser: open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Agent, AI, AI agents, Ai Tools, Automation, and Browser. Useful when you need to automate workflows and build AI agents. Project details: free open-source, 13k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "nanobrowser — запускает несколько ИИ-агентов и связывает их в цепочки задач. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Ключевые темы: Агент, ИИ, ИИ-агенты, Ai Tools, Автоматизация и Browser. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: бесплатный open-source проект, на GitHub 13k+ звёзд и основной стек — TypeScript.",
+      "en": "nanobrowser: open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. In this catalog (AI & Agents), listed as “Agent Harness”: Orchestration, multi-agent workflows, long-horizon tasks. Key topics: Agent, AI, AI agents, Ai Tools, Automation, and Browser. Useful when you need to automate workflows and build AI agents. Project details: free open-source, 13k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "automation-workflows",
+      "agent-harness",
       "web-scraping"
     ],
     "tags": [
@@ -5775,11 +5771,11 @@
     "repo": "vector-im/element-web",
     "url": "https://element.io",
     "description": {
-      "ru": "element-web — чат, видеозвонки и форумы для команды — альтернатива Slack. Проект: бесплатный open-source проект, на GitHub 13k+ звёзд и основной стек — TypeScript.",
-      "en": "element-web is a glossy Matrix collaboration client for the web. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Project details: free open-source, 13k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "element-web — командные мессенджеры, Matrix-клиенты и платформы для рабочих чатов. Проект: бесплатный open-source проект, на GitHub 13k+ звёзд и основной стек — TypeScript.",
+      "en": "element-web is a glossy Matrix collaboration client for the web. In this catalog (Infrastructure), listed as “Team Chat”: Team messengers, Matrix clients and collaboration chat platforms. Project details: free open-source, 13k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "communication"
+      "team-chat"
     ],
     "tags": [
       "hacktoberfest",
@@ -5850,7 +5846,7 @@
     "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
     "description": {
       "ru": "insanely-fast-whisper — другие полезные open-source проекты. Проект: бесплатный open-source проект, на GitHub 13k+ звёзд и основной стек — Jupyter Notebook.",
-      "en": "insanely-fast-whisper: fast Whisper transcription. Listed under “General OSS” (Infrastructure): General open-source software. It is available free of charge. The repository has 13k+ GitHub stars and is well known in its niche. Primary language: Jupyter Notebook. In this catalog (Infrastructure), listed as “General OSS”: General open-source software. Project details: free open-source, 13k+ GitHub stars, and built mainly in Jupyter Notebook. In this catalog (Infrastructure), listed as “General OSS”: General open-source software. Project details: free open-source, 13k+ GitHub stars, and built mainly in Jupyter Notebook."
+      "en": "insanely-fast-whisper: fast Whisper transcription. In this catalog (Infrastructure), listed as “General OSS”: General open-source software. Project details: free open-source, 13k+ GitHub stars, and built mainly in Jupyter Notebook."
     },
     "categories": [
       "general-oss"
@@ -6074,11 +6070,11 @@
     "repo": "matrix-org/synapse",
     "url": "https://matrix-org.github.io/synapse",
     "description": {
-      "ru": "synapse — чат, видеозвонки и форумы для команды — альтернатива Slack. Проект: бесплатный open-source проект, на GitHub 12k+ звёзд и основной стек — Python.",
-      "en": "synapse: matrix homeserver written in Python/Twisted. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Project details: free open-source, 12k+ GitHub stars, and built mainly in Python."
+      "ru": "synapse — командные мессенджеры, Matrix-клиенты и платформы для рабочих чатов. Проект: бесплатный open-source проект, на GitHub 12k+ звёзд и основной стек — Python.",
+      "en": "synapse: matrix homeserver written in Python/Twisted. In this catalog (Infrastructure), listed as “Team Chat”: Team messengers, Matrix clients and collaboration chat platforms. Project details: free open-source, 12k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
-      "communication"
+      "team-chat"
     ],
     "tags": [
       "matrix-org",
@@ -6097,8 +6093,8 @@
     "repo": "langchain-ai/open_deep_research",
     "url": "https://github.com/langchain-ai/open_deep_research",
     "description": {
-      "ru": "open_deep_research — запускает несколько ИИ-агентов и связывает их в цепочки задач. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: бесплатный open-source проект, на GitHub 12k+ звёзд и основной стек — Python.",
-      "en": "open_deep_research: deep research agent от LangChain. Listed under “Agent Harness” (AI & Agents): Orchestration, multi-agent workflows, long-horizon tasks. It is used in AI and agent-based scenarios and available free of charge. The repository has 12k+ GitHub stars and is well known in its niche. Primary language: Python. In this catalog (AI & Agents), listed as “Agent Harness”: Orchestration, multi-agent workflows, long-horizon tasks. Useful when you need to automate workflows and build AI agents. Project details: free open-source, 12k+ GitHub stars, and built mainly in Python. In this catalog (AI & Agents), listed as “Agent Harness”: Orchestration, multi-agent workflows, long-horizon tasks. Useful when you need to automate workflows and build AI agents. Project details: free open-source, 12k+ GitHub stars, and built mainly in Python."
+      "ru": "open_deep_research — запускает несколько ИИ-агентов и связывает их в цепочки задач. Работает с ИИ-агентами. Проект: бесплатный open-source проект, на GitHub 12k+ звёзд и основной стек — Python.",
+      "en": "open_deep_research: deep research agent от LangChain. In this catalog (AI & Agents), listed as “Agent Harness”: Orchestration, multi-agent workflows, long-horizon tasks. Project details: free open-source, 12k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
       "agent-harness",
@@ -6203,11 +6199,11 @@
     "url": "https://pipedream.com",
     "description": {
       "ru": "pipedream — клиенты API, шлюзы, webhooks и обмен данными между системами. Автоматизирует процессы и связывает сервисы. Ключевые темы: Apis, Автоматизация, Bash, Терминал, Data Flow и Event Sourcing. Проект: есть бесплатный tier и платные возможности, на GitHub 12k+ звёзд и основной стек — JavaScript.",
-      "en": "pipedream: connect APIs, remarkably fast.  Free for developers. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Key topics: Apis, Automation, Bash, CLI, Data Flow, and Event Sourcing. Project details: freemium model, 12k+ GitHub stars, and built mainly in JavaScript."
+      "en": "pipedream: connect APIs, remarkably fast. Free for developers. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Key topics: Apis, Automation, Bash, CLI, Data Flow, and Event Sourcing. Project details: freemium model, 12k+ GitHub stars, and built mainly in JavaScript."
     },
     "categories": [
       "api-tools",
-      "automation-workflows"
+      "integration-automation"
     ],
     "tags": [
       "apis",
@@ -6366,12 +6362,13 @@
     "repo": "bytebot-ai/bytebot",
     "url": "https://www.bytebot.ai/",
     "description": {
-      "ru": "bytebot — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы. Ключевые темы: Агент, ИИ-агенты, Агенты, ИИ, ИИ-агенты и Ai Tools. Подходит, если нужно: можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: бесплатный open-source проект, на GitHub 11k+ звёзд и основной стек — TypeScript.",
-      "en": "bytebot: bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Agent, Agentic AI, Agents, AI, AI agents, and Ai Tools. Useful when you need to self-host on your infrastructure, automate workflows, and build AI agents. Project details: free open-source, 11k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "bytebot — помогает писать, исправлять и объяснять код в редакторе или терминале. Можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы. Ключевые темы: Агент, ИИ-агенты, Агенты, ИИ, ИИ-агенты и Ai Tools. Подходит, если нужно: можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: бесплатный open-source проект, на GitHub 11k+ звёзд и основной стек — TypeScript.",
+      "en": "bytebot: bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment. In this catalog (AI & Agents), listed as “Coding Agents”: Agents for writing and editing code in IDE and terminal. Key topics: Agent, Agentic AI, Agents, AI, AI agents, and Ai Tools. Useful when you need to self-host on your infrastructure, automate workflows, and build AI agents. Project details: free open-source, 11k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "automation-workflows",
-      "coding-agents"
+      "coding-agents",
+      "agent-harness",
+      "self-hosted"
     ],
     "tags": [
       "agent",
@@ -6632,7 +6629,7 @@
     "repo": "invoiceninja/invoiceninja",
     "url": "https://invoiceninja.com",
     "description": {
-      "ru": "invoiceninja — счета, расходы, бюджет и простая бухгалтерия. Подходит для голосовых сценариев. Ключевые темы: Einvoicing, Expenses, Flutter, Invoice, Invoiceninja и Invoices. Проект: есть бесплатный tier и платные возможности, на GitHub 10k+ звёзд и основной стек — PHP.",
+      "ru": "invoiceninja — счета, расходы, бюджет и простая бухгалтерия. Ключевые темы: Einvoicing, Expenses, Flutter, Invoice, Invoiceninja и Invoices. Проект: есть бесплатный tier и платные возможности, на GitHub 10k+ звёзд и основной стек — PHP.",
       "en": "invoiceninja is a source-available invoice, quote, project and time-tracking app built with Laravel. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Key topics: Einvoicing, Expenses, Flutter, Invoice, Invoiceninja, and Invoices. Project details: freemium model, 10k+ GitHub stars, and built mainly in PHP."
     },
     "categories": [
@@ -6912,7 +6909,7 @@
     "url": "https://aoagents.dev",
     "description": {
       "ru": "Agent Orchestrator — запускает несколько ИИ-агентов и связывает их в цепочки задач. Работает с ИИ-агентами. Ключевые темы: Orchestration, Ci, Multi Agent, Agent Fleet, Agent Swarm и Claude Code. Проект: бесплатный open-source проект, на GitHub 8k+ звёзд и основной стек — Go.",
-      "en": "Agent Orchestrator: agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews. In this catalog (AI & Agents), listed as “Agent Harness”: Orchestration, multi-agent workflows, long-horizon tasks. Key topics: Orchestration, Ci, Multi Agent, Agent Fleet, Agent Swarm, and Claude Code. Project details: free open-source, 8k+ GitHub stars, and built mainly in Go."
+      "en": "Agent Orchestrator: agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews. In this catalog (AI & Agents), listed as “Agent Harness”: Orchestration, multi-agent workflows, long-horizon tasks. Key topics: Orchestration, Ci, Multi Agent, Agent Fleet, Agent Swarm, and Claude Code. Project details: free open-source, 8k+ GitHub stars, and built mainly in Go."
     },
     "categories": [
       "agent-harness",
@@ -7059,7 +7056,7 @@
     "url": "https://docs.anthropic.com/en/docs/claude-code/sdk",
     "description": {
       "ru": "Claude Agent SDK — помогает писать, исправлять и объяснять код в редакторе или терминале. Работает с ИИ-агентами. Ключевые темы: Anthropic, MCP и Hooks. Проект: бесплатный open-source проект, на GitHub 8k+ звёзд и основной стек — Python.",
-      "en": "Claude Agent SDK: sDK for building agents on Claude Code architecture: file/shell access, MCP, lifecycle hooks. Listed under “Coding Agents” (AI & Agents): Agents for writing and editing code in IDE and terminal. Related topics: Anthropic, MCP, and Hooks. It is used in AI and agent-based scenarios and available free of charge. The repository has 8k+ GitHub stars and is well known in its niche. Primary language: Python. In this catalog (AI & Agents), listed as “Coding Agents”: Agents for writing and editing code in IDE and terminal. Key topics: Anthropic, MCP, and Hooks. Project details: free open-source, 8k+ GitHub stars, and built mainly in Python. In this catalog (AI & Agents), listed as “Coding Agents”: Agents for writing and editing code in IDE and terminal. Key topics: Anthropic, MCP, and Hooks. Project details: free open-source, 8k+ GitHub stars, and built mainly in Python."
+      "en": "Claude Agent SDK: sDK for building agents on Claude Code architecture: file/shell access, MCP, lifecycle hooks. In this catalog (AI & Agents), listed as “Coding Agents”: Agents for writing and editing code in IDE and terminal. Key topics: Anthropic, MCP, and Hooks. Project details: free open-source, 8k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
       "coding-agents",
@@ -7084,7 +7081,7 @@
     "repo": "Dolibarr/dolibarr",
     "url": "https://www.dolibarr.org",
     "description": {
-      "ru": "dolibarr — счета, расходы, бюджет и простая бухгалтерия. Подходит для голосовых сценариев, ориентирован на бизнес-задачи. Ключевые темы: Учёт, Agenda, CRM, ERP, Human Resource Managment и Invoice. Подходит, если нужно: подходит для голосовых сценариев и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект, на GitHub 7k+ звёзд и основной стек — PHP.",
+      "ru": "dolibarr — счета, расходы, бюджет и простая бухгалтерия. Ориентирован на бизнес-задачи. Ключевые темы: Учёт, Agenda, CRM, ERP, Human Resource Managment и Invoice. Проект: бесплатный open-source проект, на GitHub 7k+ звёзд и основной стек — PHP.",
       "en": "dolibarr: dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). it's an open source Web application (written in PHP) designed for businesses of any sizes, foundations and freelancers. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Key topics: Accounting, Agenda, CRM, ERP, Human Resource Managment, and Invoice. Project details: free open-source, 7k+ GitHub stars, and built mainly in PHP."
     },
     "categories": [
@@ -7478,7 +7475,7 @@
     "url": "https://baserow.io",
     "description": {
       "ru": "baserow — таблицы и простые базы данных для команды — аналог Airtable. Можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы. Ключевые темы: Airtable, Аналог Airtable, Airtable Replacement, Application Builder, Automations и Дашборды. Подходит, если нужно: можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: бесплатный open-source проект, на GitHub 5k+ звёзд и основной стек — Python.",
-      "en": "baserow: build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Key topics: Airtable, Airtable alternative, Airtable Replacement, Application Builder, Automations, and Dashboards. Useful when you need to self-host on your infrastructure, automate workflows, and build AI agents. Project details: free open-source, 5k+ GitHub stars, and built mainly in Python."
+      "en": "baserow: build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Key topics: Airtable, Airtable alternative, Airtable Replacement, Application Builder, Automations, and Dashboards. Useful when you need to self-host on your infrastructure, automate workflows, and build AI agents. Project details: free open-source, 5k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
       "spreadsheets-data"
@@ -7526,12 +7523,12 @@
     "repo": "capcom6/android-sms-gateway",
     "url": "https://docs.sms-gate.app",
     "description": {
-      "ru": "android-sms-gateway — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Android, API, Encryption, Gateway, Httpsms и Sim. Проект: бесплатный open-source проект, на GitHub 5k+ звёзд и основной стек — Kotlin.",
-      "en": "android-sms-gateway is the SMS Gateway for Android™ app enables sending and receiving SMS messages through an API that can be accessed directly on the device or via a cloud server when direct device access is not possible. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Android, API, Encryption, Gateway, Httpsms, and Sim. Project details: free open-source, 5k+ GitHub stars, and built mainly in Kotlin."
+      "ru": "android-sms-gateway — клиенты API, шлюзы, webhooks и обмен данными между системами. Ключевые темы: Android, API, Encryption, Gateway, Httpsms и Sim. Проект: бесплатный open-source проект, на GitHub 5k+ звёзд и основной стек — Kotlin.",
+      "en": "android-sms-gateway is the SMS Gateway for Android™ app enables sending and receiving SMS messages through an API that can be accessed directly on the device or via a cloud server when direct device access is not possible. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Key topics: Android, API, Encryption, Gateway, Httpsms, and Sim. Project details: free open-source, 5k+ GitHub stars, and built mainly in Kotlin."
     },
     "categories": [
-      "communication",
-      "automation-workflows"
+      "api-tools",
+      "integration-automation"
     ],
     "tags": [
       "android",
@@ -8063,8 +8060,8 @@
     "repo": "InvoicePlane/InvoicePlane",
     "url": "https://www.invoiceplane.com",
     "description": {
-      "ru": "InvoicePlane — счета, расходы, бюджет и простая бухгалтерия. Можно развернуть на своём сервере, подходит для голосовых сценариев. Ключевые темы: Billing, Codeigniter, CRM, Invoiceplane, Invoices и Счета. Подходит, если нужно: можно развернуть на своём сервере и подходит для голосовых сценариев. Проект: бесплатный open-source проект и основной стек — PHP.",
-      "en": "InvoicePlane is a self-hosted open source application for managing your invoices, clients and payments. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Key topics: Billing, Codeigniter, CRM, Invoiceplane, Invoices, and Invoicing. Useful when you need to self-host on your infrastructure and run voice AI scenarios. Project details: free open-source and built mainly in PHP."
+      "ru": "InvoicePlane — счета, расходы, бюджет и простая бухгалтерия. Можно развернуть на своём сервере. Ключевые темы: Billing, Codeigniter, CRM, Invoiceplane, Invoices и Счета. Проект: бесплатный open-source проект и основной стек — PHP.",
+      "en": "InvoicePlane is a self-hosted open source application for managing your invoices, clients and payments. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Key topics: Billing, Codeigniter, CRM, Invoiceplane, Invoices, and Invoicing. Project details: free open-source and built mainly in PHP."
     },
     "categories": [
       "finance-accounting"
@@ -8186,7 +8183,7 @@
     },
     "categories": [
       "api-tools",
-      "automation-workflows"
+      "data-orchestration"
     ],
     "tags": [
       "connectors",
@@ -8239,11 +8236,11 @@
     "repo": "RevoltChat/Revolt",
     "url": "https://revolt.chat",
     "description": {
-      "ru": "Revolt — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Chat Application, Discussion Board, Stoat, Stoat Chat и Stoatchat. Проект: бесплатный open-source проект.",
-      "en": "Revolt: repository for miscellaneous repository management and discussions: https://github.com/revoltchat/revolt/discussions. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Chat Application, Discussion Board, Stoat, Stoat Chat, and Stoatchat. Project details: free open-source."
+      "ru": "Revolt — командные мессенджеры, Matrix-клиенты и платформы для рабочих чатов. Ключевые темы: Chat Application, Discussion Board, Stoat, Stoat Chat и Stoatchat. Проект: бесплатный open-source проект.",
+      "en": "Revolt: repository for miscellaneous repository management and discussions: https://github.com/revoltchat/revolt/discussions. In this catalog (Infrastructure), listed as “Team Chat”: Team messengers, Matrix clients and collaboration chat platforms. Key topics: Chat Application, Discussion Board, Stoat, Stoat Chat, and Stoatchat. Project details: free open-source."
     },
     "categories": [
-      "communication"
+      "team-chat"
     ],
     "tags": [
       "chat-application",
@@ -8263,7 +8260,7 @@
     "repo": "matthart1983/netwatch",
     "url": "https://netwatchlabs.com",
     "description": {
-      "ru": "netwatch — другие полезные open-source проекты. Подходит для голосовых сценариев. Проект: бесплатный open-source проект и основной стек — Rust.",
+      "ru": "netwatch — другие полезные open-source проекты. Проект: бесплатный open-source проект и основной стек — Rust.",
       "en": "netwatch: real-time network diagnostics in your terminal. One command, zero config, instant visibility. In this catalog (Infrastructure), listed as “General OSS”: General open-source software. Project details: free open-source and built mainly in Rust."
     },
     "categories": [
@@ -8338,7 +8335,7 @@
     "url": "https://flow.aedev.me",
     "description": {
       "ru": "Flow — другие полезные open-source проекты. Можно запускать локально. Ключевые темы: Android, Flow, Innertube, Kotlin, Music Player и Newpipe Extractor. Проект: бесплатный open-source проект и основной стек — Kotlin.",
-      "en": "Flow is a modern, feature-rich YouTube and YouTube  Music client with local recommendation for Android built with Jetpack Compose. In this catalog (Infrastructure), listed as “General OSS”: General open-source software. Key topics: Android, Flow, Innertube, Kotlin, Music Player, and Newpipe Extractor. Project details: free open-source and built mainly in Kotlin."
+      "en": "Flow is a modern, feature-rich YouTube and YouTube Music client with local recommendation for Android built with Jetpack Compose. In this catalog (Infrastructure), listed as “General OSS”: General open-source software. Key topics: Android, Flow, Innertube, Kotlin, Music Player, and Newpipe Extractor. Project details: free open-source and built mainly in Kotlin."
     },
     "categories": [
       "general-oss"
@@ -8470,7 +8467,7 @@
     "url": "https://parallelcode.app",
     "description": {
       "ru": "Parallel Code — помогает писать, исправлять и объяснять код в редакторе или терминале. Работает с ИИ-агентами. Ключевые темы: Worktree, Multi Agent, Терминал, ИИ-агенты, Ai Coding и Ai Tools. Проект: бесплатный open-source проект и основной стек — TypeScript.",
-      "en": "Parallel Code: run Claude Code, Codex, and Gemini side by side — each in      its own git worktree. In this catalog (AI & Agents), listed as “Coding Agents”: Agents for writing and editing code in IDE and terminal. Key topics: Worktree, Multi Agent, CLI, AI agents, Ai Coding, and Ai Tools. Project details: free open-source and built mainly in TypeScript."
+      "en": "Parallel Code: run Claude Code, Codex, and Gemini side by side — each in its own git worktree. In this catalog (AI & Agents), listed as “Coding Agents”: Agents for writing and editing code in IDE and terminal. Key topics: Worktree, Multi Agent, CLI, AI agents, Ai Coding, and Ai Tools. Project details: free open-source and built mainly in TypeScript."
     },
     "categories": [
       "coding-agents"
@@ -8840,12 +8837,12 @@
     "repo": "webiny/webiny",
     "url": "http://www.webiny.com/",
     "description": {
-      "ru": "webiny — блоги, лендинги и управление контентом сайта. Ключевые темы: Mongodb, Php, Platform, React, Webiny и Webpack. Проект: есть бесплатный tier и платные возможности и основной стек — JavaScript.",
-      "en": "webiny: [NOT MAINTAINED] Main Webiny app responsible for parsing requests and bootstrapping other apps. Includes all the core ReactJs components. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: Mongodb, Php, Platform, React, Webiny, and Webpack. Project details: freemium model and built mainly in JavaScript."
+      "ru": "webiny — aPI-first CMS, контентные модели и headless-управление сайтом. Ключевые темы: Mongodb, Php, Platform, React, Webiny и Webpack. Проект: есть бесплатный tier и платные возможности и основной стек — JavaScript.",
+      "en": "webiny: [NOT MAINTAINED] Main Webiny app responsible for parsing requests and bootstrapping other apps. Includes all the core ReactJs components. In this catalog (Business), listed as “Headless CMS”: API-first CMS, content models and headless content management. Key topics: Mongodb, Php, Platform, React, Webiny, and Webpack. Project details: freemium model and built mainly in JavaScript."
     },
     "categories": [
-      "websites-cms",
-      "low-code-internal"
+      "headless-cms",
+      "visual-site-builders"
     ],
     "tags": [
       "javascript",
@@ -8870,7 +8867,7 @@
     "url": "https://www.npmjs.com/package/rolecraft",
     "description": {
       "ru": "Rolecraft — подключает внешние сервисы и инструменты к ИИ-агентам. Работает с ИИ-агентами, можно запускать локально. Ключевые темы: Терминал, Skills, Cursor, Claude Code, Агент и ИИ. Подходит, если нужно: работает с ИИ-агентами и можно запускать локально. Проект: бесплатный open-source проект и основной стек — JavaScript.",
-      "en": "Rolecraft: zero-dependency CLI to install AI agent skills directly from any source. No marketplace, no registry, no signup — just point it at a local folder or a GitHub repo and it works.  Works with opencode, claude-code, cursor, and all spec-compliant agents. In this catalog (AI & Agents), listed as “MCP / Skills”: Model Context Protocol, agent skills, integration protocols. Key topics: CLI, Skills, Cursor, Claude Code, Agent, and AI. Project details: free open-source and built mainly in JavaScript."
+      "en": "Rolecraft: zero-dependency CLI to install AI agent skills directly from any source. No marketplace, no registry, no signup — just point it at a local folder or a GitHub repo and it works. Works with opencode, claude-code, cursor, and all spec-compliant agents. In this catalog (AI & Agents), listed as “MCP / Skills”: Model Context Protocol, agent skills, integration protocols. Key topics: CLI, Skills, Cursor, Claude Code, Agent, and AI. Project details: free open-source and built mainly in JavaScript."
     },
     "categories": [
       "mcp-skills"
@@ -8959,8 +8956,8 @@
     "repo": "focalboard/focalboard",
     "url": "https://github.com/focalboard/focalboard",
     "description": {
-      "ru": "focalboard — канбан, списки задач, дорожные карты для команды. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "focalboard: open-source Trello/Notion boards от Mattermost. Listed under “Project Management” (Business): Tasks, kanban, agile, roadmaps, team planning. It is available free of charge. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: free open-source. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: free open-source."
+      "ru": "focalboard — канбан, списки задач, дорожные карты для команды. Проект: бесплатный open-source проект.",
+      "en": "focalboard: open-source Trello/Notion boards от Mattermost. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: free open-source."
     },
     "categories": [
       "project-management"
@@ -9003,8 +9000,8 @@
     "repo": "tadata-org/telegram-mcp",
     "url": "https://github.com/tadata-org/telegram-mcp",
     "description": {
-      "ru": "telegram-mcp — подключает внешние сервисы и инструменты к ИИ-агентам. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: бесплатный open-source проект.",
-      "en": "telegram-mcp: mCP server для Telegram integration. Listed under “MCP / Skills” (AI & Agents): Model Context Protocol, agent skills, integration protocols. It is helps automate workflows and connect services and available free of charge. In this catalog (AI & Agents), listed as “MCP / Skills”: Model Context Protocol, agent skills, integration protocols. Useful when you need to automate workflows and build AI agents. Project details: free open-source. In this catalog (AI & Agents), listed as “MCP / Skills”: Model Context Protocol, agent skills, integration protocols. Useful when you need to automate workflows and build AI agents. Project details: free open-source."
+      "ru": "telegram-mcp — подключает внешние сервисы и инструменты к ИИ-агентам. Автоматизирует процессы и связывает сервисы. Проект: бесплатный open-source проект.",
+      "en": "telegram-mcp: mCP server для Telegram integration. In this catalog (AI & Agents), listed as “MCP / Skills”: Model Context Protocol, agent skills, integration protocols. Project details: free open-source."
     },
     "categories": [
       "mcp-skills",
@@ -9021,8 +9018,8 @@
     "repo": "gristlabs/grist",
     "url": "https://github.com/gristlabs/grist",
     "description": {
-      "ru": "grist — таблицы и простые базы данных для команды — аналог Airtable. Есть визуальный или low-code интерфейс, ориентирован на бизнес-задачи. Подходит, если нужно: есть визуальный или low-code интерфейс и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "grist: spreadsheet с relational data model и formulas. Listed under “Spreadsheets & Data” (Business): Airtable alternatives, spreadsheets, data grids, no-code databases. It is available free of charge. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
+      "ru": "grist — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
+      "en": "grist: spreadsheet с relational data model и formulas. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
     },
     "categories": [
       "spreadsheets-data"
@@ -9038,11 +9035,11 @@
     "repo": "hugoio/hugo",
     "url": "https://github.com/hugoio/hugo",
     "description": {
-      "ru": "hugo — блоги, лендинги и управление контентом сайта. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "hugo: static site generator — ultra fast. Listed under “Websites & CMS” (Business): CMS, headless CMS, blogs, site builders, landing pages. It is available free of charge. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Project details: free open-source. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Project details: free open-source."
+      "ru": "hugo — генераторы статических сайтов, документации и контентных проектов. Проект: бесплатный open-source проект.",
+      "en": "hugo: static site generator — ultra fast. In this catalog (Business), listed as “Static Site Generators”: Static site generators for docs, blogs and content-heavy websites. Project details: free open-source."
     },
     "categories": [
-      "websites-cms"
+      "static-site-generators"
     ],
     "tags": [],
     "featured": false,
@@ -9055,11 +9052,11 @@
     "repo": "astro-build/astro",
     "url": "https://github.com/astro-build/astro",
     "description": {
-      "ru": "astro — блоги, лендинги и управление контентом сайта. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "astro: content-focused web framework. Listed under “Websites & CMS” (Business): CMS, headless CMS, blogs, site builders, landing pages. It is available free of charge. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Project details: free open-source. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Project details: free open-source."
+      "ru": "astro — генераторы статических сайтов, документации и контентных проектов. Проект: бесплатный open-source проект.",
+      "en": "astro: content-focused web framework. In this catalog (Business), listed as “Static Site Generators”: Static site generators for docs, blogs and content-heavy websites. Project details: free open-source."
     },
     "categories": [
-      "websites-cms"
+      "static-site-generators"
     ],
     "tags": [],
     "featured": false,
@@ -9072,8 +9069,8 @@
     "repo": "listmonk/listmonk",
     "url": "https://github.com/listmonk/listmonk",
     "description": {
-      "ru": "listmonk — email-рассылки, формы, опросы и продвижение. Можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы. Подходит, если нужно: можно развернуть на своём сервере, автоматизирует процессы и связывает сервисы и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "listmonk: self-hosted newsletter и mailing list manager. Listed under “Marketing & Email” (Business): Email campaigns, marketing automation, SEO, social scheduling. It is suitable for self-hosting and available free of charge. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Useful when you need to self-host on your infrastructure and automate workflows. Project details: free open-source. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Useful when you need to self-host on your infrastructure and automate workflows. Project details: free open-source."
+      "ru": "listmonk — email-рассылки, формы, опросы и продвижение. Можно развернуть на своём сервере. Проект: бесплатный open-source проект.",
+      "en": "listmonk: self-hosted newsletter и mailing list manager. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source."
     },
     "categories": [
       "marketing-email"
@@ -9090,7 +9087,7 @@
     "url": "https://github.com/openproject/openproject",
     "description": {
       "ru": "openproject — канбан, списки задач, дорожные карты для команды. Ориентирован на бизнес-задачи. Проект: есть бесплатный tier и платные возможности.",
-      "en": "openproject: enterprise project management — Gantt, agile, time tracking. Listed under “Project Management” (Business): Tasks, kanban, agile, roadmaps, team planning. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: freemium model. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: freemium model."
+      "en": "openproject: enterprise project management — Gantt, agile, time tracking. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: freemium model."
     },
     "categories": [
       "project-management"
@@ -9106,8 +9103,8 @@
     "repo": "vikunja/vikunja",
     "url": "https://github.com/vikunja/vikunja",
     "description": {
-      "ru": "vikunja — канбан, списки задач, дорожные карты для команды. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "vikunja: to-do app для personal и team task management. Listed under “Project Management” (Business): Tasks, kanban, agile, roadmaps, team planning. It is available free of charge. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: free open-source. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: free open-source."
+      "ru": "vikunja — канбан, списки задач, дорожные карты для команды. Проект: бесплатный open-source проект.",
+      "en": "vikunja: to-do app для personal и team task management. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: free open-source."
     },
     "categories": [
       "project-management"
@@ -9123,11 +9120,11 @@
     "repo": "Zulko/zulip",
     "url": "https://github.com/Zulko/zulip",
     "description": {
-      "ru": "zulip — чат, видеозвонки и форумы для команды — альтернатива Slack. Проект: бесплатный open-source проект.",
-      "en": "zulip: threaded team chat — organized conversations. Listed under “Team Communication” (Infrastructure): Team chat, video, forums — Slack/Discord alternatives. It is available free of charge. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Project details: free open-source. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Project details: free open-source."
+      "ru": "zulip — командные мессенджеры, Matrix-клиенты и платформы для рабочих чатов. Проект: бесплатный open-source проект.",
+      "en": "zulip: threaded team chat — organized conversations. In this catalog (Infrastructure), listed as “Team Chat”: Team messengers, Matrix clients and collaboration chat platforms. Project details: free open-source."
     },
     "categories": [
-      "communication"
+      "team-chat"
     ],
     "tags": [],
     "featured": false,
@@ -9140,8 +9137,8 @@
     "repo": "memos/memos",
     "url": "https://github.com/memos/memos",
     "description": {
-      "ru": "memos — база знаний, заметки и совместная работа с документами. Обрабатывает документы и контент для ИИ, ориентирован на бизнес-задачи. Подходит, если нужно: обрабатывает документы и контент для ИИ и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "memos: lightweight notes и knowledge sharing. Listed under “Documents & Wiki” (Business): Wiki, knowledge base, document management, Notion alternatives. It is available free of charge. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source."
+      "ru": "memos — база знаний, заметки и совместная работа с документами. Проект: бесплатный open-source проект.",
+      "en": "memos: lightweight notes и knowledge sharing. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source."
     },
     "categories": [
       "document-collaboration"
@@ -9157,8 +9154,8 @@
     "repo": "dashyhq/dashy",
     "url": "https://github.com/dashyhq/dashy",
     "description": {
-      "ru": "dashy — админки, панели и внутренние приложения для команды без долгой разработки. Можно развернуть на своём сервере, есть визуальный или low-code интерфейс. Подходит, если нужно: можно развернуть на своём сервере, есть визуальный или low-code интерфейс и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "dashy: self-hosted dashboard для homelab и business links. Listed under “Business Low-Code” (Business): Internal tools, admin panels, dashboard builders for teams. It is suitable for self-hosting and available free of charge. In this catalog (Business), listed as “Business Low-Code”: Internal tools, admin panels, dashboard builders for teams. Project details: free open-source. In this catalog (Business), listed as “Business Low-Code”: Internal tools, admin panels, dashboard builders for teams. Project details: free open-source."
+      "ru": "dashy — админки, панели и внутренние приложения для команды без долгой разработки. Можно развернуть на своём сервере, ориентирован на бизнес-задачи. Подходит, если нужно: можно развернуть на своём сервере и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
+      "en": "dashy: self-hosted dashboard для homelab и business links. In this catalog (Business), listed as “Business Low-Code”: Internal tools, admin panels, dashboard builders for teams. Project details: free open-source."
     },
     "categories": [
       "low-code-internal"
@@ -9174,8 +9171,8 @@
     "repo": "steampipe-io/steampipe",
     "url": "https://github.com/steampipe-io/steampipe",
     "description": {
-      "ru": "steampipe — клиенты API, шлюзы, webhooks и обмен данными между системами. Автоматизирует процессы и связывает сервисы. Проект: есть бесплатный tier и платные возможности.",
-      "en": "steampipe: query cloud APIs with SQL — AWS, GCP, Azure. Listed under “API & Integrations” (Infrastructure): API clients, gateways, webhooks, ETL, data pipelines. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Project details: freemium model. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Project details: freemium model."
+      "ru": "steampipe — клиенты API, шлюзы, webhooks и обмен данными между системами. Проект: есть бесплатный tier и платные возможности.",
+      "en": "steampipe: query cloud APIs with SQL — AWS, GCP, Azure. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Project details: freemium model."
     },
     "categories": [
       "api-tools",
@@ -9192,8 +9189,8 @@
     "repo": "seafile/seafile",
     "url": "https://github.com/seafile/seafile",
     "description": {
-      "ru": "seafile — база знаний, заметки и совместная работа с документами. Обрабатывает документы и контент для ИИ, ориентирован на бизнес-задачи. Подходит, если нужно: обрабатывает документы и контент для ИИ и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "seafile: enterprise file sync and share. Listed under “Documents & Wiki” (Business): Wiki, knowledge base, document management, Notion alternatives. It is available free of charge. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source."
+      "ru": "seafile — база знаний, заметки и совместная работа с документами. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
+      "en": "seafile: enterprise file sync and share. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source."
     },
     "categories": [
       "document-collaboration"
@@ -9263,8 +9260,8 @@
     "repo": "univerjs/univer",
     "url": "https://github.com/univerjs/univer",
     "description": {
-      "ru": "univer — таблицы и простые базы данных для команды — аналог Airtable. Есть визуальный или low-code интерфейс, ориентирован на бизнес-задачи. Подходит, если нужно: есть визуальный или low-code интерфейс и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "univer: open-source office suite: sheets, docs, slides. Listed under “Spreadsheets & Data” (Business): Airtable alternatives, spreadsheets, data grids, no-code databases. It is available free of charge. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
+      "ru": "univer — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
+      "en": "univer: open-source office suite: sheets, docs, slides. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
     },
     "categories": [
       "spreadsheets-data",
@@ -9281,8 +9278,8 @@
     "repo": "myliang/Luckysheet",
     "url": "https://github.com/myliang/Luckysheet",
     "description": {
-      "ru": "Luckysheet — таблицы и простые базы данных для команды — аналог Airtable. Есть визуальный или low-code интерфейс, ориентирован на бизнес-задачи. Подходит, если нужно: есть визуальный или low-code интерфейс и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "Luckysheet: online spreadsheet — Excel-like в браузере. Listed under “Spreadsheets & Data” (Business): Airtable alternatives, spreadsheets, data grids, no-code databases. It is available free of charge. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
+      "ru": "Luckysheet — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
+      "en": "Luckysheet: online spreadsheet — Excel-like в браузере. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
     },
     "categories": [
       "spreadsheets-data"
@@ -9298,8 +9295,8 @@
     "repo": "ethercalc/ethercalc",
     "url": "https://github.com/ethercalc/ethercalc",
     "description": {
-      "ru": "ethercalc — таблицы и простые базы данных для команды — аналог Airtable. Есть визуальный или low-code интерфейс, ориентирован на бизнес-задачи. Подходит, если нужно: есть визуальный или low-code интерфейс и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "ethercalc: collaborative realtime spreadsheet. Listed under “Spreadsheets & Data” (Business): Airtable alternatives, spreadsheets, data grids, no-code databases. It is available free of charge. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
+      "ru": "ethercalc — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
+      "en": "ethercalc: collaborative realtime spreadsheet. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
     },
     "categories": [
       "spreadsheets-data"
@@ -9374,8 +9371,8 @@
     "repo": "rowsncolumns/open_spreadsheet",
     "url": "https://github.com/rowsncolumns/open_spreadsheet",
     "description": {
-      "ru": "open_spreadsheet — таблицы и простые базы данных для команды — аналог Airtable. Есть визуальный или low-code интерфейс, ориентирован на бизнес-задачи. Подходит, если нужно: есть визуальный или low-code интерфейс и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "open_spreadsheet: high-performance spreadsheet engine. Listed under “Spreadsheets & Data” (Business): Airtable alternatives, spreadsheets, data grids, no-code databases. It is available free of charge. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
+      "ru": "open_spreadsheet — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
+      "en": "open_spreadsheet: high-performance spreadsheet engine. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
     },
     "categories": [
       "spreadsheets-data"
@@ -9391,8 +9388,8 @@
     "repo": "graphweaver/graphweaver",
     "url": "https://github.com/graphweaver/graphweaver",
     "description": {
-      "ru": "graphweaver — таблицы и простые базы данных для команды — аналог Airtable. Есть визуальный или low-code интерфейс, ориентирован на бизнес-задачи. Подходит, если нужно: есть визуальный или low-code интерфейс и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "graphweaver: instant GraphQL API из spreadsheets и SQL. Listed under “Spreadsheets & Data” (Business): Airtable alternatives, spreadsheets, data grids, no-code databases. It is available free of charge. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
+      "ru": "graphweaver — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
+      "en": "graphweaver: instant GraphQL API из spreadsheets и SQL. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
     },
     "categories": [
       "spreadsheets-data",
@@ -9409,8 +9406,8 @@
     "repo": "papermerge/papermerge",
     "url": "https://github.com/papermerge/papermerge",
     "description": {
-      "ru": "papermerge — база знаний, заметки и совместная работа с документами. Обрабатывает документы и контент для ИИ, ориентирован на бизнес-задачи. Подходит, если нужно: обрабатывает документы и контент для ИИ и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "papermerge: document management system для архивов и OCR. Listed under “Documents & Wiki” (Business): Wiki, knowledge base, document management, Notion alternatives. It is available free of charge. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source."
+      "ru": "papermerge — база знаний, заметки и совместная работа с документами. Обрабатывает документы и контент для ИИ. Проект: бесплатный open-source проект.",
+      "en": "papermerge: document management system для архивов и OCR. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source."
     },
     "categories": [
       "document-collaboration",
@@ -9519,7 +9516,7 @@
     "url": "https://www.idempiere.org/",
     "description": {
       "ru": "idempiere — склад, HR, производство и операционные процессы компании. Ориентирован на бизнес-задачи. Ключевые темы: Учёт, Business, Community, CRM, ERP и Idempiere. Проект: бесплатный open-source проект и основной стек — Java.",
-      "en": "idempiere: iDempiere. Community Powered Enterprise.  Full Open Source Business Suite ERP/CRM/MFG/SCM/POS. In this catalog (Business), listed as “ERP & Operations”: ERP, HR, inventory, manufacturing, business operations. Key topics: Accounting, Business, Community, CRM, ERP, and Idempiere. Project details: free open-source and built mainly in Java."
+      "en": "idempiere: iDempiere. Community Powered Enterprise. Full Open Source Business Suite ERP/CRM/MFG/SCM/POS. In this catalog (Business), listed as “ERP & Operations”: ERP, HR, inventory, manufacturing, business operations. Key topics: Accounting, Business, Community, CRM, ERP, and Idempiere. Project details: free open-source and built mainly in Java."
     },
     "categories": [
       "erp-operations"
@@ -9573,8 +9570,8 @@
     "repo": "horilla/horilla",
     "url": "https://github.com/horilla/horilla",
     "description": {
-      "ru": "horilla — склад, HR, производство и операционные процессы компании. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "horilla: modern HRMS — attendance, payroll, recruitment. Listed under “ERP & Operations” (Business): ERP, HR, inventory, manufacturing, business operations. It is available free of charge. In this catalog (Business), listed as “ERP & Operations”: ERP, HR, inventory, manufacturing, business operations. Project details: free open-source. In this catalog (Business), listed as “ERP & Operations”: ERP, HR, inventory, manufacturing, business operations. Project details: free open-source."
+      "ru": "horilla — склад, HR, производство и операционные процессы компании. Проект: бесплатный open-source проект.",
+      "en": "horilla: modern HRMS — attendance, payroll, recruitment. In this catalog (Business), listed as “ERP & Operations”: ERP, HR, inventory, manufacturing, business operations. Project details: free open-source."
     },
     "categories": [
       "erp-operations"
@@ -9591,7 +9588,7 @@
     "url": "https://github.com/orangehrm/orangehrm",
     "description": {
       "ru": "orangehrm — склад, HR, производство и операционные процессы компании. Ориентирован на бизнес-задачи. Ключевые темы: Enterprise, Hr, Leave Management, Mysql, Orangehrm и Php. Проект: бесплатный open-source проект и основной стек — PHP.",
-      "en": "orangehrm: orangeHRM is a comprehensive Human Resource Management (HRM) System that captures  all the essential functionalities required for any enterprise. In this catalog (Business), listed as “ERP & Operations”: ERP, HR, inventory, manufacturing, business operations. Key topics: Enterprise, Hr, Leave Management, Mysql, Orangehrm, and Php. Project details: free open-source and built mainly in PHP."
+      "en": "orangehrm: orangeHRM is a comprehensive Human Resource Management (HRM) System that captures all the essential functionalities required for any enterprise. In this catalog (Business), listed as “ERP & Operations”: ERP, HR, inventory, manufacturing, business operations. Key topics: Enterprise, Hr, Leave Management, Mysql, Orangehrm, and Php. Project details: free open-source and built mainly in PHP."
     },
     "categories": [
       "erp-operations"
@@ -9675,8 +9672,7 @@
       "en": "lms: easy to Use, 100% Open Source Learning Management System. In this catalog (Business), listed as “ERP & Operations”: ERP, HR, inventory, manufacturing, business operations. Key topics: Courses Management System, Education, Frappe, Learning, Learning Management System, and Lms. Project details: free open-source and built mainly in Vue."
     },
     "categories": [
-      "erp-operations",
-      "websites-cms"
+      "erp-operations"
     ],
     "tags": [
       "courses-management-system",
@@ -9806,8 +9802,8 @@
     "repo": "eventyay/open-event",
     "url": "https://github.com/eventyay/open-event",
     "description": {
-      "ru": "open-event — email-рассылки, формы, опросы и продвижение. Автоматизирует процессы и связывает сервисы, ориентирован на бизнес-задачи. Подходит, если нужно: автоматизирует процессы и связывает сервисы и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "open-event: event management — tickets, schedules, call for papers. Listed under “Marketing & Email” (Business): Email campaigns, marketing automation, SEO, social scheduling. It is available free of charge. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source."
+      "ru": "open-event — email-рассылки, формы, опросы и продвижение. Проект: бесплатный open-source проект.",
+      "en": "open-event: event management — tickets, schedules, call for papers. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source."
     },
     "categories": [
       "marketing-email",
@@ -9854,7 +9850,7 @@
     "url": "https://matomo.org/",
     "description": {
       "ru": "matomo — email-рассылки, формы, опросы и продвижение. Есть визуальный или low-code интерфейс. Ключевые темы: Аналитика, Growth, Intranet, Log, Маркетинг и Matomo. Проект: есть бесплатный tier и платные возможности, на GitHub 22k+ звёзд и основной стек — PHP.",
-      "en": "matomo: empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Key topics: Analytics, Growth, Intranet, Log, Marketing, and Matomo. Project details: freemium model, 22k+ GitHub stars, and built mainly in PHP."
+      "en": "matomo: empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️ – Pull Requests welcome! In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Key topics: Analytics, Growth, Intranet, Log, Marketing, and Matomo. Project details: freemium model, 22k+ GitHub stars, and built mainly in PHP."
     },
     "categories": [
       "marketing-email",
@@ -9969,8 +9965,8 @@
     "repo": "keila-app/keila",
     "url": "https://github.com/keila-app/keila",
     "description": {
-      "ru": "keila — email-рассылки, формы, опросы и продвижение. Автоматизирует процессы и связывает сервисы, ориентирован на бизнес-задачи. Подходит, если нужно: автоматизирует процессы и связывает сервисы и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "keila: newsletter tool — Mailchimp alternative. Listed under “Marketing & Email” (Business): Email campaigns, marketing automation, SEO, social scheduling. It is available free of charge. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source."
+      "ru": "keila — email-рассылки, формы, опросы и продвижение. Проект: бесплатный open-source проект.",
+      "en": "keila: newsletter tool — Mailchimp alternative. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source."
     },
     "categories": [
       "marketing-email"
@@ -9991,7 +9987,7 @@
     },
     "categories": [
       "marketing-email",
-      "automation-workflows"
+      "integration-automation"
     ],
     "tags": [
       "automation",
@@ -10069,8 +10065,8 @@
     "repo": "SurveyKing/survey-king",
     "url": "https://github.com/SurveyKing/survey-king",
     "description": {
-      "ru": "survey-king — email-рассылки, формы, опросы и продвижение. Автоматизирует процессы и связывает сервисы, ориентирован на бизнес-задачи. Подходит, если нужно: автоматизирует процессы и связывает сервисы и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "survey-king: survey и questionnaire builder. Listed under “Marketing & Email” (Business): Email campaigns, marketing automation, SEO, social scheduling. It is available free of charge. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source."
+      "ru": "survey-king — email-рассылки, формы, опросы и продвижение. Проект: бесплатный open-source проект.",
+      "en": "survey-king: survey и questionnaire builder. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source."
     },
     "categories": [
       "marketing-email"
@@ -10115,12 +10111,11 @@
     "repo": "mailcow/mailcow-dockerized",
     "url": "https://mailcow.email",
     "description": {
-      "ru": "mailcow-dockerized — email-рассылки, формы, опросы и продвижение. Ключевые темы: Acme, Clamav, Docker Compose, Dovecot, Groupware и Imap. Проект: бесплатный open-source проект, на GitHub 13k+ звёзд и основной стек — JavaScript.",
-      "en": "mailcow-dockerized: mailcow: dockerized - 🐮 + 🐋 = 💕. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Key topics: Acme, Clamav, Docker Compose, Dovecot, Groupware, and Imap. Project details: free open-source, 13k+ GitHub stars, and built mainly in JavaScript."
+      "ru": "mailcow-dockerized — почтовые клиенты, mail servers и командная email-инфраструктура. Ключевые темы: Acme, Clamav, Docker Compose, Dovecot, Groupware и Imap. Проект: бесплатный open-source проект, на GitHub 13k+ звёзд и основной стек — JavaScript.",
+      "en": "mailcow-dockerized: mailcow: dockerized - 🐮 + 🐋 = 💕. In this catalog (Infrastructure), listed as “Email & Groupware”: Mail clients, mail servers and team email infrastructure. Key topics: Acme, Clamav, Docker Compose, Dovecot, Groupware, and Imap. Project details: free open-source, 13k+ GitHub stars, and built mainly in JavaScript."
     },
     "categories": [
-      "marketing-email",
-      "communication"
+      "email-collaboration"
     ],
     "tags": [
       "acme",
@@ -10145,12 +10140,11 @@
     "repo": "Mailu/Mailu",
     "url": "https://mailu.io",
     "description": {
-      "ru": "Mailu — email-рассылки, формы, опросы и продвижение. Ключевые темы: Dkim, Dmarc, Docker Compose, Email, Fetchmail и Imap. Проект: бесплатный open-source проект, на GitHub 7k+ звёзд и основной стек — Python.",
-      "en": "Mailu: insular email distribution - mail server as Docker images. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Key topics: Dkim, Dmarc, Docker Compose, Email, Fetchmail, and Imap. Project details: free open-source, 7k+ GitHub stars, and built mainly in Python."
+      "ru": "Mailu — почтовые клиенты, mail servers и командная email-инфраструктура. Ключевые темы: Dkim, Dmarc, Docker Compose, Email, Fetchmail и Imap. Проект: бесплатный open-source проект, на GitHub 7k+ звёзд и основной стек — Python.",
+      "en": "Mailu: insular email distribution - mail server as Docker images. In this catalog (Infrastructure), listed as “Email & Groupware”: Mail clients, mail servers and team email infrastructure. Key topics: Dkim, Dmarc, Docker Compose, Email, Fetchmail, and Imap. Project details: free open-source, 7k+ GitHub stars, and built mainly in Python."
     },
     "categories": [
-      "marketing-email",
-      "communication"
+      "email-collaboration"
     ],
     "tags": [
       "dkim",
@@ -10507,8 +10501,8 @@
     "repo": "kimai/kimai",
     "url": "https://www.kimai.org",
     "description": {
-      "ru": "kimai — счета, расходы, бюджет и простая бухгалтерия. Можно развернуть на своём сервере, подходит для голосовых сценариев. Ключевые темы: Doctrine, Invoice, Счета, Kimai, Multilanguage и Php. Подходит, если нужно: можно развернуть на своём сервере и подходит для голосовых сценариев. Проект: бесплатный open-source проект и основной стек — PHP.",
-      "en": "kimai: kimai is the #1 open-source time-tracking application. From freelancers to companies and organisations - everyone can manage timesheets, generate reports, create invoices and so much more... Web-based multi-user application, available as On-Premise or SaaS version: https://www.kimai.org. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Key topics: Doctrine, Invoice, Invoicing, Kimai, Multilanguage, and Php. Useful when you need to self-host on your infrastructure and run voice AI scenarios. Project details: free open-source and built mainly in PHP."
+      "ru": "kimai — счета, расходы, бюджет и простая бухгалтерия. Можно развернуть на своём сервере. Ключевые темы: Doctrine, Invoice, Счета, Kimai, Multilanguage и Php. Проект: бесплатный open-source проект и основной стек — PHP.",
+      "en": "kimai: kimai is the #1 open-source time-tracking application. From freelancers to companies and organisations - everyone can manage timesheets, generate reports, create invoices and so much more... Web-based multi-user application, available as On-Premise or SaaS version: https://www.kimai.org. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Key topics: Doctrine, Invoice, Invoicing, Kimai, Multilanguage, and Php. Project details: free open-source and built mainly in PHP."
     },
     "categories": [
       "finance-accounting",
@@ -10559,8 +10553,8 @@
     "repo": "OpenBudgeteer/Budgeteer",
     "url": "https://github.com/OpenBudgeteer/Budgeteer",
     "description": {
-      "ru": "Budgeteer — счета, расходы, бюджет и простая бухгалтерия. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "Budgeteer: personal budget planning app. Listed under “Finance & Accounting” (Business): Invoicing, accounting, expenses, ERP-lite. It is available free of charge. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Project details: free open-source. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Project details: free open-source."
+      "ru": "Budgeteer — счета, расходы, бюджет и простая бухгалтерия. Проект: бесплатный open-source проект.",
+      "en": "Budgeteer: personal budget planning app. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Project details: free open-source."
     },
     "categories": [
       "finance-accounting"
@@ -10576,7 +10570,7 @@
     "repo": "invoice-x/invoice2data",
     "url": "https://invoice2data.readthedocs.io/",
     "description": {
-      "ru": "invoice2data — счета, расходы, бюджет и простая бухгалтерия. Обрабатывает документы и контент для ИИ, подходит для голосовых сценариев. Подходит, если нужно: обрабатывает документы и контент для ИИ, подходит для голосовых сценариев и собирает и извлекает данные из веба и файлов. Проект: бесплатный open-source проект и основной стек — Python.",
+      "ru": "invoice2data — счета, расходы, бюджет и простая бухгалтерия. Обрабатывает документы и контент для ИИ, собирает и извлекает данные из веба и файлов. Подходит, если нужно: обрабатывает документы и контент для ИИ и собирает и извлекает данные из веба и файлов. Проект: бесплатный open-source проект и основной стек — Python.",
       "en": "invoice2data: extract structured data from PDF invoices. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Project details: free open-source and built mainly in Python."
     },
     "categories": [
@@ -10600,7 +10594,7 @@
     "url": "https://github.com/CraterApp/crater",
     "description": {
       "ru": "crater — счета, расходы, бюджет и простая бухгалтерия. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "crater: invoicing app для freelancers и small business. Listed under “Finance & Accounting” (Business): Invoicing, accounting, expenses, ERP-lite. It is available free of charge. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Project details: free open-source. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Project details: free open-source."
+      "en": "crater: invoicing app для freelancers и small business. In this catalog (Business), listed as “Finance & Accounting”: Invoicing, accounting, expenses, ERP-lite. Project details: free open-source."
     },
     "categories": [
       "finance-accounting"
@@ -10885,8 +10879,8 @@
     "repo": "commercejs/commerce.js",
     "url": "https://github.com/commercejs/commerce.js",
     "description": {
-      "ru": "commerce.js — каталог, корзина, оплата и управление заказами. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "commerce.js: headless commerce API. Listed under “E-commerce” (Business): Online stores, checkout, catalogs, marketplace. It is available free of charge. In this catalog (Business), listed as “E-commerce”: Online stores, checkout, catalogs, marketplace. Project details: free open-source. In this catalog (Business), listed as “E-commerce”: Online stores, checkout, catalogs, marketplace. Project details: free open-source."
+      "ru": "commerce.js — каталог, корзина, оплата и управление заказами. Проект: бесплатный open-source проект.",
+      "en": "commerce.js: headless commerce API. In this catalog (Business), listed as “E-commerce”: Online stores, checkout, catalogs, marketplace. Project details: free open-source."
     },
     "categories": [
       "ecommerce",
@@ -11041,8 +11035,8 @@
     "repo": "OpenAgents/OpenAgents",
     "url": "https://github.com/OpenAgents/OpenAgents",
     "description": {
-      "ru": "OpenAgents — собирает ИИ-приложения и сервисы без глубокого программирования. Работает с ИИ-агентами, есть визуальный или low-code интерфейс. Подходит, если нужно: работает с ИИ-агентами и есть визуальный или low-code интерфейс. Проект: бесплатный open-source проект.",
-      "en": "OpenAgents: platform для hosting и sharing AI agents. Listed under “App Builders” (AI & Agents): AI app builders and no-code/low-code platforms. It is used in AI and agent-based scenarios and available free of charge. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Project details: free open-source. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Project details: free open-source."
+      "ru": "OpenAgents — собирает ИИ-приложения и сервисы без глубокого программирования. Работает с ИИ-агентами. Проект: бесплатный open-source проект.",
+      "en": "OpenAgents: platform для hosting и sharing AI agents. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Project details: free open-source."
     },
     "categories": [
       "app-builders",
@@ -11060,7 +11054,7 @@
     "url": "https://docs.copilotkit.ai",
     "description": {
       "ru": "CopilotKit — собирает ИИ-приложения и сервисы без глубокого программирования. Работает с ИИ-агентами. Ключевые темы: Агент, Agent Native, ИИ-агенты, Агенты, ИИ и Ai Agent. Проект: есть бесплатный tier и платные возможности, на GitHub 36k+ звёзд и основной стек — TypeScript.",
-      "en": "CopilotKit is the Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Key topics: Agent, Agent Native, Agentic AI, Agents, AI, and Ai Agent. Project details: freemium model, 36k+ GitHub stars, and built mainly in TypeScript."
+      "en": "CopilotKit is the Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Key topics: Agent, Agent Native, Agentic AI, Agents, AI, and Ai Agent. Project details: freemium model, 36k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
       "app-builders",
@@ -11122,8 +11116,7 @@
       "en": "ai-chatbot is a full-featured, hackable Next.js AI chatbot built by Vercel. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Key topics: AI, Chatgpt, Nextjs, React, Redis, and Shadcn Ui. Project details: free open-source, 21k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "app-builders",
-      "websites-cms"
+      "app-builders"
     ],
     "tags": [
       "ai",
@@ -11176,7 +11169,7 @@
     "url": "https://github.com/microsoft/autogen-studio",
     "description": {
       "ru": "autogen-studio — собирает ИИ-приложения и сервисы без глубокого программирования. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Подходит, если нужно: автоматизирует процессы и связывает сервисы, работает с ИИ-агентами и есть визуальный или low-code интерфейс. Проект: есть бесплатный tier и платные возможности.",
-      "en": "autogen-studio: no-code UI для AutoGen multi-agent workflows. Listed under “App Builders” (AI & Agents): AI app builders and no-code/low-code platforms. It is helps automate workflows and connect services and used in AI and agent-based scenarios. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Useful when you need to automate workflows and build AI agents. Project details: freemium model. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Useful when you need to automate workflows and build AI agents. Project details: freemium model."
+      "en": "autogen-studio: no-code UI для AutoGen multi-agent workflows. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Useful when you need to automate workflows and build AI agents. Project details: freemium model."
     },
     "categories": [
       "app-builders",
@@ -11226,8 +11219,7 @@
       "en": "wasp is the batteries-included full-stack framework for the AI era. Develop JS/TS web apps (React, Node.js, and Prisma) using declarative code that abstracts away complex full-stack features like auth, background jobs, RPC, email sending, end-to-end type safety, single-command deployment, and more. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Key topics: Node, Prisma, React, Wasp, and Web App. Project details: freemium model, 19k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "app-builders",
-      "websites-cms"
+      "app-builders"
     ],
     "tags": [
       "javascript",
@@ -11281,11 +11273,11 @@
     "repo": "kestra-io/kestra",
     "url": "https://go.kestra.io/home",
     "description": {
-      "ru": "kestra — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Ключевые темы: ИИ-агенты, Автоматизация, Control Plane, Data Engineering, Data Orchestration и Data Orchestrator. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: есть бесплатный tier и платные возможности, на GitHub 27k+ звёзд и основной стек — Java.",
-      "en": "kestra: event Driven Orchestration & Scheduling Platform for Mission Critical Applications. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: AI agents, Automation, Control Plane, Data Engineering, Data Orchestration, and Data Orchestrator. Project details: freemium model, 27k+ GitHub stars, and built mainly in Java."
+      "ru": "kestra — dAG, ETL, расписания и пайплайны данных для надёжного запуска задач. Автоматизирует процессы и связывает сервисы, работает с ИИ-агентами. Ключевые темы: ИИ-агенты, Автоматизация, Control Plane, Data Engineering, Data Orchestration и Data Orchestrator. Подходит, если нужно: автоматизирует процессы и связывает сервисы и работает с ИИ-агентами. Проект: есть бесплатный tier и платные возможности, на GitHub 27k+ звёзд и основной стек — Java.",
+      "en": "kestra: event Driven Orchestration & Scheduling Platform for Mission Critical Applications. In this catalog (Infrastructure), listed as “Data Orchestration”: DAGs, ETL, schedulers, data pipelines and orchestration. Key topics: AI agents, Automation, Control Plane, Data Engineering, Data Orchestration, and Data Orchestrator. Project details: freemium model, 27k+ GitHub stars, and built mainly in Java."
     },
     "categories": [
-      "automation-workflows",
+      "data-orchestration",
       "api-tools"
     ],
     "tags": [
@@ -11311,11 +11303,11 @@
     "repo": "TriggerMesh/triggermesh",
     "url": "https://www.triggermesh.com",
     "description": {
-      "ru": "triggermesh — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Ключевые темы: Cloudevents, Integration и Knative. Проект: бесплатный open-source проект и основной стек — Go.",
-      "en": "triggermesh: triggerMesh is the open-source AWS EventBridge alternative. It provides a unified eventing experience, a developer-friendly CLI, and runs on Docker or natively on Kubernetes. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Cloudevents, Integration, and Knative. Project details: free open-source and built mainly in Go."
+      "ru": "triggermesh — связывает сервисы, webhooks и задачи в автоматические сценарии. Ключевые темы: Cloudevents, Integration и Knative. Проект: бесплатный open-source проект и основной стек — Go.",
+      "en": "triggermesh: triggerMesh is the open-source AWS EventBridge alternative. It provides a unified eventing experience, a developer-friendly CLI, and runs on Docker or natively on Kubernetes. In this catalog (Infrastructure), listed as “Integration Automation”: Service integrations, event flows, webhooks, no-code automation. Key topics: Cloudevents, Integration, and Knative. Project details: free open-source and built mainly in Go."
     },
     "categories": [
-      "automation-workflows",
+      "integration-automation",
       "api-tools"
     ],
     "tags": [
@@ -11336,11 +11328,11 @@
     "repo": "camunda/camunda",
     "url": "https://camunda.com/platform/",
     "description": {
-      "ru": "camunda — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Ключевые темы: Bpmn, Grpc, Microservices, Orchestration Framework, Процессы и Workflow Engine. Проект: есть бесплатный tier и платные возможности и основной стек — Java.",
-      "en": "camunda: process Orchestration Framework. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Bpmn, Grpc, Microservices, Orchestration Framework, Workflow, and Workflow Engine. Project details: freemium model and built mainly in Java."
+      "ru": "camunda — bPM, durable execution и движки для бизнес- и системных процессов. Ключевые темы: Bpmn, Grpc, Microservices, Orchestration Framework, Процессы и Workflow Engine. Проект: есть бесплатный tier и платные возможности и основной стек — Java.",
+      "en": "camunda: process Orchestration Framework. In this catalog (Infrastructure), listed as “Workflow Engines”: BPM, durable execution and engines for business and system workflows. Key topics: Bpmn, Grpc, Microservices, Orchestration Framework, Workflow, and Workflow Engine. Project details: freemium model and built mainly in Java."
     },
     "categories": [
-      "automation-workflows",
+      "workflow-engines",
       "erp-operations"
     ],
     "tags": [
@@ -11364,11 +11356,11 @@
     "repo": "bonitasoft/bonita-engine",
     "url": "https://github.com/bonitasoft/bonita-engine",
     "description": {
-      "ru": "bonita-engine — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Ключевые темы: Bpm, Bpm Engine, Bpmn, Delivery Central, Engine и Lifecycle Platform. Проект: есть бесплатный tier и платные возможности и основной стек — Java.",
-      "en": "bonita-engine: deploy, execute, manage process-based applications made with Bonita studio or through Engine APIs. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Bpm, Bpm Engine, Bpmn, Delivery Central, Engine, and Lifecycle Platform. Project details: freemium model and built mainly in Java."
+      "ru": "bonita-engine — bPM, durable execution и движки для бизнес- и системных процессов. Ключевые темы: Bpm, Bpm Engine, Bpmn, Delivery Central, Engine и Lifecycle Platform. Проект: есть бесплатный tier и платные возможности и основной стек — Java.",
+      "en": "bonita-engine: deploy, execute, manage process-based applications made with Bonita studio or through Engine APIs. In this catalog (Infrastructure), listed as “Workflow Engines”: BPM, durable execution and engines for business and system workflows. Key topics: Bpm, Bpm Engine, Bpmn, Delivery Central, Engine, and Lifecycle Platform. Project details: freemium model and built mainly in Java."
     },
     "categories": [
-      "automation-workflows",
+      "workflow-engines",
       "low-code-internal"
     ],
     "tags": [
@@ -11394,11 +11386,11 @@
     "repo": "Activiti/Activiti",
     "url": "https://www.activiti.org",
     "description": {
-      "ru": "Activiti — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы, ориентирован на бизнес-задачи. Ключевые темы: Activiti, Bpm, Bpmn, Business Process, Cloud и Hxps. Подходит, если нужно: автоматизирует процессы и связывает сервисы и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект, на GitHub 11k+ звёзд и основной стек — Java.",
-      "en": "Activiti: activiti is a light-weight workflow and Business Process Management (BPM) Platform targeted at business people, developers and system admins. Its core is a super-fast and rock-solid BPMN 2 process engine for Java. It's open-source and distributed under the Apache license. Activiti runs in any Java application, on a server, on a cluster or in the cloud. It integrates perfectly with Spring, it is extremely lightweight and based on simple concepts. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Activiti, Bpm, Bpmn, Business Process, Cloud, and Hxps. Project details: free open-source, 11k+ GitHub stars, and built mainly in Java."
+      "ru": "Activiti — bPM, durable execution и движки для бизнес- и системных процессов. Автоматизирует процессы и связывает сервисы, ориентирован на бизнес-задачи. Ключевые темы: Activiti, Bpm, Bpmn, Business Process, Cloud и Hxps. Подходит, если нужно: автоматизирует процессы и связывает сервисы и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект, на GitHub 11k+ звёзд и основной стек — Java.",
+      "en": "Activiti: activiti is a light-weight workflow and Business Process Management (BPM) Platform targeted at business people, developers and system admins. Its core is a super-fast and rock-solid BPMN 2 process engine for Java. It's open-source and distributed under the Apache license. Activiti runs in any Java application, on a server, on a cluster or in the cloud. It integrates perfectly with Spring, it is extremely lightweight and based on simple concepts. In this catalog (Infrastructure), listed as “Workflow Engines”: BPM, durable execution and engines for business and system workflows. Key topics: Activiti, Bpm, Bpmn, Business Process, Cloud, and Hxps. Project details: free open-source, 11k+ GitHub stars, and built mainly in Java."
     },
     "categories": [
-      "automation-workflows"
+      "workflow-engines"
     ],
     "tags": [
       "activiti",
@@ -11423,11 +11415,11 @@
     "repo": "wexflow/wexflow",
     "url": "https://github.com/wexflow/wexflow",
     "description": {
-      "ru": "wexflow — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы, ориентирован на бизнес-задачи. Подходит, если нужно: автоматизирует процессы и связывает сервисы и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "wexflow: workflow automation engine для Windows/Linux. Listed under “Automation & Workflows” (Business): Workflow automation, integrations, RPA, process orchestration. It is helps automate workflows and connect services and available free of charge. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Project details: free open-source. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Project details: free open-source."
+      "ru": "wexflow — bPM, durable execution и движки для бизнес- и системных процессов. Автоматизирует процессы и связывает сервисы. Проект: бесплатный open-source проект.",
+      "en": "wexflow: workflow automation engine для Windows/Linux. In this catalog (Infrastructure), listed as “Workflow Engines”: BPM, durable execution and engines for business and system workflows. Project details: free open-source."
     },
     "categories": [
-      "automation-workflows"
+      "workflow-engines"
     ],
     "tags": [],
     "featured": false,
@@ -11440,11 +11432,11 @@
     "repo": "stackstorm/stackstorm",
     "url": "https://github.com/stackstorm/stackstorm",
     "description": {
-      "ru": "stackstorm — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы, ориентирован на бизнес-задачи. Подходит, если нужно: автоматизирует процессы и связывает сервисы и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "stackstorm: event-driven automation — IFTTT for ops. Listed under “Automation & Workflows” (Business): Workflow automation, integrations, RPA, process orchestration. It is helps automate workflows and connect services and available free of charge. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Project details: free open-source. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Project details: free open-source."
+      "ru": "stackstorm — runbooks, Ansible, job automation и операционные сценарии для инфраструктуры. Автоматизирует процессы и связывает сервисы. Проект: бесплатный open-source проект.",
+      "en": "stackstorm: event-driven automation — IFTTT for ops. In this catalog (Infrastructure), listed as “DevOps Automation”: Runbooks, Ansible, job automation and ops orchestration. Project details: free open-source."
     },
     "categories": [
-      "automation-workflows"
+      "devops-automation"
     ],
     "tags": [],
     "featured": false,
@@ -11457,12 +11449,11 @@
     "repo": "rundeck/rundeck",
     "url": "http://rundeck.org",
     "description": {
-      "ru": "rundeck — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы. Ключевые темы: Ansible, Audit, Автоматизация, Category Distributed, Deployment и DevOps. Проект: бесплатный open-source проект, на GitHub 6k+ звёзд и основной стек — Groovy.",
-      "en": "rundeck: enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Key topics: Ansible, Audit, Automation, Category Distributed, Deployment, and DevOps. Project details: free open-source, 6k+ GitHub stars, and built mainly in Groovy."
+      "ru": "rundeck — runbooks, Ansible, job automation и операционные сценарии для инфраструктуры. Автоматизирует процессы и связывает сервисы. Ключевые темы: Ansible, Audit, Автоматизация, Category Distributed, Deployment и DevOps. Проект: бесплатный open-source проект, на GitHub 6k+ звёзд и основной стек — Groovy.",
+      "en": "rundeck: enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts. In this catalog (Infrastructure), listed as “DevOps Automation”: Runbooks, Ansible, job automation and ops orchestration. Key topics: Ansible, Audit, Automation, Category Distributed, Deployment, and DevOps. Project details: free open-source, 6k+ GitHub stars, and built mainly in Groovy."
     },
     "categories": [
-      "automation-workflows",
-      "erp-operations"
+      "devops-automation"
     ],
     "tags": [
       "ansible",
@@ -11487,11 +11478,11 @@
     "repo": "Semaphore/semaphore-ui",
     "url": "https://github.com/Semaphore/semaphore-ui",
     "description": {
-      "ru": "semaphore-ui — связывает сервисы и автоматизирует рутину — как Zapier, но у себя. Автоматизирует процессы и связывает сервисы, ориентирован на бизнес-задачи. Подходит, если нужно: автоматизирует процессы и связывает сервисы и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "semaphore-ui: modern UI для Ansible automation. Listed under “Automation & Workflows” (Business): Workflow automation, integrations, RPA, process orchestration. It is helps automate workflows and connect services and available free of charge. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Project details: free open-source. In this catalog (Business), listed as “Automation & Workflows”: Workflow automation, integrations, RPA, process orchestration. Project details: free open-source."
+      "ru": "semaphore-ui — runbooks, Ansible, job automation и операционные сценарии для инфраструктуры. Автоматизирует процессы и связывает сервисы. Проект: бесплатный open-source проект.",
+      "en": "semaphore-ui: modern UI для Ansible automation. In this catalog (Infrastructure), listed as “DevOps Automation”: Runbooks, Ansible, job automation and ops orchestration. Project details: free open-source."
     },
     "categories": [
-      "automation-workflows"
+      "devops-automation"
     ],
     "tags": [],
     "featured": false,
@@ -11504,12 +11495,11 @@
     "repo": "frappe/builder",
     "url": "https://frappe.io/builder",
     "description": {
-      "ru": "builder — блоги, лендинги и управление контентом сайта. Есть визуальный или low-code интерфейс. Ключевые темы: Ai Website Builder, CMS, Deployment, Erpnext Website, Figma и Framer. Проект: бесплатный open-source проект и основной стек — Vue.",
-      "en": "builder: craft beautiful websites effortlessly with an intuitive visual builder and publish them instantly. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: Ai Website Builder, CMS, Deployment, Erpnext Website, Figma, and Framer. Project details: free open-source and built mainly in Vue."
+      "ru": "builder — drag-and-drop билдеры сайтов, страниц и контентных интерфейсов. Есть визуальный или low-code интерфейс. Ключевые темы: Ai Website Builder, CMS, Deployment, Erpnext Website, Figma и Framer. Проект: бесплатный open-source проект и основной стек — Vue.",
+      "en": "builder: craft beautiful websites effortlessly with an intuitive visual builder and publish them instantly. In this catalog (Business), listed as “Visual Site Builders”: Drag-and-drop builders for sites, landing pages and content experiences. Key topics: Ai Website Builder, CMS, Deployment, Erpnext Website, Figma, and Framer. Project details: free open-source and built mainly in Vue."
     },
     "categories": [
-      "websites-cms",
-      "low-code-internal"
+      "visual-site-builders"
     ],
     "tags": [
       "ai-website-builder",
@@ -11534,11 +11524,11 @@
     "repo": "plasmicapp/plasmic",
     "url": "https://www.plasmic.app",
     "description": {
-      "ru": "plasmic — блоги, лендинги и управление контентом сайта. Автоматизирует процессы и связывает сервисы, есть визуальный или low-code интерфейс. Ключевые темы: Builder, CMS, Design, Design Systems, Design Tools и Drag Drop. Подходит, если нужно: автоматизирует процессы и связывает сервисы и есть визуальный или low-code интерфейс. Проект: есть бесплатный tier и платные возможности, на GitHub 7k+ звёзд и основной стек — TypeScript.",
-      "en": "plasmic: visual builder for React. Build apps, websites, and content. Integrate with your codebase. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: Builder, CMS, Design, Design Systems, Design Tools, and Drag Drop. Project details: freemium model, 7k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "plasmic — drag-and-drop билдеры сайтов, страниц и контентных интерфейсов. Автоматизирует процессы и связывает сервисы, есть визуальный или low-code интерфейс. Ключевые темы: Builder, CMS, Design, Design Systems, Design Tools и Drag Drop. Подходит, если нужно: автоматизирует процессы и связывает сервисы и есть визуальный или low-code интерфейс. Проект: есть бесплатный tier и платные возможности, на GitHub 7k+ звёзд и основной стек — TypeScript.",
+      "en": "plasmic: visual builder for React. Build apps, websites, and content. Integrate with your codebase. In this catalog (Business), listed as “Visual Site Builders”: Drag-and-drop builders for sites, landing pages and content experiences. Key topics: Builder, CMS, Design, Design Systems, Design Tools, and Drag Drop. Project details: freemium model, 7k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "websites-cms",
+      "visual-site-builders",
       "low-code-internal"
     ],
     "tags": [
@@ -11564,11 +11554,11 @@
     "repo": "BuilderIO/builder",
     "url": "https://builder.io",
     "description": {
-      "ru": "builder — блоги, лендинги и управление контентом сайта. Есть визуальный или low-code интерфейс. Ключевые темы: Angular, Builder, CMS, Drag Drop, Frontend и Gatsby. Проект: есть бесплатный tier и платные возможности, на GitHub 9k+ звёзд и основной стек — TypeScript.",
-      "en": "builder: visual Development for React, Vue, Svelte, Qwik, and more. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: Angular, Builder, CMS, Drag Drop, Frontend, and Gatsby. Project details: freemium model, 9k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "builder — drag-and-drop билдеры сайтов, страниц и контентных интерфейсов. Есть визуальный или low-code интерфейс. Ключевые темы: Angular, Builder, CMS, Drag Drop, Frontend и Gatsby. Проект: есть бесплатный tier и платные возможности, на GitHub 9k+ звёзд и основной стек — TypeScript.",
+      "en": "builder: visual Development for React, Vue, Svelte, Qwik, and more. In this catalog (Business), listed as “Visual Site Builders”: Drag-and-drop builders for sites, landing pages and content experiences. Key topics: Angular, Builder, CMS, Drag Drop, Frontend, and Gatsby. Project details: freemium model, 9k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "websites-cms"
+      "visual-site-builders"
     ],
     "tags": [
       "angular",
@@ -11593,11 +11583,11 @@
     "repo": "tinacms/tinacms",
     "url": "https://tina.io",
     "description": {
-      "ru": "tinacms — блоги, лендинги и управление контентом сайта. Обрабатывает документы и контент для ИИ, есть визуальный или low-code интерфейс. Ключевые темы: CMS, Content Management System, Forestry, Markdown, Nextjs и React. Подходит, если нужно: обрабатывает документы и контент для ИИ и есть визуальный или low-code интерфейс. Проект: есть бесплатный tier и платные возможности, на GitHub 14k+ звёзд и основной стек — TypeScript.",
-      "en": "tinacms: tinaCMS is the leading open-source headless CMS that supports Markdown and Visual Editing. Your content is stored in your own GitHub repo 🦙 ❤️. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: CMS, Content Management System, Forestry, Markdown, Nextjs, and React. Project details: freemium model, 14k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "tinacms — aPI-first CMS, контентные модели и headless-управление сайтом. Обрабатывает документы и контент для ИИ, есть визуальный или low-code интерфейс. Ключевые темы: CMS, Content Management System, Forestry, Markdown, Nextjs и React. Подходит, если нужно: обрабатывает документы и контент для ИИ и есть визуальный или low-code интерфейс. Проект: есть бесплатный tier и платные возможности, на GitHub 14k+ звёзд и основной стек — TypeScript.",
+      "en": "tinacms: tinaCMS is the leading open-source headless CMS that supports Markdown and Visual Editing. Your content is stored in your own GitHub repo 🦙 ❤️. In this catalog (Business), listed as “Headless CMS”: API-first CMS, content models and headless content management. Key topics: CMS, Content Management System, Forestry, Markdown, Nextjs, and React. Project details: freemium model, 14k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "websites-cms"
+      "headless-cms"
     ],
     "tags": [
       "cms",
@@ -11622,11 +11612,11 @@
     "repo": "keystonejs/keystone",
     "url": "https://keystonejs.com",
     "description": {
-      "ru": "keystone — блоги, лендинги и управление контентом сайта. Ориентирован на бизнес-задачи. Ключевые темы: CMS, Cms Framework, GraphQL, Keystonejs, Nodejs и React. Проект: есть бесплатный tier и платные возможности, на GitHub 10k+ звёзд и основной стек — TypeScript.",
-      "en": "keystone is the superpowered headless CMS for Node.js — built with GraphQL and React. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: CMS, Cms Framework, GraphQL, Keystonejs, Nodejs, and React. Project details: freemium model, 10k+ GitHub stars, and built mainly in TypeScript."
+      "ru": "keystone — aPI-first CMS, контентные модели и headless-управление сайтом. Ориентирован на бизнес-задачи. Ключевые темы: CMS, Cms Framework, GraphQL, Keystonejs, Nodejs и React. Проект: есть бесплатный tier и платные возможности, на GitHub 10k+ звёзд и основной стек — TypeScript.",
+      "en": "keystone is the superpowered headless CMS for Node.js — built with GraphQL and React. In this catalog (Business), listed as “Headless CMS”: API-first CMS, content models and headless content management. Key topics: CMS, Cms Framework, GraphQL, Keystonejs, Nodejs, and React. Project details: freemium model, 10k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
-      "websites-cms",
+      "headless-cms",
       "database-admin"
     ],
     "tags": [
@@ -11650,11 +11640,12 @@
     "repo": "nuxt/content",
     "url": "https://content.nuxt.com",
     "description": {
-      "ru": "content — блоги, лендинги и управление контентом сайта. Обрабатывает документы и контент для ИИ. Ключевые темы: CMS, Git Cms, Markdown, Mdc, Nuxt и Nuxt Module. Проект: бесплатный open-source проект и основной стек — TypeScript.",
-      "en": "content is the file-based CMS for your Nuxt application, powered by Markdown and Vue components. In this catalog (Business), listed as “Websites & CMS”: CMS, headless CMS, blogs, site builders, landing pages. Key topics: CMS, Git Cms, Markdown, Mdc, Nuxt, and Nuxt Module. Project details: free open-source and built mainly in TypeScript."
+      "ru": "content — aPI-first CMS, контентные модели и headless-управление сайтом. Обрабатывает документы и контент для ИИ. Ключевые темы: CMS, Git Cms, Markdown, Mdc, Nuxt и Nuxt Module. Проект: бесплатный open-source проект и основной стек — TypeScript.",
+      "en": "content is the file-based CMS for your Nuxt application, powered by Markdown and Vue components. In this catalog (Business), listed as “Headless CMS”: API-first CMS, content models and headless content management. Key topics: CMS, Git Cms, Markdown, Mdc, Nuxt, and Nuxt Module. Project details: free open-source and built mainly in TypeScript."
     },
     "categories": [
-      "websites-cms"
+      "headless-cms",
+      "static-site-generators"
     ],
     "tags": [
       "cms",
@@ -11708,7 +11699,7 @@
     "repo": "apache/druid",
     "url": "https://druid.apache.org/",
     "description": {
-      "ru": "druid — графики, дашборды и отчёты по данным бизнеса и сайта. Подходит для голосовых сценариев. Проект: бесплатный open-source проект, на GitHub 14k+ звёзд и основной стек — Java.",
+      "ru": "druid — графики, дашборды и отчёты по данным бизнеса и сайта. Проект: бесплатный open-source проект, на GitHub 14k+ звёзд и основной стек — Java.",
       "en": "druid: apache Druid: a high performance real-time analytics database. In this catalog (Business), listed as “Analytics & BI”: Dashboards, BI, product analytics, web analytics. Project details: free open-source, 14k+ GitHub stars, and built mainly in Java."
     },
     "categories": [
@@ -11731,7 +11722,7 @@
     "repo": "timescale/timescaledb",
     "url": "https://www.tigerdata.com/",
     "description": {
-      "ru": "timescaledb — хранение данных, SQL-клиенты и админки баз. Подходит для голосовых сценариев. Ключевые темы: Аналитика, База данных, Financial Analysis, Iot, Postgres и PostgreSQL. Проект: есть бесплатный tier и платные возможности, на GitHub 23k+ звёзд и основной стек — C.",
+      "ru": "timescaledb — хранение данных, SQL-клиенты и админки баз. Ключевые темы: Аналитика, База данных, Financial Analysis, Iot, Postgres и PostgreSQL. Проект: есть бесплатный tier и платные возможности, на GitHub 23k+ звёзд и основной стек — C.",
       "en": "timescaledb is a time-series database for high-performance real-time analytics packaged as a Postgres extension. In this catalog (Infrastructure), listed as “Databases & Admin”: SQL clients, database admin, vector DB, time-series. Key topics: Analytics, Database, Financial Analysis, Iot, Postgres, and PostgreSQL. Project details: freemium model, 23k+ GitHub stars, and built mainly in C."
     },
     "categories": [
@@ -11872,11 +11863,10 @@
     "repo": "frappe/telephony",
     "url": "https://github.com/frappe/telephony",
     "description": {
-      "ru": "telephony — чат, видеозвонки и форумы для команды — альтернатива Slack. Проект: бесплатный open-source проект и основной стек — Python.",
-      "en": "telephony: telephony for Frappe apps. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Project details: free open-source and built mainly in Python."
+      "ru": "telephony — клиенты, сделки, воронка продаж и история общения. Проект: бесплатный open-source проект и основной стек — Python.",
+      "en": "telephony: telephony for Frappe apps. In this catalog (Business), listed as “CRM & Sales”: CRM, pipeline, leads, customer management. Project details: free open-source and built mainly in Python."
     },
     "categories": [
-      "communication",
       "crm-sales"
     ],
     "tags": [],
@@ -11893,11 +11883,11 @@
     "repo": "FreePBX/core",
     "url": "http://www.freepbx.org",
     "description": {
-      "ru": "core — чат, видеозвонки и форумы для команды — альтернатива Slack. Проект: бесплатный open-source проект и основной стек — PHP.",
-      "en": "core: module of FreePBX (Core) ::. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Project details: free open-source and built mainly in PHP."
+      "ru": "core — склад, HR, производство и операционные процессы компании. Проект: бесплатный open-source проект и основной стек — PHP.",
+      "en": "core: module of FreePBX (Core) ::. In this catalog (Business), listed as “ERP & Operations”: ERP, HR, inventory, manufacturing, business operations. Project details: free open-source and built mainly in PHP."
     },
     "categories": [
-      "communication",
+      "general-oss",
       "erp-operations"
     ],
     "tags": [],
@@ -11914,11 +11904,11 @@
     "repo": "bigbluebutton/bigbluebutton",
     "url": "https://bigbluebutton.org",
     "description": {
-      "ru": "bigbluebutton — чат, видеозвонки и форумы для команды — альтернатива Slack. Ключевые темы: Bigbluebutton, Совместная работа, Conferencing, Видео, Video Conferencing и Webrtc. Проект: бесплатный open-source проект, на GitHub 9k+ звёзд и основной стек — JavaScript.",
-      "en": "bigbluebutton is a complete web conferencing system for virtual classes and more! In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Bigbluebutton, Collaboration, Conferencing, Video, Video Conferencing, and Webrtc. Project details: free open-source, 9k+ GitHub stars, and built mainly in JavaScript."
+      "ru": "bigbluebutton — видеозвонки, веб-конференции, WebRTC и realtime-коммуникации. Ключевые темы: Bigbluebutton, Совместная работа, Conferencing, Видео, Video Conferencing и Webrtc. Проект: бесплатный open-source проект, на GitHub 9k+ звёзд и основной стек — JavaScript.",
+      "en": "bigbluebutton is a complete web conferencing system for virtual classes and more! In this catalog (Infrastructure), listed as “Video Conferencing”: Video calls, web conferencing, WebRTC and realtime communication stacks. Key topics: Bigbluebutton, Collaboration, Conferencing, Video, Video Conferencing, and Webrtc. Project details: free open-source, 9k+ GitHub stars, and built mainly in JavaScript."
     },
     "categories": [
-      "communication"
+      "video-conferencing"
     ],
     "tags": [
       "bigbluebutton",
@@ -11941,11 +11931,11 @@
     "repo": "nextcloud/spreed",
     "url": "https://nextcloud.com/talk",
     "description": {
-      "ru": "spreed — чат, видеозвонки и форумы для команды — альтернатива Slack. Подходит для голосовых сценариев. Ключевые темы: Call, Nextcloud, Screensharing, Spreed, Видео и Webrtc. Проект: бесплатный open-source проект и основной стек — JavaScript.",
-      "en": "spreed: 🗨️ Nextcloud Talk – chat, video & audio calls for Nextcloud. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Key topics: Call, Nextcloud, Screensharing, Spreed, Video, and Webrtc. Project details: free open-source and built mainly in JavaScript."
+      "ru": "spreed — видеозвонки, веб-конференции, WebRTC и realtime-коммуникации. Ключевые темы: Call, Nextcloud, Screensharing, Spreed, Видео и Webrtc. Проект: бесплатный open-source проект и основной стек — JavaScript.",
+      "en": "spreed: 🗨️ Nextcloud Talk – chat, video & audio calls for Nextcloud. In this catalog (Infrastructure), listed as “Video Conferencing”: Video calls, web conferencing, WebRTC and realtime communication stacks. Key topics: Call, Nextcloud, Screensharing, Spreed, Video, and Webrtc. Project details: free open-source and built mainly in JavaScript."
     },
     "categories": [
-      "communication"
+      "video-conferencing"
     ],
     "tags": [
       "call",
@@ -11970,11 +11960,11 @@
     "repo": "matterbridge/matterbridge",
     "url": "https://github.com/matterbridge/matterbridge",
     "description": {
-      "ru": "matterbridge — чат, видеозвонки и форумы для команды — альтернатива Slack. Проект: бесплатный open-source проект.",
-      "en": "matterbridge: bridge между chat platforms. Listed under “Team Communication” (Infrastructure): Team chat, video, forums — Slack/Discord alternatives. It is available free of charge. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Project details: free open-source. In this catalog (Infrastructure), listed as “Team Communication”: Team chat, video, forums — Slack/Discord alternatives. Project details: free open-source."
+      "ru": "matterbridge — командные мессенджеры, Matrix-клиенты и платформы для рабочих чатов. Проект: бесплатный open-source проект.",
+      "en": "matterbridge: bridge между chat platforms. In this catalog (Infrastructure), listed as “Team Chat”: Team messengers, Matrix clients and collaboration chat platforms. Project details: free open-source."
     },
     "categories": [
-      "communication",
+      "team-chat",
       "api-tools"
     ],
     "tags": [],
@@ -12017,8 +12007,8 @@
     "repo": "perfexcrm/perfex",
     "url": "https://github.com/perfexcrm/perfex",
     "description": {
-      "ru": "perfex — клиенты, сделки, воронка продаж и история общения. Подходит для голосовых сценариев, ориентирован на бизнес-задачи. Подходит, если нужно: подходит для голосовых сценариев и ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "perfex: cRM с projects, invoices, estimates. Listed under “CRM & Sales” (Business): CRM, pipeline, leads, customer management. It is available free of charge. In this catalog (Business), listed as “CRM & Sales”: CRM, pipeline, leads, customer management. Project details: free open-source. In this catalog (Business), listed as “CRM & Sales”: CRM, pipeline, leads, customer management. Project details: free open-source."
+      "ru": "perfex — клиенты, сделки, воронка продаж и история общения. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
+      "en": "perfex: cRM с projects, invoices, estimates. In this catalog (Business), listed as “CRM & Sales”: CRM, pipeline, leads, customer management. Project details: free open-source."
     },
     "categories": [
       "crm-sales",
@@ -12359,7 +12349,7 @@
     "url": "https://scalar.com",
     "description": {
       "ru": "scalar — клиенты API, шлюзы, webhooks и обмен данными между системами. Ключевые темы: API, Api Client, Docs, Http Client, Openapi и Openapi3. Проект: есть бесплатный tier и платные возможности, на GitHub 16k+ звёзд и основной стек — TypeScript.",
-      "en": "scalar: scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　✨ 1st-Class OpenAPI/Swagger Support. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Key topics: API, Api Client, Docs, Http Client, Openapi, and Openapi3. Project details: freemium model, 16k+ GitHub stars, and built mainly in TypeScript."
+      "en": "scalar: scalar is an open-source API platform: 🌐 Modern REST API Client 📖 Beautiful API References ✨ 1st-Class OpenAPI/Swagger Support. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Key topics: API, Api Client, Docs, Http Client, Openapi, and Openapi3. Project details: freemium model, 16k+ GitHub stars, and built mainly in TypeScript."
     },
     "categories": [
       "api-tools"

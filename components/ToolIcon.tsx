@@ -34,6 +34,8 @@ export function ToolIcon({ tool, size = "md" }: ToolIconProps) {
   }
 
   return (
+    // GitHub owner avatars are external and ephemeral, so a plain img is simpler here.
+    // eslint-disable-next-line @next/next/no-img-element
     <img
       src={getGithubOwnerAvatarUrl(tool.repo, dims.px)}
       alt=""

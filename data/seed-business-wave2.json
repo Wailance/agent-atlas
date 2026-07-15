@@ -1,184 +1,1248 @@
 [
-  {"repo":"SeaTable/seatable","categories":["spreadsheets-data"],"note":"Spreadsheet-database hybrid для команд"},
-  {"repo":"nocobase/nocobase","categories":["spreadsheets-data","low-code-internal"],"note":"No-code platform с spreadsheet mindset на любой SQL"},
-  {"repo":"univerjs/univer","categories":["spreadsheets-data","document-collaboration"],"note":"Open-source office suite: sheets, docs, slides"},
-  {"repo":"myliang/Luckysheet","categories":["spreadsheets-data"],"note":"Online spreadsheet — Excel-like в браузере"},
-  {"repo":"ethercalc/ethercalc","categories":["spreadsheets-data"],"note":"Collaborative realtime spreadsheet"},
-  {"repo":"undb-io/undb","categories":["spreadsheets-data","database-admin"],"note":"No-code database с spreadsheet UI"},
-  {"repo":"excalidraw/excalidraw","categories":["document-collaboration","low-code-internal"],"note":"Virtual whiteboard для диаграмм и wireframes"},
-  {"repo":"rowsncolumns/open_spreadsheet","categories":["spreadsheets-data"],"note":"High-performance spreadsheet engine"},
-  {"repo":"graphweaver/graphweaver","categories":["spreadsheets-data","api-tools"],"note":"Instant GraphQL API из spreadsheets и SQL"},
-  {"repo":"papermerge/papermerge","categories":["document-collaboration","erp-operations"],"note":"Document management system для архивов и OCR"},
-  {"repo":"mayan-edms/Mayan-EDMS","categories":["document-collaboration","erp-operations"],"note":"Enterprise document management"},
-  {"repo":"openkm/document-management-system","categories":["document-collaboration","erp-operations"],"note":"DMS для бизнес-документов"},
-
-  {"repo":"ever-co/ever-gauzy","categories":["erp-operations","crm-sales","finance-accounting"],"note":"ERP/CRM/HRM/PM платформа для agencies и SMB"},
-  {"repo":"idempiere/idempiere","categories":["erp-operations"],"note":"Community-driven open-source ERP"},
-  {"repo":"Snipe/snipe-it","categories":["erp-operations"],"note":"IT asset management для компаний"},
-  {"repo":"horilla/horilla","categories":["erp-operations"],"note":"Modern HRMS — attendance, payroll, recruitment"},
-  {"repo":"orangehrm/orangehrm","categories":["erp-operations"],"note":"HR management system для SMB"},
-  {"repo":"openboxes/openboxes","categories":["erp-operations"],"note":"Supply chain и inventory management"},
-  {"repo":"inventree/InvenTree","categories":["erp-operations"],"note":"Inventory management для manufacturing и makers"},
-  {"repo":"frappe/lms","categories":["erp-operations","websites-cms"],"note":"Learning management system на Frappe"},
-  {"repo":"frappe/payments","categories":["finance-accounting","ecommerce"],"note":"Payment gateway integrations для Frappe/ERPNext"},
-  {"repo":"Tryton/tryton","categories":["erp-operations","finance-accounting"],"note":"Modular ERP platform"},
-  {"repo":"ledgerSMB/ledgersmb","categories":["finance-accounting","erp-operations"],"note":"Accounting и ERP для SMB"},
-  {"repo":"Part-DB/Part-DB-server","categories":["erp-operations"],"note":"Electronic parts inventory для R&D teams"},
-  {"repo":"eventyay/open-event","categories":["marketing-email","erp-operations"],"note":"Event management — tickets, schedules, call for papers"},
-  {"repo":"frappe/healthcare","categories":["erp-operations"],"note":"Healthcare ERP на Frappe"},
-
-  {"repo":"matomo-org/matomo","categories":["marketing-email","analytics-bi"],"note":"Privacy-focused web analytics — Google Analytics alternative"},
-  {"repo":"dubinc/dub","categories":["marketing-email","analytics-bi"],"note":"Link management, short links, conversion analytics"},
-  {"repo":"YOURLS/YOURLS","categories":["marketing-email"],"note":"Self-hosted URL shortener с tracking"},
-  {"repo":"shlinkio/shlink","categories":["marketing-email","api-tools"],"note":"URL shortener с REST API и analytics"},
-  {"repo":"keila-app/keila","categories":["marketing-email"],"note":"Newsletter tool — Mailchimp alternative"},
-  {"repo":"Automatisch/automatisch","categories":["marketing-email","automation-workflows"],"note":"Business automation — Zapier alternative для marketing"},
-  {"repo":"HeyForm/HeyForm","categories":["marketing-email"],"note":"Open-source form builder — Typeform alternative"},
-  {"repo":"LimeSurvey/LimeSurvey","categories":["marketing-email","analytics-bi"],"note":"Professional survey platform"},
-  {"repo":"SurveyKing/survey-king","categories":["marketing-email"],"note":"Survey и questionnaire builder"},
-  {"repo":"ohmyform/ohmyform","categories":["marketing-email"],"note":"Form builder для lead capture"},
-  {"repo":"usefomo/fomo","categories":["marketing-email"],"note":"skip if not exists"},
-  {"repo":"usefathom/fathom","categories":["marketing-email"],"note":"skip commercial"},
-  {"repo":"posthog/posthog-js","categories":["marketing-email"],"note":"skip lib"},
-  {"repo":"mailcow/mailcow-dockerized","categories":["marketing-email","communication"],"note":"Self-hosted mail server suite"},
-  {"repo":"Mailu/Mailu","categories":["marketing-email","communication"],"note":"Simple self-hosted mail server"},
-  {"repo":"modoboa/modoboa","categories":["marketing-email"],"note":"Mail hosting и management platform"},
-  {"repo":"iRedMail/iRedMail","categories":["marketing-email"],"note":"Full-featured mail server solution"},
-  {"repo":"MailHog/MailHog","categories":["marketing-email","api-tools"],"note":"Email testing для dev/staging"},
-  {"repo":"usewaypoint/email-builder-js","categories":["marketing-email"],"note":"Drag-and-drop email template builder"},
-  {"repo":"usewaypoint/email-builder","categories":["marketing-email"],"note":"skip duplicate"},
-  {"repo":"Canner/WrenAI","categories":["analytics-bi","marketing-email"],"note":"GenBI — natural language analytics на SQL data"},
-  {"repo":"openobserve/openobserve","categories":["analytics-bi"],"note":"Observability platform — logs, metrics, traces"},
-  {"repo":"signoz/signoz","categories":["analytics-bi","observability"],"note":"Open-source APM и observability"},
-  {"repo":"highlight/highlight","categories":["analytics-bi","observability"],"note":"Session replay и error monitoring"},
-  {"repo":"hyperdxio/hyperdx","categories":["analytics-bi","observability"],"note":"OpenTelemetry-native observability"},
-
-  {"repo":"getlago/lago","categories":["finance-accounting"],"note":"Open-source billing и metering — Stripe alternative"},
-  {"repo":"killbill/killbill","categories":["finance-accounting","ecommerce"],"note":"Subscription billing и payment platform"},
-  {"repo":"Gnucash/gnucash","categories":["finance-accounting"],"note":"Personal and small-business accounting"},
-  {"repo":"kimai/kimai","categories":["finance-accounting","project-management"],"note":"Time tracking для freelancers и teams"},
-  {"repo":"beancount/beancount","categories":["finance-accounting"],"note":"Double-entry accounting plain-text ledger"},
-  {"repo":"OpenBudgeteer/Budgeteer","categories":["finance-accounting"],"note":"Personal budget planning app"},
-  {"repo":"maybe-finance/maybe-community","categories":["finance-accounting"],"note":"skip if duplicate"},
-  {"repo":"invoice-x/invoice2data","categories":["finance-accounting"],"note":"Extract structured data from PDF invoices"},
-  {"repo":"CraterApp/crater","categories":["finance-accounting"],"note":"Invoicing app для freelancers и small business"},
-  {"repo":"SolidInvoice/solidinvoice","categories":["finance-accounting"],"note":"Invoicing и billing для SMB"},
-  {"repo":"Akaunting/akaunting","categories":["finance-accounting"],"note":"skip duplicate"},
-  {"repo":"frappe/payments","categories":["finance-accounting"],"note":"skip duplicate"},
-  {"repo":"wallabag/wallabag","categories":["document-collaboration"],"note":"skip duplicate"},
-  {"repo":"actualbudget/actual-server","categories":["finance-accounting"],"note":"Sync server для Actual Budget"},
-
-  {"repo":"vendure-ecommerce/vendure","categories":["ecommerce"],"note":"Headless commerce framework на Node.js"},
-  {"repo":"shopware/shopware","categories":["ecommerce"],"note":"Enterprise e-commerce platform"},
-  {"repo":"solidusio/solidus","categories":["ecommerce"],"note":"Open-source e-commerce на Ruby"},
-  {"repo":"nopSolutions/nopCommerce","categories":["ecommerce"],"note":".NET e-commerce platform"},
-  {"repo":"EC-CUBE/ec-cube","categories":["ecommerce"],"note":"Japanese e-commerce platform"},
-  {"repo":"opensourcepos/opensourcepos","categories":["ecommerce","erp-operations"],"note":"Point of Sale для retail"},
-  {"repo":"unbox-project/unbox","categories":["ecommerce"],"note":"skip if not exists"},
-  {"repo":"saleor/saleor-dashboard","categories":["ecommerce"],"note":"skip admin UI only"},
-  {"repo":"magento/magento2","categories":["ecommerce"],"note":"Enterprise e-commerce (Adobe Commerce OSS)"},
-  {"repo":"ReactionCommerce/reaction","categories":["ecommerce"],"note":"skip archived"},
-  {"repo":"linagora/twake-commerce","categories":["ecommerce"],"note":"skip if not exists"},
-  {"repo":"frappe/webshop","categories":["ecommerce"],"note":"E-commerce модуль для Frappe/ERPNext"},
-  {"repo":"medusa-js/medusa","categories":["ecommerce"],"note":"skip duplicate path"},
-  {"repo":"payloadcms/payload","categories":["ecommerce"],"note":"skip duplicate"},
-  {"repo":"commercejs/commerce.js","categories":["ecommerce","api-tools"],"note":"Headless commerce API"},
-
-  {"repo":"FlowiseAI/Flowise","categories":["app-builders","agent-harness"],"note":"Drag-and-drop LLM apps builder"},
-  {"repo":"langflow-ai/langflow","categories":["app-builders","agent-harness"],"note":"Visual framework для multi-agent AI apps"},
-  {"repo":"lobehub/lobe-chat","categories":["app-builders","self-hosted"],"note":"Modern AI chat framework с plugins"},
-  {"repo":"gptscript-ai/gptscript","categories":["app-builders","agent-harness"],"note":"Natural language scripting для AI workflows"},
-  {"repo":"e2b-dev/fragments","categories":["app-builders"],"note":"Open-source AI app builder от E2B"},
-  {"repo":"OpenAgents/OpenAgents","categories":["app-builders","agent-harness"],"note":"Platform для hosting и sharing AI agents"},
-  {"repo":"langfuse/langfuse","categories":["app-builders"],"note":"skip duplicate"},
-  {"repo":"CopilotKit/CopilotKit","categories":["app-builders","low-code-internal"],"note":"Embed copilots в React apps"},
-  {"repo":"assistant-ui/assistant-ui","categories":["app-builders"],"note":"React components для AI chat UIs"},
-  {"repo":"vercel/ai-chatbot","categories":["app-builders","websites-cms"],"note":"Full-stack AI chatbot template"},
-  {"repo":"supabase-community/chatgpt-your-files","categories":["app-builders","rag-context"],"note":"RAG chatbot template"},
-  {"repo":"microsoft/autogen-studio","categories":["app-builders","agent-harness"],"note":"No-code UI для AutoGen multi-agent workflows"},
-  {"repo":"Chainlit/chainlit","categories":["app-builders","observability"],"note":"Build conversational AI apps с monitoring"},
-  {"repo":"wasp-lang/wasp","categories":["app-builders","websites-cms"],"note":"Full-stack web app framework с auth и DB"},
-  {"repo":"reflex-dev/reflex","categories":["app-builders","low-code-internal"],"note":"Pure Python web apps — full-stack framework"},
-
-  {"repo":"kestra-io/kestra","categories":["automation-workflows","api-tools"],"note":"Event-driven orchestration — Airflow alternative"},
-  {"repo":"automate-io/automate","categories":["automation-workflows"],"note":"skip if not exists"},
-  {"repo":"TriggerMesh/triggermesh","categories":["automation-workflows","api-tools"],"note":"Cloud-native event processing"},
-  {"repo":"camunda/camunda","categories":["automation-workflows","erp-operations"],"note":"Workflow and decision automation"},
-  {"repo":"bonitasoft/bonita-engine","categories":["automation-workflows","low-code-internal"],"note":"BPM platform для enterprise processes"},
-  {"repo":"Activiti/Activiti","categories":["automation-workflows"],"note":"Lightweight BPMN workflow engine"},
-  {"repo":"wexflow/wexflow","categories":["automation-workflows"],"note":"Workflow automation engine для Windows/Linux"},
-  {"repo":"stackstorm/stackstorm","categories":["automation-workflows"],"note":"Event-driven automation — IFTTT for ops"},
-  {"repo":"rundeck/rundeck","categories":["automation-workflows","erp-operations"],"note":"Runbook automation для ops teams"},
-  {"repo":"Semaphore/semaphore","categories":["automation-workflows","project-management"],"note":"skip if CI not automation"},
-  {"repo":"Semaphore/semaphore-ui","categories":["automation-workflows"],"note":"Modern UI для Ansible automation"},
-
-  {"repo":"frappe/builder","categories":["websites-cms","low-code-internal"],"note":"Visual website builder на Frappe"},
-  {"repo":"plasmicapp/plasmic","categories":["websites-cms","low-code-internal"],"note":"Visual page builder для React/Next.js"},
-  {"repo":"BuilderIO/builder","categories":["websites-cms"],"note":"Visual CMS для headless content"},
-  {"repo":"tinacms/tinacms","categories":["websites-cms"],"note":"Git-backed headless CMS с visual editing"},
-  {"repo":"sanity-io/sanity","categories":["websites-cms"],"note":"skip partial OSS"},
-  {"repo":"keystonejs/keystone","categories":["websites-cms","database-admin"],"note":"GraphQL CMS и admin UI framework"},
-  {"repo":"medusajs/nextjs-starter-medusa","categories":["ecommerce","websites-cms"],"note":"skip starter template"},
-  {"repo":"nuxt/content","categories":["websites-cms"],"note":"File-based CMS для Nuxt"},
-  {"repo":"bookstackapp/bookstack","categories":["document-collaboration"],"note":"skip duplicate case"},
-  {"repo":"BookStackApp/BookStack","categories":["document-collaboration"],"note":"skip duplicate"},
-
-  {"repo":"frappe/insights","categories":["analytics-bi","low-code-internal"],"note":"Self-hosted BI на Frappe — SQL dashboards"},
-  {"repo":"preset-io/superset","categories":["analytics-bi"],"note":"skip duplicate"},
-  {"repo":"apache/druid","categories":["analytics-bi","database-admin"],"note":"Real-time analytics database"},
-  {"repo":"questdb/questdb","categories":["database-admin"],"note":"skip duplicate"},
-  {"repo":"timescale/timescaledb","categories":["database-admin","analytics-bi"],"note":"Time-series PostgreSQL extension"},
-  {"repo":"VictoriaMetrics/VictoriaMetrics","categories":["database-admin","analytics-bi"],"note":"Fast metrics storage — Prometheus alternative"},
-  {"repo":"prometheus/prometheus","categories":["analytics-bi","database-admin"],"note":"Monitoring system и time series DB"},
-  {"repo":"grafana/loki","categories":["analytics-bi","observability"],"note":"Log aggregation system"},
-  {"repo":"grafana/tempo","categories":["analytics-bi","observability"],"note":"Distributed tracing backend"},
-
-  {"repo":"frappe/telephony","categories":["communication","crm-sales"],"note":"Telephony integration для Frappe CRM"},
-  {"repo":"FreePBX/core","categories":["communication","erp-operations"],"note":"Open-source PBX phone system"},
-  {"repo":"jitsi/jibri","categories":["communication"],"note":"skip component"},
-  {"repo":"bigbluebutton/bigbluebutton","categories":["communication"],"note":"Web conferencing для education и meetings"},
-  {"repo":"spreedco/spreed","categories":["communication"],"note":"skip if not exists"},
-  {"repo":"nextcloud/spreed","categories":["communication"],"note":"Video calls в Nextcloud"},
-  {"repo":"element-hq/element-web","categories":["communication"],"note":"skip duplicate path"},
-  {"repo":"matterbridge/matterbridge","categories":["communication","api-tools"],"note":"Bridge между chat platforms"},
-
-  {"repo":"frappe/helpdesk","categories":["crm-sales"],"note":"skip duplicate"},
-  {"repo":"twentyhq/twenty","categories":["crm-sales"],"note":"skip duplicate"},
-  {"repo":"salesag/scoredock","categories":["crm-sales"],"note":"skip if not exists"},
-  {"repo":"Cognitiv/CRM","categories":["crm-sales"],"note":"skip if not exists"},
-  {"repo":"Krayin/laravel-crm","categories":["crm-sales"],"note":"Open-source CRM на Laravel"},
-  {"repo":"perfexcrm/perfex","categories":["crm-sales","project-management"],"note":"CRM с projects, invoices, estimates"},
-  {"repo":"SalesAg/scoredock","categories":["crm-sales"],"note":"skip"},
-  {"repo":"DjangoCRM/django-crm","categories":["crm-sales"],"note":"CRM на Django"},
-
-  {"repo":"frappe/press","categories":["low-code-internal","erp-operations"],"note":"Multi-tenant hosting platform для Frappe apps"},
-  {"repo":"nocodb/nocodb","categories":["spreadsheets-data"],"note":"skip duplicate"},
-  {"repo":"appsmithorg/appsmith","categories":["low-code-internal"],"note":"skip duplicate"},
-  {"repo":"ToolJet/ToolJet","categories":["low-code-internal"],"note":"skip duplicate"},
-  {"repo":"budibase/budibase","categories":["low-code-internal"],"note":"skip duplicate"},
-  {"repo":"lowdefy/lowdefy","categories":["low-code-internal"],"note":"Config-based internal tools framework"},
-  {"repo":"superblocks/superblocks","categories":["low-code-internal"],"note":"skip commercial"},
-  {"repo":"retool-open-source/retool","categories":["low-code-internal"],"note":"skip if not exists"},
-  {"repo":"jhipster/generator-jhipster","categories":["low-code-internal","api-tools"],"note":"Generate full-stack apps from entity model"},
-
-  {"repo":"projectdiscovery/nuclei","categories":["api-tools","web-scraping"],"note":"Vulnerability scanner — security automation"},
-  {"repo":"zapier/zapier-platform","categories":["api-tools"],"note":"skip SDK"},
-  {"repo":"hasura/graphql-engine","categories":["api-tools"],"note":"skip duplicate"},
-  {"repo":"PostgREST/postgrest","categories":["api-tools","database-admin"],"note":"Instant REST API для PostgreSQL"},
-  {"repo":"supabase/postgrest","categories":["api-tools"],"note":"skip duplicate fork"},
-  {"repo":"prisma/prisma","categories":["api-tools","database-admin"],"note":"Next-gen ORM для Node/TS"},
-  {"repo":"typeorm/typeorm","categories":["api-tools","database-admin"],"note":"ORM для TypeScript и JavaScript"},
-  {"repo":"sequelize/sequelize","categories":["api-tools","database-admin"],"note":"Promise-based Node.js ORM"},
-  {"repo":"graphql/graphiql","categories":["api-tools"],"note":"GraphQL IDE для exploring APIs"},
-  {"repo":"Kong/insomnia","categories":["api-tools"],"note":"API client и design platform"},
-  {"repo":"scalar/scalar","categories":["api-tools"],"note":"Modern API client и documentation"},
-  {"repo":"stoplightio/prism","categories":["api-tools"],"note":"Mock API servers from OpenAPI"},
-  {"repo":"getkin/kin-openapi","categories":["api-tools"],"note":"skip lib"},
-  {"repo":"openapi-ts/openapi-typescript","categories":["api-tools"],"note":"skip lib"},
-
-  {"repo":"metabase/metabase","categories":["analytics-bi"],"note":"skip duplicate"},
-  {"repo":"plane/plane","categories":["project-management"],"note":"skip wrong path"},
-  {"repo":"makeplane/plane","categories":["project-management"],"note":"skip duplicate"},
-  {"repo":"AppFlowy-IO/AppFlowy","categories":["document-collaboration"],"note":"skip duplicate merge"},
-  {"repo":"logseq/logseq","categories":["document-collaboration"],"note":"skip duplicate merge"}
+  {
+    "repo": "SeaTable/seatable",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "Spreadsheet-database hybrid для команд"
+  },
+  {
+    "repo": "nocobase/nocobase",
+    "categories": [
+      "spreadsheets-data",
+      "low-code-internal"
+    ],
+    "note": "No-code platform с spreadsheet mindset на любой SQL"
+  },
+  {
+    "repo": "univerjs/univer",
+    "categories": [
+      "spreadsheets-data",
+      "document-collaboration"
+    ],
+    "note": "Open-source office suite: sheets, docs, slides"
+  },
+  {
+    "repo": "myliang/Luckysheet",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "Online spreadsheet — Excel-like в браузере"
+  },
+  {
+    "repo": "ethercalc/ethercalc",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "Collaborative realtime spreadsheet"
+  },
+  {
+    "repo": "undb-io/undb",
+    "categories": [
+      "spreadsheets-data",
+      "database-admin"
+    ],
+    "note": "No-code database с spreadsheet UI"
+  },
+  {
+    "repo": "excalidraw/excalidraw",
+    "categories": [
+      "document-collaboration",
+      "low-code-internal"
+    ],
+    "note": "Virtual whiteboard для диаграмм и wireframes"
+  },
+  {
+    "repo": "rowsncolumns/open_spreadsheet",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "High-performance spreadsheet engine"
+  },
+  {
+    "repo": "graphweaver/graphweaver",
+    "categories": [
+      "spreadsheets-data",
+      "api-tools"
+    ],
+    "note": "Instant GraphQL API из spreadsheets и SQL"
+  },
+  {
+    "repo": "papermerge/papermerge",
+    "categories": [
+      "document-collaboration",
+      "erp-operations"
+    ],
+    "note": "Document management system для архивов и OCR"
+  },
+  {
+    "repo": "mayan-edms/Mayan-EDMS",
+    "categories": [
+      "document-collaboration",
+      "erp-operations"
+    ],
+    "note": "Enterprise document management"
+  },
+  {
+    "repo": "openkm/document-management-system",
+    "categories": [
+      "document-collaboration",
+      "erp-operations"
+    ],
+    "note": "DMS для бизнес-документов"
+  },
+  {
+    "repo": "ever-co/ever-gauzy",
+    "categories": [
+      "erp-operations",
+      "crm-sales",
+      "finance-accounting"
+    ],
+    "note": "ERP/CRM/HRM/PM платформа для agencies и SMB"
+  },
+  {
+    "repo": "idempiere/idempiere",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "Community-driven open-source ERP"
+  },
+  {
+    "repo": "Snipe/snipe-it",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "IT asset management для компаний"
+  },
+  {
+    "repo": "horilla/horilla",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "Modern HRMS — attendance, payroll, recruitment"
+  },
+  {
+    "repo": "orangehrm/orangehrm",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "HR management system для SMB"
+  },
+  {
+    "repo": "openboxes/openboxes",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "Supply chain и inventory management"
+  },
+  {
+    "repo": "inventree/InvenTree",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "Inventory management для manufacturing и makers"
+  },
+  {
+    "repo": "frappe/lms",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "Learning management system на Frappe"
+  },
+  {
+    "repo": "frappe/payments",
+    "categories": [
+      "finance-accounting",
+      "ecommerce"
+    ],
+    "note": "Payment gateway integrations для Frappe/ERPNext"
+  },
+  {
+    "repo": "Tryton/tryton",
+    "categories": [
+      "erp-operations",
+      "finance-accounting"
+    ],
+    "note": "Modular ERP platform"
+  },
+  {
+    "repo": "ledgerSMB/ledgersmb",
+    "categories": [
+      "finance-accounting",
+      "erp-operations"
+    ],
+    "note": "Accounting и ERP для SMB"
+  },
+  {
+    "repo": "Part-DB/Part-DB-server",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "Electronic parts inventory для R&D teams"
+  },
+  {
+    "repo": "eventyay/open-event",
+    "categories": [
+      "marketing-email",
+      "erp-operations"
+    ],
+    "note": "Event management — tickets, schedules, call for papers"
+  },
+  {
+    "repo": "frappe/healthcare",
+    "categories": [
+      "erp-operations"
+    ],
+    "note": "Healthcare ERP на Frappe"
+  },
+  {
+    "repo": "matomo-org/matomo",
+    "categories": [
+      "marketing-email",
+      "analytics-bi"
+    ],
+    "note": "Privacy-focused web analytics — Google Analytics alternative"
+  },
+  {
+    "repo": "dubinc/dub",
+    "categories": [
+      "marketing-email",
+      "analytics-bi"
+    ],
+    "note": "Link management, short links, conversion analytics"
+  },
+  {
+    "repo": "YOURLS/YOURLS",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Self-hosted URL shortener с tracking"
+  },
+  {
+    "repo": "shlinkio/shlink",
+    "categories": [
+      "marketing-email",
+      "api-tools"
+    ],
+    "note": "URL shortener с REST API и analytics"
+  },
+  {
+    "repo": "keila-app/keila",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Newsletter tool — Mailchimp alternative"
+  },
+  {
+    "repo": "Automatisch/automatisch",
+    "categories": [
+      "marketing-email",
+      "integration-automation"
+    ],
+    "note": "Business automation — Zapier alternative для marketing"
+  },
+  {
+    "repo": "HeyForm/HeyForm",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Open-source form builder — Typeform alternative"
+  },
+  {
+    "repo": "LimeSurvey/LimeSurvey",
+    "categories": [
+      "marketing-email",
+      "analytics-bi"
+    ],
+    "note": "Professional survey platform"
+  },
+  {
+    "repo": "SurveyKing/survey-king",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Survey и questionnaire builder"
+  },
+  {
+    "repo": "ohmyform/ohmyform",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Form builder для lead capture"
+  },
+  {
+    "repo": "usefomo/fomo",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "skip if not exists"
+  },
+  {
+    "repo": "usefathom/fathom",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "skip commercial"
+  },
+  {
+    "repo": "posthog/posthog-js",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "skip lib"
+  },
+  {
+    "repo": "mailcow/mailcow-dockerized",
+    "categories": [
+      "email-collaboration"
+    ],
+    "note": "Self-hosted mail server suite"
+  },
+  {
+    "repo": "Mailu/Mailu",
+    "categories": [
+      "email-collaboration"
+    ],
+    "note": "Simple self-hosted mail server"
+  },
+  {
+    "repo": "modoboa/modoboa",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Mail hosting и management platform"
+  },
+  {
+    "repo": "iRedMail/iRedMail",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Full-featured mail server solution"
+  },
+  {
+    "repo": "MailHog/MailHog",
+    "categories": [
+      "marketing-email",
+      "api-tools"
+    ],
+    "note": "Email testing для dev/staging"
+  },
+  {
+    "repo": "usewaypoint/email-builder-js",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "Drag-and-drop email template builder"
+  },
+  {
+    "repo": "usewaypoint/email-builder",
+    "categories": [
+      "marketing-email"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "Canner/WrenAI",
+    "categories": [
+      "analytics-bi",
+      "marketing-email"
+    ],
+    "note": "GenBI — natural language analytics на SQL data"
+  },
+  {
+    "repo": "openobserve/openobserve",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "Observability platform — logs, metrics, traces"
+  },
+  {
+    "repo": "signoz/signoz",
+    "categories": [
+      "analytics-bi",
+      "observability"
+    ],
+    "note": "Open-source APM и observability"
+  },
+  {
+    "repo": "highlight/highlight",
+    "categories": [
+      "analytics-bi",
+      "observability"
+    ],
+    "note": "Session replay и error monitoring"
+  },
+  {
+    "repo": "hyperdxio/hyperdx",
+    "categories": [
+      "analytics-bi",
+      "observability"
+    ],
+    "note": "OpenTelemetry-native observability"
+  },
+  {
+    "repo": "getlago/lago",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Open-source billing и metering — Stripe alternative"
+  },
+  {
+    "repo": "killbill/killbill",
+    "categories": [
+      "finance-accounting",
+      "ecommerce"
+    ],
+    "note": "Subscription billing и payment platform"
+  },
+  {
+    "repo": "Gnucash/gnucash",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Personal and small-business accounting"
+  },
+  {
+    "repo": "kimai/kimai",
+    "categories": [
+      "finance-accounting",
+      "project-management"
+    ],
+    "note": "Time tracking для freelancers и teams"
+  },
+  {
+    "repo": "beancount/beancount",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Double-entry accounting plain-text ledger"
+  },
+  {
+    "repo": "OpenBudgeteer/Budgeteer",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Personal budget planning app"
+  },
+  {
+    "repo": "maybe-finance/maybe-community",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "skip if duplicate"
+  },
+  {
+    "repo": "invoice-x/invoice2data",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Extract structured data from PDF invoices"
+  },
+  {
+    "repo": "CraterApp/crater",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Invoicing app для freelancers и small business"
+  },
+  {
+    "repo": "SolidInvoice/solidinvoice",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Invoicing и billing для SMB"
+  },
+  {
+    "repo": "Akaunting/akaunting",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "frappe/payments",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "wallabag/wallabag",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "actualbudget/actual-server",
+    "categories": [
+      "finance-accounting"
+    ],
+    "note": "Sync server для Actual Budget"
+  },
+  {
+    "repo": "vendure-ecommerce/vendure",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Headless commerce framework на Node.js"
+  },
+  {
+    "repo": "shopware/shopware",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Enterprise e-commerce platform"
+  },
+  {
+    "repo": "solidusio/solidus",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Open-source e-commerce на Ruby"
+  },
+  {
+    "repo": "nopSolutions/nopCommerce",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": ".NET e-commerce platform"
+  },
+  {
+    "repo": "EC-CUBE/ec-cube",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Japanese e-commerce platform"
+  },
+  {
+    "repo": "opensourcepos/opensourcepos",
+    "categories": [
+      "ecommerce",
+      "erp-operations"
+    ],
+    "note": "Point of Sale для retail"
+  },
+  {
+    "repo": "unbox-project/unbox",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "skip if not exists"
+  },
+  {
+    "repo": "saleor/saleor-dashboard",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "skip admin UI only"
+  },
+  {
+    "repo": "magento/magento2",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "Enterprise e-commerce (Adobe Commerce OSS)"
+  },
+  {
+    "repo": "ReactionCommerce/reaction",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "skip archived"
+  },
+  {
+    "repo": "linagora/twake-commerce",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "skip if not exists"
+  },
+  {
+    "repo": "frappe/webshop",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "E-commerce модуль для Frappe/ERPNext"
+  },
+  {
+    "repo": "medusa-js/medusa",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "skip duplicate path"
+  },
+  {
+    "repo": "payloadcms/payload",
+    "categories": [
+      "headless-cms"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "commercejs/commerce.js",
+    "categories": [
+      "ecommerce",
+      "api-tools"
+    ],
+    "note": "Headless commerce API"
+  },
+  {
+    "repo": "FlowiseAI/Flowise",
+    "categories": [
+      "app-builders",
+      "agent-harness"
+    ],
+    "note": "Drag-and-drop LLM apps builder"
+  },
+  {
+    "repo": "langflow-ai/langflow",
+    "categories": [
+      "app-builders",
+      "agent-harness"
+    ],
+    "note": "Visual framework для multi-agent AI apps"
+  },
+  {
+    "repo": "lobehub/lobe-chat",
+    "categories": [
+      "app-builders",
+      "self-hosted"
+    ],
+    "note": "Modern AI chat framework с plugins"
+  },
+  {
+    "repo": "gptscript-ai/gptscript",
+    "categories": [
+      "app-builders",
+      "agent-harness"
+    ],
+    "note": "Natural language scripting для AI workflows"
+  },
+  {
+    "repo": "e2b-dev/fragments",
+    "categories": [
+      "app-builders"
+    ],
+    "note": "Open-source AI app builder от E2B"
+  },
+  {
+    "repo": "OpenAgents/OpenAgents",
+    "categories": [
+      "app-builders",
+      "agent-harness"
+    ],
+    "note": "Platform для hosting и sharing AI agents"
+  },
+  {
+    "repo": "langfuse/langfuse",
+    "categories": [
+      "app-builders"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "CopilotKit/CopilotKit",
+    "categories": [
+      "app-builders",
+      "low-code-internal"
+    ],
+    "note": "Embed copilots в React apps"
+  },
+  {
+    "repo": "assistant-ui/assistant-ui",
+    "categories": [
+      "app-builders"
+    ],
+    "note": "React components для AI chat UIs"
+  },
+  {
+    "repo": "vercel/ai-chatbot",
+    "categories": [
+      "app-builders"
+    ],
+    "note": "Full-stack AI chatbot template"
+  },
+  {
+    "repo": "supabase-community/chatgpt-your-files",
+    "categories": [
+      "app-builders",
+      "rag-context"
+    ],
+    "note": "RAG chatbot template"
+  },
+  {
+    "repo": "microsoft/autogen-studio",
+    "categories": [
+      "app-builders",
+      "agent-harness"
+    ],
+    "note": "No-code UI для AutoGen multi-agent workflows"
+  },
+  {
+    "repo": "Chainlit/chainlit",
+    "categories": [
+      "app-builders",
+      "observability"
+    ],
+    "note": "Build conversational AI apps с monitoring"
+  },
+  {
+    "repo": "wasp-lang/wasp",
+    "categories": [
+      "app-builders"
+    ],
+    "note": "Full-stack web app framework с auth и DB"
+  },
+  {
+    "repo": "reflex-dev/reflex",
+    "categories": [
+      "app-builders",
+      "low-code-internal"
+    ],
+    "note": "Pure Python web apps — full-stack framework"
+  },
+  {
+    "repo": "kestra-io/kestra",
+    "categories": [
+      "data-orchestration",
+      "api-tools"
+    ],
+    "note": "Event-driven orchestration — Airflow alternative"
+  },
+  {
+    "repo": "automate-io/automate",
+    "categories": [
+      "integration-automation"
+    ],
+    "note": "skip if not exists"
+  },
+  {
+    "repo": "TriggerMesh/triggermesh",
+    "categories": [
+      "integration-automation",
+      "api-tools"
+    ],
+    "note": "Cloud-native event processing"
+  },
+  {
+    "repo": "camunda/camunda",
+    "categories": [
+      "workflow-engines",
+      "erp-operations"
+    ],
+    "note": "Workflow and decision automation"
+  },
+  {
+    "repo": "bonitasoft/bonita-engine",
+    "categories": [
+      "workflow-engines",
+      "low-code-internal"
+    ],
+    "note": "BPM platform для enterprise processes"
+  },
+  {
+    "repo": "Activiti/Activiti",
+    "categories": [
+      "workflow-engines"
+    ],
+    "note": "Lightweight BPMN workflow engine"
+  },
+  {
+    "repo": "wexflow/wexflow",
+    "categories": [
+      "workflow-engines"
+    ],
+    "note": "Workflow automation engine для Windows/Linux"
+  },
+  {
+    "repo": "stackstorm/stackstorm",
+    "categories": [
+      "devops-automation"
+    ],
+    "note": "Event-driven automation — IFTTT for ops"
+  },
+  {
+    "repo": "rundeck/rundeck",
+    "categories": [
+      "devops-automation"
+    ],
+    "note": "Runbook automation для ops teams"
+  },
+  {
+    "repo": "Semaphore/semaphore",
+    "categories": [
+      "devops-automation"
+    ],
+    "note": "skip if CI not automation"
+  },
+  {
+    "repo": "Semaphore/semaphore-ui",
+    "categories": [
+      "devops-automation"
+    ],
+    "note": "Modern UI для Ansible automation"
+  },
+  {
+    "repo": "frappe/builder",
+    "categories": [
+      "visual-site-builders",
+      "low-code-internal"
+    ],
+    "note": "Visual website builder на Frappe"
+  },
+  {
+    "repo": "plasmicapp/plasmic",
+    "categories": [
+      "visual-site-builders",
+      "low-code-internal"
+    ],
+    "note": "Visual page builder для React/Next.js"
+  },
+  {
+    "repo": "BuilderIO/builder",
+    "categories": [
+      "visual-site-builders"
+    ],
+    "note": "Visual CMS для headless content"
+  },
+  {
+    "repo": "tinacms/tinacms",
+    "categories": [
+      "headless-cms"
+    ],
+    "note": "Git-backed headless CMS с visual editing"
+  },
+  {
+    "repo": "sanity-io/sanity",
+    "categories": [
+      "headless-cms"
+    ],
+    "note": "skip partial OSS"
+  },
+  {
+    "repo": "keystonejs/keystone",
+    "categories": [
+      "headless-cms",
+      "database-admin"
+    ],
+    "note": "GraphQL CMS и admin UI framework"
+  },
+  {
+    "repo": "medusajs/nextjs-starter-medusa",
+    "categories": [
+      "ecommerce"
+    ],
+    "note": "skip starter template"
+  },
+  {
+    "repo": "nuxt/content",
+    "categories": [
+      "headless-cms",
+      "static-site-generators"
+    ],
+    "note": "File-based CMS для Nuxt"
+  },
+  {
+    "repo": "bookstackapp/bookstack",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "skip duplicate case"
+  },
+  {
+    "repo": "BookStackApp/BookStack",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "frappe/insights",
+    "categories": [
+      "analytics-bi",
+      "low-code-internal"
+    ],
+    "note": "Self-hosted BI на Frappe — SQL dashboards"
+  },
+  {
+    "repo": "preset-io/superset",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "apache/druid",
+    "categories": [
+      "analytics-bi",
+      "database-admin"
+    ],
+    "note": "Real-time analytics database"
+  },
+  {
+    "repo": "questdb/questdb",
+    "categories": [
+      "database-admin"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "timescale/timescaledb",
+    "categories": [
+      "database-admin",
+      "analytics-bi"
+    ],
+    "note": "Time-series PostgreSQL extension"
+  },
+  {
+    "repo": "VictoriaMetrics/VictoriaMetrics",
+    "categories": [
+      "database-admin",
+      "analytics-bi"
+    ],
+    "note": "Fast metrics storage — Prometheus alternative"
+  },
+  {
+    "repo": "prometheus/prometheus",
+    "categories": [
+      "analytics-bi",
+      "database-admin"
+    ],
+    "note": "Monitoring system и time series DB"
+  },
+  {
+    "repo": "grafana/loki",
+    "categories": [
+      "analytics-bi",
+      "observability"
+    ],
+    "note": "Log aggregation system"
+  },
+  {
+    "repo": "grafana/tempo",
+    "categories": [
+      "analytics-bi",
+      "observability"
+    ],
+    "note": "Distributed tracing backend"
+  },
+  {
+    "repo": "frappe/telephony",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Telephony integration для Frappe CRM"
+  },
+  {
+    "repo": "FreePBX/core",
+    "categories": [
+      "general-oss",
+      "erp-operations"
+    ],
+    "note": "Open-source PBX phone system"
+  },
+  {
+    "repo": "jitsi/jibri",
+    "categories": [
+      "video-conferencing"
+    ],
+    "note": "skip component"
+  },
+  {
+    "repo": "bigbluebutton/bigbluebutton",
+    "categories": [
+      "video-conferencing"
+    ],
+    "note": "Web conferencing для education и meetings"
+  },
+  {
+    "repo": "spreedco/spreed",
+    "categories": [
+      "video-conferencing"
+    ],
+    "note": "skip if not exists"
+  },
+  {
+    "repo": "nextcloud/spreed",
+    "categories": [
+      "video-conferencing"
+    ],
+    "note": "Video calls в Nextcloud"
+  },
+  {
+    "repo": "element-hq/element-web",
+    "categories": [
+      "team-chat"
+    ],
+    "note": "skip duplicate path"
+  },
+  {
+    "repo": "matterbridge/matterbridge",
+    "categories": [
+      "team-chat",
+      "api-tools"
+    ],
+    "note": "Bridge между chat platforms"
+  },
+  {
+    "repo": "frappe/helpdesk",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "twentyhq/twenty",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "salesag/scoredock",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "skip if not exists"
+  },
+  {
+    "repo": "Cognitiv/CRM",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "skip if not exists"
+  },
+  {
+    "repo": "Krayin/laravel-crm",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "Open-source CRM на Laravel"
+  },
+  {
+    "repo": "perfexcrm/perfex",
+    "categories": [
+      "crm-sales",
+      "project-management"
+    ],
+    "note": "CRM с projects, invoices, estimates"
+  },
+  {
+    "repo": "SalesAg/scoredock",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "skip"
+  },
+  {
+    "repo": "DjangoCRM/django-crm",
+    "categories": [
+      "crm-sales"
+    ],
+    "note": "CRM на Django"
+  },
+  {
+    "repo": "frappe/press",
+    "categories": [
+      "low-code-internal",
+      "erp-operations"
+    ],
+    "note": "Multi-tenant hosting platform для Frappe apps"
+  },
+  {
+    "repo": "nocodb/nocodb",
+    "categories": [
+      "spreadsheets-data"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "appsmithorg/appsmith",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "ToolJet/ToolJet",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "budibase/budibase",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "lowdefy/lowdefy",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "Config-based internal tools framework"
+  },
+  {
+    "repo": "superblocks/superblocks",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "skip commercial"
+  },
+  {
+    "repo": "retool-open-source/retool",
+    "categories": [
+      "low-code-internal"
+    ],
+    "note": "skip if not exists"
+  },
+  {
+    "repo": "jhipster/generator-jhipster",
+    "categories": [
+      "low-code-internal",
+      "api-tools"
+    ],
+    "note": "Generate full-stack apps from entity model"
+  },
+  {
+    "repo": "projectdiscovery/nuclei",
+    "categories": [
+      "api-tools",
+      "web-scraping"
+    ],
+    "note": "Vulnerability scanner — security automation"
+  },
+  {
+    "repo": "zapier/zapier-platform",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip SDK"
+  },
+  {
+    "repo": "hasura/graphql-engine",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "PostgREST/postgrest",
+    "categories": [
+      "api-tools",
+      "database-admin"
+    ],
+    "note": "Instant REST API для PostgreSQL"
+  },
+  {
+    "repo": "supabase/postgrest",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip duplicate fork"
+  },
+  {
+    "repo": "prisma/prisma",
+    "categories": [
+      "api-tools",
+      "database-admin"
+    ],
+    "note": "Next-gen ORM для Node/TS"
+  },
+  {
+    "repo": "typeorm/typeorm",
+    "categories": [
+      "api-tools",
+      "database-admin"
+    ],
+    "note": "ORM для TypeScript и JavaScript"
+  },
+  {
+    "repo": "sequelize/sequelize",
+    "categories": [
+      "api-tools",
+      "database-admin"
+    ],
+    "note": "Promise-based Node.js ORM"
+  },
+  {
+    "repo": "graphql/graphiql",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "GraphQL IDE для exploring APIs"
+  },
+  {
+    "repo": "Kong/insomnia",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "API client и design platform"
+  },
+  {
+    "repo": "scalar/scalar",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "Modern API client и documentation"
+  },
+  {
+    "repo": "stoplightio/prism",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "Mock API servers from OpenAPI"
+  },
+  {
+    "repo": "getkin/kin-openapi",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip lib"
+  },
+  {
+    "repo": "openapi-ts/openapi-typescript",
+    "categories": [
+      "api-tools"
+    ],
+    "note": "skip lib"
+  },
+  {
+    "repo": "metabase/metabase",
+    "categories": [
+      "analytics-bi"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "plane/plane",
+    "categories": [
+      "project-management"
+    ],
+    "note": "skip wrong path"
+  },
+  {
+    "repo": "makeplane/plane",
+    "categories": [
+      "project-management"
+    ],
+    "note": "skip duplicate"
+  },
+  {
+    "repo": "AppFlowy-IO/AppFlowy",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "skip duplicate merge"
+  },
+  {
+    "repo": "logseq/logseq",
+    "categories": [
+      "document-collaboration"
+    ],
+    "note": "skip duplicate merge"
+  }
 ]

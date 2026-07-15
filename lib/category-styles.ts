@@ -1,5 +1,3 @@
-import type { Category } from "./types";
-
 export type CategoryStyle = {
   bg: string;
   text: string;
@@ -80,23 +78,35 @@ export const CATEGORY_STYLES: Record<string, CategoryStyle> = {
     border: "border-amber-800/80",
     dot: "bg-amber-400",
   },
-  "automation-workflows": {
-    bg: "bg-orange-950/80",
-    text: "text-orange-300",
-    border: "border-orange-800/80",
-    dot: "bg-orange-400",
-  },
   "spreadsheets-data": {
     bg: "bg-lime-950/80",
     text: "text-lime-300",
     border: "border-lime-800/80",
     dot: "bg-lime-400",
   },
-  "websites-cms": {
+  "headless-cms": {
     bg: "bg-rose-950/80",
     text: "text-rose-300",
     border: "border-rose-800/80",
     dot: "bg-rose-400",
+  },
+  "publishing-cms": {
+    bg: "bg-red-950/80",
+    text: "text-red-300",
+    border: "border-red-800/80",
+    dot: "bg-red-400",
+  },
+  "static-site-generators": {
+    bg: "bg-cyan-950/80",
+    text: "text-cyan-300",
+    border: "border-cyan-800/80",
+    dot: "bg-cyan-400",
+  },
+  "visual-site-builders": {
+    bg: "bg-pink-950/80",
+    text: "text-pink-300",
+    border: "border-pink-800/80",
+    dot: "bg-pink-400",
   },
   "crm-sales": {
     bg: "bg-pink-950/80",
@@ -152,17 +162,59 @@ export const CATEGORY_STYLES: Record<string, CategoryStyle> = {
     border: "border-zinc-600/80",
     dot: "bg-zinc-400",
   },
+  "integration-automation": {
+    bg: "bg-orange-950/80",
+    text: "text-orange-300",
+    border: "border-orange-800/80",
+    dot: "bg-orange-400",
+  },
+  "data-orchestration": {
+    bg: "bg-sky-950/80",
+    text: "text-sky-200",
+    border: "border-sky-700/80",
+    dot: "bg-sky-300",
+  },
+  "workflow-engines": {
+    bg: "bg-fuchsia-950/80",
+    text: "text-fuchsia-200",
+    border: "border-fuchsia-700/80",
+    dot: "bg-fuchsia-300",
+  },
+  "devops-automation": {
+    bg: "bg-slate-900/80",
+    text: "text-slate-300",
+    border: "border-slate-700/80",
+    dot: "bg-slate-400",
+  },
   "database-admin": {
     bg: "bg-indigo-950/80",
     text: "text-indigo-200",
     border: "border-indigo-700/80",
     dot: "bg-indigo-300",
   },
-  communication: {
+  "team-chat": {
     bg: "bg-cyan-950/80",
     text: "text-cyan-200",
     border: "border-cyan-700/80",
     dot: "bg-cyan-300",
+  },
+  "video-conferencing": {
+    bg: "bg-sky-950/80",
+    text: "text-sky-200",
+    border: "border-sky-700/80",
+    dot: "bg-sky-300",
+  },
+  "forums-communities": {
+    bg: "bg-teal-950/80",
+    text: "text-teal-200",
+    border: "border-teal-700/80",
+    dot: "bg-teal-300",
+  },
+  "email-collaboration": {
+    bg: "bg-emerald-950/80",
+    text: "text-emerald-200",
+    border: "border-emerald-700/80",
+    dot: "bg-emerald-300",
   },
   "general-oss": {
     bg: "bg-zinc-900/80",

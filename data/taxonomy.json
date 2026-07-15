@@ -108,15 +108,6 @@
     "group": "business"
   },
   {
-    "id": "automation-workflows",
-    "name": { "ru": "Автоматизация", "en": "Automation & Workflows" },
-    "description": {
-      "ru": "Связывает сервисы и автоматизирует рутину — как Zapier, но у себя",
-      "en": "Workflow automation, integrations, RPA, process orchestration"
-    },
-    "group": "business"
-  },
-  {
     "id": "spreadsheets-data",
     "name": { "ru": "Таблицы и базы", "en": "Spreadsheets & Data" },
     "description": {
@@ -126,11 +117,38 @@
     "group": "business"
   },
   {
-    "id": "websites-cms",
-    "name": { "ru": "Сайты и CMS", "en": "Websites & CMS" },
+    "id": "headless-cms",
+    "name": { "ru": "Headless CMS", "en": "Headless CMS" },
     "description": {
-      "ru": "Блоги, лендинги и управление контентом сайта",
-      "en": "CMS, headless CMS, blogs, site builders, landing pages"
+      "ru": "API-first CMS, контентные модели и headless-управление сайтом",
+      "en": "API-first CMS, content models and headless content management"
+    },
+    "group": "business"
+  },
+  {
+    "id": "publishing-cms",
+    "name": { "ru": "Публикация и CMS", "en": "Publishing CMS" },
+    "description": {
+      "ru": "Блоги, редакционные сайты, подписки и классические CMS",
+      "en": "Blogs, publishing platforms, memberships and traditional CMS"
+    },
+    "group": "business"
+  },
+  {
+    "id": "static-site-generators",
+    "name": { "ru": "Статические сайты", "en": "Static Site Generators" },
+    "description": {
+      "ru": "Генераторы статических сайтов, документации и контентных проектов",
+      "en": "Static site generators for docs, blogs and content-heavy websites"
+    },
+    "group": "business"
+  },
+  {
+    "id": "visual-site-builders",
+    "name": { "ru": "Визуальные билдеры", "en": "Visual Site Builders" },
+    "description": {
+      "ru": "Drag-and-drop билдеры сайтов, страниц и контентных интерфейсов",
+      "en": "Drag-and-drop builders for sites, landing pages and content experiences"
     },
     "group": "business"
   },
@@ -216,6 +234,42 @@
     "group": "infrastructure"
   },
   {
+    "id": "integration-automation",
+    "name": { "ru": "Интеграции и автоматизация", "en": "Integration Automation" },
+    "description": {
+      "ru": "Связывает сервисы, webhooks и задачи в автоматические сценарии",
+      "en": "Service integrations, event flows, webhooks, no-code automation"
+    },
+    "group": "infrastructure"
+  },
+  {
+    "id": "data-orchestration",
+    "name": { "ru": "Оркестрация данных", "en": "Data Orchestration" },
+    "description": {
+      "ru": "DAG, ETL, расписания и пайплайны данных для надёжного запуска задач",
+      "en": "DAGs, ETL, schedulers, data pipelines and orchestration"
+    },
+    "group": "infrastructure"
+  },
+  {
+    "id": "workflow-engines",
+    "name": { "ru": "Процессные движки", "en": "Workflow Engines" },
+    "description": {
+      "ru": "BPM, durable execution и движки для бизнес- и системных процессов",
+      "en": "BPM, durable execution and engines for business and system workflows"
+    },
+    "group": "infrastructure"
+  },
+  {
+    "id": "devops-automation",
+    "name": { "ru": "DevOps-автоматизация", "en": "DevOps Automation" },
+    "description": {
+      "ru": "Runbooks, Ansible, job automation и операционные сценарии для инфраструктуры",
+      "en": "Runbooks, Ansible, job automation and ops orchestration"
+    },
+    "group": "infrastructure"
+  },
+  {
     "id": "database-admin",
     "name": { "ru": "Базы данных", "en": "Databases & Admin" },
     "description": {
@@ -225,11 +279,38 @@
     "group": "infrastructure"
   },
   {
-    "id": "communication",
-    "name": { "ru": "Коммуникации", "en": "Team Communication" },
+    "id": "team-chat",
+    "name": { "ru": "Командный чат", "en": "Team Chat" },
     "description": {
-      "ru": "Чат, видеозвонки и форумы для команды — альтернатива Slack",
-      "en": "Team chat, video, forums — Slack/Discord alternatives"
+      "ru": "Командные мессенджеры, Matrix-клиенты и платформы для рабочих чатов",
+      "en": "Team messengers, Matrix clients and collaboration chat platforms"
+    },
+    "group": "infrastructure"
+  },
+  {
+    "id": "video-conferencing",
+    "name": { "ru": "Видео и звонки", "en": "Video Conferencing" },
+    "description": {
+      "ru": "Видеозвонки, веб-конференции, WebRTC и realtime-коммуникации",
+      "en": "Video calls, web conferencing, WebRTC and realtime communication stacks"
+    },
+    "group": "infrastructure"
+  },
+  {
+    "id": "forums-communities",
+    "name": { "ru": "Форумы и сообщества", "en": "Forums & Communities" },
+    "description": {
+      "ru": "Форумы, discussion-платформы и community software",
+      "en": "Forums, discussion platforms and community software"
+    },
+    "group": "infrastructure"
+  },
+  {
+    "id": "email-collaboration",
+    "name": { "ru": "Почта и groupware", "en": "Email & Groupware" },
+    "description": {
+      "ru": "Почтовые клиенты, mail servers и командная email-инфраструктура",
+      "en": "Mail clients, mail servers and team email infrastructure"
     },
     "group": "infrastructure"
   },

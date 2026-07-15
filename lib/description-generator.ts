@@ -56,10 +56,34 @@ function enOpening(tool: Tool, source: string): string {
   );
 }
 
+const GENERATED_SOURCE_MARKERS = [
+  /\bIn this catalog\b/i,
+  /\bListed under\b/i,
+  /\bKey topics:\b/i,
+  /\bUseful when you need to\b/i,
+  /\bProject details:\b/i,
+];
+
+function normalizeSourceDescription(text: string, tool: Tool): string {
+  let source = stripNamePrefix(text, tool.name).replace(/\s+/g, " ").trim();
+
+  for (const marker of GENERATED_SOURCE_MARKERS) {
+    const match = marker.exec(source);
+    if (match) {
+      source = source.slice(0, match.index).trim();
+    }
+  }
+
+  source = source.replace(/\s+[.]+$/g, "").trim();
+  return source;
+}
+
 function inferRuTraits(en: string, tool: Tool): string[] {
   const lower = en.toLowerCase();
   const tags = new Set(tool.tags.map((t) => t.toLowerCase()));
   const traits: string[] = [];
+  const voicePattern =
+    /\bvoice\b|\bvoices\b|\bspeech\b|\btts\b|text-to-speech|text to speech|speech recognition|transcrib|voice clon|audio generation|audio transcription|\basr\b|\bstt\b/i;
 
   if (
     tags.has("self-hosted") ||
@@ -77,7 +101,18 @@ function inferRuTraits(en: string, tool: Tool): string[] {
   if (/rag|retrieval|document|knowledge base|markdown|pdf/i.test(lower)) {
     traits.push("обрабатывает документы и контент для ИИ");
   }
-  if (/voice|speech|audio|tts|real-time/i.test(lower)) {
+  if (
+    tags.has("voice") ||
+    tags.has("voice-ai") ||
+    tags.has("voice-cloning") ||
+    tags.has("speech-recognition") ||
+    tags.has("speech-to-text") ||
+    tags.has("text-to-speech") ||
+    tags.has("tts") ||
+    tags.has("asr") ||
+    tags.has("stt") ||
+    voicePattern.test(lower)
+  ) {
     traits.push("подходит для голосовых сценариев");
   }
   if (/scrap|crawl|extract/i.test(lower)) {
@@ -142,7 +177,7 @@ function tagsSentence(tool: Tool, locale: Locale): string | null {
   return ensurePeriod(`Key topics: ${joinList(labels, locale)}`);
 }
 
-function practicalSentence(tool: Tool, locale: Locale, source: string): string | null {
+function practicalSentence(tool: Tool, locale: Locale): string | null {
   if (locale === "ru") {
     const parts: string[] = [];
     if (isFreePricing(tool.pricing)) {
@@ -179,7 +214,11 @@ function practicalSentence(tool: Tool, locale: Locale, source: string): string |
   return ensurePeriod(`Project details: ${joinList(parts, locale)}`);
 }
 
-function useCaseSentence(tool: Tool, locale: Locale, source: string): string | null {
+function buildUseCaseSentence(
+  tool: Tool,
+  locale: Locale,
+  source: string,
+): string | null {
   const traits =
     locale === "ru" ? inferRuTraits(source, tool) : inferEnTraits(source, tool);
   if (traits.length < 2) return null;
@@ -195,6 +234,8 @@ function inferEnTraits(en: string, tool: Tool): string[] {
   const lower = en.toLowerCase();
   const tags = new Set(tool.tags.map((t) => t.toLowerCase()));
   const traits: string[] = [];
+  const voicePattern =
+    /\bvoice\b|\bvoices\b|\bspeech\b|\btts\b|text-to-speech|text to speech|speech recognition|transcrib|voice clon|audio generation|audio transcription|\basr\b|\bstt\b/i;
 
   if (tags.has("self-hosted") || /self-host|on-prem/i.test(lower)) {
     traits.push("self-host on your infrastructure");
@@ -211,7 +252,18 @@ function inferEnTraits(en: string, tool: Tool): string[] {
   if (/scrap|crawl/i.test(lower)) {
     traits.push("collect web data");
   }
-  if (/voice|speech|real-time/i.test(lower)) {
+  if (
+    tags.has("voice") ||
+    tags.has("voice-ai") ||
+    tags.has("voice-cloning") ||
+    tags.has("speech-recognition") ||
+    tags.has("speech-to-text") ||
+    tags.has("text-to-speech") ||
+    tags.has("tts") ||
+    tags.has("asr") ||
+    tags.has("stt") ||
+    voicePattern.test(lower)
+  ) {
     traits.push("run voice AI scenarios");
   }
 
@@ -224,8 +276,8 @@ export function generateToolDescription(
   githubDescription?: string | null,
 ): string {
   const source =
-    githubDescription?.trim() ||
-    tool.description.en?.trim() ||
+    normalizeSourceDescription(githubDescription?.trim() || "", tool) ||
+    normalizeSourceDescription(tool.description.en?.trim() || "", tool) ||
     getCategoryById(primaryCategoryId(tool))?.description.en ||
     "Open-source software project";
 
@@ -236,8 +288,8 @@ export function generateToolDescription(
     opening,
     ...(locale === "en" ? [categorySentence(tool, locale)] : []),
     tagsSentence(tool, locale),
-    useCaseSentence(tool, locale, source),
-    practicalSentence(tool, locale, source),
+    buildUseCaseSentence(tool, locale, source),
+    practicalSentence(tool, locale),
   ].filter((s): s is string => Boolean(s));
 
   return sentences.join(" ");

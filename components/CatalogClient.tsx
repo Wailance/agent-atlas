@@ -52,6 +52,9 @@ export function CatalogClient({
       Object.fromEntries(new URLSearchParams(window.location.search)),
     );
     if (Object.keys(params).length > 0) {
+      // GitHub Pages export cannot await searchParams on the server route.
+      // We intentionally sync shareable catalog filters from the URL after mount.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setFilters((prev) => ({ ...prev, ...params }));
     }
   }, []);
