@@ -2,4 +2,4 @@
 2:I[39756,["/agent-atlas/_next/static/chunks/3z11q_uu4ei7b.js","/agent-atlas/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
 3:I[37457,["/agent-atlas/_next/static/chunks/3z11q_uu4ei7b.js","/agent-atlas/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"Hvs7W49O5uPqDdI63p23t"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"UIX83iAesDSsbj-bYN0xW"}
