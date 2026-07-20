@@ -14,6 +14,7 @@ type Tool = {
   description: { ru: string; en: string };
   categories: string[];
   tags: string[];
+  resourceType?: "tool" | "course" | "guide" | "awesome-list" | "examples" | "playbook";
   addedAt: string;
   pricing?: "free" | "freemium" | "paid";
 };
@@ -36,6 +37,14 @@ function main() {
   const tools = JSON.parse(readFileSync(TOOLS_PATH, "utf-8")) as Tool[];
   const ids = new Set<string>();
   const repos = new Set<string>();
+  const resourceTypes = new Set([
+    "tool",
+    "course",
+    "guide",
+    "awesome-list",
+    "examples",
+    "playbook",
+  ]);
 
   for (const tool of tools) {
     if (!tool.id || !tool.repo || !tool.name) {
@@ -68,6 +77,11 @@ function main() {
 
     if (!tool.pricing) {
       console.error(`Missing pricing for ${tool.id}`);
+      errors++;
+    }
+
+    if (tool.resourceType && !resourceTypes.has(tool.resourceType)) {
+      console.error(`Invalid resourceType "${tool.resourceType}" for ${tool.id}`);
       errors++;
     }
 

@@ -8,6 +8,7 @@ import {
   countByPricing,
   filterTools,
   getFeaturedTools,
+  getLearningTools,
 } from "@/lib/tools";
 import { categoryGroups, countToolsByGroup } from "@/lib/taxonomy";
 import {
@@ -87,6 +88,7 @@ export function CatalogClient({
   }, [allTools, filters, fuse]);
 
   const featured = useMemo(() => getFeaturedTools(), []);
+  const learningPicks = useMemo(() => getLearningTools(), []);
 
   const updateFilters = (partial: Partial<ToolFilters>) => {
     setFilters((prev) => ({ ...prev, ...partial }));
@@ -179,29 +181,38 @@ export function CatalogClient({
   ));
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+    <div className="mx-auto max-w-7xl px-3 py-6 sm:px-6 sm:py-8">
       <AboutHero
         totalTools={allTools.length}
         freeCount={pricingCounts.free}
         paidCount={pricingCounts.paid}
       />
 
-      <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+      <div className="mb-6 flex flex-wrap items-start justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-zinc-100 sm:text-3xl">
+          <h2 className="text-2xl font-semibold text-zinc-100 sm:text-3xl">
             {t("Каталог", "Catalog")}
-          </h1>
-          <p className="mt-1 text-sm text-zinc-500">
-            {filteredTools.length} {t("найдено", "found")}
+          </h2>
+          <p className="mt-1 text-sm leading-relaxed text-zinc-500">
+            {t(
+              "Фильтруйте по разделам, категориям, цене и поисковому запросу.",
+              "Filter by section, category, pricing, and search query.",
+            )}
           </p>
         </div>
-        <div className="flex flex-wrap gap-2 text-sm">
-          <span className="rounded-full bg-emerald-950/60 px-3 py-1 text-emerald-300/90 border border-emerald-900/50">
-            {pricingCounts.free} {t("бесплатных", "free")}
+        <div className="flex flex-wrap items-center gap-2 text-sm">
+          <span className="rounded-full border border-zinc-700/70 bg-zinc-900/70 px-3 py-1 text-zinc-300">
+            {filteredTools.length} {t("найдено", "found")}
           </span>
-          <span className="rounded-full bg-rose-950/50 px-3 py-1 text-rose-300/90 border border-rose-900/50">
-            {pricingCounts.paid} {t("freemium / платные", "freemium / paid")}
-          </span>
+          {hasActiveFilters && (
+            <button
+              type="button"
+              onClick={resetFilters}
+              className="rounded-full border border-zinc-700/70 bg-zinc-900/70 px-3 py-1 text-zinc-400 transition-colors hover:border-zinc-500 hover:text-zinc-200"
+            >
+              {t("Сбросить фильтры", "Reset filters")}
+            </button>
+          )}
         </div>
       </div>
 
@@ -210,12 +221,20 @@ export function CatalogClient({
       <div className="mb-8 hidden lg:flex flex-wrap gap-2">{pricingTabButtons}</div>
 
       {showFeatured && featured.length > 0 && (
-        <section className="mb-10 rounded-2xl border border-amber-900/40 bg-amber-950/10 p-5 ring-1 ring-amber-500/10">
-          <div className="mb-4 flex items-center gap-2">
-            <span className="h-2 w-2 rounded-full bg-amber-400" />
-            <h2 className="text-lg font-semibold text-amber-100/90">
-              {t("Featured", "Featured")}
-            </h2>
+        <section className="mb-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 p-5 ring-1 ring-zinc-500/5">
+          <div className="mb-4">
+            <div className="flex items-center gap-2">
+              <span className="h-2 w-2 rounded-full bg-amber-400" />
+              <h2 className="text-lg font-semibold text-zinc-100">
+                {t("Топ-проекты", "Top picks")}
+              </h2>
+            </div>
+            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
+              {t(
+                "Сильная стартовая подборка: инструменты, с которых реально стоит начинать знакомство с AI-стеком, автоматизацией и агентами.",
+                "A stronger starting set: the projects worth checking first for AI tooling, automation, and agent workflows.",
+              )}
+            </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {featured.map((tool) => (
@@ -225,7 +244,31 @@ export function CatalogClient({
         </section>
       )}
 
-      <div className="grid gap-6 lg:grid-cols-[240px_1fr]">
+      {showFeatured && learningPicks.length > 0 && (
+        <section className="mb-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 p-5 ring-1 ring-zinc-500/5">
+          <div className="mb-4">
+            <div className="flex items-center gap-2">
+              <span className="h-2 w-2 rounded-full bg-cyan-400" />
+              <h2 className="text-lg font-semibold text-zinc-100">
+                {t("Подборка для обучения", "Learning Picks")}
+              </h2>
+            </div>
+            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
+              {t(
+                "Курсы, гайды и практические подборки, если нужно не просто найти инструмент, а быстро войти в тему и собрать системное понимание.",
+                "Courses, guides, and practical collections for building real understanding, not just discovering another tool.",
+              )}
+            </p>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            {learningPicks.map((tool) => (
+              <ToolCard key={tool.id} tool={tool} variant="featured" />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <div className="grid gap-6 lg:grid-cols-[240px_minmax(0,1fr)]">
         <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
           <div className="lg:hidden">
             <button
@@ -233,7 +276,14 @@ export function CatalogClient({
               onClick={() => setMobileFiltersOpen((open) => !open)}
               className="flex w-full items-center justify-between rounded-xl border border-zinc-700/80 bg-zinc-900/60 px-4 py-3 text-sm font-medium text-zinc-200"
             >
-              <span>{t("Фильтры", "Filters")}</span>
+              <span>
+                {t("Фильтры", "Filters")}
+                {hasActiveFilters && (
+                  <span className="ml-2 text-zinc-500">
+                    {t("активны", "active")}
+                  </span>
+                )}
+              </span>
               <span className="text-zinc-500">
                 {mobileFiltersOpen ? "−" : "+"}
               </span>
@@ -255,7 +305,7 @@ export function CatalogClient({
           <CategoryFilter filters={filters} onChange={updateFilters} />
         </aside>
 
-        <main>
+        <main className="min-w-0">
           {filteredTools.length === 0 ? (
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-12 text-center">
               <p className="text-zinc-300 font-medium">

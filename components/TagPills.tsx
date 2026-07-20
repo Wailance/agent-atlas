@@ -26,14 +26,16 @@ export function TagPills({
       {visible.map((tag) => (
         <span
           key={tag}
-          className={`rounded-full bg-zinc-800/90 text-zinc-300 border border-zinc-700/60 ${sizeClass}`}
+          className={`max-w-full truncate rounded-full border border-zinc-700/60 bg-zinc-800/90 text-zinc-300 ${sizeClass}`}
           title={tag}
         >
           {getTagLabel(tag, locale)}
         </span>
       ))}
       {rest > 0 && (
-        <span className={`rounded-full bg-zinc-800/50 text-zinc-500 ${sizeClass}`}>
+        <span
+          className={`rounded-full bg-zinc-800/50 text-zinc-500 ${sizeClass}`}
+        >
           +{rest}
         </span>
       )}
@@ -60,7 +62,7 @@ export function CategoryPills({
         return (
           <span
             key={cat}
-            className={`inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-xs border ${style.bg} ${style.text} ${style.border}`}
+            className={`inline-flex max-w-full items-center gap-1 truncate rounded-md border px-2 py-0.5 text-xs ${style.bg} ${style.text} ${style.border}`}
           >
             <span className={`h-1.5 w-1.5 rounded-full shrink-0 ${style.dot}`} />
             {getLabel(cat)}

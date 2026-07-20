@@ -3,6 +3,7 @@ import {
   getToolDescription,
   getToolExpandedDescription,
 } from "./descriptions";
+import { getResourceTypeLabel, getToolResourceType } from "./resource-types";
 import { getDisplayTags, getTagLabel } from "./tag-labels";
 import { getRepoOwner } from "./repo-icon";
 import type { Locale, Tool } from "./types";
@@ -227,13 +228,18 @@ export function getToolDetailSections(
 
   const cat = getCategoryById(primaryCategoryId(tool));
   if (cat) {
+    const resourceType = getToolResourceType(tool);
+    const subjectRu =
+      resourceType === "tool" ? "инструмент" : "ресурс";
+    const subjectEn =
+      resourceType === "tool" ? "tool" : "resource";
     sections.push({
       titleRu: "Место в каталоге",
       titleEn: "In this catalog",
       paragraphs: [
         locale === "ru"
-          ? `${tool.name} собран в каталоге как инструмент для задач в области «${cat.name.ru}». ${cat.description.ru.charAt(0).toUpperCase()}${cat.description.ru.slice(1)}.`
-          : `${tool.name} is listed here under "${cat.name.en}". ${cat.description.en}`,
+          ? `${tool.name} собран в каталоге как ${subjectRu} для задач в области «${cat.name.ru}». ${cat.description.ru.charAt(0).toUpperCase()}${cat.description.ru.slice(1)}.`
+          : `${tool.name} is listed here as a ${subjectEn} under "${cat.name.en}". ${cat.description.en}`,
       ],
       bullets: tool.categories
         .filter((id) => id !== "general-oss")
@@ -282,6 +288,14 @@ export function getToolDetailFacts(
     label: t("В каталоге с", "In catalog since"),
     value: tool.addedAt,
   });
+
+  const resourceType = getToolResourceType(tool);
+  if (resourceType !== "tool") {
+    facts.push({
+      label: t("Тип ресурса", "Resource type"),
+      value: getResourceTypeLabel(resourceType, locale),
+    });
+  }
 
   return facts;
 }

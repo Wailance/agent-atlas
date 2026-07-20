@@ -72,6 +72,12 @@ export const CATEGORY_STYLES: Record<string, CategoryStyle> = {
     border: "border-emerald-800/80",
     dot: "bg-emerald-400",
   },
+  "ai-courses": {
+    bg: "bg-cyan-950/80",
+    text: "text-cyan-200",
+    border: "border-cyan-700/80",
+    dot: "bg-cyan-300",
+  },
   "analytics-bi": {
     bg: "bg-amber-950/80",
     text: "text-amber-300",

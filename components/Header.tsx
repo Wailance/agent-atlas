@@ -2,9 +2,8 @@
 
 import Link from "next/link";
 import { useLocale } from "@/lib/i18n";
+import { ContactLinks } from "./ContactLinks";
 import { SiteLogo } from "./SiteLogo";
-
-const TELEGRAM_URL = "https://t.me/Eugeny_Nickolaevich";
 
 export function Header() {
   const { locale, setLocale, t } = useLocale();
@@ -25,14 +24,7 @@ export function Header() {
         </Link>
 
         <div className="flex items-center gap-3 sm:gap-4">
-          <a
-            href={TELEGRAM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs text-zinc-500 transition-colors hover:text-zinc-300"
-          >
-            Telegram
-          </a>
+          <ContactLinks layout="row" className="hidden sm:flex" />
 
           <div className="flex rounded-lg border border-zinc-700/80 overflow-hidden bg-zinc-900/50">
             <button

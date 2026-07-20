@@ -25,7 +25,8 @@
     "license": "NOASSERTION",
     "featured": false,
     "addedAt": "2026-07-14",
-    "pricing": "free"
+    "pricing": "free",
+    "resourceType": "awesome-list"
   },
   {
     "id": "n8n",
@@ -49,7 +50,7 @@
       "integration-framework",
       "integrations"
     ],
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-07-14",
     "pricing": "freemium",
     "stars": 196391,
@@ -107,7 +108,7 @@
       "gpt-oss",
       "llama"
     ],
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-07-14",
     "pricing": "free",
     "stars": 176093,
@@ -136,7 +137,7 @@
       "openai",
       "pdf"
     ],
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-07-14",
     "pricing": "free",
     "stars": 165789,
@@ -170,7 +171,7 @@
     ],
     "stars": 150733,
     "language": "TypeScript",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-07-14",
     "license": "AGPL-3.0",
     "pricing": "freemium"
@@ -205,7 +206,7 @@
     ],
     "stars": 148806,
     "language": "TypeScript",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-07-14",
     "license": "NOASSERTION",
     "pricing": "freemium"
@@ -237,7 +238,7 @@
     ],
     "stars": 145386,
     "language": "Python",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-07-14",
     "license": "NOASSERTION",
     "pricing": "freemium"
@@ -373,7 +374,7 @@
       "playwright",
       "python"
     ],
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-07-14",
     "pricing": "free",
     "stars": 104693,
@@ -491,7 +492,7 @@
     ],
     "stars": 85029,
     "language": "Go",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-07-14",
     "license": "Apache-2.0",
     "pricing": "freemium"
@@ -576,7 +577,7 @@
     ],
     "stars": 80747,
     "language": "Python",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-07-14",
     "license": "NOASSERTION",
     "pricing": "freemium"
@@ -638,7 +639,7 @@
     ],
     "stars": 77016,
     "language": "Python",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-07-14",
     "license": "MIT",
     "pricing": "free"
@@ -898,7 +899,7 @@
     ],
     "stars": 69483,
     "language": "Python",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-07-14",
     "license": "BSD-3-Clause",
     "pricing": "free"
@@ -1723,7 +1724,7 @@
     ],
     "stars": 51194,
     "language": "Rust",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-07-14",
     "license": "Apache-2.0",
     "pricing": "free"
@@ -3529,7 +3530,7 @@
     ],
     "stars": 28356,
     "language": "Python",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-07-14",
     "license": "MIT",
     "pricing": "free"
@@ -4336,7 +4337,7 @@
     ],
     "stars": 22140,
     "language": "JavaScript",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-07-14",
     "license": "MIT",
     "pricing": "free"
@@ -4585,7 +4586,7 @@
     ],
     "stars": 20917,
     "language": "TypeScript",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-07-14",
     "license": "NOASSERTION",
     "pricing": "free"
@@ -4994,35 +4995,6 @@
     "featured": false,
     "addedAt": "2026-07-14",
     "pricing": "free"
-  },
-  {
-    "id": "superagi",
-    "name": "SuperAGI",
-    "repo": "TransformerOptimus/SuperAGI",
-    "url": "https://superagi.com/",
-    "description": {
-      "ru": "SuperAGI — запускает несколько ИИ-агентов и связывает их в цепочки задач. Работает с ИИ-агентами, обрабатывает документы и контент для ИИ. Ключевые темы: Агенты, Agi, ИИ, Artificial Intelligence, Autonomous Agents и Gpt 4. Подходит, если нужно: работает с ИИ-агентами и обрабатывает документы и контент для ИИ. Проект: бесплатный open-source проект, на GitHub 18k+ звёзд и основной стек — Python.",
-      "en": "SuperAGI: <⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably. In this catalog (AI & Agents), listed as “Agent Harness”: Orchestration, multi-agent workflows, long-horizon tasks. Key topics: Agents, Agi, AI, Artificial Intelligence, Autonomous Agents, and Gpt 4. Useful when you need to build AI agents and work with documents and RAG. Project details: free open-source, 18k+ GitHub stars, and built mainly in Python."
-    },
-    "categories": [
-      "agent-harness"
-    ],
-    "tags": [
-      "agents",
-      "agi",
-      "ai",
-      "artificial-general-intelligence",
-      "artificial-intelligence",
-      "autonomous-agents",
-      "gpt-4",
-      "hacktoberfest"
-    ],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free",
-    "stars": 17619,
-    "language": "Python",
-    "license": "MIT"
   },
   {
     "id": "pyxel",
@@ -5760,7 +5732,7 @@
     ],
     "stars": 13416,
     "language": "Python",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-07-14",
     "license": "BSD-2-Clause",
     "pricing": "free"
@@ -7233,8 +7205,7 @@
       "en": "cloudquery: data pipelines for cloud config and security data. Build cloud asset inventory, CSPM, FinOps, and vulnerability management solutions. Extract from AWS, Azure, GCP, and 70+ cloud and SaaS sources. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Key topics: Airbyte, Attack Surface Management, Aws, Azure, Bigquery, and Cspm. Project details: freemium model, 6k+ GitHub stars, and built mainly in Go."
     },
     "categories": [
-      "api-tools",
-      "analytics-bi"
+      "api-tools"
     ],
     "tags": [
       "airbyte",
@@ -8488,7 +8459,7 @@
     ],
     "stars": 840,
     "language": "TypeScript",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-07-14",
     "license": "MIT",
     "pricing": "free"
@@ -8886,32 +8857,6 @@
     ],
     "stars": 68,
     "language": "JavaScript",
-    "featured": true,
-    "addedAt": "2026-07-14",
-    "license": "MIT",
-    "pricing": "free"
-  },
-  {
-    "id": "telegram-ai-agent",
-    "name": "Telegram AI Agent",
-    "repo": "pavel-molyanov/telegram-ai-agent",
-    "url": "https://github.com/pavel-molyanov/telegram-ai-agent",
-    "description": {
-      "ru": "Telegram AI Agent — управление задачами и ИИ прямо из Telegram. Ключевые темы: Telegram, Tmux и Claude Code. Проект: бесплатный open-source проект и основной стек — Python.",
-      "en": "Telegram AI Agent: generic Claude/Codex Telegram bot runtime. In this catalog (AI & Agents), listed as “Telegram Bridges”: Control coding agents and AI via Telegram. Key topics: Telegram, Tmux, and Claude Code. Project details: free open-source and built mainly in Python."
-    },
-    "categories": [
-      "telegram-bridges",
-      "coding-agents"
-    ],
-    "tags": [
-      "python",
-      "telegram",
-      "tmux",
-      "claude-code"
-    ],
-    "stars": 65,
-    "language": "Python",
     "featured": false,
     "addedAt": "2026-07-14",
     "license": "MIT",
@@ -8948,50 +8893,6 @@
     "featured": false,
     "addedAt": "2026-07-14",
     "license": "Apache-2.0",
-    "pricing": "free"
-  },
-  {
-    "id": "focalboard",
-    "name": "focalboard",
-    "repo": "focalboard/focalboard",
-    "url": "https://github.com/focalboard/focalboard",
-    "description": {
-      "ru": "focalboard — канбан, списки задач, дорожные карты для команды. Проект: бесплатный open-source проект.",
-      "en": "focalboard: open-source Trello/Notion boards от Mattermost. In this catalog (Business), listed as “Project Management”: Tasks, kanban, agile, roadmaps, team planning. Project details: free open-source."
-    },
-    "categories": [
-      "project-management"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free",
-    "stars": 1
-  },
-  {
-    "id": "ccbot",
-    "name": "CCBot",
-    "repo": "mricho/ccbot",
-    "url": "https://github.com/mricho/ccbot",
-    "description": {
-      "ru": "CCBot — управление задачами и ИИ прямо из Telegram. Ключевые темы: Telegram, Tmux и Claude Code. Проект: бесплатный open-source проект и основной стек — Python.",
-      "en": "CCBot: telegram ↔ tmux bridge for Claude Code: 1 topic = 1 window = 1 session. In this catalog (AI & Agents), listed as “Telegram Bridges”: Control coding agents and AI via Telegram. Key topics: Telegram, Tmux, and Claude Code. Project details: free open-source and built mainly in Python."
-    },
-    "categories": [
-      "telegram-bridges",
-      "coding-agents"
-    ],
-    "tags": [
-      "typescript",
-      "telegram",
-      "tmux",
-      "claude-code"
-    ],
-    "stars": 0,
-    "language": "Python",
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "license": "MIT",
     "pricing": "free"
   },
   {
@@ -9132,23 +9033,6 @@
     "pricing": "free"
   },
   {
-    "id": "memos",
-    "name": "memos",
-    "repo": "memos/memos",
-    "url": "https://github.com/memos/memos",
-    "description": {
-      "ru": "memos — база знаний, заметки и совместная работа с документами. Проект: бесплатный open-source проект.",
-      "en": "memos: lightweight notes и knowledge sharing. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source."
-    },
-    "categories": [
-      "document-collaboration"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
-  },
-  {
     "id": "dashy",
     "name": "dashy",
     "repo": "dashyhq/dashy",
@@ -9175,8 +9059,7 @@
       "en": "steampipe: query cloud APIs with SQL — AWS, GCP, Azure. In this catalog (Infrastructure), listed as “API & Integrations”: API clients, gateways, webhooks, ETL, data pipelines. Project details: freemium model."
     },
     "categories": [
-      "api-tools",
-      "analytics-bi"
+      "api-tools"
     ],
     "tags": [],
     "featured": false,
@@ -9273,40 +9156,6 @@
     "pricing": "free"
   },
   {
-    "id": "luckysheet",
-    "name": "Luckysheet",
-    "repo": "myliang/Luckysheet",
-    "url": "https://github.com/myliang/Luckysheet",
-    "description": {
-      "ru": "Luckysheet — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
-      "en": "Luckysheet: online spreadsheet — Excel-like в браузере. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
-    },
-    "categories": [
-      "spreadsheets-data"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
-  },
-  {
-    "id": "ethercalc",
-    "name": "ethercalc",
-    "repo": "ethercalc/ethercalc",
-    "url": "https://github.com/ethercalc/ethercalc",
-    "description": {
-      "ru": "ethercalc — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
-      "en": "ethercalc: collaborative realtime spreadsheet. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
-    },
-    "categories": [
-      "spreadsheets-data"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
-  },
-  {
     "id": "undb",
     "name": "undb",
     "repo": "undb-io/undb",
@@ -9366,41 +9215,6 @@
     "license": "MIT"
   },
   {
-    "id": "open-spreadsheet",
-    "name": "open_spreadsheet",
-    "repo": "rowsncolumns/open_spreadsheet",
-    "url": "https://github.com/rowsncolumns/open_spreadsheet",
-    "description": {
-      "ru": "open_spreadsheet — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
-      "en": "open_spreadsheet: high-performance spreadsheet engine. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
-    },
-    "categories": [
-      "spreadsheets-data"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
-  },
-  {
-    "id": "graphweaver",
-    "name": "graphweaver",
-    "repo": "graphweaver/graphweaver",
-    "url": "https://github.com/graphweaver/graphweaver",
-    "description": {
-      "ru": "graphweaver — таблицы и простые базы данных для команды — аналог Airtable. Проект: бесплатный open-source проект.",
-      "en": "graphweaver: instant GraphQL API из spreadsheets и SQL. In this catalog (Business), listed as “Spreadsheets & Data”: Airtable alternatives, spreadsheets, data grids, no-code databases. Project details: free open-source."
-    },
-    "categories": [
-      "spreadsheets-data",
-      "api-tools"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
-  },
-  {
     "id": "papermerge",
     "name": "papermerge",
     "repo": "papermerge/papermerge",
@@ -9410,8 +9224,7 @@
       "en": "papermerge: document management system для архивов и OCR. In this catalog (Business), listed as “Documents & Wiki”: Wiki, knowledge base, document management, Notion alternatives. Project details: free open-source."
     },
     "categories": [
-      "document-collaboration",
-      "erp-operations"
+      "document-collaboration"
     ],
     "tags": [],
     "featured": false,
@@ -9797,24 +9610,6 @@
     "license": "AGPL-3.0"
   },
   {
-    "id": "open-event",
-    "name": "open-event",
-    "repo": "eventyay/open-event",
-    "url": "https://github.com/eventyay/open-event",
-    "description": {
-      "ru": "open-event — email-рассылки, формы, опросы и продвижение. Проект: бесплатный open-source проект.",
-      "en": "open-event: event management — tickets, schedules, call for papers. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source."
-    },
-    "categories": [
-      "marketing-email",
-      "erp-operations"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
-  },
-  {
     "id": "healthcare",
     "name": "healthcare",
     "repo": "frappe/healthcare",
@@ -10058,23 +9853,6 @@
     "stars": 3666,
     "language": "JavaScript",
     "license": "NOASSERTION"
-  },
-  {
-    "id": "survey-king",
-    "name": "survey-king",
-    "repo": "SurveyKing/survey-king",
-    "url": "https://github.com/SurveyKing/survey-king",
-    "description": {
-      "ru": "survey-king — email-рассылки, формы, опросы и продвижение. Проект: бесплатный open-source проект.",
-      "en": "survey-king: survey и questionnaire builder. In this catalog (Business), listed as “Marketing & Email”: Email campaigns, marketing automation, SEO, social scheduling. Project details: free open-source."
-    },
-    "categories": [
-      "marketing-email"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
   },
   {
     "id": "ohmyform",
@@ -10874,24 +10652,6 @@
     "license": "GPL-3.0"
   },
   {
-    "id": "commerce-js",
-    "name": "commerce.js",
-    "repo": "commercejs/commerce.js",
-    "url": "https://github.com/commercejs/commerce.js",
-    "description": {
-      "ru": "commerce.js — каталог, корзина, оплата и управление заказами. Проект: бесплатный open-source проект.",
-      "en": "commerce.js: headless commerce API. In this catalog (Business), listed as “E-commerce”: Online stores, checkout, catalogs, marketplace. Project details: free open-source."
-    },
-    "categories": [
-      "ecommerce",
-      "api-tools"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
-  },
-  {
     "id": "flowise",
     "name": "Flowise",
     "repo": "FlowiseAI/Flowise",
@@ -11028,24 +10788,6 @@
     "stars": 6349,
     "language": "TypeScript",
     "license": "Apache-2.0"
-  },
-  {
-    "id": "openagents",
-    "name": "OpenAgents",
-    "repo": "OpenAgents/OpenAgents",
-    "url": "https://github.com/OpenAgents/OpenAgents",
-    "description": {
-      "ru": "OpenAgents — собирает ИИ-приложения и сервисы без глубокого программирования. Работает с ИИ-агентами. Проект: бесплатный open-source проект.",
-      "en": "OpenAgents: platform для hosting и sharing AI agents. In this catalog (AI & Agents), listed as “App Builders”: AI app builders and no-code/low-code platforms. Project details: free open-source."
-    },
-    "categories": [
-      "app-builders",
-      "agent-harness"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
   },
   {
     "id": "copilotkit",
@@ -11408,23 +11150,6 @@
     "stars": 10539,
     "language": "Java",
     "license": "Apache-2.0"
-  },
-  {
-    "id": "wexflow",
-    "name": "wexflow",
-    "repo": "wexflow/wexflow",
-    "url": "https://github.com/wexflow/wexflow",
-    "description": {
-      "ru": "wexflow — bPM, durable execution и движки для бизнес- и системных процессов. Автоматизирует процессы и связывает сервисы. Проект: бесплатный open-source проект.",
-      "en": "wexflow: workflow automation engine для Windows/Linux. In this catalog (Infrastructure), listed as “Workflow Engines”: BPM, durable execution and engines for business and system workflows. Project details: free open-source."
-    },
-    "categories": [
-      "workflow-engines"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
   },
   {
     "id": "stackstorm",
@@ -11964,8 +11689,7 @@
       "en": "matterbridge: bridge между chat platforms. In this catalog (Infrastructure), listed as “Team Chat”: Team messengers, Matrix clients and collaboration chat platforms. Project details: free open-source."
     },
     "categories": [
-      "team-chat",
-      "api-tools"
+      "team-chat"
     ],
     "tags": [],
     "featured": false,
@@ -12000,24 +11724,6 @@
     "stars": 23363,
     "language": "Blade",
     "license": "MIT"
-  },
-  {
-    "id": "perfex",
-    "name": "perfex",
-    "repo": "perfexcrm/perfex",
-    "url": "https://github.com/perfexcrm/perfex",
-    "description": {
-      "ru": "perfex — клиенты, сделки, воронка продаж и история общения. Ориентирован на бизнес-задачи. Проект: бесплатный open-source проект.",
-      "en": "perfex: cRM с projects, invoices, estimates. In this catalog (Business), listed as “CRM & Sales”: CRM, pipeline, leads, customer management. Project details: free open-source."
-    },
-    "categories": [
-      "crm-sales",
-      "project-management"
-    ],
-    "tags": [],
-    "featured": false,
-    "addedAt": "2026-07-14",
-    "pricing": "free"
   },
   {
     "id": "django-crm",
@@ -12399,5 +12105,267 @@
     "stars": 4987,
     "language": "TypeScript",
     "license": "Apache-2.0"
+  },
+  {
+    "id": "generative-ai-for-beginners",
+    "name": "Generative AI for Beginners",
+    "repo": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "description": {
+      "ru": "Generative AI for Beginners — бесплатный курс Microsoft по генеративному ИИ: LLM, prompt engineering, RAG, safety и созданию приложений. Подходит для системного входа в тему и как учебная база для раздела обучения на вашем сайте.",
+      "en": "Generative AI for Beginners is Microsoft's open course covering LLMs, prompt engineering, RAG, safety and building generative AI apps. Useful as a structured beginner curriculum and a strong learning source for this catalog."
+    },
+    "categories": [
+      "ai-courses"
+    ],
+    "tags": [
+      "course",
+      "generative-ai",
+      "llm",
+      "prompt-engineering",
+      "rag",
+      "safety",
+      "microsoft"
+    ],
+    "stars": 99300,
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "course"
+  },
+  {
+    "id": "llm-course",
+    "name": "LLM Course",
+    "repo": "mlabonne/llm-course",
+    "url": "https://github.com/mlabonne/llm-course",
+    "description": {
+      "ru": "LLM Course — популярный open-source курс и конспект по LLM: теория, fine-tuning, RAG, агенты, Colab-ноутбуки и практические гайды. Это хороший фундамент для подборок по обучению и roadmap'ов на сайте.",
+      "en": "LLM Course is a popular open-source learning repo with lecture notes, notebooks and guides for LLM fundamentals, fine-tuning, RAG and agents. It fits well as a core learning path inside the catalog."
+    },
+    "categories": [
+      "ai-courses"
+    ],
+    "tags": [
+      "course",
+      "llm",
+      "fine-tuning",
+      "rag",
+      "agents",
+      "notebooks",
+      "colab"
+    ],
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "course"
+  },
+  {
+    "id": "prompt-engineering-guide",
+    "name": "Prompt Engineering Guide",
+    "repo": "dair-ai/Prompt-Engineering-Guide",
+    "url": "https://www.promptingguide.ai/",
+    "description": {
+      "ru": "Prompt Engineering Guide — один из самых полных открытых гидов по prompt engineering, техникам работы с LLM, RAG, агентам, evaluation и безопасности. Стоит добавить как обязательный учебный репозиторий и справочник.",
+      "en": "Prompt Engineering Guide is a comprehensive open guide to prompt engineering, LLM techniques, RAG, agents, evaluation and safety. It works both as a learning resource and a reference library."
+    },
+    "categories": [
+      "ai-courses"
+    ],
+    "tags": [
+      "guide",
+      "prompt-engineering",
+      "llm",
+      "rag",
+      "agents",
+      "evaluation",
+      "safety"
+    ],
+    "stars": 75100,
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "guide"
+  },
+  {
+    "id": "ai-agents-for-beginners",
+    "name": "AI Agents for Beginners",
+    "repo": "microsoft/ai-agents-for-beginners",
+    "url": "https://aka.ms/ai-agents-beginners",
+    "description": {
+      "ru": "AI Agents for Beginners — бесплатный курс Microsoft из 11 уроков по AI Agents, Agentic AI и случаям применения в production. Его логично выделить в каталоге как отдельную точку входа именно в агентный стек.",
+      "en": "AI Agents for Beginners is Microsoft's open 11-lesson course on AI agents, agentic AI and real-world production use cases. It is a strong entry point for the agents section of the catalog."
+    },
+    "categories": [
+      "ai-courses"
+    ],
+    "tags": [
+      "course",
+      "ai-agents",
+      "agentic-ai",
+      "microsoft",
+      "lessons",
+      "production"
+    ],
+    "stars": 65800,
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "course"
+  },
+  {
+    "id": "500-ai-agents-projects",
+    "name": "500 AI Agents Projects",
+    "repo": "ashishpatel26/500-AI-Agents-Projects",
+    "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+    "description": {
+      "ru": "500 AI Agents Projects — большая curated-подборка идей, шаблонов и практических проектов по AI-агентам. Полезна не только как обучение, но и как источник форматов карточек, сценариев и use-case'ов для вашего каталога.",
+      "en": "500 AI Agents Projects is a large curated collection of ideas, templates and hands-on AI agent projects. It is useful both for learning and for discovering catalog-ready use cases."
+    },
+    "categories": [
+      "ai-courses"
+    ],
+    "tags": [
+      "projects",
+      "ai-agents",
+      "templates",
+      "use-cases",
+      "ideas",
+      "examples"
+    ],
+    "stars": 10000,
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "examples"
+  },
+  {
+    "id": "agents-course",
+    "name": "Agents Course",
+    "repo": "huggingface/agents-course",
+    "url": "https://huggingface.co/learn/agents-course",
+    "description": {
+      "ru": "Agents Course — курс Hugging Face по AI-агентам с заданиями, финальным экзаменом и сертификатом. Отличный учебный ресурс, который стоит показывать рядом с инструментами для практики.",
+      "en": "Agents Course is Hugging Face's course on AI agents with assignments, a final exam and certificate. It is a high-signal learning resource to pair with practical agent frameworks."
+    },
+    "categories": [
+      "ai-courses"
+    ],
+    "tags": [
+      "course",
+      "agents",
+      "hugging-face",
+      "certificate",
+      "assignments",
+      "llm"
+    ],
+    "stars": 28900,
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "course"
+  },
+  {
+    "id": "awesome-llm-apps",
+    "name": "awesome-llm-apps",
+    "repo": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "description": {
+      "ru": "awesome-llm-apps — коллекция полноценных LLM-приложений: агенты, RAG, voice, multimodal и product-like demo apps. Это сильный источник для расширения каталога живыми примерами, а не только фреймворками.",
+      "en": "awesome-llm-apps is a collection of complete LLM apps spanning agents, RAG, voice, multimodal and product-style demos. It is especially useful for expanding the catalog with real applications, not only frameworks."
+    },
+    "categories": [
+      "app-builders"
+    ],
+    "tags": [
+      "awesome-list",
+      "llm-apps",
+      "agents",
+      "rag",
+      "multimodal",
+      "voice",
+      "examples"
+    ],
+    "stars": 33700,
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "awesome-list"
+  },
+  {
+    "id": "awesome-ai-agents",
+    "name": "awesome-ai-agents",
+    "repo": "e2b-dev/awesome-ai-agents",
+    "url": "https://github.com/e2b-dev/awesome-ai-agents",
+    "description": {
+      "ru": "awesome-ai-agents — curated-список open-source AI-агентов, SDK, фреймворков и агентных продуктов. Его стоит использовать как источник новых карточек и для регулярного пополнения раздела AI & Agents.",
+      "en": "awesome-ai-agents is a curated list of open-source AI agents, SDKs, frameworks and agent products. It is a strong discovery source for continuously expanding the AI & Agents catalog."
+    },
+    "categories": [
+      "agent-harness"
+    ],
+    "tags": [
+      "awesome-list",
+      "ai-agents",
+      "sdk",
+      "frameworks",
+      "tools",
+      "discovery"
+    ],
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "awesome-list"
+  },
+  {
+    "id": "genai-agents",
+    "name": "GenAI_Agents",
+    "repo": "NirDiamant/GenAI_Agents",
+    "url": "https://github.com/NirDiamant/GenAI_Agents",
+    "description": {
+      "ru": "GenAI_Agents — практический набор notebook'ов и примеров по созданию GenAI-агентов: RAG, multi-agent, memory, tool use и orchestration. Репозиторий полезен и как учебный материал, и как источник продвинутых паттернов.",
+      "en": "GenAI_Agents is a hands-on collection of notebooks and examples for building generative AI agents with RAG, multi-agent flows, memory, tool use and orchestration. It combines learning material with reusable advanced patterns."
+    },
+    "categories": [
+      "ai-courses"
+    ],
+    "tags": [
+      "genai",
+      "agents",
+      "rag",
+      "multi-agent",
+      "memory",
+      "tool-use",
+      "notebooks"
+    ],
+    "stars": 16600,
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "examples"
+  },
+  {
+    "id": "agents-towards-production",
+    "name": "Agents Towards Production",
+    "repo": "NirDiamant/agents-towards-production",
+    "url": "https://github.com/NirDiamant/agents-towards-production",
+    "description": {
+      "ru": "Agents Towards Production — репозиторий о том, как переводить агентные системы из демо в production: архитектура, quality, reliability, eval и практические шаблоны. Для вашего сайта это особенно ценно как источник production-ориентированных кейсов.",
+      "en": "Agents Towards Production focuses on moving agent systems from demos to production with architecture, quality, reliability, evaluation and practical patterns. It is especially valuable for the catalog's production-focused recommendations."
+    },
+    "categories": [
+      "ai-courses"
+    ],
+    "tags": [
+      "production",
+      "agents",
+      "evaluation",
+      "reliability",
+      "architecture",
+      "patterns"
+    ],
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free",
+    "resourceType": "playbook"
   }
 ]

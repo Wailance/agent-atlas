@@ -4,6 +4,14 @@ export type Pricing = "free" | "freemium" | "paid";
 
 export type PricingFilter = "all" | "free" | "paid";
 
+export type ResourceType =
+  | "tool"
+  | "course"
+  | "guide"
+  | "awesome-list"
+  | "examples"
+  | "playbook";
+
 export type Tool = {
   id: string;
   name: string;
@@ -16,6 +24,7 @@ export type Tool = {
   language?: string;
   license?: string;
   featured?: boolean;
+  resourceType?: ResourceType;
   addedAt: string;
   pricing: Pricing;
 };

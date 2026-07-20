@@ -99,6 +99,15 @@
     "group": "ai"
   },
   {
+    "id": "ai-courses",
+    "name": { "ru": "Курсы и обучение по ИИ", "en": "AI Courses & Learning" },
+    "description": {
+      "ru": "Курсы, гайды, конспекты и практические репозитории для изучения LLM, агентов и GenAI",
+      "en": "Courses, guides and hands-on repos for learning LLMs, agents and generative AI"
+    },
+    "group": "ai"
+  },
+  {
     "id": "analytics-bi",
     "name": { "ru": "Аналитика и отчёты", "en": "Analytics & BI" },
     "description": {

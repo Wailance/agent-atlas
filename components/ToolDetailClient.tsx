@@ -12,6 +12,7 @@ import {
   getToolDetailFacts,
   getToolDetailSections,
 } from "@/lib/tool-detail-content";
+import { getToolResourceType } from "@/lib/resource-types";
 import {
   CARD_ACCENT_BORDER,
   getGroupAccent,
@@ -20,6 +21,7 @@ import {
 import { formatStars } from "@/lib/tools";
 import { CategoryPills, TagPills } from "./TagPills";
 import { PricingBadge } from "./PricingBadge";
+import { ResourceTypeBadge } from "./ResourceTypeBadge";
 import { ToolCard } from "./ToolCard";
 import { ToolIcon } from "./ToolIcon";
 import type { Tool } from "@/lib/types";
@@ -81,15 +83,16 @@ export function ToolDetailClient({ tool, similar }: ToolDetailClientProps) {
   const categoryGroup = primaryCategory
     ? getCategoryGroupForId(primaryCategory)
     : undefined;
+  const resourceType = getToolResourceType(tool);
 
   const sections = getToolDetailSections(tool, locale);
   const facts = getToolDetailFacts(tool, locale);
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
+    <div className="mx-auto max-w-5xl px-3 py-6 sm:px-6 sm:py-8">
       <nav
         aria-label="Breadcrumb"
-        className="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-zinc-500"
+        className="mb-6 flex flex-wrap items-center gap-1.5 text-xs text-zinc-500 sm:text-sm"
       >
         <Link href="/" className="hover:text-teal-400 transition-colors">
           {t("Каталог", "Catalog")}
@@ -121,23 +124,28 @@ export function ToolDetailClient({ tool, similar }: ToolDetailClientProps) {
       <div
         className={`mb-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/50 p-6 sm:p-8 border-l-[4px] ${CARD_ACCENT_BORDER[group]} ring-1 ${accent.cardRing}`}
       >
-        <div className="flex flex-wrap items-start justify-between gap-4 mb-5">
-          <div className="flex min-w-0 items-start gap-4">
+        <div className="mb-5 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-start sm:justify-between">
+          <div className="flex min-w-0 items-start gap-3 sm:gap-4">
             <ToolIcon tool={tool} size="lg" />
             <div className="min-w-0">
-              <h1 className="text-3xl font-bold text-zinc-100">{tool.name}</h1>
+              <h1 className="text-2xl font-bold text-zinc-100 sm:text-3xl">
+                {tool.name}
+              </h1>
               <a
                 href={`https://github.com/${tool.repo}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-1 inline-block font-mono text-sm text-teal-400 hover:text-teal-300"
+                className="mt-1 inline-block max-w-full break-all font-mono text-xs text-teal-400 hover:text-teal-300 sm:text-sm"
               >
                 {tool.repo}
               </a>
             </div>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 sm:justify-end">
             <PricingBadge pricing={tool.pricing} locale={locale} />
+            {resourceType !== "tool" && (
+              <ResourceTypeBadge type={resourceType} locale={locale} />
+            )}
             {tool.featured && (
               <span className="rounded-md bg-amber-950 text-amber-400 border border-amber-900 px-2 py-1 text-xs">
                 Featured
@@ -146,7 +154,7 @@ export function ToolDetailClient({ tool, similar }: ToolDetailClientProps) {
           </div>
         </div>
 
-        <div className="mb-4 flex flex-wrap gap-x-5 gap-y-2 text-sm text-zinc-400">
+        <div className="mb-4 flex flex-col gap-2 text-sm text-zinc-400 sm:flex-row sm:flex-wrap sm:gap-x-5 sm:gap-y-2">
           <span>
             {formatStars(tool.stars)} {t("звёзд GitHub", "GitHub stars")}
           </span>
@@ -164,12 +172,12 @@ export function ToolDetailClient({ tool, similar }: ToolDetailClientProps) {
           getLabel={(id) => getCategoryName(id, locale)}
         />
 
-        <div className="mt-5 flex flex-wrap gap-2">
+        <div className="mt-5 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
           <a
             href={`https://github.com/${tool.repo}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg bg-zinc-800 px-4 py-2.5 text-sm text-zinc-200 hover:bg-zinc-700 transition-colors"
+            className="rounded-lg bg-zinc-800 px-4 py-2.5 text-center text-sm text-zinc-200 hover:bg-zinc-700 transition-colors sm:text-left"
           >
             GitHub →
           </a>
@@ -178,7 +186,7 @@ export function ToolDetailClient({ tool, similar }: ToolDetailClientProps) {
               href={tool.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg bg-teal-700 px-4 py-2.5 text-sm text-white hover:bg-teal-600 transition-colors"
+              className="rounded-lg bg-teal-700 px-4 py-2.5 text-center text-sm text-white hover:bg-teal-600 transition-colors sm:text-left"
             >
               {t("Сайт проекта", "Project site")} →
             </a>
@@ -186,8 +194,8 @@ export function ToolDetailClient({ tool, similar }: ToolDetailClientProps) {
         </div>
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-[1fr_280px]">
-        <div className="space-y-6 min-w-0">
+      <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_280px]">
+        <div className="min-w-0 space-y-6">
           {sections.map((section) => (
             <DetailSection
               key={section.titleRu}
@@ -207,7 +215,7 @@ export function ToolDetailClient({ tool, similar }: ToolDetailClientProps) {
           )}
         </div>
 
-        <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
+        <aside className="min-w-0 space-y-6 lg:sticky lg:top-24 lg:self-start">
           <div className="rounded-xl border border-zinc-800/60 bg-zinc-900/40 p-5">
             <h2 className="text-sm font-medium text-zinc-400 uppercase tracking-wide mb-4">
               {t("Сведения", "Details")}

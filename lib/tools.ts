@@ -5,22 +5,62 @@ import {
 } from "./descriptions";
 import toolsData from "@/data/tools.json";
 import { getCategoryGroupForId } from "./taxonomy";
+import { getToolResourceType } from "./resource-types";
 import type { Tool, ToolFilters, Locale, PricingFilter } from "./types";
 import { isFreePricing, isPaidPricing } from "./pricing";
 
 export const tools = toolsData as Tool[];
+export const FEATURED_DISPLAY_LIMIT = 8;
+export const LEARNING_DISPLAY_LIMIT = 6;
+
+const CURATED_FEATURED_IDS = [
+  "n8n",
+  "ollama",
+  "markitdown",
+  "firecrawl",
+  "dify",
+  "browser-use",
+  "openhands",
+  "open-webui",
+] as const;
 
 export function getToolById(id: string): Tool | undefined {
   return tools.find((t) => t.id === id);
 }
 
-export const FEATURED_DISPLAY_LIMIT = 8;
-
 export function getFeaturedTools(): Tool[] {
+  const ranked = CURATED_FEATURED_IDS.map((id) => getToolById(id)).filter(
+    (tool): tool is Tool => Boolean(tool),
+  );
+
+  if (ranked.length > 0) {
+    return ranked.slice(0, FEATURED_DISPLAY_LIMIT);
+  }
+
   return tools
     .filter((t) => t.featured)
-    .sort((a, b) => a.name.localeCompare(b.name))
+    .sort((a, b) => (b.stars ?? 0) - (a.stars ?? 0) || a.name.localeCompare(b.name))
     .slice(0, FEATURED_DISPLAY_LIMIT);
+}
+
+export function getLearningTools(limit = LEARNING_DISPLAY_LIMIT): Tool[] {
+  return tools
+    .filter(
+      (tool) =>
+        tool.categories.includes("ai-courses") || getToolResourceType(tool) !== "tool",
+    )
+    .sort((a, b) => {
+      const typeA = getToolResourceType(a);
+      const typeB = getToolResourceType(b);
+      const typePriority = (type: string) =>
+        type === "course" ? 0 : type === "guide" ? 1 : type === "playbook" ? 2 : 3;
+      return (
+        typePriority(typeA) - typePriority(typeB) ||
+        (b.stars ?? 0) - (a.stars ?? 0) ||
+        a.name.localeCompare(b.name)
+      );
+    })
+    .slice(0, limit);
 }
 
 export function getSimilarTools(tool: Tool, limit = 4): Tool[] {
