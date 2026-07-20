@@ -12367,5 +12367,35 @@
     "addedAt": "2026-07-20",
     "pricing": "free",
     "resourceType": "playbook"
+  },
+  {
+    "id": "openmontage",
+    "name": "OpenMontage",
+    "repo": "calesthio/OpenMontage",
+    "url": "https://www.openmontage.video/",
+    "description": {
+      "ru": "OpenMontage — open-source система для agentic video production: пайплайны, инструменты и агентные навыки для сборки роликов, монтажа и генерации медиа. Это один из самых сильных свежих проектов на стыке агентов, видео и production-workflows.",
+      "en": "OpenMontage is an open-source agentic video production system with pipelines, tools, and agent skills for editing, media generation, and end-to-end video workflows. It is one of the strongest newer projects at the intersection of agents, video, and production automation."
+    },
+    "categories": [
+      "voice-multimodal",
+      "app-builders"
+    ],
+    "tags": [
+      "agentic-ai",
+      "video-generation",
+      "video-production",
+      "text-to-video",
+      "text-to-speech",
+      "ffmpeg",
+      "remotion",
+      "python"
+    ],
+    "stars": 40345,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "featured": false,
+    "addedAt": "2026-07-20",
+    "pricing": "free"
   }
 ]

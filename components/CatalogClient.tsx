@@ -8,7 +8,7 @@ import {
   countByPricing,
   filterTools,
   getFeaturedTools,
-  getLearningTools,
+  getStartHereTools,
 } from "@/lib/tools";
 import { categoryGroups, countToolsByGroup } from "@/lib/taxonomy";
 import {
@@ -88,7 +88,7 @@ export function CatalogClient({
   }, [allTools, filters, fuse]);
 
   const featured = useMemo(() => getFeaturedTools(), []);
-  const learningPicks = useMemo(() => getLearningTools(), []);
+  const startHere = useMemo(() => getStartHereTools(), []);
 
   const updateFilters = (partial: Partial<ToolFilters>) => {
     setFilters((prev) => ({ ...prev, ...partial }));
@@ -220,6 +220,30 @@ export function CatalogClient({
 
       <div className="mb-8 hidden lg:flex flex-wrap gap-2">{pricingTabButtons}</div>
 
+      {showFeatured && startHere.length > 0 && (
+        <section className="mb-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 p-5 ring-1 ring-zinc-500/5">
+          <div className="mb-4">
+            <div className="flex items-center gap-2">
+              <span className="h-2 w-2 rounded-full bg-emerald-400" />
+              <h2 className="text-lg font-semibold text-zinc-100">
+                {t("С чего начать", "Where to start")}
+              </h2>
+            </div>
+            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
+              {t(
+                "Нормальная стартовая полка: базовый курс по GenAI, курс по агентам, внятный гайд по практике и ещё один сильный курс для закрепления.",
+                "A sensible starting shelf: one core GenAI course, one agents course, one practical guide, and one more strong course to round it out.",
+              )}
+            </p>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+            {startHere.map((tool) => (
+              <ToolCard key={tool.id} tool={tool} variant="featured" />
+            ))}
+          </div>
+        </section>
+      )}
+
       {showFeatured && featured.length > 0 && (
         <section className="mb-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 p-5 ring-1 ring-zinc-500/5">
           <div className="mb-4">
@@ -238,30 +262,6 @@ export function CatalogClient({
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {featured.map((tool) => (
-              <ToolCard key={tool.id} tool={tool} variant="featured" />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {showFeatured && learningPicks.length > 0 && (
-        <section className="mb-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 p-5 ring-1 ring-zinc-500/5">
-          <div className="mb-4">
-            <div className="flex items-center gap-2">
-              <span className="h-2 w-2 rounded-full bg-cyan-400" />
-              <h2 className="text-lg font-semibold text-zinc-100">
-                {t("Подборка для обучения", "Learning Picks")}
-              </h2>
-            </div>
-            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
-              {t(
-                "Курсы, гайды и практические подборки, если нужно не просто найти инструмент, а быстро войти в тему и собрать системное понимание.",
-                "Courses, guides, and practical collections for building real understanding, not just discovering another tool.",
-              )}
-            </p>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {learningPicks.map((tool) => (
               <ToolCard key={tool.id} tool={tool} variant="featured" />
             ))}
           </div>

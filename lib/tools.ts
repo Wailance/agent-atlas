@@ -10,8 +10,8 @@ import type { Tool, ToolFilters, Locale, PricingFilter } from "./types";
 import { isFreePricing, isPaidPricing } from "./pricing";
 
 export const tools = toolsData as Tool[];
-export const FEATURED_DISPLAY_LIMIT = 8;
-export const LEARNING_DISPLAY_LIMIT = 6;
+export const FEATURED_DISPLAY_LIMIT = 10;
+export const START_HERE_DISPLAY_LIMIT = 4;
 
 const CURATED_FEATURED_IDS = [
   "n8n",
@@ -22,6 +22,15 @@ const CURATED_FEATURED_IDS = [
   "browser-use",
   "openhands",
   "open-webui",
+  "ai-agents-for-beginners",
+  "openmontage",
+] as const;
+
+const START_HERE_IDS = [
+  "generative-ai-for-beginners",
+  "ai-agents-for-beginners",
+  "prompt-engineering-guide",
+  "agents-course",
 ] as const;
 
 export function getToolById(id: string): Tool | undefined {
@@ -43,23 +52,9 @@ export function getFeaturedTools(): Tool[] {
     .slice(0, FEATURED_DISPLAY_LIMIT);
 }
 
-export function getLearningTools(limit = LEARNING_DISPLAY_LIMIT): Tool[] {
-  return tools
-    .filter(
-      (tool) =>
-        tool.categories.includes("ai-courses") || getToolResourceType(tool) !== "tool",
-    )
-    .sort((a, b) => {
-      const typeA = getToolResourceType(a);
-      const typeB = getToolResourceType(b);
-      const typePriority = (type: string) =>
-        type === "course" ? 0 : type === "guide" ? 1 : type === "playbook" ? 2 : 3;
-      return (
-        typePriority(typeA) - typePriority(typeB) ||
-        (b.stars ?? 0) - (a.stars ?? 0) ||
-        a.name.localeCompare(b.name)
-      );
-    })
+export function getStartHereTools(limit = START_HERE_DISPLAY_LIMIT): Tool[] {
+  return START_HERE_IDS.map((id) => getToolById(id))
+    .filter((tool): tool is Tool => Boolean(tool))
     .slice(0, limit);
 }
 
