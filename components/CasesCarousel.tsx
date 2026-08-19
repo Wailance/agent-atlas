@@ -103,8 +103,8 @@ export function CasesCarousel() {
     if (!track) return;
 
     const card = track.querySelector("article");
-    const gap = 20;
-    const step = (card?.clientWidth ?? 440) + gap;
+    const gap = 16;
+    const step = (card?.clientWidth ?? 400) + gap;
     track.scrollBy({ left: direction * step, behavior: "smooth" });
   };
 
@@ -116,7 +116,7 @@ export function CasesCarousel() {
   };
 
   return (
-    <section className="relative mb-10 overflow-hidden rounded-3xl border border-zinc-800/80 bg-gradient-to-br from-zinc-900/90 via-zinc-950/95 to-zinc-900/80 p-5 ring-1 ring-zinc-500/10 sm:p-7">
+    <section className="relative mb-8 overflow-hidden rounded-3xl border border-zinc-800/80 bg-gradient-to-br from-zinc-900/90 via-zinc-950/95 to-zinc-900/80 p-4 ring-1 ring-zinc-500/10 sm:p-6">
       <div
         aria-hidden
         className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl"
@@ -126,18 +126,18 @@ export function CasesCarousel() {
         className="pointer-events-none absolute -bottom-20 -left-16 h-56 w-56 rounded-full bg-violet-500/10 blur-3xl"
       />
 
-      <div className="relative mb-6 flex flex-wrap items-end justify-between gap-4">
+      <div className="relative mb-4 flex flex-wrap items-end justify-between gap-4">
         <div className="max-w-2xl">
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-cyan-400/90">
             {t("Production-кейсы", "Production cases")}
           </p>
-          <h2 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
+          <h2 className="mt-1.5 text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
             {t("Что реально внедряют в бизнес", "What teams actually ship")}
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-zinc-400 sm:text-[15px]">
+          <p className="mt-2 text-sm leading-relaxed text-zinc-400">
             {t(
-              "20 сценариев с метриками, стеком и отраслью — не абстрактные «AI для всего», а конкретные результаты.",
-              "20 scenarios with metrics, stack, and industry — not vague AI hype, but concrete outcomes.",
+              "20 сценариев с метриками, стеком и отраслью.",
+              "20 scenarios with metrics, stack, and industry.",
             )}
           </p>
         </div>
@@ -148,7 +148,7 @@ export function CasesCarousel() {
             onClick={() => scrollByCard(-1)}
             disabled={!canScrollLeft}
             aria-label={t("Предыдущий кейс", "Previous case")}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/80 text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-35"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/80 text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-35"
           >
             <ChevronLeft />
           </button>
@@ -157,7 +157,7 @@ export function CasesCarousel() {
             onClick={() => scrollByCard(1)}
             disabled={!canScrollRight}
             aria-label={t("Следующий кейс", "Next case")}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/80 text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-35"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/80 text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-35"
           >
             <ChevronRight />
           </button>
@@ -166,16 +166,16 @@ export function CasesCarousel() {
 
       <div
         ref={trackRef}
-        className="relative -mx-1 flex snap-x snap-mandatory items-stretch gap-5 overflow-x-auto pb-2 pt-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="relative flex snap-x snap-mandatory items-start gap-4 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {CASE_STUDIES.map((item) => {
           const accent = ACCENT_STYLES[item.accent];
           return (
             <article
               key={item.id}
-              className={`group flex h-[560px] w-[88vw] max-w-[520px] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/80 ring-1 ${accent.ring} transition duration-300 hover:-translate-y-1 hover:border-zinc-700/90 hover:shadow-2xl hover:shadow-black/40 sm:h-[580px] sm:w-[440px] lg:w-[480px]`}
+              className={`group w-[84vw] max-w-[400px] shrink-0 snap-start overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/80 ring-1 ${accent.ring} transition duration-300 hover:-translate-y-0.5 hover:border-zinc-700/90 hover:shadow-xl hover:shadow-black/30 sm:w-[380px] lg:w-[400px]`}
             >
-              <div className="relative h-56 shrink-0 overflow-hidden sm:h-60">
+              <div className="relative h-28 overflow-hidden sm:h-32">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={withBasePath(item.image)}
@@ -184,37 +184,36 @@ export function CasesCarousel() {
                   decoding="async"
                   className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/50 to-zinc-950/5" />
+                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent" />
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${accent.glow} to-transparent opacity-70`}
+                  className={`absolute inset-0 bg-gradient-to-br ${accent.glow} to-transparent opacity-60`}
                 />
-
-                <div className="absolute left-4 top-4 max-w-[calc(100%-2rem)] rounded-full border border-zinc-700/70 bg-zinc-950/80 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-zinc-200 backdrop-blur-sm">
+                <div className="absolute left-3 top-3 max-w-[calc(100%-1.5rem)] rounded-full border border-zinc-700/70 bg-zinc-950/85 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-zinc-200 backdrop-blur-sm">
                   <span className="line-clamp-1">{item.industry[locale]}</span>
-                </div>
-
-                <div className="absolute inset-x-4 bottom-4">
-                  <p className={`text-3xl font-semibold leading-none tracking-tight ${accent.metric}`}>
-                    {item.metric.value}
-                  </p>
-                  <p className="mt-2 text-sm leading-snug text-zinc-200">
-                    {item.metric.label[locale]}
-                  </p>
                 </div>
               </div>
 
-              <div className="flex min-h-0 flex-1 flex-col p-5 sm:p-6">
-                <h3 className="line-clamp-2 min-h-[3.5rem] text-lg font-semibold leading-snug text-zinc-50 sm:text-xl">
+              <div className="space-y-2.5 p-4">
+                <div className="flex items-end justify-between gap-3 border-b border-zinc-800/80 pb-2.5">
+                  <p className={`text-2xl font-semibold leading-none tracking-tight ${accent.metric}`}>
+                    {item.metric.value}
+                  </p>
+                  <p className="max-w-[52%] text-right text-xs leading-snug text-zinc-400">
+                    {item.metric.label[locale]}
+                  </p>
+                </div>
+
+                <h3 className="line-clamp-2 text-base font-semibold leading-snug text-zinc-50">
                   {item.title[locale]}
                 </h3>
-                <p className="mt-3 line-clamp-4 min-h-[5.5rem] flex-1 text-sm leading-relaxed text-zinc-400">
+                <p className="line-clamp-3 text-sm leading-relaxed text-zinc-400">
                   {item.summary[locale]}
                 </p>
-                <div className="mt-auto flex min-h-[2.75rem] flex-wrap content-start gap-1.5 pt-4">
+                <div className="flex flex-wrap gap-1.5 pt-0.5">
                   {item.stack.map((tag) => (
                     <span
                       key={tag}
-                      className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-medium leading-none ${accent.pill}`}
+                      className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-medium leading-none ${accent.pill}`}
                     >
                       {tag}
                     </span>
@@ -226,7 +225,7 @@ export function CasesCarousel() {
         })}
       </div>
 
-      <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
         <p className="text-xs text-zinc-500">
           {activeIndex + 1} / {CASE_STUDIES.length}
         </p>
