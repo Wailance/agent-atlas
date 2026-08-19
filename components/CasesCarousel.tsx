@@ -109,13 +109,6 @@ export function CasesCarousel() {
     track.scrollBy({ left: direction * step, behavior: "smooth" });
   };
 
-  const scrollToIndex = (index: number) => {
-    const track = trackRef.current;
-    if (!track) return;
-    const card = track.children[index] as HTMLElement | undefined;
-    card?.scrollIntoView({ behavior: "smooth", inline: "start", block: "nearest" });
-  };
-
   return (
     <section className="relative mb-8 overflow-hidden rounded-3xl border border-zinc-800/80 bg-gradient-to-br from-zinc-900/90 via-zinc-950/95 to-zinc-900/80 p-4 ring-1 ring-zinc-500/10 sm:p-6">
       <div
