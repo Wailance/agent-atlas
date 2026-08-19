@@ -9,8 +9,7 @@ export type CaseStudy = {
   accent: "teal" | "violet" | "amber" | "rose" | "cyan";
 };
 
-const unsplash = (id: string) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=960&h=540&q=80`;
+const caseImage = (id: string) => `/cases/${id}.svg`;
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
@@ -29,7 +28,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "вместо 3 мин поиска", en: "down from 3 min search" },
     },
     stack: ["RAG", "Qdrant", "LangChain", "Slack"],
-    image: unsplash("photo-1551288049-bebda4e38f71"),
+    image: caseImage("enterprise-rag"),
     accent: "teal",
   },
   {
@@ -48,7 +47,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "звонков в день", en: "calls per day" },
     },
     stack: ["Voice AI", "Twilio", "n8n", "CRM"],
-    image: unsplash("photo-1576091160399-112ba8d25d1f"),
+    image: caseImage("voice-clinic"),
     accent: "cyan",
   },
   {
@@ -67,7 +66,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "SQL → demo", en: "SQL → demo" },
     },
     stack: ["Agents", "HubSpot", "OpenAI", "n8n"],
-    image: unsplash("photo-1460925895917-afdab827c52f"),
+    image: caseImage("sales-agents"),
     accent: "violet",
   },
   {
@@ -86,7 +85,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "документов / мес", en: "docs / month" },
     },
     stack: ["OCR", "Python", "PostgreSQL", "1C API"],
-    image: unsplash("photo-1586528116311-ad8dd3c8310d"),
+    image: caseImage("logistics-ocr"),
     accent: "amber",
   },
   {
@@ -105,7 +104,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "первичный review", en: "initial review" },
     },
     stack: ["RAG", "Claude", "PDF", "Notion"],
-    image: unsplash("photo-1589829545856-d10d557cf95f"),
+    image: caseImage("legal-ma"),
     accent: "rose",
   },
   {
@@ -124,7 +123,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "recovery корзин", en: "cart recovery" },
     },
     stack: ["Telegram", "Retail CRM", "LLM", "Webhooks"],
-    image: unsplash("photo-1472851294608-062f824d29cc"),
+    image: caseImage("ecom-telegram"),
     accent: "violet",
   },
   {
@@ -143,7 +142,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "CV / неделя", en: "CVs / week" },
     },
     stack: ["HRIS", "Embeddings", "Email", "Sheets"],
-    image: unsplash("photo-1521737711867-e3b97375f590"),
+    image: caseImage("hr-screening"),
     accent: "teal",
   },
   {
@@ -162,7 +161,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "внеплановые простои", en: "unplanned downtime" },
     },
     stack: ["IoT", "TimescaleDB", "Grafana", "Alerts"],
-    image: unsplash("photo-1581091226825-a6a2a5aee158"),
+    image: caseImage("predictive-factory"),
     accent: "amber",
   },
   {
@@ -181,7 +180,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "быстрее triage", en: "faster triage" },
     },
     stack: ["Rules", "LLM", "Kafka", "Audit log"],
-    image: unsplash("photo-1611974789855-9c784a0eeed7"),
+    image: caseImage("fintech-compliance"),
     accent: "rose",
   },
   {
@@ -200,7 +199,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "быстрее поиск", en: "faster search" },
     },
     stack: ["RAG", "Slack", "Notion API", "Drive"],
-    image: unsplash("photo-1600880292203-757bb62b4baf"),
+    image: caseImage("slack-knowledge"),
     accent: "cyan",
   },
   {
@@ -219,7 +218,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "на одно КП", en: "per proposal" },
     },
     stack: ["CRM", "Templates", "LLM", "PDF"],
-    image: unsplash("photo-1556761175-5973dc0f32e7"),
+    image: caseImage("crm-proposals"),
     accent: "violet",
   },
   {
@@ -238,7 +237,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "ручных notes / нед", en: "manual notes / week" },
     },
     stack: ["Whisper", "Zoom", "Jira", "Notion"],
-    image: unsplash("photo-1517245386807-bb43f82c33c4"),
+    image: caseImage("meeting-intel"),
     accent: "teal",
   },
   {
@@ -257,7 +256,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "время на разбор", en: "analysis time" },
     },
     stack: ["PDF", "Excel", "LLM", "Sheets"],
-    image: unsplash("photo-1454165804606-c3d57bc86b40"),
+    image: caseImage("rfp-procurement"),
     accent: "amber",
   },
   {
@@ -276,7 +275,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "churn за квартал", en: "quarterly churn" },
     },
     stack: ["Product analytics", "LLM", "CRM", "Slack"],
-    image: unsplash("photo-1543286386-713bdd548375"),
+    image: caseImage("churn-radar"),
     accent: "rose",
   },
   {
@@ -295,7 +294,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "precision дефектов", en: "defect precision" },
     },
     stack: ["CV", "Edge", "Python", "MES"],
-    image: unsplash("photo-1565514020169-026b8b86f7f7"),
+    image: caseImage("vision-qa"),
     accent: "cyan",
   },
   {
@@ -314,7 +313,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "ручной ввод", en: "manual entry" },
     },
     stack: ["OCR", "HL7", "Python", "Review UI"],
-    image: unsplash("photo-1579684385127-1ef15a5088d2"),
+    image: caseImage("med-reports"),
     accent: "teal",
   },
   {
@@ -333,7 +332,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "единиц / неделя", en: "assets / week" },
     },
     stack: ["Brand KB", "LLM", "Buffer", "Notion"],
-    image: unsplash("photo-1432888622747-4eb4546a0d9a"),
+    image: caseImage("content-factory"),
     accent: "violet",
   },
   {
@@ -352,7 +351,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "deflection L1", en: "L1 deflection" },
     },
     stack: ["Zendesk", "RAG", "LLM", "Macros"],
-    image: unsplash("photo-1521791136064-7986c2920216"),
+    image: caseImage("support-l1"),
     accent: "amber",
   },
   {
@@ -371,7 +370,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "конверсия в показ", en: "viewing conversion" },
     },
     stack: ["CRM", "Scoring", "Telegram", "Maps API"],
-    image: unsplash("photo-1486406146926-c627a92ad1ab"),
+    image: caseImage("real-estate-leads"),
     accent: "rose",
   },
   {
@@ -390,7 +389,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       label: { ru: "time-to-productivity", en: "time-to-productivity" },
     },
     stack: ["LMS", "Telegram", "Quiz", "Analytics"],
-    image: unsplash("photo-1522202176988-66273c2fd55f"),
+    image: caseImage("onboarding-academy"),
     accent: "cyan",
   },
 ];

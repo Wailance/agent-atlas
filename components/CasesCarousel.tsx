@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { CASE_STUDIES } from "@/lib/cases";
+import { withBasePath } from "@/lib/base-path";
 import { useLocale } from "@/lib/i18n";
 
 const ACCENT_STYLES = {
@@ -166,54 +166,55 @@ export function CasesCarousel() {
 
       <div
         ref={trackRef}
-        className="relative -mx-1 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-2 pt-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="relative -mx-1 flex snap-x snap-mandatory items-stretch gap-5 overflow-x-auto pb-2 pt-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {CASE_STUDIES.map((item) => {
           const accent = ACCENT_STYLES[item.accent];
           return (
             <article
               key={item.id}
-              className={`group relative w-[88vw] max-w-[520px] shrink-0 snap-start overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/80 ring-1 ${accent.ring} transition duration-300 hover:-translate-y-1 hover:border-zinc-700/90 hover:shadow-2xl hover:shadow-black/40 sm:w-[440px] lg:w-[480px]`}
+              className={`group flex h-[560px] w-[88vw] max-w-[520px] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/80 ring-1 ${accent.ring} transition duration-300 hover:-translate-y-1 hover:border-zinc-700/90 hover:shadow-2xl hover:shadow-black/40 sm:h-[580px] sm:w-[440px] lg:w-[480px]`}
             >
-              <div className="relative h-52 overflow-hidden sm:h-56">
-                <Image
-                  src={item.image}
+              <div className="relative h-56 shrink-0 overflow-hidden sm:h-60">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={withBasePath(item.image)}
                   alt=""
-                  fill
-                  sizes="(max-width: 640px) 88vw, 480px"
-                  className="object-cover transition duration-500 group-hover:scale-105"
+                  loading="lazy"
+                  decoding="async"
+                  className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/55 to-zinc-950/10" />
+                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/50 to-zinc-950/5" />
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${accent.glow} to-transparent opacity-80`}
+                  className={`absolute inset-0 bg-gradient-to-br ${accent.glow} to-transparent opacity-70`}
                 />
 
-                <div className="absolute left-4 top-4 rounded-full border border-zinc-700/70 bg-zinc-950/75 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-zinc-300 backdrop-blur-sm">
-                  {item.industry[locale]}
+                <div className="absolute left-4 top-4 max-w-[calc(100%-2rem)] rounded-full border border-zinc-700/70 bg-zinc-950/80 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-zinc-200 backdrop-blur-sm">
+                  <span className="line-clamp-1">{item.industry[locale]}</span>
                 </div>
 
-                <div className="absolute bottom-4 left-4 right-4">
-                  <p className={`text-3xl font-semibold tracking-tight ${accent.metric}`}>
+                <div className="absolute inset-x-4 bottom-4">
+                  <p className={`text-3xl font-semibold leading-none tracking-tight ${accent.metric}`}>
                     {item.metric.value}
                   </p>
-                  <p className="mt-1 text-sm text-zinc-300">
+                  <p className="mt-2 text-sm leading-snug text-zinc-200">
                     {item.metric.label[locale]}
                   </p>
                 </div>
               </div>
 
-              <div className="space-y-3 p-5 sm:p-6">
-                <h3 className="text-lg font-semibold leading-snug text-zinc-50 sm:text-xl">
+              <div className="flex min-h-0 flex-1 flex-col p-5 sm:p-6">
+                <h3 className="line-clamp-2 min-h-[3.5rem] text-lg font-semibold leading-snug text-zinc-50 sm:text-xl">
                   {item.title[locale]}
                 </h3>
-                <p className="text-sm leading-relaxed text-zinc-400">
+                <p className="mt-3 line-clamp-4 min-h-[5.5rem] flex-1 text-sm leading-relaxed text-zinc-400">
                   {item.summary[locale]}
                 </p>
-                <div className="flex flex-wrap gap-1.5 pt-1">
+                <div className="mt-auto flex min-h-[2.75rem] flex-wrap content-start gap-1.5 pt-4">
                   {item.stack.map((tag) => (
                     <span
                       key={tag}
-                      className={`rounded-full border px-2.5 py-1 text-[11px] font-medium ${accent.pill}`}
+                      className={`inline-flex items-center rounded-full border px-2.5 py-1 text-[11px] font-medium leading-none ${accent.pill}`}
                     >
                       {tag}
                     </span>

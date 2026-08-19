@@ -18,7 +18,8 @@
     "sync:pricing": "tsx scripts/sync-pricing.ts",
     "localize:ru": "tsx scripts/localize-ru.ts",
     "regenerate:descriptions": "tsx scripts/regenerate-descriptions.ts",
-    "validate": "tsx scripts/validate-tools.ts"
+    "validate": "tsx scripts/validate-tools.ts",
+    "generate:case-covers": "tsx scripts/generate-case-covers.ts"
   },
   "dependencies": {
     "fuse.js": "^7.5.0",
