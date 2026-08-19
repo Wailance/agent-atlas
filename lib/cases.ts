@@ -9,7 +9,7 @@ export type CaseStudy = {
   accent: "teal" | "violet" | "amber" | "rose" | "cyan";
 };
 
-const caseImage = (id: string) => `/cases/${id}.svg`;
+const caseImage = (id: string) => `/cases/${id}.png`;
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
