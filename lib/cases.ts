@@ -24,7 +24,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Indexed policies, price lists, and SOPs. Employees query a Slack bot with source citations.",
     },
     metric: {
-      value: "~40 сек",
+      value: "~30 сек",
       label: { ru: "вместо 2–3 мин", en: "down from 2–3 min" },
     },
     stack: ["RAG", "Qdrant", "LangChain", "Slack"],
@@ -43,7 +43,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Handles inbound calls, clarifies services and slots, escalates edge cases to staff.",
     },
     metric: {
-      value: "~35%",
+      value: "~45%",
       label: { ru: "типовых звонков без оператора", en: "routine calls without agent" },
     },
     stack: ["Voice AI", "Twilio", "n8n", "CRM"],
@@ -62,7 +62,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Three chained agents enrich CRM, draft follow-ups, and book demos without manual copy-paste.",
     },
     metric: {
-      value: "+12%",
+      value: "+16%",
       label: { ru: "SQL → demo", en: "SQL → demo" },
     },
     stack: ["Agents", "HubSpot", "OpenAI", "n8n"],
@@ -81,7 +81,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "PDFs and scans flow into ERP with line items and totals; humans only review anomalies.",
     },
     metric: {
-      value: "−3 ч",
+      value: "−4 ч",
       label: { ru: "ручного ввода / день", en: "manual entry / day" },
     },
     stack: ["OCR", "Python", "PostgreSQL", "1C API"],
@@ -100,7 +100,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "120-page SPAs scanned for risk: deadlines, penalties, exclusivity, change of control.",
     },
     metric: {
-      value: "2 ч → 45 м",
+      value: "2 ч → 35 м",
       label: { ru: "первичный review", en: "initial review" },
     },
     stack: ["RAG", "Claude", "PDF", "Notion"],
@@ -119,7 +119,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Personal offers, order status, and upsell in messenger — no separate app needed.",
     },
     metric: {
-      value: "+8%",
+      value: "+11%",
       label: { ru: "recovery корзин", en: "cart recovery" },
     },
     stack: ["Telegram", "Retail CRM", "LLM", "Webhooks"],
@@ -138,7 +138,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Competency matrix matching, must-have scoring, and auto reject/invite emails.",
     },
     metric: {
-      value: "−2 ч",
+      value: "−3 ч",
       label: { ru: "скрининга / день", en: "screening / day" },
     },
     stack: ["HRIS", "Embeddings", "Email", "Sheets"],
@@ -157,7 +157,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Vibration and temperature anomalies alert supervisors before line downtime.",
     },
     metric: {
-      value: "−15%",
+      value: "−26%",
       label: { ru: "внеплановые простои", en: "unplanned downtime" },
     },
     stack: ["IoT", "TimescaleDB", "Grafana", "Alerts"],
@@ -176,7 +176,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "LLM plus rules engine flags new patterns and drafts notes for compliance officers.",
     },
     metric: {
-      value: "−30%",
+      value: "−40%",
       label: { ru: "время на triage", en: "triage time" },
     },
     stack: ["Rules", "LLM", "Kafka", "Audit log"],
@@ -195,7 +195,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Wiki, Notion, and Drive in one answer. New hires stop getting lost in week one.",
     },
     metric: {
-      value: "−40%",
+      value: "−50%",
       label: { ru: "время на поиск", en: "search time" },
     },
     stack: ["RAG", "Slack", "Notion API", "Drive"],
@@ -214,7 +214,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Pulls SKUs, discounts, SLA, and client proof — rep only edits the final PDF.",
     },
     metric: {
-      value: "2 ч → 40 м",
+      value: "2 ч → 30 м",
       label: { ru: "на одно КП", en: "per proposal" },
     },
     stack: ["CRM", "Templates", "LLM", "PDF"],
@@ -233,7 +233,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Transcripts, decisions, owners, and Jira tasks — no more «who promised what».",
     },
     metric: {
-      value: "−2,5 ч",
+      value: "−3,5 ч",
       label: { ru: "ручных notes / нед", en: "manual notes / week" },
     },
     stack: ["Whisper", "Zoom", "Jira", "Notion"],
@@ -252,7 +252,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "80-page RFPs become criterion tables with risks and pricing for the committee.",
     },
     metric: {
-      value: "−35%",
+      value: "−45%",
       label: { ru: "время на разбор", en: "analysis time" },
     },
     stack: ["PDF", "Excel", "LLM", "Sheets"],
@@ -271,7 +271,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Usage plus support signals → prioritized at-risk list with ready playbooks.",
     },
     metric: {
-      value: "−8%",
+      value: "−11%",
       label: { ru: "churn за квартал", en: "quarterly churn" },
     },
     stack: ["Product analytics", "LLM", "CRM", "Slack"],
@@ -290,7 +290,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Packaging and label defects caught inline; rejects routed to quarantine automatically.",
     },
     metric: {
-      value: "~92%",
+      value: "~94%",
       label: { ru: "точность на тесте", en: "test-set accuracy" },
     },
     stack: ["CV", "Edge", "Python", "MES"],
@@ -309,7 +309,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "PDF conclusions become MIS fields: diagnosis, recommendations, follow-up dates.",
     },
     metric: {
-      value: "−25%",
+      value: "−32%",
       label: { ru: "ручной ввод", en: "manual entry" },
     },
     stack: ["OCR", "HL7", "Python", "Review UI"],
@@ -328,7 +328,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "One brief becomes LinkedIn, Telegram, and email variants in brand tone of voice.",
     },
     metric: {
-      value: "10–12",
+      value: "13–16",
       label: { ru: "постов / неделя", en: "posts / week" },
     },
     stack: ["Brand KB", "LLM", "Buffer", "Notion"],
@@ -347,7 +347,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Routine tickets close with logs; complex ones reach agents with full context.",
     },
     metric: {
-      value: "~38%",
+      value: "~50%",
       label: { ru: "deflection L1", en: "L1 deflection" },
     },
     stack: ["Zendesk", "RAG", "LLM", "Macros"],
@@ -366,7 +366,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Budget, timeline, district, and source → priority and best broker in seconds.",
     },
     metric: {
-      value: "+12%",
+      value: "+16%",
       label: { ru: "конверсия в показ", en: "viewing conversion" },
     },
     stack: ["CRM", "Scoring", "Telegram", "Maps API"],
@@ -385,7 +385,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Micro-lessons, quizzes, and certs in Telegram — HR tracks progress by team.",
     },
     metric: {
-      value: "−1 нед",
+      value: "−10 дн",
       label: { ru: "до выхода на задачи", en: "to first tasks" },
     },
     stack: ["LMS", "Telegram", "Quiz", "Analytics"],
@@ -404,7 +404,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Developers call corporate services from Cursor and Claude Desktop without context switching.",
     },
     metric: {
-      value: "−20%",
+      value: "−26%",
       label: { ru: "рутины в dev support", en: "dev support routine" },
     },
     stack: ["MCP", "FastAPI", "OpenAPI", "Cursor"],
@@ -423,7 +423,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Daily SKU, margin, and stock summaries go to Telegram and Sheets without manual exports.",
     },
     metric: {
-      value: "−2 ч",
+      value: "−3 ч",
       label: { ru: "аналитики / нед", en: "analytics / week" },
     },
     stack: ["Python", "API", "Sheets", "Telegram"],
@@ -442,7 +442,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Customers and couriers get status, ETA, and reschedule without calling support.",
     },
     metric: {
-      value: "−15%",
+      value: "−20%",
       label: { ru: "звонков в support", en: "support calls" },
     },
     stack: ["WhatsApp", "n8n", "CRM", "Webhooks"],
@@ -461,7 +461,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Storefront scraping plus LLM change digest: price hikes, delistings, and gaps.",
     },
     metric: {
-      value: "~50",
+      value: "~65",
       label: { ru: "SKU в мониторинге", en: "SKUs monitored" },
     },
     stack: ["Scraping", "LLM", "PostgreSQL", "Metabase"],
@@ -480,7 +480,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Brief plus specs become titles, bullets, and SEO blocks per marketplace rules.",
     },
     metric: {
-      value: "×2",
+      value: "×2,5",
       label: { ru: "быстрее публикация", en: "faster publishing" },
     },
     stack: ["LLM", "Templates", "Sheets", "Review"],
@@ -499,7 +499,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Critical 1C events instantly reach owners in Telegram with a document link.",
     },
     metric: {
-      value: "3–5 мин",
+      value: "2–4 мин",
       label: { ru: "от события до алерта", en: "event to alert" },
     },
     stack: ["1C", "REST", "n8n", "Telegram"],
@@ -518,7 +518,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Uploaded policies and FAQs — client team queries a web chat with source citations.",
     },
     metric: {
-      value: "−25%",
+      value: "−32%",
       label: { ru: "повторных вопросов", en: "repeat questions" },
     },
     stack: ["RAG", "Private LLM", "PDF", "Web UI"],
