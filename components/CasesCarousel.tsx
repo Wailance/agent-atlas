@@ -169,7 +169,7 @@ export function CasesCarousel() {
               key={item.id}
               className={`group flex w-[84vw] max-w-[400px] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/80 ring-1 ${accent.ring} transition duration-300 hover:-translate-y-0.5 hover:border-zinc-700/90 hover:shadow-xl hover:shadow-black/30 sm:w-[380px] lg:w-[400px]`}
             >
-              <div className="relative h-28 shrink-0 overflow-hidden sm:h-32">
+              <div className="relative h-36 shrink-0 overflow-hidden sm:h-40">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={withBasePath(item.image)}

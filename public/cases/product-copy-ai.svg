@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="AI product copy for marketplaces">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg-product-copy-ai" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#be123c"/>
       <stop offset="100%" stop-color="#4c0519"/>
     </linearGradient>
-    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.45"/>
+    <radialGradient id="orb-product-copy-ai" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#fb7185" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+    <pattern id="grid-product-copy-ai" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
   </defs>
-  <rect width="960" height="540" fill="url(#bg)"/>
-  <rect width="960" height="540" fill="url(#grid)"/>
-  <circle cx="744" cy="84" r="210" fill="url(#orb)"/>
-  <circle cx="120" cy="420" r="160" fill="#fb7185" fill-opacity="0.12"/>
-  <circle cx="820" cy="460" r="90" fill="#fafafa" fill-opacity="0.06"/>
+  <rect width="960" height="540" fill="url(#bg-product-copy-ai)"/>
+  <rect width="960" height="540" fill="url(#grid-product-copy-ai)"/>
+  <rect width="960" height="540" fill="url(#orb-product-copy-ai)"/>
+  <g transform="translate(560 130) scale(1.15)" fill="#ffe4e6" color="#ffe4e6">
+    
+    <rect x="48" y="72" width="96" height="96" rx="8" fill="currentColor" opacity="0.35"/>
+    <path d="M64 96h64M64 120h48M64 144h56" stroke="currentColor" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+    <rect x="168" y="48" width="112" height="144" rx="10" fill="currentColor" opacity="0.28"/>
+    <path d="M184 80h80M184 108h56M184 136h72M184 164h40" stroke="currentColor" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+    <path d="M248 176 L272 188 L248 200 L256 188 Z" fill="currentColor" opacity="0.85"/>
+  
+  </g>
+  <rect x="0" y="420" width="960" height="120" fill="#09090b" fill-opacity="0.25"/>
 </svg>

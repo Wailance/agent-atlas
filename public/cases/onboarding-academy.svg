@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Academy bot: onboarding and knowledge checks">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg-onboarding-academy" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0891b2"/>
       <stop offset="100%" stop-color="#083344"/>
     </linearGradient>
-    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.45"/>
+    <radialGradient id="orb-onboarding-academy" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1"/>
+    <pattern id="grid-onboarding-academy" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
   </defs>
-  <rect width="960" height="540" fill="url(#bg)"/>
-  <rect width="960" height="540" fill="url(#grid)"/>
-  <circle cx="708" cy="108" r="210" fill="url(#orb)"/>
-  <circle cx="120" cy="420" r="160" fill="#22d3ee" fill-opacity="0.12"/>
-  <circle cx="820" cy="460" r="90" fill="#fafafa" fill-opacity="0.06"/>
+  <rect width="960" height="540" fill="url(#bg-onboarding-academy)"/>
+  <rect width="960" height="540" fill="url(#grid-onboarding-academy)"/>
+  <rect width="960" height="540" fill="url(#orb-onboarding-academy)"/>
+  <g transform="translate(560 130) scale(1.15)" fill="#cffafe" color="#cffafe">
+    
+    <path d="M48 96 L152 48 L256 96 L152 144 Z" fill="currentColor" opacity="0.45"/>
+    <rect x="120" y="144" width="64" height="72" fill="currentColor" opacity="0.35"/>
+    <rect x="184" y="168" width="88" height="64" rx="12" fill="currentColor" opacity="0.55"/>
+    <path d="M200 192h56M200 212h40" stroke="#083344" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="72" cy="192" r="20" fill="currentColor" opacity="0.75"/>
+  
+  </g>
+  <rect x="0" y="420" width="960" height="120" fill="#09090b" fill-opacity="0.25"/>
 </svg>
