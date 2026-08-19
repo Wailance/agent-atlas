@@ -18,6 +18,7 @@ import {
 } from "@/lib/ui-theme";
 import { SearchBar } from "./SearchBar";
 import { AboutHero } from "./AboutHero";
+import { CasesCarousel } from "./CasesCarousel";
 import { CategoryFilter } from "./CategoryFilter";
 import { ToolCard } from "./ToolCard";
 import type { PricingFilter, Tool, ToolFilters } from "@/lib/types";
@@ -36,148 +37,6 @@ export const defaultFilters: ToolFilters = {
 };
 
 const SEARCH_EXAMPLES = ["RAG", "n8n", "scraping"] as const;
-const CASES = [
-  {
-    title: { ru: "Поддержка клиентов 24/7", en: "24/7 customer support" },
-    outcome: {
-      ru: "AI-агент закрыл до 62% типовых обращений без оператора.",
-      en: "An AI agent resolved up to 62% of routine tickets without a human.",
-    },
-  },
-  {
-    title: { ru: "Автообработка лидов", en: "Automated lead qualification" },
-    outcome: {
-      ru: "Время первичного контакта сократилось с 2 часов до 8 минут.",
-      en: "First-response time dropped from 2 hours to 8 minutes.",
-    },
-  },
-  {
-    title: { ru: "RAG для отдела продаж", en: "Sales team RAG assistant" },
-    outcome: {
-      ru: "Менеджеры получают точные ответы по продукту за 1 клик.",
-      en: "Sales reps get accurate product answers in one click.",
-    },
-  },
-  {
-    title: { ru: "Суммаризация созвонов", en: "Meeting summarization pipeline" },
-    outcome: {
-      ru: "Конспект и action items формируются автоматически после звонка.",
-      en: "Summaries and action items are generated after each call.",
-    },
-  },
-  {
-    title: { ru: "AI-рекрутер", en: "AI recruiter assistant" },
-    outcome: {
-      ru: "Скрининг кандидатов ускорился на 40% без потери качества.",
-      en: "Candidate screening became 40% faster with no quality drop.",
-    },
-  },
-  {
-    title: { ru: "Автоответы в Telegram", en: "Telegram auto-replies" },
-    outcome: {
-      ru: "Бот обрабатывает FAQ, передавая сложные диалоги человеку.",
-      en: "The bot handles FAQs and escalates complex chats to humans.",
-    },
-  },
-  {
-    title: { ru: "Генерация коммерческих предложений", en: "Proposal generation" },
-    outcome: {
-      ru: "Подготовка КП сократилась с 3 часов до 25 минут.",
-      en: "Proposal creation time dropped from 3 hours to 25 minutes.",
-    },
-  },
-  {
-    title: { ru: "AI-ассистент для юристов", en: "Legal AI copilot" },
-    outcome: {
-      ru: "Поиск релевантных пунктов договора ускорился в 3 раза.",
-      en: "Relevant contract clause search became 3x faster.",
-    },
-  },
-  {
-    title: { ru: "Онбординг сотрудников", en: "Employee onboarding assistant" },
-    outcome: {
-      ru: "Новые сотрудники находят ответы без перегруза HR-команды.",
-      en: "New hires self-serve answers without overloading HR.",
-    },
-  },
-  {
-    title: { ru: "AI-колл-центр", en: "AI call center routing" },
-    outcome: {
-      ru: "Распределение звонков по приоритету снизило время ожидания.",
-      en: "Priority-based call routing reduced wait times.",
-    },
-  },
-  {
-    title: { ru: "Контент-план для маркетинга", en: "Marketing content planner" },
-    outcome: {
-      ru: "Команда выпускает контент стабильно без ручной рутины.",
-      en: "The team ships content consistently with less manual work.",
-    },
-  },
-  {
-    title: { ru: "Автоматизация отчётности", en: "Automated reporting" },
-    outcome: {
-      ru: "Еженедельные отчёты собираются и рассылаются автоматически.",
-      en: "Weekly reports are generated and delivered automatically.",
-    },
-  },
-  {
-    title: { ru: "Классификация входящих писем", en: "Inbound email triage" },
-    outcome: {
-      ru: "Письма сортируются по темам и сразу уходят ответственным.",
-      en: "Emails are classified by topic and routed instantly.",
-    },
-  },
-  {
-    title: { ru: "Мониторинг отзывов клиентов", en: "Review sentiment monitor" },
-    outcome: {
-      ru: "Негативные сигналы обнаруживаются и эскалируются в тот же день.",
-      en: "Negative sentiment is detected and escalated the same day.",
-    },
-  },
-  {
-    title: { ru: "AI-помощник для e-commerce", en: "E-commerce recommendation agent" },
-    outcome: {
-      ru: "Персональные рекомендации увеличили средний чек на 12%.",
-      en: "Personalized recommendations increased AOV by 12%.",
-    },
-  },
-  {
-    title: { ru: "Обработка документов", en: "Document processing workflow" },
-    outcome: {
-      ru: "Извлечение данных из PDF и Excel автоматизировано end-to-end.",
-      en: "Data extraction from PDFs and spreadsheets is fully automated.",
-    },
-  },
-  {
-    title: { ru: "AI для отдела закупок", en: "Procurement analysis agent" },
-    outcome: {
-      ru: "Сравнение поставщиков и цен выполняется за минуты.",
-      en: "Supplier and pricing comparisons now take minutes.",
-    },
-  },
-  {
-    title: { ru: "Контроль SLA в саппорте", en: "Support SLA watchdog" },
-    outcome: {
-      ru: "Просроченные тикеты автоматически поднимаются в приоритет.",
-      en: "Overdue tickets are auto-escalated before SLA breaches.",
-    },
-  },
-  {
-    title: { ru: "Корпоративный AI-поиск", en: "Enterprise AI search" },
-    outcome: {
-      ru: "Сотрудники находят внутренние знания в 5 раз быстрее.",
-      en: "Employees find internal knowledge 5x faster.",
-    },
-  },
-  {
-    title: { ru: "Скоринг заявок", en: "Application scoring assistant" },
-    outcome: {
-      ru: "Приоритет заявок стал прозрачным и единообразным для команды.",
-      en: "Application prioritization became transparent and consistent.",
-    },
-  },
-] as const;
 
 export function CatalogClient({
   allTools,
@@ -330,37 +189,7 @@ export function CatalogClient({
         paidCount={pricingCounts.paid}
       />
 
-      <section className="mb-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 p-5 ring-1 ring-zinc-500/5">
-        <div className="mb-4">
-          <div className="flex items-center gap-2">
-            <span className="h-2 w-2 rounded-full bg-cyan-400" />
-            <h2 className="text-lg font-semibold text-zinc-100">
-              {t("Кейсы", "Cases")}
-            </h2>
-          </div>
-          <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400">
-            {t(
-              "20 примеров внедрения AI-агентов и автоматизации в бизнес-процессы.",
-              "20 implementation examples of AI agents and workflow automation.",
-            )}
-          </p>
-        </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {CASES.map((item) => (
-            <article
-              key={item.title.en}
-              className="rounded-xl border border-zinc-800/90 bg-zinc-900/70 p-4"
-            >
-              <h3 className="text-sm font-semibold text-zinc-100">
-                {item.title[locale]}
-              </h3>
-              <p className="mt-2 text-xs leading-relaxed text-zinc-400">
-                {item.outcome[locale]}
-              </p>
-            </article>
-          ))}
-        </div>
-      </section>
+      <CasesCarousel />
 
       <div className="mb-6 flex flex-wrap items-start justify-between gap-4">
         <div>

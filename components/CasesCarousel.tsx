@@ -1,0 +1,250 @@
+"use client";
+
+import Image from "next/image";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { CASE_STUDIES } from "@/lib/cases";
+import { useLocale } from "@/lib/i18n";
+
+const ACCENT_STYLES = {
+  teal: {
+    metric: "text-teal-300",
+    ring: "ring-teal-500/30",
+    pill: "border-teal-800/80 bg-teal-950/60 text-teal-200",
+    glow: "from-teal-500/20",
+  },
+  violet: {
+    metric: "text-violet-300",
+    ring: "ring-violet-500/30",
+    pill: "border-violet-800/80 bg-violet-950/60 text-violet-200",
+    glow: "from-violet-500/20",
+  },
+  amber: {
+    metric: "text-amber-300",
+    ring: "ring-amber-500/30",
+    pill: "border-amber-800/80 bg-amber-950/60 text-amber-200",
+    glow: "from-amber-500/20",
+  },
+  rose: {
+    metric: "text-rose-300",
+    ring: "ring-rose-500/30",
+    pill: "border-rose-800/80 bg-rose-950/60 text-rose-200",
+    glow: "from-rose-500/20",
+  },
+  cyan: {
+    metric: "text-cyan-300",
+    ring: "ring-cyan-500/30",
+    pill: "border-cyan-800/80 bg-cyan-950/60 text-cyan-200",
+    glow: "from-cyan-500/20",
+  },
+} as const;
+
+function ChevronLeft() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function ChevronRight() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M9 18l6-6-6-6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function CasesCarousel() {
+  const { locale, t } = useLocale();
+  const trackRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const updateScrollState = useCallback(() => {
+    const track = trackRef.current;
+    if (!track) return;
+
+    const { scrollLeft, scrollWidth, clientWidth } = track;
+    setCanScrollLeft(scrollLeft > 8);
+    setCanScrollRight(scrollLeft + clientWidth < scrollWidth - 8);
+
+    const cards = Array.from(track.children) as HTMLElement[];
+    if (cards.length === 0) return;
+
+    let closest = 0;
+    let minDistance = Number.POSITIVE_INFINITY;
+    for (let i = 0; i < cards.length; i++) {
+      const distance = Math.abs(cards[i]!.offsetLeft - scrollLeft);
+      if (distance < minDistance) {
+        minDistance = distance;
+        closest = i;
+      }
+    }
+    setActiveIndex(closest);
+  }, []);
+
+  useEffect(() => {
+    const track = trackRef.current;
+    if (!track) return;
+
+    updateScrollState();
+    track.addEventListener("scroll", updateScrollState, { passive: true });
+    window.addEventListener("resize", updateScrollState);
+
+    return () => {
+      track.removeEventListener("scroll", updateScrollState);
+      window.removeEventListener("resize", updateScrollState);
+    };
+  }, [updateScrollState]);
+
+  const scrollByCard = (direction: -1 | 1) => {
+    const track = trackRef.current;
+    if (!track) return;
+
+    const card = track.querySelector("article");
+    const gap = 20;
+    const step = (card?.clientWidth ?? 440) + gap;
+    track.scrollBy({ left: direction * step, behavior: "smooth" });
+  };
+
+  const scrollToIndex = (index: number) => {
+    const track = trackRef.current;
+    if (!track) return;
+    const card = track.children[index] as HTMLElement | undefined;
+    card?.scrollIntoView({ behavior: "smooth", inline: "start", block: "nearest" });
+  };
+
+  return (
+    <section className="relative mb-10 overflow-hidden rounded-3xl border border-zinc-800/80 bg-gradient-to-br from-zinc-900/90 via-zinc-950/95 to-zinc-900/80 p-5 ring-1 ring-zinc-500/10 sm:p-7">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl"
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -bottom-20 -left-16 h-56 w-56 rounded-full bg-violet-500/10 blur-3xl"
+      />
+
+      <div className="relative mb-6 flex flex-wrap items-end justify-between gap-4">
+        <div className="max-w-2xl">
+          <p className="text-xs font-medium uppercase tracking-[0.2em] text-cyan-400/90">
+            {t("Production-кейсы", "Production cases")}
+          </p>
+          <h2 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
+            {t("Что реально внедряют в бизнес", "What teams actually ship")}
+          </h2>
+          <p className="mt-3 text-sm leading-relaxed text-zinc-400 sm:text-[15px]">
+            {t(
+              "20 сценариев с метриками, стеком и отраслью — не абстрактные «AI для всего», а конкретные результаты.",
+              "20 scenarios with metrics, stack, and industry — not vague AI hype, but concrete outcomes.",
+            )}
+          </p>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => scrollByCard(-1)}
+            disabled={!canScrollLeft}
+            aria-label={t("Предыдущий кейс", "Previous case")}
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/80 text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-35"
+          >
+            <ChevronLeft />
+          </button>
+          <button
+            type="button"
+            onClick={() => scrollByCard(1)}
+            disabled={!canScrollRight}
+            aria-label={t("Следующий кейс", "Next case")}
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/80 text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-35"
+          >
+            <ChevronRight />
+          </button>
+        </div>
+      </div>
+
+      <div
+        ref={trackRef}
+        className="relative -mx-1 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-2 pt-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      >
+        {CASE_STUDIES.map((item) => {
+          const accent = ACCENT_STYLES[item.accent];
+          return (
+            <article
+              key={item.id}
+              className={`group relative w-[88vw] max-w-[520px] shrink-0 snap-start overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/80 ring-1 ${accent.ring} transition duration-300 hover:-translate-y-1 hover:border-zinc-700/90 hover:shadow-2xl hover:shadow-black/40 sm:w-[440px] lg:w-[480px]`}
+            >
+              <div className="relative h-52 overflow-hidden sm:h-56">
+                <Image
+                  src={item.image}
+                  alt=""
+                  fill
+                  sizes="(max-width: 640px) 88vw, 480px"
+                  className="object-cover transition duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/55 to-zinc-950/10" />
+                <div
+                  className={`absolute inset-0 bg-gradient-to-br ${accent.glow} to-transparent opacity-80`}
+                />
+
+                <div className="absolute left-4 top-4 rounded-full border border-zinc-700/70 bg-zinc-950/75 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-zinc-300 backdrop-blur-sm">
+                  {item.industry[locale]}
+                </div>
+
+                <div className="absolute bottom-4 left-4 right-4">
+                  <p className={`text-3xl font-semibold tracking-tight ${accent.metric}`}>
+                    {item.metric.value}
+                  </p>
+                  <p className="mt-1 text-sm text-zinc-300">
+                    {item.metric.label[locale]}
+                  </p>
+                </div>
+              </div>
+
+              <div className="space-y-3 p-5 sm:p-6">
+                <h3 className="text-lg font-semibold leading-snug text-zinc-50 sm:text-xl">
+                  {item.title[locale]}
+                </h3>
+                <p className="text-sm leading-relaxed text-zinc-400">
+                  {item.summary[locale]}
+                </p>
+                <div className="flex flex-wrap gap-1.5 pt-1">
+                  {item.stack.map((tag) => (
+                    <span
+                      key={tag}
+                      className={`rounded-full border px-2.5 py-1 text-[11px] font-medium ${accent.pill}`}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+
+      <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
+        <p className="text-xs text-zinc-500">
+          {activeIndex + 1} / {CASE_STUDIES.length}
+        </p>
+        <div className="flex max-w-full flex-wrap gap-1.5">
+          {CASE_STUDIES.map((item, index) => (
+            <button
+              key={item.id}
+              type="button"
+              aria-label={`${t("Кейс", "Case")} ${index + 1}`}
+              onClick={() => scrollToIndex(index)}
+              className={`h-2 rounded-full transition-all ${
+                index === activeIndex
+                  ? "w-7 bg-cyan-400"
+                  : "w-2 bg-zinc-700 hover:bg-zinc-500"
+              }`}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
