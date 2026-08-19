@@ -60,6 +60,7 @@ export function CasesCarousel() {
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
   const [activeIndex, setActiveIndex] = useState(0);
+  const caseCount = CASE_STUDIES.length;
 
   const updateScrollState = useCallback(() => {
     const track = trackRef.current;
@@ -129,15 +130,15 @@ export function CasesCarousel() {
       <div className="relative mb-4 flex flex-wrap items-end justify-between gap-4">
         <div className="max-w-2xl">
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-cyan-400/90">
-            {t("Production-кейсы", "Production cases")}
+            {t("Портфолио", "Portfolio")}
           </p>
           <h2 className="mt-1.5 text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
-            {t("Что реально внедряют в бизнес", "What teams actually ship")}
+            {t("Мои кейсы", "My case studies")}
           </h2>
           <p className="mt-2 text-sm leading-relaxed text-zinc-400">
             {t(
-              "20 сценариев с метриками, стеком и отраслью.",
-              "20 scenarios with metrics, stack, and industry.",
+              `${caseCount} проектов, которые я внедрял: AI-агенты, RAG, автоматизация и интеграции.`,
+              `${caseCount} projects I delivered: AI agents, RAG, automation, and integrations.`,
             )}
           </p>
         </div>
@@ -166,16 +167,16 @@ export function CasesCarousel() {
 
       <div
         ref={trackRef}
-        className="relative flex snap-x snap-mandatory items-start gap-4 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="relative flex snap-x snap-mandatory items-stretch gap-4 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {CASE_STUDIES.map((item) => {
           const accent = ACCENT_STYLES[item.accent];
           return (
             <article
               key={item.id}
-              className={`group w-[84vw] max-w-[400px] shrink-0 snap-start overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/80 ring-1 ${accent.ring} transition duration-300 hover:-translate-y-0.5 hover:border-zinc-700/90 hover:shadow-xl hover:shadow-black/30 sm:w-[380px] lg:w-[400px]`}
+              className={`group flex w-[84vw] max-w-[400px] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/80 ring-1 ${accent.ring} transition duration-300 hover:-translate-y-0.5 hover:border-zinc-700/90 hover:shadow-xl hover:shadow-black/30 sm:w-[380px] lg:w-[400px]`}
             >
-              <div className="relative h-28 overflow-hidden sm:h-32">
+              <div className="relative h-28 shrink-0 overflow-hidden sm:h-32">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={withBasePath(item.image)}
@@ -193,8 +194,8 @@ export function CasesCarousel() {
                 </div>
               </div>
 
-              <div className="space-y-2.5 p-4">
-                <div className="flex items-end justify-between gap-3 border-b border-zinc-800/80 pb-2.5">
+              <div className="flex flex-1 flex-col p-4">
+                <div className="flex shrink-0 items-end justify-between gap-3 border-b border-zinc-800/80 pb-2.5">
                   <p className={`text-2xl font-semibold leading-none tracking-tight ${accent.metric}`}>
                     {item.metric.value}
                   </p>
@@ -203,13 +204,14 @@ export function CasesCarousel() {
                   </p>
                 </div>
 
-                <h3 className="line-clamp-2 text-base font-semibold leading-snug text-zinc-50">
+                <h3 className="mt-2.5 line-clamp-2 h-[2.75rem] text-base font-semibold leading-snug text-zinc-50">
                   {item.title[locale]}
                 </h3>
-                <p className="line-clamp-3 text-sm leading-relaxed text-zinc-400">
+                <p className="mt-2 line-clamp-3 h-[4.125rem] text-sm leading-relaxed text-zinc-400">
                   {item.summary[locale]}
                 </p>
-                <div className="flex flex-wrap gap-1.5 pt-0.5">
+
+                <div className="mt-auto flex min-h-[3.25rem] flex-wrap content-end gap-1.5 pt-3">
                   {item.stack.map((tag) => (
                     <span
                       key={tag}
@@ -227,23 +229,11 @@ export function CasesCarousel() {
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
         <p className="text-xs text-zinc-500">
-          {activeIndex + 1} / {CASE_STUDIES.length}
+          {activeIndex + 1} / {caseCount}
         </p>
-        <div className="flex max-w-full flex-wrap gap-1.5">
-          {CASE_STUDIES.map((item, index) => (
-            <button
-              key={item.id}
-              type="button"
-              aria-label={`${t("Кейс", "Case")} ${index + 1}`}
-              onClick={() => scrollToIndex(index)}
-              className={`h-2 rounded-full transition-all ${
-                index === activeIndex
-                  ? "w-7 bg-cyan-400"
-                  : "w-2 bg-zinc-700 hover:bg-zinc-500"
-              }`}
-            />
-          ))}
-        </div>
+        <p className="text-xs text-zinc-600">
+          {t("Листайте карусель", "Scroll the carousel")}
+        </p>
       </div>
     </section>
   );

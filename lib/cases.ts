@@ -392,4 +392,137 @@ export const CASE_STUDIES: CaseStudy[] = [
     image: caseImage("onboarding-academy"),
     accent: "cyan",
   },
+  {
+    id: "mcp-dev-team",
+    industry: { ru: "DevTools · продуктовая команда", en: "DevTools · product team" },
+    title: {
+      ru: "MCP-сервер для внутренних API и документации",
+      en: "MCP server for internal APIs and docs",
+    },
+    summary: {
+      ru: "Разработчики вызывают корпоративные сервисы из Cursor и Claude Desktop без переключения контекста.",
+      en: "Developers call corporate services from Cursor and Claude Desktop without context switching.",
+    },
+    metric: {
+      value: "−40%",
+      label: { ru: "рутина в support dev", en: "dev support routine" },
+    },
+    stack: ["MCP", "FastAPI", "OpenAPI", "Cursor"],
+    image: caseImage("mcp-dev-team"),
+    accent: "teal",
+  },
+  {
+    id: "marketplace-reports",
+    industry: { ru: "Marketplace · селлер", en: "Marketplace · seller" },
+    title: {
+      ru: "Автоотчёты по Ozon и Wildberries",
+      en: "Automated Ozon and Wildberries reports",
+    },
+    summary: {
+      ru: "Ежедневная сводка по SKU, марже и остаткам уходит в Telegram и Google Sheets без ручной выгрузки.",
+      en: "Daily SKU, margin, and stock summaries go to Telegram and Sheets without manual exports.",
+    },
+    metric: {
+      value: "−5ч",
+      label: { ru: "ручной аналитики / нед", en: "manual analytics / week" },
+    },
+    stack: ["Python", "API", "Sheets", "Telegram"],
+    image: caseImage("marketplace-reports"),
+    accent: "violet",
+  },
+  {
+    id: "delivery-whatsapp",
+    industry: { ru: "Delivery · курьерский сервис", en: "Delivery · courier service" },
+    title: {
+      ru: "WhatsApp-бот статусов и переадресации заказов",
+      en: "WhatsApp status bot and order rerouting",
+    },
+    summary: {
+      ru: "Клиент и курьер получают статус, ETA и кнопку «перенести» без звонка в кол-центр.",
+      en: "Customers and couriers get status, ETA, and reschedule without calling support.",
+    },
+    metric: {
+      value: "−31%",
+      label: { ru: "звонков в support", en: "support calls" },
+    },
+    stack: ["WhatsApp", "n8n", "CRM", "Webhooks"],
+    image: caseImage("delivery-whatsapp"),
+    accent: "cyan",
+  },
+  {
+    id: "competitor-radar",
+    industry: { ru: "Retail · e-commerce", en: "Retail · e-commerce" },
+    title: {
+      ru: "Радар цен и ассортимента конкурентов",
+      en: "Competitor pricing and assortment radar",
+    },
+    summary: {
+      ru: "Парсинг витрин + LLM-сводка изменений: что подняли, что сняли, где просели по цене.",
+      en: "Storefront scraping plus LLM change digest: price hikes, delistings, and gaps.",
+    },
+    metric: {
+      value: "120+",
+      label: { ru: "SKU в мониторинге", en: "SKUs monitored" },
+    },
+    stack: ["Scraping", "LLM", "PostgreSQL", "Metabase"],
+    image: caseImage("competitor-radar"),
+    accent: "amber",
+  },
+  {
+    id: "product-copy-ai",
+    industry: { ru: "E-commerce · контент", en: "E-commerce · content" },
+    title: {
+      ru: "AI-копирайт карточек товаров под маркетплейсы",
+      en: "AI product copy for marketplaces",
+    },
+    summary: {
+      ru: "Бриф + характеристики → заголовок, буллеты и SEO-блок с учётом правил площадки.",
+      en: "Brief plus specs become titles, bullets, and SEO blocks per marketplace rules.",
+    },
+    metric: {
+      value: "×6",
+      label: { ru: "быстрее публикация", en: "faster publishing" },
+    },
+    stack: ["LLM", "Templates", "Sheets", "Review"],
+    image: caseImage("product-copy-ai"),
+    accent: "rose",
+  },
+  {
+    id: "1c-telegram-alerts",
+    industry: { ru: "ERP · производство", en: "ERP · manufacturing" },
+    title: {
+      ru: "1C → Telegram: алерты по заказам и складу",
+      en: "1C to Telegram: order and warehouse alerts",
+    },
+    summary: {
+      ru: "Критичные события из 1C мгновенно уходят ответственным в Telegram с ссылкой на документ.",
+      en: "Critical 1C events instantly reach owners in Telegram with a document link.",
+    },
+    metric: {
+      value: "< 1 мин",
+      label: { ru: "от события до алерта", en: "event to alert" },
+    },
+    stack: ["1C", "REST", "n8n", "Telegram"],
+    image: caseImage("1c-telegram-alerts"),
+    accent: "teal",
+  },
+  {
+    id: "client-knowledge-bot",
+    industry: { ru: "Consulting · B2B клиент", en: "Consulting · B2B client" },
+    title: {
+      ru: "Чат-бот на базе знаний клиента под NDA",
+      en: "NDA client knowledge chatbot",
+    },
+    summary: {
+      ru: "Загрузили регламенты и FAQ — команда клиента задаёт вопросы в web-чате с цитатами из источников.",
+      en: "Uploaded policies and FAQs — client team queries a web chat with source citations.",
+    },
+    metric: {
+      value: "−45%",
+      label: { ru: "повторные вопросы ко мне", en: "repeat questions to me" },
+    },
+    stack: ["RAG", "Private LLM", "PDF", "Web UI"],
+    image: caseImage("client-knowledge-bot"),
+    accent: "violet",
+  },
 ];
