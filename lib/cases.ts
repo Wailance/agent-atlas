@@ -24,7 +24,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       en: "Listok API sync into SQLite, four xlsx report types per branch, zip to Object Storage, YandexGPT analytics, and a web dashboard with live pipeline status.",
     },
     metric: {
-      value: "−3 ч",
+      value: "−8 ч",
       label: { ru: "ручных выгрузок / нед", en: "manual exports / week" },
     },
     stack: ["Python", "Listok API", "YandexGPT", "S3"],
