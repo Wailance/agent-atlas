@@ -4,6 +4,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { CASE_STUDIES } from "@/lib/cases";
 import { withBasePath } from "@/lib/base-path";
 import { useLocale } from "@/lib/i18n";
+import { BTN_GHOST } from "@/lib/ui-theme";
+import { SectionHeader, SurfaceSection } from "./SurfaceSection";
 
 const ACCENT_STYLES = {
   teal: {
@@ -110,53 +112,37 @@ export function CasesCarousel() {
   };
 
   return (
-    <section className="relative mb-8 overflow-hidden rounded-3xl border border-zinc-800/80 bg-gradient-to-br from-zinc-900/90 via-zinc-950/95 to-zinc-900/80 p-4 ring-1 ring-zinc-500/10 sm:p-6">
-      <div
-        aria-hidden
-        className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl"
+    <SurfaceSection className="mb-8" glow="cyan-violet">
+      <SectionHeader
+        eyebrow={t("Портфолио", "Portfolio")}
+        title={t("Мои кейсы", "My case studies")}
+        description={t(
+          `${caseCount} проектов, которые я внедрял: AI-агенты, RAG, автоматизация и интеграции.`,
+          `${caseCount} projects I delivered: AI agents, RAG, automation, and integrations.`,
+        )}
+        action={
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => scrollByCard(-1)}
+              disabled={!canScrollLeft}
+              aria-label={t("Предыдущий кейс", "Previous case")}
+              className={`inline-flex h-10 w-10 items-center justify-center disabled:cursor-not-allowed disabled:opacity-35 ${BTN_GHOST}`}
+            >
+              <ChevronLeft />
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollByCard(1)}
+              disabled={!canScrollRight}
+              aria-label={t("Следующий кейс", "Next case")}
+              className={`inline-flex h-10 w-10 items-center justify-center disabled:cursor-not-allowed disabled:opacity-35 ${BTN_GHOST}`}
+            >
+              <ChevronRight />
+            </button>
+          </div>
+        }
       />
-      <div
-        aria-hidden
-        className="pointer-events-none absolute -bottom-20 -left-16 h-56 w-56 rounded-full bg-violet-500/10 blur-3xl"
-      />
-
-      <div className="relative mb-4 flex flex-wrap items-end justify-between gap-4">
-        <div className="max-w-2xl">
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-cyan-400/90">
-            {t("Портфолио", "Portfolio")}
-          </p>
-          <h2 className="mt-1.5 text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
-            {t("Мои кейсы", "My case studies")}
-          </h2>
-          <p className="mt-2 text-sm leading-relaxed text-zinc-400">
-            {t(
-              `${caseCount} проектов, которые я внедрял: AI-агенты, RAG, автоматизация и интеграции.`,
-              `${caseCount} projects I delivered: AI agents, RAG, automation, and integrations.`,
-            )}
-          </p>
-        </div>
-
-        <div className="flex items-center gap-2">
-          <button
-            type="button"
-            onClick={() => scrollByCard(-1)}
-            disabled={!canScrollLeft}
-            aria-label={t("Предыдущий кейс", "Previous case")}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/80 text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-35"
-          >
-            <ChevronLeft />
-          </button>
-          <button
-            type="button"
-            onClick={() => scrollByCard(1)}
-            disabled={!canScrollRight}
-            aria-label={t("Следующий кейс", "Next case")}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-700/80 bg-zinc-900/80 text-zinc-200 transition hover:border-zinc-500 hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-35"
-          >
-            <ChevronRight />
-          </button>
-        </div>
-      </div>
 
       <div
         ref={trackRef}
@@ -228,6 +214,6 @@ export function CasesCarousel() {
           {t("Листайте карусель", "Scroll the carousel")}
         </p>
       </div>
-    </section>
+    </SurfaceSection>
   );
 }

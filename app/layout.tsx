@@ -21,8 +21,11 @@ export default function RootLayout({
         <LocaleProvider>
           <Header />
           <main className="flex-1">{children}</main>
-          <footer className="border-t border-zinc-800/80 py-6 text-center text-xs text-zinc-600 bg-zinc-950/50">
-            © Ворончихин Евгений — каталог AI-инструментов и OSS
+          <footer className="relative border-t border-zinc-800/80 bg-gradient-to-br from-zinc-950 via-zinc-900/40 to-zinc-950 py-8 text-center">
+            <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-violet-500/15 to-transparent" />
+            <p className="text-xs text-zinc-500">
+              © Ворончихин Евгений — каталог AI-инструментов и OSS
+            </p>
           </footer>
         </LocaleProvider>
         <YandexMetrika />

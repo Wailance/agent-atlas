@@ -7,6 +7,7 @@ import {
   getCategoryGroupForId,
 } from "@/lib/taxonomy";
 import { useLocale } from "@/lib/i18n";
+import { INPUT_SURFACE, SECTION_EYEBROW, SURFACE_INNER } from "@/lib/ui-theme";
 import type { CategoryGroup, SortOption, ToolFilters } from "@/lib/types";
 
 type CategoryFilterProps = {
@@ -31,9 +32,9 @@ export function CategoryFilter({ filters, onChange }: CategoryFilterProps) {
     : categories;
 
   return (
-    <div className="space-y-4 rounded-xl border border-zinc-800/80 bg-zinc-900/60 p-4 ring-1 ring-violet-500/5">
+    <div className={`space-y-4 ${SURFACE_INNER} p-4`}>
       <div>
-        <label className="mb-1.5 block text-xs font-medium text-zinc-400 uppercase tracking-wide">
+        <label className={`mb-1.5 block ${SECTION_EYEBROW}`}>
           {t("Категория", "Category")}
         </label>
         <select
@@ -47,7 +48,7 @@ export function CategoryFilter({ filters, onChange }: CategoryFilterProps) {
                 : filters.categoryGroup,
             });
           }}
-          className="w-full rounded-md border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 focus:border-violet-500/70 focus:outline-none focus:ring-2 focus:ring-violet-500/20"
+          className={`w-full px-3 py-2 text-sm ${INPUT_SURFACE}`}
         >
           <option value="">{t("Все категории", "All categories")}</option>
           {filters.categoryGroup ? (
@@ -71,7 +72,7 @@ export function CategoryFilter({ filters, onChange }: CategoryFilterProps) {
       </div>
 
       <div>
-        <label className="mb-1.5 block text-xs font-medium text-zinc-400 uppercase tracking-wide">
+        <label className={`mb-1.5 block ${SECTION_EYEBROW}`}>
           {t("Сортировка", "Sort by")}
         </label>
         <select
@@ -79,7 +80,7 @@ export function CategoryFilter({ filters, onChange }: CategoryFilterProps) {
           onChange={(e) =>
             onChange({ sort: e.target.value as ToolFilters["sort"] })
           }
-          className="w-full rounded-md border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 focus:border-violet-500/70 focus:outline-none focus:ring-2 focus:ring-violet-500/20"
+          className={`w-full px-3 py-2 text-sm ${INPUT_SURFACE}`}
         >
           {SORT_OPTIONS.map((option) => (
             <option key={option.value} value={option.value}>

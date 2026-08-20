@@ -3,7 +3,9 @@
 import Image from "next/image";
 import { useLocale } from "@/lib/i18n";
 import { withBasePath } from "@/lib/base-path";
+import { PILL_BADGE, SECTION_EYEBROW, SURFACE_INNER } from "@/lib/ui-theme";
 import { ContactLinks } from "./ContactLinks";
+import { SectionHeader, SurfaceSection } from "./SurfaceSection";
 
 const SERVICES = [
   { ru: "Разработка для бизнеса", en: "Business development" },
@@ -45,33 +47,30 @@ export function AboutHero({
   const { t } = useLocale();
 
   return (
-    <section className="mb-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/45 p-5 ring-1 ring-zinc-500/5 sm:p-6">
+    <SurfaceSection className="mb-8" glow="violet-cyan">
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(320px,0.8fr)]">
         <div>
-          <p className="text-xs font-medium uppercase tracking-[0.18em] text-zinc-500">
-            {t("О каталоге", "About this catalog")}
-          </p>
-          <h1 className="mt-3 max-w-3xl text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
-            {t(
+          <SectionHeader
+            eyebrow={t("О каталоге", "About this catalog")}
+            title={t(
               "Каталог open-source проектов для AI, automation и бизнеса",
               "A catalog of open-source projects for AI, automation, and business",
             )}
-          </h1>
-          <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-zinc-300">
-            {t(
+            description={t(
               "Я собрал проекты с GitHub в один каталог, чтобы быстрее находить рабочие инструменты под внедрение, обучение и реальные задачи бизнеса.",
               "I assembled GitHub projects into one catalog so it is faster to find useful tools for adoption, learning, and real business work.",
             )}
-          </p>
-          <p className="mt-3 max-w-3xl text-[15px] leading-relaxed text-zinc-400">
-              {t(
-                "Внутри не только инструменты, но и курсы, гайды, подборки и production-примеры, чтобы можно было не просто выбрать стек, а быстро войти в тему.",
-                "It includes not only tools, but also courses, guides, collections, and production examples so you can not just choose a stack, but ramp up fast.",
-              )}
+            className="mb-0"
+          />
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-zinc-400 sm:text-[15px]">
+            {t(
+              "Внутри не только инструменты, но и курсы, гайды, подборки и production-примеры.",
+              "It includes tools, courses, guides, collections, and production examples.",
+            )}
           </p>
 
           <div className="mt-4 flex flex-wrap gap-2">
-            <span className="rounded-full border border-zinc-700/60 bg-zinc-800/80 px-3 py-1 text-sm text-zinc-300">
+            <span className={PILL_BADGE}>
               {t("Каталог:", "Catalog:")} {totalTools} {t("ресурсов", "resources")}
             </span>
             <span className="rounded-full border border-emerald-900/50 bg-emerald-950/50 px-3 py-1 text-sm text-emerald-300/90">
@@ -84,10 +83,7 @@ export function AboutHero({
 
           <div className="mt-5 grid gap-3 sm:grid-cols-3">
             {CATALOG_HIGHLIGHTS.map((item) => (
-              <div
-                key={item.ru}
-                className="rounded-xl border border-zinc-800/80 bg-zinc-950/60 p-4"
-              >
+              <div key={item.ru} className={`${SURFACE_INNER} p-4`}>
                 <p className="text-sm leading-relaxed text-zinc-300">
                   {t(item.ru, item.en)}
                 </p>
@@ -96,14 +92,14 @@ export function AboutHero({
           </div>
         </div>
 
-        <aside className="rounded-xl border border-zinc-800/80 bg-zinc-950/80 p-4 sm:p-5">
+        <aside className={`${SURFACE_INNER} p-4 sm:p-5`}>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-[auto_1fr] sm:items-start">
             <Image
               src={withBasePath("/evgeniy-voronchikhin.png")}
               alt={t("Ворончихин Евгений", "Voronchikhin Evgeny")}
               width={144}
               height={144}
-              className="mx-auto h-28 w-28 rounded-xl border border-zinc-600/80 object-cover object-[58%_24%] sm:mx-0 sm:h-32 sm:w-32"
+              className="mx-auto h-28 w-28 rounded-2xl border border-zinc-600/80 object-cover object-[58%_24%] ring-1 ring-zinc-500/20 sm:mx-0 sm:h-32 sm:w-32"
               priority
             />
 
@@ -125,14 +121,14 @@ export function AboutHero({
           </div>
 
           <div className="mt-5 border-t border-zinc-800/80 pt-5">
-            <p className="mb-2 text-xs font-medium uppercase tracking-[0.18em] text-zinc-500">
+            <p className={`mb-2 ${SECTION_EYEBROW}`}>
               {t("С чем могу помочь", "What I can help with")}
             </p>
             <div className="flex flex-wrap gap-1.5">
               {SERVICES.map((item) => (
                 <span
                   key={item.ru}
-                  className="rounded-full border border-zinc-700/60 px-2.5 py-1 text-xs text-zinc-400"
+                  className="rounded-full border border-zinc-700/60 bg-zinc-900/60 px-2.5 py-1 text-xs text-zinc-400"
                 >
                   {t(item.ru, item.en)}
                 </span>
@@ -141,6 +137,6 @@ export function AboutHero({
           </div>
         </aside>
       </div>
-    </section>
+    </SurfaceSection>
   );
 }

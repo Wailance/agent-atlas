@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useLocale } from "@/lib/i18n";
 import { getCategoryName } from "@/lib/taxonomy";
 import {
-  CARD_ACCENT_BORDER,
   getGroupAccent,
   getToolPrimaryGroup,
 } from "@/lib/ui-theme";
@@ -39,7 +38,7 @@ export function ToolCard({ tool, variant = "default" }: ToolCardProps) {
 
   return (
     <article
-      className={`group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-900/60 p-4 border-l-[3px] ${CARD_ACCENT_BORDER[group]} ${accent.cardHoverBorder} transition-colors hover:bg-zinc-900/80`}
+      className={`group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-zinc-800/90 bg-zinc-950/80 p-4 ring-1 ${accent.cardRing} transition duration-300 hover:-translate-y-0.5 hover:border-zinc-700/90 hover:shadow-xl hover:shadow-black/30 ${accent.cardHoverBorder}`}
     >
       <div className="mb-3 flex items-start gap-3">
         <Link href={`/tools/${tool.id}`} className="shrink-0">
